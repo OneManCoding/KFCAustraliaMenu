@@ -6,7 +6,6 @@ import time
 import aiofiles
 from etag_helper_menu_items import read_etags, update_metadata, save_etag_info
 from hash_utils import calculate_sha1_hashes
-import chardet
 
 # Define your proxy settings
 proxy = {
@@ -19,9 +18,10 @@ base_directory = "C:/Users/conno/Documents/kfc"
 async def download_menu_items(menu_item_base_url, store_number, menu_option, item_ids, max_retries=5):
     for item_id in item_ids:
         url = menu_item_base_url.format(store_number=store_number, menu_option=menu_option, item_id=item_id)
-        filename = f"KFCAustraliaMenu/{store_number}/{menu_option}/items/{item_id}.json"
+        filename = f"KFCAustraliaMenu-{store_number}-{menu_option}-{item_id}.json"
+        directory = f"KFCAustraliaMenu/{store_number}/{menu_option}/items/"
 
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        os.makedirs(directory, exist_ok=True)
         os.chdir(base_directory)
 
         etags = read_etags("metadata_menu_items.json")
@@ -48,14 +48,14 @@ async def download_menu_items(menu_item_base_url, store_number, menu_option, ite
 
                             data = json.dumps(response.json(), ensure_ascii=False, indent=4)
 
-                            async with aiofiles.open(filename, mode='w', encoding='utf-8') as f:
+                            async with aiofiles.open(os.path.join(directory, filename), mode='w', encoding='utf-8') as f:
                                 await f.write(data)
 
                             if data:
-                                os.chdir(os.path.dirname(filename))
+                                os.chdir(directory)
 
                                 compression_command = [
-                                    "7z", "a", "-t7z", "-m0=lzma2:d1024m", "-mx=9", "-aoa", "-mfb=64", "-md=32m", "-ms=on", "-sdel", f"{item_id}.json.7z", f"{item_id}.json"
+                                    "7z", "a", "-t7z", "-m0=lzma2:d1024m", "-mx=9", "-aoa", "-mfb=64", "-md=32m", "-ms=on", "-sdel", f"{filename}.7z", filename
                                 ]
                                 subprocess.run(compression_command, check=True)
                                 
