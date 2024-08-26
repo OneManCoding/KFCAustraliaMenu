@@ -8,6 +8,13 @@ def extract_mdmid_and_id(temp_filename, extracted_values):
         data = json.load(file)
         extract_fields(data, extracted_values)
 
+    # Filter the extracted values to include only those starting with 'C' or 'I'
+    filtered_values = {value for value in extracted_values if value.startswith(('C', 'I'))}
+    
+    # Clear the original set and update it with the filtered values
+    extracted_values.clear()
+    extracted_values.update(filtered_values)
+
 def extract_fields(data, extracted_values):
     if isinstance(data, dict):
         for key, value in data.items():

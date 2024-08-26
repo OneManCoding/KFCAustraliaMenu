@@ -3,25 +3,18 @@ import json
 import requests
 import time
 import subprocess
-import asyncio
 import aiofiles
-from store_info import get_store_info
-from etag_helper_menu_items import read_etags, update_metadata, save_etag_info
-from hash_utils import calculate_sha1_hashes
+import asyncio
+from etag_helper_menu_items import read_etags, update_metadata
+from hash_utils import calculate_sha1_uncompressed
 
-# Define your proxy settings
-proxy = {
-    "http": "http://127.0.0.1:8890",
-    "https": "http://127.0.0.1:8890"
-}
-
-base_directory = "C:/Users/conno/Documents/kfc"
+base_directory = "/home/runner/work/kfc/kfc"
 metadata_file_path = os.path.join(base_directory, "metadata_menu.json")
 
-async def download_data_and_save(menu_base_url, store_number, menu_option):
-    url = menu_base_url.format(store_number=store_number, menu_option=menu_option)
+async def download_data_and_save(menu_base_url, store_number, menu_option, session):
+    url = menu_base_url.format(store_number, menu_option)
     filename = f"KFCAustraliaMenu-{store_number}-{menu_option}.json"
-    directory = os.path.join(base_directory, f"KFCAustraliaMenu/{store_number}/{menu_option}/")
+    directory = f"KFCAustraliaMenu/{store_number}/{menu_option}/"
 
     os.makedirs(directory, exist_ok=True)
 
@@ -36,62 +29,41 @@ async def download_data_and_save(menu_base_url, store_number, menu_option):
         headers = {}
 
     try:
-        response = requests.get(url, headers=headers, proxies=proxy, verify=False)
-        if response.status_code == 200:
-            if "ETag" in response.headers:
-                new_etag = response.headers["ETag"]
-                if etag_value is None or new_etag != etag_value:
-                    etag_info = {"filename": filename, "etag": new_etag}
-                    last_modified = response.headers.get("Last-Modified")
-                    if last_modified:
-                        etag_info["last-modified"] = last_modified
+        async with session.get(url, headers=headers, timeout=60) as response:  # Added timeout
+            print(f"Fetching {url}")  # Debugging statement
 
-                    data = json.dumps(response.json(), ensure_ascii=False, indent=4)
-                    json_path = os.path.join(directory, filename)
-                    async with aiofiles.open(json_path, mode='w', encoding='utf-8') as f:
-                        await f.write(data)
+            if response.status == 200:
+                if "ETag" in response.headers:
+                    new_etag = response.headers["ETag"]
+                    if etag_value is None or new_etag != etag_value:
+                        etag_info = {"filename": filename, "etag": new_etag}
+                        last_modified = response.headers.get("Last-Modified")
+                        if last_modified:
+                            etag_info["last-modified"] = last_modified
 
-                    os.chdir(directory)
-                    compression_command = [
-                        "7z", "a", "-t7z", "-m0=lzma2:d1024m", "-mx=9", "-aoa", "-mfb=64", "-md=32m", "-ms=on", f"{filename}.7z", filename
-                    ]
-                    subprocess.run(compression_command, check=True)
+                        data_dict = json.loads(await response.text())
 
-                    # Calculate SHA-1 hashes for both compressed and uncompressed data
-                    with open(filename, 'rb') as uncompressed_file:
-                        uncompressed_data = uncompressed_file.read()
-                    with open(f"{filename}.7z", 'rb') as compressed_file:
-                        compressed_data = compressed_file.read()
+                        data = json.dumps(data_dict, ensure_ascii=False, indent=1)
+                        async with aiofiles.open(os.path.join(directory, filename), mode='w', encoding='utf-8') as f:
+                            await f.write(data)
 
-                    sha1_uncompressed, sha1_compressed = calculate_sha1_hashes(uncompressed_data, compressed_data)
-                    etag_info["sha1_uncompressed"] = sha1_uncompressed
-                    etag_info["sha1_compressed"] = sha1_compressed
+                        sha1_uncompressed = calculate_sha1_uncompressed(data.encode('utf-8'))
+                        etag_info["sha1_uncompressed"] = sha1_uncompressed
 
-                    update_metadata(metadata_file_path, etag_info)
-                    print(f"Downloaded and saved {filename} from {url}")
-
-                    # Delete the uncompressed file after updating metadata
-                    os.remove(json_path)
+                        update_metadata(metadata_file_path, etag_info)
+                        print(f"Downloaded and saved {filename} from {url}")
+                    else:
+                        print(f"{filename} has not been modified on the server.")
                 else:
-                    print(f"{filename} has not been modified on the server.")
+                    print(f"Failed to download {filename} from {url}. Status code: {response.status}")
+            elif response.status == 304:
+                print(f"{filename} has not been modified on the server.")
             else:
-                print(f"Failed to download {filename} from {url}. Status code: {response.status_code}")
-        elif response.status_code == 304:
-            print(f"{filename} has not been modified on the server.")
-        else:
-            print(f"Failed to download {filename} from {url}. Status code: {response.status_code}")
-    except requests.exceptions.RequestException as e:
-        print(f"Request error: {e}")
+                print(f"Failed to download {filename} from {url}. Status code: {response.status}")
 
-    await asyncio.sleep(0.5)
+        await asyncio.sleep(0.5)
 
-async def main():
-    store_info = get_store_info()
-    base_url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/catalogs/afd3813afa364270bfd33f0a8d77252d/KFCAustraliaMenu-{store_number}-{menu_option}"
-
-    for store_number, menu_options in store_info.items():
-        for menu_option in menu_options:
-            await download_data_and_save(base_url, store_number, menu_option)
-
-if __name__ == "__main__":
-    asyncio.run(main())
+    except asyncio.TimeoutError:
+        print(f"Request for {url} timed out.")
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")

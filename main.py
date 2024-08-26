@@ -1,74 +1,72 @@
-# main.py
 import os
-import time
-import gzip
-import chardet
-from etag_helper import read_etags, save_etag_info
-from json_handler import extract_mdmid_and_id, extract_fields
-from hash_utils import calculate_sha1_hashes
+import asyncio
+import aiohttp
 from store_info import get_store_info
 from download_menu import download_data_and_save
 from download_menu_items import download_menu_items
 from delete_empty_folders import remove_empty_folders
-import subprocess
-import asyncio
+from hash_utils import calculate_sha1_compressed
+from etag_helper_menu_items import update_metadata
+from json_handler import extract_mdmid_and_id
 
-async def download_menu_data(store_info, menu_base_url):
-    for number, menu_options in store_info.items():
-        for menu_option in menu_options:
-            # Your code to download menu data for each store and menu option
-            await download_data_and_save(menu_base_url, number, menu_option)
-            time.sleep(0.5)
+# Limit the number of concurrent downloads
+CONCURRENT_DOWNLOADS = 5
+base_directory = "/home/runner/work/kfc/kfc"
 
-async def download_and_save_menu_items(store_info, menu_item_base_url):
-    for number, menu_options in store_info.items():
-        for menu_option in menu_options:
-            extracted_values = set()
+async def download_menu_data(store_info, menu_base_url, session):
+    semaphore = asyncio.Semaphore(CONCURRENT_DOWNLOADS)
 
-            # Temporary decompress the JSON file to obtain item IDs
-            compressed_filename = f"KFCAustraliaMenu/{number}/{menu_option}/KFCAustraliaMenu-{number}-{menu_option}.json.7z"
-            temp_filename = f"KFCAustraliaMenu/{number}/{menu_option}/KFCAustraliaMenu-{number}-{menu_option}.json"
+    async def download_with_semaphore(number, menu_option):
+        async with semaphore:
+            await download_data_and_save(menu_base_url, number, menu_option, session)
 
-            try:
-                # Extract the file from the 7-Zip archive
-                extraction_command = [
-                    "7z", "e", compressed_filename, f"-oKFCAustraliaMenu/{number}/{menu_option}"
-                ]
-                subprocess.run(extraction_command, check=True)
-            except subprocess.CalledProcessError as extraction_error:
-                print(f"Extraction error: {extraction_error}. Skipping {compressed_filename}.")
-                continue  # Skip this file and move on to the next
+    tasks = [
+        download_with_semaphore(number, menu_option)
+        for number, menu_options in store_info.items()
+        for menu_option in menu_options
+    ]
 
-            # Detect the character encoding of the extracted file
-            with open(temp_filename, 'rb') as file:
-                result = chardet.detect(file.read())
-            file_encoding = result['encoding']
+    await asyncio.gather(*tasks)
 
-            # Read the extracted file with the detected encoding
-            with open(temp_filename, 'r', encoding=file_encoding) as extracted_file:
-                extracted_data = extracted_file.read()
+async def extract_and_download_items(store_info, menu_item_base_url, session):
+    semaphore = asyncio.Semaphore(CONCURRENT_DOWNLOADS)
 
-            # Extract item IDs
-            extract_mdmid_and_id(temp_filename, extracted_values)
-            extracted_values = [value for value in extracted_values if "kfc" not in value.lower()]
+    async def extract_and_download(number, menu_option):
+        async with semaphore:
+            directory = f"KFCAustraliaMenu/{number}/{menu_option}/"
+            filename = f"KFCAustraliaMenu-{number}-{menu_option}.json"
+            temp_filepath = os.path.join(directory, filename)
 
-            # Delete temporary JSON file
-            os.remove(temp_filename)
+            # Check if the file exists
+            if os.path.exists(temp_filepath):
+                extracted_values = set()
+                
+                # Extract item IDs from the JSON file
+                extract_mdmid_and_id(temp_filepath, extracted_values)
+                item_ids = [value for value in extracted_values if "kfc" not in value.lower()]
+                
+                # Download each item immediately after extraction
+                if item_ids:
+                    await download_menu_items(menu_item_base_url, number, menu_option, item_ids, session)
+                else:
+                    print(f"No valid item IDs found in {filename} for store {number}, menu option {menu_option}.")
 
-            # Download menu items and store their metadata
-            item_ids = list(extracted_values)
-            await download_menu_items(menu_item_base_url, number, menu_option, item_ids)
+    tasks = [
+        extract_and_download(number, menu_option)
+        for number, menu_options in store_info.items()
+        for menu_option in menu_options
+    ]
+
+    await asyncio.gather(*tasks)
 
 async def main():
     store_info = get_store_info()
     menu_base_url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/catalogs/afd3813afa364270bfd33f0a8d77252d/KFCAustraliaMenu-{}-{}"
-    menu_item_base_url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/catalogs/afd3813afa364270bfd33f0a8d77252d/KFCAustraliaMenu-{}-{}/items/{}"
+    menu_item_base_url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/catalogs/afd3813afa364270bfd33f0a8d77252d/KFCAustraliaMenu-{store_number}-{menu_option}/items/{item_id}"
 
-    if store_info is not None:
-        await download_and_save_menu_items(store_info, menu_item_base_url)
-        remove_empty_folders("KFCAustraliaMenu")
-    else:
-        print("No store information retrieved.")
+    async with aiohttp.ClientSession() as session:
+        # Extract and download items immediately after extraction
+        await extract_and_download_items(store_info, menu_item_base_url, session)
 
 if __name__ == "__main__":
     asyncio.run(main())

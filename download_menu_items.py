@@ -1,28 +1,22 @@
 import os
 import json
-import requests
 import subprocess
-import time
 import aiofiles
-from etag_helper_menu_items import read_etags, update_metadata, save_etag_info
-from hash_utils import calculate_sha1_hashes
+import asyncio
+import aiohttp
+from etag_helper_menu_items import read_etags, update_metadata
+from hash_utils import calculate_sha1_uncompressed, calculate_sha1_compressed
 
-# Define your proxy settings
-proxy = {
-    "http": "http://127.0.0.1:8890",
-    "https": "http://127.0.0.1:8890"
-}
+base_directory = "/home/runner/work/kfc/kfc"
 
-base_directory = "C:/Users/conno/Documents/kfc"
-
-async def download_menu_items(menu_item_base_url, store_number, menu_option, item_ids, max_retries=5):
+async def download_menu_items(menu_item_base_url, store_number, menu_option, item_ids, session, max_retries=5):
     for item_id in item_ids:
         url = menu_item_base_url.format(store_number=store_number, menu_option=menu_option, item_id=item_id)
-        filename = f"KFCAustraliaMenu-{store_number}-{menu_option}-{item_id}.json"
+        filename = f"{item_id}.json"
         directory = f"KFCAustraliaMenu/{store_number}/{menu_option}/items/"
+        full_filename = os.path.join(directory, filename)
 
         os.makedirs(directory, exist_ok=True)
-        os.chdir(base_directory)
 
         etags = read_etags("metadata_menu_items.json")
         etag_value = None
@@ -36,66 +30,51 @@ async def download_menu_items(menu_item_base_url, store_number, menu_option, ite
 
         for retry in range(max_retries):
             try:
-                response = requests.get(url, headers=headers, proxies=proxy, verify=False)
-                if response.status_code == 200:
-                    if "ETag" in response.headers:
-                        new_etag = response.headers["ETag"]
-                        if etag_value is None or new_etag != etag_value:
-                            etag_info = {"filename": filename, "etag": new_etag}
-                            last_modified = response.headers.get("Last-Modified")
-                            if last_modified:
-                                etag_info["last-modified"] = last_modified
+                async with session.get(url, headers=headers) as response:
+                    if response.status == 200:
+                        if "ETag" in response.headers:
+                            new_etag = response.headers["ETag"]
+                            if etag_value is None or new_etag != etag_value:
+                                etag_info = {"filename": full_filename, "etag": new_etag}
+                                last_modified = response.headers.get("Last-Modified")
+                                if last_modified:
+                                    etag_info["last-modified"] = last_modified
 
-                            data = json.dumps(response.json(), ensure_ascii=False, indent=4)
+                                data_dict = json.loads(await response.text())
 
-                            async with aiofiles.open(os.path.join(directory, filename), mode='w', encoding='utf-8') as f:
-                                await f.write(data)
+                                data = json.dumps(data_dict, ensure_ascii=False, indent=1)
 
-                            if data:
-                                os.chdir(directory)
+                                async with aiofiles.open(os.path.join(directory, filename), mode='w', encoding='utf-8') as f:
+                                    await f.write(data)
 
-                                compression_command = [
-                                    "7z", "a", "-t7z", "-m0=lzma2:d1024m", "-mx=9", "-aoa", "-mfb=64", "-md=32m", "-ms=on", "-sdel", f"{filename}.7z", filename
-                                ]
-                                subprocess.run(compression_command, check=True)
-                                
-                                os.chdir(base_directory)
-
-                                sha1_uncompressed, sha1_compressed = calculate_sha1_hashes(data.encode(), response.content)
-
+                                sha1_uncompressed = calculate_sha1_uncompressed(data.encode('utf-8'))
                                 etag_info["sha1_uncompressed"] = sha1_uncompressed
-                                etag_info["sha1_compressed"] = sha1_compressed
 
                                 update_metadata("metadata_menu_items.json", etag_info)
 
                                 print(f"Downloaded and saved {filename} from {url}")
                                 break
                             else:
-                                print(f"{filename} is empty, skipping compression.")
+                                print(f"{filename} has not been modified on the server.")
                                 break
-                        else:
+                        elif response.status == 304:
                             print(f"{filename} has not been modified on the server.")
                             break
-                    elif response.status_code == 304:
-                        print(f"{filename} has not been modified on the server.")
+                        else:
+                            print(f"Failed to download {filename} from {url}. Status code: {response.status}")
+                    elif response.status == 403:
+                        print(f"{filename} is forbidden (HTTP 403). Skipping.")
                         break
-                    else:
-                        print(f"Failed to download {filename} from {url}. Status code: {response.status_code}")
-                elif response.status_code == 403:
-                    print(f"{filename} is forbidden (HTTP 403). Skipping.")
-                    break
-            except requests.exceptions.RequestException as e:
+            except aiohttp.ClientError as e:
                 print(f"Request error: {e}")
                 if retry < max_retries - 1:
                     print(f"Retrying download of {filename} ({retry + 1}/{max_retries})...")
-                    time.sleep(1)
+                    await asyncio.sleep(1)
                 else:
                     print(f"Max retries reached for {filename}. Skipping.")
                     break
 
-        time.sleep(0.5)
-
-    return {}
+        await asyncio.sleep(0.5)
 
 async def create_directory_if_not_exists(directory_path):
     if not os.path.exists(directory_path):

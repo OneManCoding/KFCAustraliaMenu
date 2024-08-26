@@ -1,0 +1,558 @@
+{
+ "mdmId": "C-30090-prod",
+ "name": "Go Bucket® Popcorn Chicken®",
+ "id": "C-30090-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Go Bucket® Popcorn Chicken®"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "Popcorn Chicken with 1 Portion of Chips. "
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "Popcorn Chicken® with 1 Portion of Chips. "
+  }
+ ],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/xiZX7QpmtcZ3E6Ut3OYNy/8cd5bf414effa5fae1c82c60a146d3d5/Go_Bucket_Popcorn_Chicken.png",
+ "items": [
+  {
+   "mdmId": "I-30090",
+   "id": "I-30090",
+   "name": "Go Bucket® Popcorn Chicken",
+   "size": null,
+   "linkId": "40972",
+   "url": "go-bucket-popcorn-chicken",
+   "isPromo": false,
+   "posId": "191002",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Go Bucket® Popcorn Chicken"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Popcorn Chicken with 1 Portion of Chips. "
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Truly the snack of all trades! Pick up Popcorn Chicken and Chips. Or mix it up with 3 Nuggets, 2 Wicked Wings, or 1 Original Tender. Let’s go!"
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/xiZX7QpmtcZ3E6Ut3OYNy/8cd5bf414effa5fae1c82c60a146d3d5/Go_Bucket_Popcorn_Chicken.png"
+    }
+   ],
+   "modgrps": [
+    {
+     "id": "90347",
+     "name": "Modify Chips",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Modify Chips"
+      }
+     ],
+     "min": 0,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify Chips"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-200031",
+       "id": "M-200031",
+       "name": "Extra Salt",
+       "size": "",
+       "linkId": "mod:554382",
+       "url": "extra-salt",
+       "isPromo": false,
+       "posId": "200031",
+       "displayOrder": 253,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Extra Salt"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Extra Salt"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Extra Salt"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-200031",
+        "caloricValue": null,
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-200030",
+       "id": "M-200030",
+       "name": "No Salt",
+       "size": "",
+       "linkId": "mod:554383",
+       "url": "no-salt",
+       "isPromo": false,
+       "posId": "200030",
+       "displayOrder": 254,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "No Salt"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "No Salt"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "No Salt"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-200030",
+        "caloricValue": null,
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "1"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "1"
+      }
+     ],
+     "displayOrder": 0,
+     "isHidden": false
+    }
+   ],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 675
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 675
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "calories",
+     "value": "2165"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "675"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "675"
+    }
+   ],
+   "recommendationRules": [],
+   "content": {
+    "entityId": "I-30090",
+    "shortDescription": "Popcorn Chicken with 1 Portion of Chips. ",
+    "longDescription": "Truly the snack of all trades! Pick up Popcorn Chicken and Chips. Or mix it up with 3 Nuggets, 2 Wicked Wings, or 1 Original Tender. Let’s go!",
+    "caloricValue": "2351",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 199.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 2351.0,
+      "gramWiseValue": 1181.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 18.5,
+      "gramWiseValue": 9.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 27.2,
+      "gramWiseValue": 13.7,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 2.7,
+      "gramWiseValue": 1.4,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 60.9,
+      "gramWiseValue": 30.6,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.6,
+      "gramWiseValue": 0.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 709.0,
+      "gramWiseValue": 357.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/xiZX7QpmtcZ3E6Ut3OYNy/8cd5bf414effa5fae1c82c60a146d3d5/Go_Bucket_Popcorn_Chicken.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "snacks-kids-meals"
+   ],
+   "categoryId": "C-20006"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 2,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-30090-prod",
+  "caloricValue": "2351",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/xiZX7QpmtcZ3E6Ut3OYNy/8cd5bf414effa5fae1c82c60a146d3d5/Go_Bucket_Popcorn_Chicken.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": "Popcorn Chicken with 1 Portion of Chips. ",
+  "serves": 0
+ },
+ "url": "go-bucket-popcorn-chicken"
+}
