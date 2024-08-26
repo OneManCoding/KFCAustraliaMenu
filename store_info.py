@@ -13,7 +13,7 @@ def get_store_info():
     headers = {"X-Tenant-Id": "afd3813afa364270bfd33f0a8d77252d"}
 
     try:
-        response = requests.get(url, headers=headers, proxies=proxy, verify=False)
+        response = requests.get(url, headers=headers, verify=False)
         if response.status_code == 200:
             data = response.json()
             pretty_json = json.dumps(data, ensure_ascii=False, indent=4)
