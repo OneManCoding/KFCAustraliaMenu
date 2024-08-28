@@ -1,5 +1,9 @@
+import os
 import requests
 import json
+
+# Set the base directory
+base_directory = "/home/runner/work/kfc/kfc"
 
 def get_store_info():
     url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/stores"
@@ -11,10 +15,6 @@ def get_store_info():
             data = response.json()
             pretty_json = json.dumps(data, ensure_ascii=False, indent=4)
             response_data = json.loads(pretty_json)
-
-            # Save the store_info to a file
-            with open('/home/runner/work/kfc/kfc/store_info.json', 'w', encoding='utf-8') as f:
-                json.dump(response_data, f, ensure_ascii=False, indent=4)
 
             store_info = {}
             for store in response_data:
@@ -30,6 +30,14 @@ def get_store_info():
                     menu_options.extend(combined_options)
 
                 store_info[number] = menu_options
+
+            # Ensure the directory exists
+            os.makedirs(base_directory, exist_ok=True)
+            
+            # Save the store_info to a file
+            store_info_path = os.path.join(base_directory, 'store_info.json')
+            with open(store_info_path, 'w', encoding='utf-8') as f:
+                json.dump(store_info, f, ensure_ascii=False, indent=4)
 
             return store_info
         else:
