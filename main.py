@@ -13,7 +13,7 @@ from json_handler import extract_mdmid_and_id
 CONCURRENT_DOWNLOADS = 5
 base_directory = "/home/runner/work/kfc/kfc"
 
-async def download_menu_data(store_info, menu_base_url, session):
+async def download_menu_data(store_info, menu_base_url, session, store_number=None):
     semaphore = asyncio.Semaphore(CONCURRENT_DOWNLOADS)
 
     async def download_with_semaphore(number, menu_option):
@@ -23,12 +23,13 @@ async def download_menu_data(store_info, menu_base_url, session):
     tasks = [
         download_with_semaphore(number, menu_option)
         for number, menu_options in store_info.items()
+        if store_number is None or number == store_number
         for menu_option in menu_options
     ]
 
     await asyncio.gather(*tasks)
 
-async def extract_and_download_items(store_info, menu_item_base_url, session):
+async def extract_and_download_items(store_info, menu_item_base_url, session, store_number=None):
     semaphore = asyncio.Semaphore(CONCURRENT_DOWNLOADS)
 
     async def extract_and_download(number, menu_option):
@@ -43,7 +44,7 @@ async def extract_and_download_items(store_info, menu_item_base_url, session):
                 
                 # Extract item IDs from the JSON file
                 extract_mdmid_and_id(temp_filepath, extracted_values)
-                item_ids = [value for value in extracted_values if "kfc" not in value.lower()]
+                item_ids = [value for value in extracted_values if value.startswith(('C', 'I'))]
                 
                 # Download each item immediately after extraction
                 if item_ids:
@@ -54,19 +55,22 @@ async def extract_and_download_items(store_info, menu_item_base_url, session):
     tasks = [
         extract_and_download(number, menu_option)
         for number, menu_options in store_info.items()
+        if store_number is None or number == store_number
         for menu_option in menu_options
     ]
 
     await asyncio.gather(*tasks)
 
 async def main():
+    store_number = os.getenv('STORE_NUMBER')  # Get the store number from environment variable
+
     store_info = get_store_info()
     menu_base_url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/catalogs/afd3813afa364270bfd33f0a8d77252d/KFCAustraliaMenu-{}-{}"
     menu_item_base_url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/catalogs/afd3813afa364270bfd33f0a8d77252d/KFCAustraliaMenu-{store_number}-{menu_option}/items/{item_id}"
 
     async with aiohttp.ClientSession() as session:
         # Extract and download items immediately after extraction
-        await extract_and_download_items(store_info, menu_item_base_url, session)
+        await extract_and_download_items(store_info, menu_item_base_url, session, store_number)
 
 if __name__ == "__main__":
     asyncio.run(main())
