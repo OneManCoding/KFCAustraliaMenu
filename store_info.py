@@ -28,7 +28,7 @@ def get_store_info():
                 store_info[number] = menu_options
 
             # Save the store_info to a file
-            with open('/home/runner/work/KFC/KFC/store_info.json', 'w', encoding='utf-8') as f:
+            with open('/home/runner/work/kfc/kfc/store_info.json', 'w', encoding='utf-8') as f:
                 json.dump(store_info, f, ensure_ascii=False, indent=4)
 
             return store_info
