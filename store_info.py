@@ -12,6 +12,10 @@ def get_store_info():
             pretty_json = json.dumps(data, ensure_ascii=False, indent=4)
             response_data = json.loads(pretty_json)
 
+            # Save the store_info to a file
+            with open('/home/runner/work/kfc/kfc/store_info.json', 'w', encoding='utf-8') as f:
+                json.dump(response_data, f, ensure_ascii=False, indent=4)
+
             store_info = {}
             for store in response_data:
                 number = store["id"]
@@ -26,10 +30,6 @@ def get_store_info():
                     menu_options.extend(combined_options)
 
                 store_info[number] = menu_options
-
-            # Save the store_info to a file
-            with open('/home/runner/work/kfc/kfc/store_info.json', 'w', encoding='utf-8') as f:
-                json.dump(store_info, f, ensure_ascii=False, indent=4)
 
             return store_info
         else:
