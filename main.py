@@ -69,6 +69,8 @@ async def main():
     menu_item_base_url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/catalogs/afd3813afa364270bfd33f0a8d77252d/KFCAustraliaMenu-{store_number}-{menu_option}/items/{item_id}"
 
     async with aiohttp.ClientSession() as session:
+        # Download stage for menu data
+        await download_menu_data(store_info, menu_base_url, session)
         # Extract and download items immediately after extraction
         await extract_and_download_items(store_info, menu_item_base_url, session, store_number)
 
