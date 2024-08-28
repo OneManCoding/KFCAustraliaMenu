@@ -1,12 +1,5 @@
-# store_info.py
 import requests
 import json
-
-# Define your proxy settings
-proxy = {
-    "http": "http://127.0.0.1:8890",
-    "https": "http://127.0.0.1:8890"
-}
 
 def get_store_info():
     url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/stores"
@@ -33,6 +26,10 @@ def get_store_info():
                     menu_options.extend(combined_options)
 
                 store_info[number] = menu_options
+
+            # Save the store_info to a file
+            with open('/home/runner/work/KFC/KFC/store_info.json', 'w', encoding='utf-8') as f:
+                json.dump(store_info, f, ensure_ascii=False, indent=4)
 
             return store_info
         else:
