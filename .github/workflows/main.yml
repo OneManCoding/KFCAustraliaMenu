@@ -27,3 +27,14 @@ jobs:
     - name: Run the main.py script
       run: |
         python main.py 2 3 4 5 6
+
+    - name: Commit and push changes
+      if: success()  # Only run this step if the previous steps were successful
+      run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Updated store menu as of $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push origin main
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
