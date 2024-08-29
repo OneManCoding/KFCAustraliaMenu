@@ -1,9 +1,6 @@
 name: Run main.py script for list of store number range - 2-6
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
