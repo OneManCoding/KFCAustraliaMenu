@@ -1,4 +1,4 @@
-name: Run main.py script for specific store number - 2
+name: Run main.py script for list of store number range - 2-6
 
 on:
   push:
@@ -26,4 +26,4 @@ jobs:
 
     - name: Run the main.py script
       run: |
-        python main.py 2
+        python main.py 2 3 4 5 6
