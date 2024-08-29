@@ -17,7 +17,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.9' # Adjust this to the Python version you are using
+        python-version: '3.9'
 
     - name: Install dependencies
       run: |
@@ -28,13 +28,33 @@ jobs:
       run: |
         python main.py 2 3 4 5 6
 
+    - name: Wait for lock to be released
+      run: |
+        while [ -f .gitlock ]; do
+          echo "Waiting for lock to be released..."
+          sleep 60  # Wait for 1 minute before checking again
+        done
+
+    - name: Acquire lock
+      run: |
+        echo "Acquiring lock..."
+        echo "Locked by $GITHUB_RUN_ID" > .gitlock
+        git add .gitlock
+        git commit -m "Acquiring lock by run $GITHUB_RUN_ID"
+        git push origin main
+
     - name: Commit and push changes
       if: success()  # Only run this step if the previous steps were successful
       run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Updated store menu as of $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-          git push origin main
-      env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Updated store menu as of $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+        git push origin main
+
+    - name: Release lock
+      run: |
+        echo "Releasing lock..."
+        git rm .gitlock
+        git commit -m "Releasing lock by run $GITHUB_RUN_ID"
+        git push origin main
