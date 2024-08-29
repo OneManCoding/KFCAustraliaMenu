@@ -1,0 +1,3677 @@
+{
+ "mdmId": "C-30800-prod",
+ "name": "Zinger Fillet Piece",
+ "id": "C-30800-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Zinger Fillet Piece"
+  }
+ ],
+ "shortDescription": [],
+ "longDescription": [],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/5u0nHUZEQmjSVC8BdrTZBL/c36fadb81edf1e0d4d281510ced76844/Modifier_Zinger_Fillet.png",
+ "items": [
+  {
+   "mdmId": "I-30800",
+   "id": "I-30800",
+   "name": "Zinger Fillet Piece",
+   "size": null,
+   "linkId": "41357",
+   "url": "zinger-fillet-piece",
+   "isPromo": false,
+   "posId": "182000",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Zinger Fillet Piece"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Zinger Fillet Piece"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "100% breast fillet chicken coated in Zinger flavouring to spice things up a bit. Zing on.\n"
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/5u0nHUZEQmjSVC8BdrTZBL/c36fadb81edf1e0d4d281510ced76844/Modifier_Zinger_Fillet.png"
+    }
+   ],
+   "modgrps": [
+    {
+     "id": "89941",
+     "name": "Fillet",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Fillet"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Fillet"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Fillet"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-170502",
+       "id": "M-170502",
+       "name": "Zinger Fillet",
+       "size": "",
+       "linkId": "mod:554792",
+       "url": "zinger-fillet",
+       "isPromo": false,
+       "posId": "170502",
+       "displayOrder": 52,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Zinger Fillet"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Zinger Fillet"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Zinger Fillet"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/5u0nHUZEQmjSVC8BdrTZBL/c36fadb81edf1e0d4d281510ced76844/Modifier_Zinger_Fillet.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "defaultreason",
+         "value": "SELECTION"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-170502",
+        "caloricValue": "876",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5u0nHUZEQmjSVC8BdrTZBL/c36fadb81edf1e0d4d281510ced76844/Modifier_Zinger_Fillet.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 0,
+     "isHidden": false
+    }
+   ],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 595
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 595
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "calories",
+     "value": "896"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "595"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "595"
+    }
+   ],
+   "recommendationRules": [
+    {
+     "recommendationType": "upsell",
+     "startDateTime": 0,
+     "endDateTime": 0,
+     "name": [
+      {
+       "lang": "en-US",
+       "value": "Web - Pickup_Delivery - Upsell - Zinger Fillet Piece"
+      }
+     ],
+     "headerText": [
+      {
+       "lang": "en-US",
+       "value": "Web - Pickup_Delivery - Upsell - Zinger Fillet Piece"
+      }
+     ],
+     "recommendedItems": [
+      {
+       "mdmId": "I-30017",
+       "id": "I-30017",
+       "name": "3 Wicked Wings",
+       "size": null,
+       "linkId": "41026",
+       "url": "3-wicked-wings",
+       "isPromo": false,
+       "posId": "181000",
+       "displayOrder": 1,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "3 Wicked Wings"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "3 Wicked Wings"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "3 Wicked Wings"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "I-30017"
+        }
+       ],
+       "modgrps": [],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 745
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 745
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "1468"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "745"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "745"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30017",
+        "longDescription": "Add some bite to your meal with 3 Wicked Wings with a spicy marinade and a crispy crunchy coating. \n",
+        "caloricValue": "1512",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 118.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 1512.0,
+          "gramWiseValue": 1279.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 21.6,
+          "gramWiseValue": 18.3,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 25.1,
+          "gramWiseValue": 21.2,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 4.3,
+          "gramWiseValue": 3.6,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 12.9,
+          "gramWiseValue": 10.9,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.4,
+          "gramWiseValue": 0.3,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 700.0,
+          "gramWiseValue": 592.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Spicy"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1INK06zeT1i75kWzXsJ1Ow/bf97abb863a778bc6df21df97f9b3097/Wicked_Wings_3.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "chicken"
+       ],
+       "categoryId": "C-20000"
+      },
+      {
+       "mdmId": "I-31040",
+       "id": "I-31040",
+       "name": "Zinger® Burger",
+       "size": null,
+       "linkId": "41764",
+       "url": "zinger-burger",
+       "isPromo": false,
+       "posId": "100250",
+       "displayOrder": 3,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Zinger® Burger"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Zinger® Burger"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Zinger® Burger"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "I-31040"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "90115",
+         "name": "Recipe",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Recipe"
+          }
+         ],
+         "min": 0,
+         "max": 2,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Recipe"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Recipe"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200008",
+           "id": "M-200008",
+           "name": "Lettuce",
+           "size": "",
+           "linkId": "mod:554357",
+           "url": "lettuce",
+           "isPromo": false,
+           "posId": "200008",
+           "displayOrder": 140,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Lettuce"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Lettuce"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Lettuce"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200008"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [
+            {
+             "key": "defaultreason",
+             "value": "RECIPE"
+            }
+           ],
+           "defaultQuantity": 1,
+           "isDefault": true,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200001",
+           "id": "M-200001",
+           "name": "Mayo",
+           "size": "",
+           "linkId": "mod:554350",
+           "url": "mayo",
+           "isPromo": false,
+           "posId": "200001",
+           "displayOrder": 141,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Mayo"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Mayo"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Mayo"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200001"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [
+            {
+             "key": "defaultreason",
+             "value": "RECIPE"
+            }
+           ],
+           "defaultQuantity": 1,
+           "isDefault": true,
+           "max": 0,
+           "content": null
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "0"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "0"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        },
+        {
+         "id": "90122",
+         "name": "Extras",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Extras"
+          }
+         ],
+         "min": 0,
+         "max": 5,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extras"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extras"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200013",
+           "id": "M-200013",
+           "name": "Bacon Slice",
+           "size": "",
+           "linkId": "mod:554351",
+           "url": "bacon-slice",
+           "isPromo": false,
+           "posId": "200013",
+           "displayOrder": 2,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Bacon Slice"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Bacon Slice"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Bacon Slice"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200013"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 100
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200005",
+           "id": "M-200005",
+           "name": "BBQ Sauce",
+           "size": "",
+           "linkId": "mod:554481",
+           "url": "bbq-sauce",
+           "isPromo": false,
+           "posId": "200005",
+           "displayOrder": 3,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "BBQ Sauce"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "BBQ Sauce"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "BBQ Sauce"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200005"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200009",
+           "id": "M-200009",
+           "name": "Cheese Slice",
+           "size": "",
+           "linkId": "mod:554358",
+           "url": "cheese-slice",
+           "isPromo": false,
+           "posId": "200009",
+           "displayOrder": 4,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Cheese Slice"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Cheese Slice"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Cheese Slice"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200009"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 50
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200011",
+           "id": "M-200011",
+           "name": "Chilli Relish Sauce",
+           "size": "",
+           "linkId": "mod:554352",
+           "url": "chilli-relish-sauce",
+           "isPromo": false,
+           "posId": "200011",
+           "displayOrder": 5,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Chilli Relish Sauce"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Chilli Relish Sauce"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Chilli Relish Sauce"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200011"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200006",
+           "id": "M-200006",
+           "name": "Corn Chips",
+           "size": "",
+           "linkId": "mod:555920",
+           "url": "corn-chips",
+           "isPromo": false,
+           "posId": "200006",
+           "displayOrder": 6,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Corn Chips"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Corn Chips"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Corn Chips"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200006"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 50
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200010",
+           "id": "M-200010",
+           "name": "Crunchy Slaw",
+           "size": "",
+           "linkId": "mod:555765",
+           "url": "crunchy-slaw",
+           "isPromo": false,
+           "posId": "200010",
+           "displayOrder": 7,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Crunchy Slaw"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Crunchy Slaw"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Crunchy Slaw"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200010"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 50
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200042",
+           "id": "M-200042",
+           "name": "Jalapeno Mayo",
+           "size": "",
+           "linkId": "mod:555770",
+           "url": "jalapeno-mayo",
+           "isPromo": false,
+           "posId": "200042",
+           "displayOrder": 8,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Jalapeno Mayo"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Jalapeno Mayo"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Jalapeno Mayo"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200042"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200008",
+           "id": "M-200008",
+           "name": "Lettuce",
+           "size": "",
+           "linkId": "mod:554357",
+           "url": "lettuce",
+           "isPromo": false,
+           "posId": "200008",
+           "displayOrder": 9,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Lettuce"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Lettuce"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Lettuce"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200008"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200001",
+           "id": "M-200001",
+           "name": "Mayo",
+           "size": "",
+           "linkId": "mod:554350",
+           "url": "mayo",
+           "isPromo": false,
+           "posId": "200001",
+           "displayOrder": 10,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Mayo"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Mayo"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Mayo"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200001"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200003",
+           "id": "M-200003",
+           "name": "Pepper Mayo",
+           "size": "",
+           "linkId": "mod:554359",
+           "url": "pepper-mayo",
+           "isPromo": false,
+           "posId": "200003",
+           "displayOrder": 11,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Pepper Mayo"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Pepper Mayo"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Pepper Mayo"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200003"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200004",
+           "id": "M-200004",
+           "name": "Supercharged Sauce",
+           "size": "",
+           "linkId": "mod:554355",
+           "url": "supercharged-sauce",
+           "isPromo": false,
+           "posId": "200004",
+           "displayOrder": 12,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Supercharged Sauce"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Supercharged Sauce"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Supercharged Sauce"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200004"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "3"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "5"
+          }
+         ],
+         "displayOrder": 1,
+         "isHidden": false
+        }
+       ],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 945
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 945
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "1716"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "945"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "945"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-31040",
+        "longDescription": "100% breast fillet chicken coated in Zinger flavouring, lettuce and mayo all perfectly matched to deliver a spicy flavour hit.",
+        "caloricValue": "1874",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 186.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 1874.0,
+          "gramWiseValue": 1010.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 27.0,
+          "gramWiseValue": 14.6,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 22.5,
+          "gramWiseValue": 12.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 2.1,
+          "gramWiseValue": 1.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 34.8,
+          "gramWiseValue": 18.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 4.4,
+          "gramWiseValue": 2.4,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 905.0,
+          "gramWiseValue": 488.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": false,
+        "flagText": null,
+        "tagArray": [
+         "Burger",
+         "Spicy"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4zgRg2g2ZRBey10D3qfjyZ/e9f079f486f401b884ad570be0a48af8/Zinger_Burger.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "burgers"
+       ],
+       "categoryId": "C-20034"
+      }
+     ]
+    },
+    {
+     "recommendationType": "addons",
+     "startDateTime": 0,
+     "endDateTime": 0,
+     "name": [
+      {
+       "lang": "en-US",
+       "value": "Web Delivery Group 1"
+      }
+     ],
+     "headerText": [
+      {
+       "lang": "en-US",
+       "value": "Web Delivery Group 1"
+      }
+     ],
+     "recommendedItems": [
+      {
+       "mdmId": "I-32505",
+       "id": "I-32505",
+       "name": "Large Chips ADD ON",
+       "size": null,
+       "linkId": "43526",
+       "url": "large-chips-add-on",
+       "isPromo": false,
+       "posId": "136022",
+       "displayOrder": 1,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips ADD ON"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips ADD ON"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips ADD ON"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "I-32505"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "91872",
+         "name": "Modify Chips",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "min": 0,
+         "max": 1,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200031",
+           "id": "M-200031",
+           "name": "Extra Salt",
+           "size": "",
+           "linkId": "mod:554382",
+           "url": "extra-salt",
+           "isPromo": false,
+           "posId": "200031",
+           "displayOrder": 388,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200031"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200030",
+           "id": "M-200030",
+           "name": "No Salt",
+           "size": "",
+           "linkId": "mod:554383",
+           "url": "no-salt",
+           "isPromo": false,
+           "posId": "200030",
+           "displayOrder": 389,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200030"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "1"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "1"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": true,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 495
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "495"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "495"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-32505",
+        "longDescription": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there.",
+        "caloricValue": "2431",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 240.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 2431.0,
+          "gramWiseValue": 1013.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 9.1,
+          "gramWiseValue": 3.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 23.5,
+          "gramWiseValue": 9.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 2.4,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 83.3,
+          "gramWiseValue": 34.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.5,
+          "gramWiseValue": 0.2,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 194.0,
+          "gramWiseValue": 81.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "fomo-wow"
+       ],
+       "categoryId": "C-20069"
+      },
+      {
+       "mdmId": "I-32507",
+       "id": "I-32507",
+       "name": "Large Potato & Gravy ADD ON",
+       "size": null,
+       "linkId": "43528",
+       "url": "large-potato-gravy-add-on",
+       "isPromo": false,
+       "posId": "136038",
+       "displayOrder": 2,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Large Potato & Gravy ADD ON"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Large Potato & Gravy ADD ON"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Large Potato & Gravy ADD ON"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "I-32507"
+        }
+       ],
+       "modgrps": [],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": true,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 495
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "495"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "495"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-32507",
+        "longDescription": "Soft and fluffy potato mash with warm, rich gravy. Mmmmm…",
+        "caloricValue": "1094",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 450.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 1094.0,
+          "gramWiseValue": 243.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 7.7,
+          "gramWiseValue": 1.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 3.6,
+          "gramWiseValue": 0.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.5,
+          "gramWiseValue": 0.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 49.1,
+          "gramWiseValue": 10.9,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 3.2,
+          "gramWiseValue": 0.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 2178.0,
+          "gramWiseValue": 484.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": true,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2dxqC7cN4QHJtnI04aOHR6/dc2fb4a0416e41f18b0a11413b63aa75/Potato___Gravy_lge.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "fomo-wow"
+       ],
+       "categoryId": "C-20069"
+      },
+      {
+       "mdmId": "I-30090",
+       "id": "I-30090",
+       "name": "Go Bucket® Popcorn Chicken",
+       "size": null,
+       "linkId": "40972",
+       "url": "go-bucket-popcorn-chicken",
+       "isPromo": false,
+       "posId": "191002",
+       "displayOrder": 3,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Go Bucket® Popcorn Chicken"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Popcorn Chicken® with 1 Portion of Chips. "
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Popcorn Chicken® with 1 Portion of Chips. "
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "I-30090"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "90347",
+         "name": "Modify Chips",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "min": 0,
+         "max": 1,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200031",
+           "id": "M-200031",
+           "name": "Extra Salt",
+           "size": "",
+           "linkId": "mod:554382",
+           "url": "extra-salt",
+           "isPromo": false,
+           "posId": "200031",
+           "displayOrder": 253,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200031"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200030",
+           "id": "M-200030",
+           "name": "No Salt",
+           "size": "",
+           "linkId": "mod:554383",
+           "url": "no-salt",
+           "isPromo": false,
+           "posId": "200030",
+           "displayOrder": 254,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200030"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "1"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "1"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 675
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 675
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "2165"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "675"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "675"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30090",
+        "shortDescription": "Popcorn Chicken with 1 Portion of Chips. ",
+        "longDescription": "Truly the snack of all trades! Pick up Popcorn Chicken and Chips. Or mix it up with 3 Nuggets, 2 Wicked Wings, or 1 Original Tender. Let’s go!",
+        "caloricValue": "2351",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 199.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 2351.0,
+          "gramWiseValue": 1181.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 18.5,
+          "gramWiseValue": 9.3,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 27.2,
+          "gramWiseValue": 13.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 2.7,
+          "gramWiseValue": 1.4,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 60.9,
+          "gramWiseValue": 30.6,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.6,
+          "gramWiseValue": 0.3,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 709.0,
+          "gramWiseValue": 357.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/xiZX7QpmtcZ3E6Ut3OYNy/8cd5bf414effa5fae1c82c60a146d3d5/Go_Bucket_Popcorn_Chicken.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "snacks-kids-meals"
+       ],
+       "categoryId": "C-20006"
+      },
+      {
+       "mdmId": "I-32856",
+       "id": "I-32856",
+       "name": "Regular Gravy ADD ON",
+       "size": null,
+       "linkId": "43738",
+       "url": "regular-gravy-add-on",
+       "isPromo": false,
+       "posId": "136059",
+       "displayOrder": 4,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy ADD ON"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy ADD ON"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy ADD ON"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "I-32856"
+        }
+       ],
+       "modgrps": [],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": true,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 545
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 545
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "545"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "545"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-32856",
+        "longDescription": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping.",
+        "caloricValue": "215",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 110.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 215.0,
+          "gramWiseValue": 195.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.8,
+          "gramWiseValue": 1.6,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.2,
+          "gramWiseValue": 1.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.1,
+          "gramWiseValue": 0.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 8.3,
+          "gramWiseValue": 7.5,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.9,
+          "gramWiseValue": 0.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 695.0,
+          "gramWiseValue": 632.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "fomo-wow"
+       ],
+       "categoryId": "C-20069"
+      }
+     ]
+    }
+   ],
+   "content": {
+    "entityId": "I-30800",
+    "longDescription": "100% breast fillet chicken coated in Zinger flavouring to spice things up a bit. Zing on.\n",
+    "caloricValue": "876",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 95.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 876.0,
+      "gramWiseValue": 926.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 21.0,
+      "gramWiseValue": 22.2,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 10.5,
+      "gramWiseValue": 11.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 1.0,
+      "gramWiseValue": 1.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 7.8,
+      "gramWiseValue": 8.2,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.3,
+      "gramWiseValue": 0.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 628.0,
+      "gramWiseValue": 664.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": false,
+      "isTrace": true
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": false,
+      "isTrace": true
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": false,
+    "showInFactSheet": false,
+    "flagText": null,
+    "tagArray": [
+     "Boneless",
+     "Spicy"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5u0nHUZEQmjSVC8BdrTZBL/c36fadb81edf1e0d4d281510ced76844/Modifier_Zinger_Fillet.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "chicken"
+   ],
+   "categoryId": "C-20000"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 6,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-30800-prod",
+  "caloricValue": "876",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5u0nHUZEQmjSVC8BdrTZBL/c36fadb81edf1e0d4d281510ced76844/Modifier_Zinger_Fillet.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": null,
+  "serves": 0
+ },
+ "url": "zinger-fillet-piece"
+}
