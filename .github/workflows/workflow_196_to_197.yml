@@ -31,8 +31,8 @@ jobs:
         echo "Number of running workflows: $RUNNING_WORKFLOWS"
         echo "::set-output name=running::$RUNNING_WORKFLOWS"
 
-    - name: Trigger next workflow if fewer than 10 are running
-      if: steps.check_workflows.outputs.running < 10
+    - name: Trigger next workflow if fewer than 3 are running
+      if: steps.check_workflows.outputs.running < 3
       run: |
         curl -X POST \
         -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
