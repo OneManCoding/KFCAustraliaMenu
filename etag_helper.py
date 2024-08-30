@@ -44,6 +44,6 @@ def update_metadata(metadata_file_path, etag_info):
     return metadata
 
 def save_etag_info(etags):
-    with open("metadata.json", "w") as metadata_file:
+    with open("metadata_menu.json", "w") as metadata_file:
         for item in etags:
             metadata_file.write(json.dumps(item) + "\n")
