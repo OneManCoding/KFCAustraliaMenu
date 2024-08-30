@@ -48,6 +48,7 @@ jobs:
       run: |
         while [ -f .gitlock ]; do
           echo "Waiting for lock to be released..."
+          git pull
           sleep $((RANDOM % 46 + 15))  # Sleep for a random time between 15 and 60 seconds
         done
 
@@ -56,6 +57,7 @@ jobs:
         echo "Acquiring lock..."
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        git pull
         echo "Locked by $GITHUB_RUN_ID" > .gitlock
         git add .gitlock
         git commit -m "Acquiring lock by run $GITHUB_RUN_ID"
@@ -64,6 +66,7 @@ jobs:
     - name: Commit and push changes
       if: success()  # Only run this step if the previous steps were successful
       run: |
+        git pull
         git add .
         git commit -m "Updated store menu for 803 804 as of $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
         git push origin main
@@ -71,6 +74,7 @@ jobs:
     - name: Release lock
       run: |
         echo "Releasing lock..."
+        git pull
         git rm .gitlock
         git commit -m "Releasing lock by run $GITHUB_RUN_ID"
         git push origin main
