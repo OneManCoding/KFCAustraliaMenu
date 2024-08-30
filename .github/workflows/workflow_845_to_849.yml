@@ -1,0 +1,76 @@
+name: Run main.py script for 845 846 847 848 849
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install aiofiles asyncio aiohttp requests logging
+
+    - name: Check the number of running workflows
+      id: check_workflows
+      run: |
+        RUNNING_WORKFLOWS=$(curl -s \
+        -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+        "https://api.github.com/repos/${{ github.repository }}/actions/runs?status=in_progress" \
+        | jq '.workflow_runs | length')
+        echo "Number of running workflows: $RUNNING_WORKFLOWS"
+        echo "::set-output name=running::$RUNNING_WORKFLOWS"
+
+    - name: Trigger next workflow if fewer than 10 are running
+      if: steps.check_workflows.outputs.running < 10
+      run: |
+        curl -X POST \
+        -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+        -H "Accept: application/vnd.github.v3+json" \
+        https://api.github.com/repos/${{ github.repository }}/actions/workflows/workflow_850_to_855.yml/dispatches \
+        -d '{"ref":"main"}'
+
+    - name: Run the main.py script
+      run: |
+        python main.py 845 846 847 848 849
+
+    - name: Wait for lock to be released
+      run: |
+        while [ -f .gitlock ]; do
+          echo "Waiting for lock to be released..."
+          sleep $((RANDOM % 46 + 15))  # Sleep for a random time between 15 and 60 seconds
+        done
+
+    - name: Acquire lock
+      run: |
+        echo "Acquiring lock..."
+        echo "Locked by $GITHUB_RUN_ID" > .gitlock
+        git add .gitlock
+        git commit -m "Acquiring lock by run $GITHUB_RUN_ID"
+        git push origin main
+
+    - name: Commit and push changes
+      if: success()  # Only run this step if the previous steps were successful
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Updated store menu for 845 846 847 848 849 as of $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+        git push origin main
+
+    - name: Release lock
+      run: |
+        echo "Releasing lock..."
+        git rm .gitlock
+        git commit -m "Releasing lock by run $GITHUB_RUN_ID"
+        git push origin main
