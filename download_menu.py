@@ -17,10 +17,10 @@ async def download_data_and_save(menu_base_url, store_number, menu_option, sessi
 
     os.makedirs(directory, exist_ok=True)
 
-    etags = read_etags(metadata_file_path)
+    etags = read_etags("metadata_menu.json")
     etag_value = None
     for etag_info in etags:
-        if etag_info.get("filename") == filename:
+        if etag_info.get("filename") == full_filename:
             etag_value = etag_info.get("etag")
             headers = {"If-None-Match": etag_value}
             break
@@ -49,7 +49,7 @@ async def download_data_and_save(menu_base_url, store_number, menu_option, sessi
                             sha1_uncompressed = calculate_sha1_uncompressed(data.encode('utf-8'))
                             etag_info["sha1_uncompressed"] = sha1_uncompressed
 
-                            update_metadata(metadata_file_path, etag_info)
+                            update_metadata("metadata_menu.json", etag_info)
                             print(f"Downloaded and saved {filename} from {url}")
                         else:
                             print(f"{filename} has not been modified on the server.")
