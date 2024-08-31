@@ -5,7 +5,7 @@ import aiofiles
 import asyncio
 import aiohttp
 from etag_helper_menu_items import read_etags, update_metadata
-from hash_utils import calculate_sha1_uncompressed, calculate_sha1_compressed
+from hash_utils import calculate_sha1_uncompressed
 
 base_directory = "/home/runner/work/kfc/kfc"
 
