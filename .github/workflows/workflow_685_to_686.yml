@@ -41,20 +41,20 @@ jobs:
         if [ -n "$UNMERGED_FILES" ]; then
           echo "Found unmerged files: $UNMERGED_FILES"
           for file in $UNMERGED_FILES; do
-            echo "Merging changes in {file}..."
+            echo "Merging changes in $file..."
             # Backup local version
-            cp {file} {file}.local
+            cp $file $file.local
             # Replace local file with remote version
-            git checkout --theirs -- {file}
+            git checkout --theirs -- $file
             # Merge the local changes into the remote file
-            if [[ {file} == *.json ]]; then
-              jq -s '.[0] + .[1] | unique_by(.filename)' {file} {file}.local > {file}.merged
-              mv {file}.merged {file}
+            if [[ $file == *.json ]]; then
+              jq -s '.[0] + .[1] | unique_by(.filename)' $file $file.local > $file.merged
+              mv $file.merged $file
             else:
-              echo "Skipping merge logic for non-JSON file: {file}"
+              echo "Skipping merge logic for non-JSON file: $file"
             fi
             # Clean up the backup
-            rm {file}.local
+            rm $file.local
           done
           git add $UNMERGED_FILES
           git commit -m "Merged local changes with remote for files: $UNMERGED_FILES"
