@@ -15,6 +15,7 @@ async def download_data_and_save(menu_base_url, store_number, menu_option, sessi
     url = menu_base_url.format(store_number, menu_option)
     filename = f"KFCAustraliaMenu-{store_number}-{menu_option}.json"
     directory = f"KFCAustraliaMenu/{store_number}/{menu_option}/"
+    full_filename = os.path.join(directory, filename)
 
     os.makedirs(directory, exist_ok=True)
 
@@ -37,7 +38,7 @@ async def download_data_and_save(menu_base_url, store_number, menu_option, sessi
                 if "ETag" in response.headers:
                     new_etag = response.headers["ETag"]
                     if etag_value is None or new_etag != etag_value:
-                        etag_info = {"filename": filename, "etag": new_etag}
+                        etag_info = {"filename": full_filename, "etag": new_etag}
                         last_modified = response.headers.get("Last-Modified")
                         if last_modified:
                             etag_info["last-modified"] = last_modified

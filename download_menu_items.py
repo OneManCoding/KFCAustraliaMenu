@@ -21,7 +21,7 @@ async def download_menu_items(menu_item_base_url, store_number, menu_option, ite
         etags = read_etags("metadata_menu_items.json")
         etag_value = None
         for etag_info in etags:
-            if etag_info.get("filename") == filename:
+            if etag_info.get("filename") == full_filename:
                 etag_value = etag_info.get("etag")
                 headers = {"If-None-Match": etag_value}
                 break
