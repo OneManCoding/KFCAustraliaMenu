@@ -30,7 +30,6 @@ async def download_menu_items(menu_item_base_url, store_number, menu_option, ite
 
         for retry in range(max_retries):
             try:
-                print (f"Printing request headers {headers}")
                 async with session.get(url, headers=headers) as response:
                     if response.status == 200:
                         if "ETag" in response.headers:

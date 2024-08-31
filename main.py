@@ -16,15 +16,18 @@ async def download_menu_data(store_number, store_info, menu_base_url, session):
 
     async def download_with_semaphore(menu_option):
         async with semaphore:
-            await download_data_and_save(menu_base_url, store_number, menu_option, session)
+            return await download_data_and_save(menu_base_url, store_number, menu_option, session)
 
     menu_options = store_info.get(store_number, [])
     if not menu_options:
         print(f"No menu options found for store number {store_number}")
-        return
+        return True  # Consider this as a success since there's nothing to download
 
     tasks = [download_with_semaphore(menu_option) for menu_option in menu_options]
-    await asyncio.gather(*tasks)
+    results = await asyncio.gather(*tasks)
+
+    # Check if all tasks returned False (indicating HTTP 302)
+    return any(results)
 
 async def extract_and_download_items(store_number, store_info, menu_item_base_url, session):
     semaphore = asyncio.Semaphore(CONCURRENT_DOWNLOADS)
@@ -38,11 +41,11 @@ async def extract_and_download_items(store_number, store_info, menu_item_base_ur
             # Check if the file exists
             if os.path.exists(temp_filepath):
                 extracted_values = set()
-                
+
                 # Extract item IDs from the JSON file
                 extract_mdmid_and_id(temp_filepath, extracted_values)
                 item_ids = [value for value in extracted_values if value.startswith(('C', 'I'))]
-                
+
                 # Download each item immediately after extraction
                 if item_ids:
                     await download_menu_items(menu_item_base_url, store_number, menu_option, item_ids, session)
@@ -63,12 +66,20 @@ async def main(store_numbers):
     menu_item_base_url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/catalogs/afd3813afa364270bfd33f0a8d77252d/KFCAustraliaMenu-{store_number}-{menu_option}/items/{item_id}"
 
     async with aiohttp.ClientSession() as session:
+        all_skipped = True  # Assume all will be skipped unless proven otherwise
         for store_number in store_numbers:
             # Download the menu for the store number
-            await download_menu_data(store_number, store_info, menu_base_url, session)
+            success = await download_menu_data(store_number, store_info, menu_base_url, session)
 
-            # Extract and download items immediately after extraction
-            await extract_and_download_items(store_number, store_info, menu_item_base_url, session)
+            if success:
+                all_skipped = False  # At least one store was processed successfully
+
+                # Extract and download items immediately after extraction
+                await extract_and_download_items(store_number, store_info, menu_item_base_url, session)
+
+        if all_skipped:
+            print("All store numbers returned HTTP 302. Stopping the script.")
+            sys.exit(1)
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
