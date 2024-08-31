@@ -25,14 +25,16 @@ jobs:
       run: |
         python main.py 417 418
 
-    - name: Pull latest changes
+    - name: Try to pull latest changes
       id: git_pull
       continue-on-error: true
       run: |
-        git pull origin main || echo "merge_conflict" > merge_error.txt
+        git stash || true
+        git pull origin main || echo "merge_conflict" > $GITHUB_WORKSPACE/merge_error.txt
+        git stash pop || true
 
     - name: Handle merge conflict for metadata_menu_items.json
-      if: steps.git_pull.outputs.merge_error == 'merge_conflict'
+      if: steps.git_pull.outputs.merge_error == 'merge_conflict' || failure()
       run: |
         if [ -f metadata_menu_items.json ]; then
           # Create a backup of the local file
