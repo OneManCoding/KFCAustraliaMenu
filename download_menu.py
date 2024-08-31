@@ -7,7 +7,6 @@ from etag_helper_menu_items import read_etags, update_metadata
 from hash_utils import calculate_sha1_uncompressed
 
 base_directory = "/home/runner/work/kfc/kfc"
-metadata_file_path = os.path.join(base_directory, "metadata_menu.json")
 
 async def download_data_and_save(menu_base_url, store_number, menu_option, session, max_retries=5):
     url = menu_base_url.format(store_number, menu_option)
