@@ -31,6 +31,7 @@ async def download_data_and_save(menu_base_url, store_number, menu_option, sessi
     try:
         async with session.get(url, headers=headers, timeout=60) as response:  # Added timeout
             print(f"Fetching {url}")  # Debugging statement
+            print (f"Printing Headers {headers}")
 
             if response.status == 200:
                 if "ETag" in response.headers:
