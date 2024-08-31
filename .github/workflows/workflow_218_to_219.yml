@@ -25,7 +25,7 @@ jobs:
       run: |
         python main.py 218 219
 
-    - name: Try to pull latest changes
+    - name: Try to pull latest changes and stash
       id: git_pull
       continue-on-error: true
       run: |
@@ -33,21 +33,34 @@ jobs:
         git pull origin main || echo "merge_conflict" > $GITHUB_WORKSPACE/merge_error.txt
         git stash pop || true
 
-    - name: Handle merge conflict for metadata_menu_items.json
-      if: steps.git_pull.outputs.merge_error == 'merge_conflict' || failure()
+    - name: Handle merge conflicts
+      if: failure() || steps.git_pull.outputs.merge_error == 'merge_conflict'
       run: |
-        if [ -f metadata_menu_items.json ]; then
-          # Create a backup of the local file
-          cp metadata_menu_items.json metadata_menu_items_backup.json
-          # Append entries from the remote file to the local file, only adding new unique entries
-          jq -s '.[0] + .[1] | unique_by(.filename)' metadata_menu_items.json metadata_menu_items_backup.json > merged_metadata_menu_items.json
-          # Replace the local file with the merged file
-          mv merged_metadata_menu_items.json metadata_menu_items.json
-          # Clean up the backup
-          rm metadata_menu_items_backup.json
-          git add metadata_menu_items.json
-          git commit -m "Merged metadata_menu_items.json from remote"
+        echo "Checking for unmerged files..."
+        UNMERGED_FILES=$(git diff --name-only --diff-filter=U)
+        if [ -n "$UNMERGED_FILES" ]; then
+          echo "Found unmerged files: $UNMERGED_FILES"
+          for file in $UNMERGED_FILES; do
+            echo "Merging changes in {file}..."
+            # Backup local version
+            cp {file} {file}.local
+            # Replace local file with remote version
+            git checkout --theirs -- {file}
+            # Merge the local changes into the remote file
+            if [[ {file} == *.json ]]; then
+              jq -s '.[0] + .[1] | unique_by(.filename)' {file} {file}.local > {file}.merged
+              mv {file}.merged {file}
+            else:
+              echo "Skipping merge logic for non-JSON file: {file}"
+            fi
+            # Clean up the backup
+            rm {file}.local
+          done
+          git add $UNMERGED_FILES
+          git commit -m "Merged local changes with remote for files: $UNMERGED_FILES"
           git push origin main
+        else
+          echo "No unmerged files found."
         fi
 
     - name: Wait for lock to be released
