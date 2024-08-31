@@ -1,0 +1,7059 @@
+{
+ "mdmId": "C-30055-prod",
+ "name": "Dipping Sauces",
+ "id": "C-30055-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Dipping Sauces"
+  }
+ ],
+ "shortDescription": [],
+ "longDescription": [],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/0Qo5sxBsJECpZgWJ4aVXZ/f271eec1c0ddd2a8af7c302e773060b2/Sauce_Range.png",
+ "items": [
+  {
+   "mdmId": "I-41092",
+   "id": "I-41092",
+   "name": "Aioli Dip",
+   "size": null,
+   "linkId": "41092",
+   "url": "aioli-dip",
+   "isPromo": false,
+   "posId": "191010",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Aioli Dip"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Aioli Dip"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/2s80xCDE5wNxxqdJkFHOzH/846c86019dc0dd9d5c9a482b82f197ed/Sauce_Aioli.png"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 60
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 65
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "calories",
+     "value": "567"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "60"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "60"
+    }
+   ],
+   "recommendationRules": [
+    {
+     "recommendationType": "upsell",
+     "startDateTime": 0,
+     "endDateTime": 0,
+     "name": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "headerText": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "recommendedItems": [
+      {
+       "mdmId": "I-30052",
+       "id": "I-30052",
+       "name": "Regular Gravy",
+       "size": null,
+       "linkId": "40981",
+       "url": "regular-gravy",
+       "isPromo": false,
+       "posId": "136026",
+       "displayOrder": 1,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png"
+        }
+       ],
+       "modgrps": [],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 545
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 595
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "253"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "545"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "545"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30052",
+        "longDescription": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping.",
+        "caloricValue": "215",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 110.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 215.0,
+          "gramWiseValue": 195.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.8,
+          "gramWiseValue": 1.6,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.2,
+          "gramWiseValue": 1.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.1,
+          "gramWiseValue": 0.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 8.3,
+          "gramWiseValue": 7.5,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.9,
+          "gramWiseValue": 0.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 695.0,
+          "gramWiseValue": 632.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      },
+      {
+       "mdmId": "I-30050",
+       "id": "I-30050",
+       "name": "Large Chips",
+       "size": null,
+       "linkId": "40975",
+       "url": "large-chips",
+       "isPromo": false,
+       "posId": "136010",
+       "displayOrder": 2,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89710",
+         "name": "Modify Chips",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "min": 0,
+         "max": 1,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200031",
+           "id": "M-200031",
+           "name": "Extra Salt",
+           "size": "",
+           "linkId": "mod:554382",
+           "url": "extra-salt",
+           "isPromo": false,
+           "posId": "200031",
+           "displayOrder": 408,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200031"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200030",
+           "id": "M-200030",
+           "name": "No Salt",
+           "size": "",
+           "linkId": "mod:554383",
+           "url": "no-salt",
+           "isPromo": false,
+           "posId": "200030",
+           "displayOrder": 409,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200030"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "1"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "1"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 525
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 575
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "2338"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "525"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "525"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30050",
+        "longDescription": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there.",
+        "caloricValue": "2431",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 240.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 2431.0,
+          "gramWiseValue": 1013.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 9.1,
+          "gramWiseValue": 3.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 23.5,
+          "gramWiseValue": 9.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 2.4,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 83.3,
+          "gramWiseValue": 34.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.5,
+          "gramWiseValue": 0.2,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 194.0,
+          "gramWiseValue": 81.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      }
+     ]
+    }
+   ],
+   "content": {
+    "entityId": "I-41092",
+    "longDescription": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted.",
+    "caloricValue": "567",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 23.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 567.0,
+      "gramWiseValue": 2420.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.3,
+      "gramWiseValue": 1.2,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 14.6,
+      "gramWiseValue": 62.4,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 1.2,
+      "gramWiseValue": 5.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 1.2,
+      "gramWiseValue": 5.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.9,
+      "gramWiseValue": 4.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 137.0,
+      "gramWiseValue": 586.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": true,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Sides"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2s80xCDE5wNxxqdJkFHOzH/846c86019dc0dd9d5c9a482b82f197ed/Sauce_Aioli.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "sides"
+   ],
+   "categoryId": "C-20020"
+  },
+  {
+   "mdmId": "I-41088",
+   "id": "I-41088",
+   "name": "BBQ Dip",
+   "size": null,
+   "linkId": "41088",
+   "url": "bbq-dip",
+   "isPromo": false,
+   "posId": "191006",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "BBQ Dip"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "BBQ Dip"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/6OIues0y1nbh86fribfI3g/f63bb86b4f66a8f5bb8d8d515fcfb23b/Sauce_BBQ.png"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 60
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 65
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "calories",
+     "value": "210"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "60"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "60"
+    }
+   ],
+   "recommendationRules": [
+    {
+     "recommendationType": "upsell",
+     "startDateTime": 0,
+     "endDateTime": 0,
+     "name": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "headerText": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "recommendedItems": [
+      {
+       "mdmId": "I-30052",
+       "id": "I-30052",
+       "name": "Regular Gravy",
+       "size": null,
+       "linkId": "40981",
+       "url": "regular-gravy",
+       "isPromo": false,
+       "posId": "136026",
+       "displayOrder": 1,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png"
+        }
+       ],
+       "modgrps": [],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 545
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 595
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "253"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "545"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "545"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30052",
+        "longDescription": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping.",
+        "caloricValue": "215",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 110.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 215.0,
+          "gramWiseValue": 195.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.8,
+          "gramWiseValue": 1.6,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.2,
+          "gramWiseValue": 1.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.1,
+          "gramWiseValue": 0.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 8.3,
+          "gramWiseValue": 7.5,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.9,
+          "gramWiseValue": 0.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 695.0,
+          "gramWiseValue": 632.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      },
+      {
+       "mdmId": "I-30050",
+       "id": "I-30050",
+       "name": "Large Chips",
+       "size": null,
+       "linkId": "40975",
+       "url": "large-chips",
+       "isPromo": false,
+       "posId": "136010",
+       "displayOrder": 2,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89710",
+         "name": "Modify Chips",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "min": 0,
+         "max": 1,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200031",
+           "id": "M-200031",
+           "name": "Extra Salt",
+           "size": "",
+           "linkId": "mod:554382",
+           "url": "extra-salt",
+           "isPromo": false,
+           "posId": "200031",
+           "displayOrder": 408,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200031"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200030",
+           "id": "M-200030",
+           "name": "No Salt",
+           "size": "",
+           "linkId": "mod:554383",
+           "url": "no-salt",
+           "isPromo": false,
+           "posId": "200030",
+           "displayOrder": 409,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200030"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "1"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "1"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 525
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 575
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "2338"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "525"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "525"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30050",
+        "longDescription": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there.",
+        "caloricValue": "2431",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 240.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 2431.0,
+          "gramWiseValue": 1013.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 9.1,
+          "gramWiseValue": 3.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 23.5,
+          "gramWiseValue": 9.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 2.4,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 83.3,
+          "gramWiseValue": 34.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.5,
+          "gramWiseValue": 0.2,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 194.0,
+          "gramWiseValue": 81.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      }
+     ]
+    }
+   ],
+   "content": {
+    "entityId": "I-41088",
+    "longDescription": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted.",
+    "caloricValue": "210",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 30.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 210.0,
+      "gramWiseValue": 696.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.5,
+      "gramWiseValue": 1.6,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 11.8,
+      "gramWiseValue": 39.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 10.2,
+      "gramWiseValue": 33.9,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 236.0,
+      "gramWiseValue": 781.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": true,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Sides"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6OIues0y1nbh86fribfI3g/f63bb86b4f66a8f5bb8d8d515fcfb23b/Sauce_BBQ.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "sides"
+   ],
+   "categoryId": "C-20020"
+  },
+  {
+   "mdmId": "I-41089",
+   "id": "I-41089",
+   "name": "Supercharged Dip",
+   "size": null,
+   "linkId": "41089",
+   "url": "supercharged-dip",
+   "isPromo": false,
+   "posId": "191007",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Supercharged Dip"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Supercharged Dip"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/RLMHlsQrPIe7tyFlxrRxm/143df961b5b8b411528591d3da26beaf/Sauce_Supercharged.png"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 60
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 65
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "calories",
+     "value": "440"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "60"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "60"
+    }
+   ],
+   "recommendationRules": [
+    {
+     "recommendationType": "upsell",
+     "startDateTime": 0,
+     "endDateTime": 0,
+     "name": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "headerText": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "recommendedItems": [
+      {
+       "mdmId": "I-30052",
+       "id": "I-30052",
+       "name": "Regular Gravy",
+       "size": null,
+       "linkId": "40981",
+       "url": "regular-gravy",
+       "isPromo": false,
+       "posId": "136026",
+       "displayOrder": 1,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png"
+        }
+       ],
+       "modgrps": [],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 545
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 595
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "253"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "545"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "545"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30052",
+        "longDescription": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping.",
+        "caloricValue": "215",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 110.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 215.0,
+          "gramWiseValue": 195.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.8,
+          "gramWiseValue": 1.6,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.2,
+          "gramWiseValue": 1.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.1,
+          "gramWiseValue": 0.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 8.3,
+          "gramWiseValue": 7.5,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.9,
+          "gramWiseValue": 0.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 695.0,
+          "gramWiseValue": 632.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      },
+      {
+       "mdmId": "I-30050",
+       "id": "I-30050",
+       "name": "Large Chips",
+       "size": null,
+       "linkId": "40975",
+       "url": "large-chips",
+       "isPromo": false,
+       "posId": "136010",
+       "displayOrder": 2,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89710",
+         "name": "Modify Chips",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "min": 0,
+         "max": 1,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200031",
+           "id": "M-200031",
+           "name": "Extra Salt",
+           "size": "",
+           "linkId": "mod:554382",
+           "url": "extra-salt",
+           "isPromo": false,
+           "posId": "200031",
+           "displayOrder": 408,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200031"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200030",
+           "id": "M-200030",
+           "name": "No Salt",
+           "size": "",
+           "linkId": "mod:554383",
+           "url": "no-salt",
+           "isPromo": false,
+           "posId": "200030",
+           "displayOrder": 409,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200030"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "1"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "1"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 525
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 575
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "2338"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "525"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "525"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30050",
+        "longDescription": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there.",
+        "caloricValue": "2431",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 240.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 2431.0,
+          "gramWiseValue": 1013.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 9.1,
+          "gramWiseValue": 3.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 23.5,
+          "gramWiseValue": 9.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 2.4,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 83.3,
+          "gramWiseValue": 34.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.5,
+          "gramWiseValue": 0.2,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 194.0,
+          "gramWiseValue": 81.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      }
+     ]
+    }
+   ],
+   "content": {
+    "entityId": "I-41089",
+    "longDescription": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted.",
+    "caloricValue": "440",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 25.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 440.0,
+      "gramWiseValue": 1760.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.4,
+      "gramWiseValue": 1.7,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 9.8,
+      "gramWiseValue": 39.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.8,
+      "gramWiseValue": 3.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 4.2,
+      "gramWiseValue": 16.9,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 3.0,
+      "gramWiseValue": 12.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 185.0,
+      "gramWiseValue": 740.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": true,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Sides"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/RLMHlsQrPIe7tyFlxrRxm/143df961b5b8b411528591d3da26beaf/Sauce_Supercharged.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "sides"
+   ],
+   "categoryId": "C-20020"
+  },
+  {
+   "mdmId": "I-41090",
+   "id": "I-41090",
+   "name": "Sweet Chilli Dip",
+   "size": null,
+   "linkId": "41090",
+   "url": "sweet-chilli-dip",
+   "isPromo": false,
+   "posId": "191008",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Sweet Chilli Dip"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Sweet Chilli Dip"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/2m4RONrsdLf2ou0NyZdWjK/9465da2e2f4a9450a6a0f96e8f12ce8f/Sauce_Sweet_Chilli.png"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 60
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 65
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "calories",
+     "value": "250"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "60"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "60"
+    }
+   ],
+   "recommendationRules": [
+    {
+     "recommendationType": "upsell",
+     "startDateTime": 0,
+     "endDateTime": 0,
+     "name": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "headerText": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "recommendedItems": [
+      {
+       "mdmId": "I-30052",
+       "id": "I-30052",
+       "name": "Regular Gravy",
+       "size": null,
+       "linkId": "40981",
+       "url": "regular-gravy",
+       "isPromo": false,
+       "posId": "136026",
+       "displayOrder": 1,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png"
+        }
+       ],
+       "modgrps": [],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 545
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 595
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "253"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "545"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "545"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30052",
+        "longDescription": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping.",
+        "caloricValue": "215",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 110.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 215.0,
+          "gramWiseValue": 195.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.8,
+          "gramWiseValue": 1.6,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.2,
+          "gramWiseValue": 1.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.1,
+          "gramWiseValue": 0.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 8.3,
+          "gramWiseValue": 7.5,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.9,
+          "gramWiseValue": 0.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 695.0,
+          "gramWiseValue": 632.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      },
+      {
+       "mdmId": "I-30050",
+       "id": "I-30050",
+       "name": "Large Chips",
+       "size": null,
+       "linkId": "40975",
+       "url": "large-chips",
+       "isPromo": false,
+       "posId": "136010",
+       "displayOrder": 2,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89710",
+         "name": "Modify Chips",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "min": 0,
+         "max": 1,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200031",
+           "id": "M-200031",
+           "name": "Extra Salt",
+           "size": "",
+           "linkId": "mod:554382",
+           "url": "extra-salt",
+           "isPromo": false,
+           "posId": "200031",
+           "displayOrder": 408,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200031"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200030",
+           "id": "M-200030",
+           "name": "No Salt",
+           "size": "",
+           "linkId": "mod:554383",
+           "url": "no-salt",
+           "isPromo": false,
+           "posId": "200030",
+           "displayOrder": 409,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200030"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "1"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "1"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 525
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 575
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "2338"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "525"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "525"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30050",
+        "longDescription": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there.",
+        "caloricValue": "2431",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 240.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 2431.0,
+          "gramWiseValue": 1013.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 9.1,
+          "gramWiseValue": 3.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 23.5,
+          "gramWiseValue": 9.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 2.4,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 83.3,
+          "gramWiseValue": 34.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.5,
+          "gramWiseValue": 0.2,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 194.0,
+          "gramWiseValue": 81.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      }
+     ]
+    }
+   ],
+   "content": {
+    "entityId": "I-41090",
+    "longDescription": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted.",
+    "caloricValue": "250",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 31.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 250.0,
+      "gramWiseValue": 799.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.3,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.3,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 14.7,
+      "gramWiseValue": 47.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 13.1,
+      "gramWiseValue": 42.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 344.0,
+      "gramWiseValue": 1100.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": true,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Sides"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2m4RONrsdLf2ou0NyZdWjK/9465da2e2f4a9450a6a0f96e8f12ce8f/Sauce_Sweet_Chilli.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "sides"
+   ],
+   "categoryId": "C-20020"
+  },
+  {
+   "mdmId": "I-41091",
+   "id": "I-41091",
+   "name": "Sweet & Sour Dip",
+   "size": null,
+   "linkId": "41091",
+   "url": "sweet-sour-dip",
+   "isPromo": false,
+   "posId": "191009",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Sweet & Sour Dip"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Sweet & Sour Dip"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/7FUeehrIIAfAr6ydz0XYgj/8f23ec80424da832fc756a4e9bf54dab/Sauce_Sweet_Sour.png"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 60
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 65
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "calories",
+     "value": "293"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "60"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "60"
+    }
+   ],
+   "recommendationRules": [
+    {
+     "recommendationType": "upsell",
+     "startDateTime": 0,
+     "endDateTime": 0,
+     "name": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "headerText": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "recommendedItems": [
+      {
+       "mdmId": "I-30052",
+       "id": "I-30052",
+       "name": "Regular Gravy",
+       "size": null,
+       "linkId": "40981",
+       "url": "regular-gravy",
+       "isPromo": false,
+       "posId": "136026",
+       "displayOrder": 1,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png"
+        }
+       ],
+       "modgrps": [],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 545
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 595
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "253"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "545"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "545"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30052",
+        "longDescription": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping.",
+        "caloricValue": "215",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 110.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 215.0,
+          "gramWiseValue": 195.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.8,
+          "gramWiseValue": 1.6,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.2,
+          "gramWiseValue": 1.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.1,
+          "gramWiseValue": 0.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 8.3,
+          "gramWiseValue": 7.5,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.9,
+          "gramWiseValue": 0.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 695.0,
+          "gramWiseValue": 632.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      },
+      {
+       "mdmId": "I-30050",
+       "id": "I-30050",
+       "name": "Large Chips",
+       "size": null,
+       "linkId": "40975",
+       "url": "large-chips",
+       "isPromo": false,
+       "posId": "136010",
+       "displayOrder": 2,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89710",
+         "name": "Modify Chips",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "min": 0,
+         "max": 1,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200031",
+           "id": "M-200031",
+           "name": "Extra Salt",
+           "size": "",
+           "linkId": "mod:554382",
+           "url": "extra-salt",
+           "isPromo": false,
+           "posId": "200031",
+           "displayOrder": 408,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200031"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200030",
+           "id": "M-200030",
+           "name": "No Salt",
+           "size": "",
+           "linkId": "mod:554383",
+           "url": "no-salt",
+           "isPromo": false,
+           "posId": "200030",
+           "displayOrder": 409,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200030"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "1"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "1"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 525
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 575
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "2338"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "525"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "525"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30050",
+        "longDescription": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there.",
+        "caloricValue": "2431",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 240.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 2431.0,
+          "gramWiseValue": 1013.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 9.1,
+          "gramWiseValue": 3.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 23.5,
+          "gramWiseValue": 9.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 2.4,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 83.3,
+          "gramWiseValue": 34.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.5,
+          "gramWiseValue": 0.2,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 194.0,
+          "gramWiseValue": 81.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      }
+     ]
+    }
+   ],
+   "content": {
+    "entityId": "I-41091",
+    "longDescription": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted.",
+    "caloricValue": "274",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 31.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 274.0,
+      "gramWiseValue": 878.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.2,
+      "gramWiseValue": 0.5,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.4,
+      "gramWiseValue": 1.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 15.1,
+      "gramWiseValue": 48.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 11.8,
+      "gramWiseValue": 37.7,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 189.0,
+      "gramWiseValue": 604.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": true,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Sides"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7FUeehrIIAfAr6ydz0XYgj/8f23ec80424da832fc756a4e9bf54dab/Sauce_Sweet_Sour.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "sides"
+   ],
+   "categoryId": "C-20020"
+  },
+  {
+   "mdmId": "I-41087",
+   "id": "I-41087",
+   "name": "Tomato Dip",
+   "size": null,
+   "linkId": "41087",
+   "url": "tomato-dip",
+   "isPromo": false,
+   "posId": "191005",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Tomato Dip"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Tomato Dip"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/1J8cuucnXPg85XRtybaiqC/545271fab1f0d6de1009c0559f664c35/Sauce_Tomato.png"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 60
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 65
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "calories",
+     "value": "148"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "60"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "60"
+    }
+   ],
+   "recommendationRules": [
+    {
+     "recommendationType": "upsell",
+     "startDateTime": 0,
+     "endDateTime": 0,
+     "name": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "headerText": [
+      {
+       "lang": "en-US",
+       "value": "App - Pickup - Upsell - Dipping Sauces"
+      }
+     ],
+     "recommendedItems": [
+      {
+       "mdmId": "I-30052",
+       "id": "I-30052",
+       "name": "Regular Gravy",
+       "size": null,
+       "linkId": "40981",
+       "url": "regular-gravy",
+       "isPromo": false,
+       "posId": "136026",
+       "displayOrder": 1,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png"
+        }
+       ],
+       "modgrps": [],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 545
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 595
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "253"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "545"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "545"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30052",
+        "longDescription": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping.",
+        "caloricValue": "215",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 110.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 215.0,
+          "gramWiseValue": 195.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.8,
+          "gramWiseValue": 1.6,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.2,
+          "gramWiseValue": 1.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.1,
+          "gramWiseValue": 0.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 8.3,
+          "gramWiseValue": 7.5,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.9,
+          "gramWiseValue": 0.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 695.0,
+          "gramWiseValue": 632.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      },
+      {
+       "mdmId": "I-30050",
+       "id": "I-30050",
+       "name": "Large Chips",
+       "size": null,
+       "linkId": "40975",
+       "url": "large-chips",
+       "isPromo": false,
+       "posId": "136010",
+       "displayOrder": 2,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Large Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89710",
+         "name": "Modify Chips",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "min": 0,
+         "max": 1,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200031",
+           "id": "M-200031",
+           "name": "Extra Salt",
+           "size": "",
+           "linkId": "mod:554382",
+           "url": "extra-salt",
+           "isPromo": false,
+           "posId": "200031",
+           "displayOrder": 408,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200031"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-200030",
+           "id": "M-200030",
+           "name": "No Salt",
+           "size": "",
+           "linkId": "mod:554383",
+           "url": "no-salt",
+           "isPromo": false,
+           "posId": "200030",
+           "displayOrder": 409,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-200030"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "1"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "1"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 525
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 575
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "2338"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "525"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "525"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30050",
+        "longDescription": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there.",
+        "caloricValue": "2431",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 240.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 2431.0,
+          "gramWiseValue": 1013.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 9.1,
+          "gramWiseValue": 3.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 23.5,
+          "gramWiseValue": 9.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 2.4,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 83.3,
+          "gramWiseValue": 34.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.5,
+          "gramWiseValue": 0.2,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 194.0,
+          "gramWiseValue": 81.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      }
+     ]
+    }
+   ],
+   "content": {
+    "entityId": "I-41087",
+    "longDescription": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted.",
+    "caloricValue": "148",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 29.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 148.0,
+      "gramWiseValue": 516.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.5,
+      "gramWiseValue": 1.8,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.1,
+      "gramWiseValue": 0.2,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 8.0,
+      "gramWiseValue": 28.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 7.0,
+      "gramWiseValue": 24.6,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 254.0,
+      "gramWiseValue": 886.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": true,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Sides"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1J8cuucnXPg85XRtybaiqC/545271fab1f0d6de1009c0559f664c35/Sauce_Tomato.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "sides"
+   ],
+   "categoryId": "C-20020"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 14,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-30055-prod",
+  "caloricValue": null,
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/0Qo5sxBsJECpZgWJ4aVXZ/f271eec1c0ddd2a8af7c302e773060b2/Sauce_Range.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": null,
+  "serves": 0
+ },
+ "url": "dipping-sauces"
+}
