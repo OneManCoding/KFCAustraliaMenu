@@ -67,7 +67,7 @@
      "url": "regular-chips",
      "isPromo": false,
      "posId": "136005",
-     "displayOrder": 356,
+     "displayOrder": 364,
      "customizable": false,
      "dname": [
       {
@@ -127,7 +127,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 357,
+         "displayOrder": 365,
          "customizable": true,
          "dname": [
           {
@@ -196,7 +196,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 358,
+         "displayOrder": 366,
          "customizable": true,
          "dname": [
           {
@@ -322,7 +322,7 @@
      "url": "regular-pepsi-max",
      "isPromo": false,
      "posId": "141055",
-     "displayOrder": 359,
+     "displayOrder": 367,
      "customizable": false,
      "dname": [
       {
@@ -396,7 +396,7 @@
      "url": "regular-pepsi",
      "isPromo": false,
      "posId": "141007",
-     "displayOrder": 360,
+     "displayOrder": 368,
      "customizable": false,
      "dname": [
       {
@@ -465,7 +465,7 @@
      "url": "regular-7up",
      "isPromo": false,
      "posId": "141040",
-     "displayOrder": 361,
+     "displayOrder": 369,
      "customizable": false,
      "dname": [
       {
@@ -534,7 +534,7 @@
      "url": "regular-solo",
      "isPromo": false,
      "posId": "141030",
-     "displayOrder": 362,
+     "displayOrder": 370,
      "customizable": false,
      "dname": [
       {
@@ -595,6 +595,75 @@
      }
     },
     {
+     "mdmId": "M-141015",
+     "id": "M-141015",
+     "name": "Regular Sunkist No Sugar",
+     "size": "",
+     "linkId": "mod:556351",
+     "url": "regular-sunkist-no-sugar",
+     "isPromo": false,
+     "posId": "141015",
+     "displayOrder": 371,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Sunkist No Sugar"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Sunkist No Sugar"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Sunkist No Sugar"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/4Z2X1gS4pBVAQ1e2rcgbbF/ed36c99d0dfb18db950435f6ea45ba22/Drink_Sunkist_Can_No_Sugar_reg.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-141015",
+      "caloricValue": "8",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4Z2X1gS4pBVAQ1e2rcgbbF/ed36c99d0dfb18db950435f6ea45ba22/Drink_Sunkist_Can_No_Sugar_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
      "mdmId": "M-141071",
      "id": "M-141071",
      "name": "Bottled Water",
@@ -603,7 +672,7 @@
      "url": "bottled-water",
      "isPromo": false,
      "posId": "141071",
-     "displayOrder": 363,
+     "displayOrder": 372,
      "customizable": false,
      "dname": [
       {
@@ -672,7 +741,7 @@
      "url": "sparkling-water",
      "isPromo": false,
      "posId": "141013",
-     "displayOrder": 364,
+     "displayOrder": 373,
      "customizable": false,
      "dname": [
       {

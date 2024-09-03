@@ -82,7 +82,7 @@
        "url": "extra-salt",
        "isPromo": false,
        "posId": "200031",
-       "displayOrder": 412,
+       "displayOrder": 420,
        "customizable": false,
        "dname": [
         {
@@ -151,7 +151,7 @@
        "url": "no-salt",
        "isPromo": false,
        "posId": "200030",
-       "displayOrder": 413,
+       "displayOrder": 421,
        "customizable": false,
        "dname": [
         {
@@ -247,6 +247,20 @@
       }
      },
      "price": 545
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 545
     }
    ],
    "isTimeSpecific": false,
@@ -338,6 +352,20 @@
           },
           "endTime": {
            "time": "2359"
+          }
+         },
+         "price": 745
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
           }
          },
          "price": 745
@@ -653,6 +681,20 @@
           },
           "endTime": {
            "time": "2359"
+          }
+         },
+         "price": 745
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
           }
          },
          "price": 745
@@ -1166,7 +1208,7 @@
    "value": "MENU_ITEM"
   }
  ],
- "displayOrder": 4,
+ "displayOrder": 2,
  "isHidden": false,
  "content": {
   "entityId": "C-31005-prod",

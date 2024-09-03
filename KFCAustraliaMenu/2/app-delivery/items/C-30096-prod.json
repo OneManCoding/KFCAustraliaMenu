@@ -66,6 +66,20 @@
       }
      },
      "price": 745
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 745
     }
    ],
    "isTimeSpecific": false,
@@ -176,7 +190,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 408,
+           "displayOrder": 416,
            "customizable": false,
            "dname": [
             {
@@ -237,7 +251,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 409,
+           "displayOrder": 417,
            "customizable": false,
            "dname": [
             {
@@ -322,6 +336,20 @@
           },
           "endTime": {
            "time": "2359"
+          }
+         },
+         "price": 545
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
           }
          },
          "price": 545
@@ -833,7 +861,7 @@
    "value": "MENU_ITEM"
   }
  ],
- "displayOrder": 10,
+ "displayOrder": 8,
  "isHidden": false,
  "content": {
   "entityId": "C-30096-prod",

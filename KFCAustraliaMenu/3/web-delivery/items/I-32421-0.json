@@ -67,7 +67,7 @@
      "url": "go-bucket-3-nuggets",
      "isPromo": false,
      "posId": "191004",
-     "displayOrder": 9344,
+     "displayOrder": 8642,
      "customizable": false,
      "dname": [
       {
@@ -127,7 +127,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 6480,
+         "displayOrder": 5778,
          "customizable": false,
          "dname": [
           {
@@ -196,7 +196,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 6481,
+         "displayOrder": 5779,
          "customizable": false,
          "dname": [
           {
@@ -364,7 +364,7 @@
      "url": "regular-gravy",
      "isPromo": false,
      "posId": "136026",
-     "displayOrder": 9347,
+     "displayOrder": 8645,
      "customizable": false,
      "dname": [
       {
@@ -507,44 +507,209 @@
    ],
    "recommendedItems": [
     {
-     "mdmId": "I-30017",
-     "id": "I-30017",
-     "name": "3 Wicked Wings",
+     "mdmId": "I-32873",
+     "id": "I-32873",
+     "name": "3 Wicked Wings® ADD ON",
      "size": null,
-     "linkId": "41026",
-     "url": "3-wicked-wings",
+     "linkId": "43752",
+     "url": "3-wicked-wings-add-on",
      "isPromo": false,
-     "posId": "181000",
+     "posId": "181026",
      "displayOrder": 1,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "3 Wicked Wings"
+       "value": "3 Wicked Wings® ADD ON"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "3 Wicked Wings"
+       "value": "3 Wicked Wings® ADD ON"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "Add some bite to your meal with 3 Wicked Wings with a spicy marinade and a crispy crunchy coating. \n"
+       "value": "3 Wicked Wings® ADD ON"
       }
      ],
      "imageName": [
       {
        "lang": "en-US",
-       "value": "https://images.ctfassets.net/crbk84xktnsl/1INK06zeT1i75kWzXsJ1Ow/bf97abb863a778bc6df21df97f9b3097/Wicked_Wings_3.png"
+       "value": "I-32873"
       }
      ],
-     "modgrps": [],
+     "modgrps": [
+      {
+       "id": "92035",
+       "name": "3 Wicked Wings",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "3 Wicked Wings"
+        }
+       ],
+       "min": 0,
+       "max": 3,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "3 Wicked Wings"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "3 Wicked Wings"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-170701",
+         "id": "M-170701",
+         "name": "Wingette",
+         "size": "",
+         "linkId": "mod:556406",
+         "url": "wingette",
+         "isPromo": false,
+         "posId": "170701",
+         "displayOrder": 395,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Wingette"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Wingette"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Wingette"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-170701"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-170702",
+         "id": "M-170702",
+         "name": "Drumette",
+         "size": "",
+         "linkId": "mod:556407",
+         "url": "drumette",
+         "isPromo": false,
+         "posId": "170702",
+         "displayOrder": 396,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Drumette"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Drumette"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Drumette"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-170702"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
      "modgrpIds": null,
      "isHidden": false,
-     "isCategoryHidden": false,
+     "isCategoryHidden": true,
      "availability": [
       {
        "dayOfWeek": {
@@ -558,21 +723,7 @@
          "time": "2359"
         }
        },
-       "price": 745
-      },
-      {
-       "dayOfWeek": {
-        "day": "EVERYDAY"
-       },
-       "availableHours": {
-        "startTime": {
-         "time": "2310"
-        },
-        "endTime": {
-         "time": "0550"
-        }
-       },
-       "price": 745
+       "price": 695
       }
      ],
      "isTimeSpecific": false,
@@ -584,272 +735,36 @@
        "value": "MENU_ITEM"
       },
       {
-       "key": "calories",
-       "value": "1468"
-      },
-      {
        "key": "pricewithouttax",
-       "value": "745"
+       "value": "695"
       },
       {
        "key": "upSizeItemPrice",
-       "value": "745"
+       "value": "695"
       }
      ],
      "recommendationRules": null,
-     "content": {
-      "entityId": "I-30017",
-      "longDescription": "Add some bite to your meal with 3 Wicked Wings with a spicy marinade and a crispy crunchy coating. \n",
-      "caloricValue": "1512",
-      "nutritionalInformation": [
-       {
-        "nutritionComponent": "Average serving size",
-        "nutritionUnit": "g",
-        "serveWiseValue": 118.0,
-        "gramWiseValue": 1.0,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Energy",
-        "nutritionUnit": "kj",
-        "serveWiseValue": 1512.0,
-        "gramWiseValue": 1279.0,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Protein",
-        "nutritionUnit": "g",
-        "serveWiseValue": 21.6,
-        "gramWiseValue": 18.3,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Fat, total",
-        "nutritionUnit": "g",
-        "serveWiseValue": 25.1,
-        "gramWiseValue": 21.2,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Fat, saturated",
-        "nutritionUnit": "g",
-        "serveWiseValue": 4.3,
-        "gramWiseValue": 3.6,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Carbohydrate",
-        "nutritionUnit": "g",
-        "serveWiseValue": 12.9,
-        "gramWiseValue": 10.9,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Carbohydrate, sugars",
-        "nutritionUnit": "g",
-        "serveWiseValue": 0.4,
-        "gramWiseValue": 0.3,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Sodium",
-        "nutritionUnit": "mg",
-        "serveWiseValue": 700.0,
-        "gramWiseValue": 592.0,
-        "isActive": true
-       }
-      ],
-      "allergenInformation": [
-       {
-        "allergenComponent": "Cereals containing gluten - Wheat",
-        "isPresent": true,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Cereals containing gluten - Barley",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Cereals containing gluten - Oats",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Cereals containing gluten - Rye",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Cereals containing gluten - Spelt",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Crustacea & their Products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Egg & Egg Products",
-        "isPresent": false,
-        "isTrace": true
-       },
-       {
-        "allergenComponent": "Fish & Fish Products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Milk & Milk Products",
-        "isPresent": true,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Molluscs and mollusc products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Almonds",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Beech nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Cashews",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Chestnut",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Hazelnuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Hickory nut",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Pecans",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Pine nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Pili nut",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Shea nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Walnuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Sesame seeds and their products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Peanuts and their products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Soybeans and their products",
-        "isPresent": false,
-        "isTrace": true
-       },
-       {
-        "allergenComponent": "Lupin & their Products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Sulphites #",
-        "isPresent": false,
-        "isTrace": false
-       }
-      ],
-      "hideNutritionInformation": false,
-      "hideAllergenInformation": false,
-      "showInFactSheet": true,
-      "flagText": null,
-      "tagArray": [
-       "Spicy"
-      ],
-      "image": {
-       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1INK06zeT1i75kWzXsJ1Ow/bf97abb863a778bc6df21df97f9b3097/Wicked_Wings_3.png",
-       "secondaryImage": null,
-       "tertiaryImage": null
-      },
-      "serves": 0
-     },
+     "content": null,
      "categoryUrl": [
-      "chicken"
+      "fomo-wow"
      ],
-     "categoryId": "C-20000"
+     "categoryId": "C-20069"
     },
     {
-     "mdmId": "I-40925",
-     "id": "I-40925",
-     "name": "Regular Pepsi Max",
+     "mdmId": "I-32581",
+     "id": "I-32581",
+     "name": "Regular Pepsi Max^ ADD ON",
      "size": null,
-     "linkId": "40925",
-     "url": "regular-pepsi-max",
+     "linkId": "43574",
+     "url": "regular-pepsi-max-add-on",
      "isPromo": false,
-     "posId": "141055",
-     "displayOrder": 4,
+     "posId": "141047",
+     "displayOrder": 2,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "Regular Pepsi Max"
+       "value": "Regular Pepsi Max^ ADD ON"
       }
      ],
      "shortDescription": [
@@ -873,7 +788,7 @@
      "modgrps": [],
      "modgrpIds": null,
      "isHidden": false,
-     "isCategoryHidden": false,
+     "isCategoryHidden": true,
      "availability": [
       {
        "dayOfWeek": {
@@ -887,21 +802,7 @@
          "time": "2359"
         }
        },
-       "price": 375
-      },
-      {
-       "dayOfWeek": {
-        "day": "EVERYDAY"
-       },
-       "availableHours": {
-        "startTime": {
-         "time": "2310"
-        },
-        "endTime": {
-         "time": "0550"
-        }
-       },
-       "price": 375
+       "price": 150
       }
      ],
      "isTimeSpecific": false,
@@ -914,16 +815,16 @@
       },
       {
        "key": "pricewithouttax",
-       "value": "375"
+       "value": "150"
       },
       {
        "key": "upSizeItemPrice",
-       "value": "375"
+       "value": "150"
       }
      ],
      "recommendationRules": null,
      "content": {
-      "entityId": "I-40925",
+      "entityId": "I-32581",
       "shortDescription": "^ Pepsi Max, Pepsi, Pepsi Freeze & Mountain Dew Freeze contains caffeine. Mountain Dew Freeze is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine.",
       "longDescription": "Quench your thirst with Pepsi Max^. Available in 375mL Cans, 600mL and 1.25L bottles. (Contains Caffeine)",
       "caloricValue": "6",
@@ -1157,49 +1058,49 @@
       "serves": 0
      },
      "categoryUrl": [
-      "drinks"
+      "fomo-wow"
      ],
-     "categoryId": "C-20017"
+     "categoryId": "C-20069"
     },
     {
-     "mdmId": "I-30054",
-     "id": "I-30054",
-     "name": "Dinner Roll",
+     "mdmId": "I-32867",
+     "id": "I-32867",
+     "name": "Dinner Roll ADD ON",
      "size": null,
-     "linkId": "40982",
-     "url": "dinner-roll",
+     "linkId": "43748",
+     "url": "dinner-roll-add-on",
      "isPromo": false,
-     "posId": "136046",
-     "displayOrder": 6,
+     "posId": "136048",
+     "displayOrder": 3,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "Dinner Roll"
+       "value": "Dinner Roll ADD ON"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "Dinner Roll"
+       "value": "Dinner Roll ADD ON"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "Soft, individual white bread rolls with sesame seed topping, a great accompaniment to your meal."
+       "value": "Dinner Roll ADD ON"
       }
      ],
      "imageName": [
       {
        "lang": "en-US",
-       "value": "https://images.ctfassets.net/crbk84xktnsl/5wUTudczH7zK125hsbiaaL/912599163787b884bf6ca05c7017fa9d/Modifier_Dinner_Roll_1.png"
+       "value": "I-32867"
       }
      ],
      "modgrps": [],
      "modgrpIds": null,
      "isHidden": false,
-     "isCategoryHidden": false,
+     "isCategoryHidden": true,
      "availability": [
       {
        "dayOfWeek": {
@@ -1239,10 +1140,6 @@
        "value": "MENU_ITEM"
       },
       {
-       "key": "calories",
-       "value": "460"
-      },
-      {
        "key": "pricewithouttax",
        "value": "100"
       },
@@ -1252,243 +1149,11 @@
       }
      ],
      "recommendationRules": null,
-     "content": {
-      "entityId": "I-30054",
-      "longDescription": "Soft, individual white bread rolls with sesame seed topping, a great accompaniment to your meal.",
-      "caloricValue": "460",
-      "nutritionalInformation": [
-       {
-        "nutritionComponent": "Average serving size",
-        "nutritionUnit": "g",
-        "serveWiseValue": 40.0,
-        "gramWiseValue": 1.0,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Energy",
-        "nutritionUnit": "kj",
-        "serveWiseValue": 460.0,
-        "gramWiseValue": 1150.0,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Protein",
-        "nutritionUnit": "g",
-        "serveWiseValue": 4.1,
-        "gramWiseValue": 10.2,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Fat, total",
-        "nutritionUnit": "g",
-        "serveWiseValue": 2.4,
-        "gramWiseValue": 6.1,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Fat, saturated",
-        "nutritionUnit": "g",
-        "serveWiseValue": 0.3,
-        "gramWiseValue": 0.7,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Carbohydrate",
-        "nutritionUnit": "g",
-        "serveWiseValue": 16.9,
-        "gramWiseValue": 42.3,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Carbohydrate, sugars",
-        "nutritionUnit": "g",
-        "serveWiseValue": 2.8,
-        "gramWiseValue": 7.1,
-        "isActive": true
-       },
-       {
-        "nutritionComponent": "Sodium",
-        "nutritionUnit": "mg",
-        "serveWiseValue": 133.0,
-        "gramWiseValue": 332.0,
-        "isActive": true
-       }
-      ],
-      "allergenInformation": [
-       {
-        "allergenComponent": "Cereals containing gluten - Wheat",
-        "isPresent": true,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Cereals containing gluten - Barley",
-        "isPresent": false,
-        "isTrace": true
-       },
-       {
-        "allergenComponent": "Cereals containing gluten - Oats",
-        "isPresent": false,
-        "isTrace": true
-       },
-       {
-        "allergenComponent": "Cereals containing gluten - Rye",
-        "isPresent": false,
-        "isTrace": true
-       },
-       {
-        "allergenComponent": "Cereals containing gluten - Spelt",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Crustacea & their Products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Egg & Egg Products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Fish & Fish Products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Milk & Milk Products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Molluscs and mollusc products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Almonds",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Beech nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Cashews",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Chestnut",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Hazelnuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Hickory nut",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Pecans",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Pine nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Pili nut",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Shea nuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Tree Nuts and their products - Walnuts",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Sesame seeds and their products",
-        "isPresent": true,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Peanuts and their products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Soybeans and their products",
-        "isPresent": true,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Lupin & their Products",
-        "isPresent": false,
-        "isTrace": false
-       },
-       {
-        "allergenComponent": "Sulphites #",
-        "isPresent": false,
-        "isTrace": false
-       }
-      ],
-      "hideNutritionInformation": false,
-      "hideAllergenInformation": false,
-      "showInFactSheet": true,
-      "flagText": null,
-      "tagArray": [
-       "Sides"
-      ],
-      "image": {
-       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5wUTudczH7zK125hsbiaaL/912599163787b884bf6ca05c7017fa9d/Modifier_Dinner_Roll_1.png",
-       "secondaryImage": null,
-       "tertiaryImage": null
-      },
-      "serves": 0
-     },
+     "content": null,
      "categoryUrl": [
-      "sides"
+      "fomo-wow"
      ],
-     "categoryId": "C-20020"
+     "categoryId": "C-20069"
     }
    ]
   }

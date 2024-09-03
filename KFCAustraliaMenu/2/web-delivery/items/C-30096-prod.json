@@ -66,6 +66,20 @@
       }
      },
      "price": 745
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 745
     }
    ],
    "isTimeSpecific": false,
@@ -176,7 +190,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 328,
+           "displayOrder": 336,
            "customizable": false,
            "dname": [
             {
@@ -237,7 +251,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 329,
+           "displayOrder": 337,
            "customizable": false,
            "dname": [
             {
@@ -322,6 +336,20 @@
           },
           "endTime": {
            "time": "2359"
+          }
+         },
+         "price": 545
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
           }
          },
          "price": 545
@@ -654,7 +682,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 332,
+           "displayOrder": 340,
            "customizable": false,
            "dname": [
             {
@@ -715,7 +743,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 333,
+           "displayOrder": 341,
            "customizable": false,
            "dname": [
             {
@@ -800,6 +828,20 @@
           },
           "endTime": {
            "time": "2359"
+          }
+         },
+         "price": 545
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
           }
          },
          "price": 545
@@ -1115,6 +1157,20 @@
           },
           "endTime": {
            "time": "2359"
+          }
+         },
+         "price": 745
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
           }
          },
          "price": 745
@@ -1628,7 +1684,7 @@
    "value": "MENU_ITEM"
   }
  ],
- "displayOrder": 10,
+ "displayOrder": 8,
  "isHidden": false,
  "content": {
   "entityId": "C-30096-prod",
