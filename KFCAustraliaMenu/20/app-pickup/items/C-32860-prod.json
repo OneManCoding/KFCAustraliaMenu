@@ -1,0 +1,209 @@
+{
+ "mdmId": "C-32860-prod",
+ "name": "Lipton Peach Ice Tea",
+ "id": "C-32860-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Lipton Peach Ice Tea"
+  }
+ ],
+ "shortDescription": [],
+ "longDescription": [],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/4F4LvVjFY0w0CEpcVdYZFI/0ed9d39ff9e1d45d4bb84eedda97dc73/Drink_Lipton_Iced_Tea.png",
+ "items": [
+  {
+   "mdmId": "I-32860",
+   "id": "I-32860",
+   "name": "Lipton Peach Ice Tea",
+   "size": null,
+   "linkId": "43741",
+   "url": "lipton-peach-ice-tea",
+   "isPromo": false,
+   "posId": "141126",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Lipton Peach Ice Tea"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Quench your thirst with Lipton Peach Ice Tea."
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Quench your thirst with Lipton Peach Ice Tea."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/4F4LvVjFY0w0CEpcVdYZFI/0ed9d39ff9e1d45d4bb84eedda97dc73/Drink_Lipton_Iced_Tea.png"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 475
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 520
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "475"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "475"
+    }
+   ],
+   "recommendationRules": [],
+   "content": {
+    "entityId": "I-32860",
+    "shortDescription": "Quench your thirst with Lipton Peach Ice Tea.",
+    "longDescription": "Quench your thirst with Lipton Peach Ice Tea.",
+    "caloricValue": "395",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 513.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 395.0,
+      "gramWiseValue": 77.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.5,
+      "gramWiseValue": 0.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.5,
+      "gramWiseValue": 0.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.5,
+      "gramWiseValue": 0.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 22.1,
+      "gramWiseValue": 4.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 21.5,
+      "gramWiseValue": 4.2,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 10.0,
+      "gramWiseValue": 2.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": true,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Drinks"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4F4LvVjFY0w0CEpcVdYZFI/0ed9d39ff9e1d45d4bb84eedda97dc73/Drink_Lipton_Iced_Tea.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "drinks"
+   ],
+   "categoryId": "C-20017"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 10,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-32860-prod",
+  "caloricValue": "395",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4F4LvVjFY0w0CEpcVdYZFI/0ed9d39ff9e1d45d4bb84eedda97dc73/Drink_Lipton_Iced_Tea.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": null,
+  "serves": 0
+ },
+ "url": "lipton-peach-ice-tea"
+}

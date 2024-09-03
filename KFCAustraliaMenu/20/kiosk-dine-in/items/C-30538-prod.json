@@ -1,0 +1,209 @@
+{
+ "mdmId": "C-30538-prod",
+ "name": "Bottled Water",
+ "id": "C-30538-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Bottled Water"
+  }
+ ],
+ "shortDescription": [],
+ "longDescription": [],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/5ZiQMAY0aJrb1EEw5VcoLn/d5c9666a2cb6fcffe076841b1192cb03/Drink_Water_Bottle_lge.png",
+ "items": [
+  {
+   "mdmId": "I-30538",
+   "id": "I-30538",
+   "name": "Bottled Water",
+   "size": null,
+   "linkId": "40943",
+   "url": "bottled-water",
+   "isPromo": false,
+   "posId": "141070",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Bottled Water"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Quench your thirst with refreshing Australian spring water from Cool Ridge."
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Quench your thirst with refreshing Australian spring water from Cool Ridge."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/5ZiQMAY0aJrb1EEw5VcoLn/d5c9666a2cb6fcffe076841b1192cb03/Drink_Water_Bottle_lge.png"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 375
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 410
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "375"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "375"
+    }
+   ],
+   "recommendationRules": [],
+   "content": {
+    "entityId": "I-30538",
+    "shortDescription": "Quench your thirst with refreshing Australian spring water from Cool Ridge.",
+    "longDescription": "Quench your thirst with refreshing Australian spring water from Cool Ridge.",
+    "caloricValue": "0",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 600.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Drinks"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5ZiQMAY0aJrb1EEw5VcoLn/d5c9666a2cb6fcffe076841b1192cb03/Drink_Water_Bottle_lge.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "drinks"
+   ],
+   "categoryId": "C-20017"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 7,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-30538-prod",
+  "caloricValue": "0",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5ZiQMAY0aJrb1EEw5VcoLn/d5c9666a2cb6fcffe076841b1192cb03/Drink_Water_Bottle_lge.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": null,
+  "serves": 0
+ },
+ "url": "bottled-water"
+}
