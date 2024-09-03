@@ -34,7 +34,6 @@ jobs:
         git stash pop || true
 
     - name: Handle merge conflicts
-      if: failure() || steps.git_pull.outputs.merge_error == 'merge_conflict'
       run: |
         echo "Checking for unmerged files..."
         UNMERGED_FILES=$(git diff --name-only --diff-filter=U)
