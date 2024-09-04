@@ -1,0 +1,1650 @@
+{
+ "mdmId": "C-32462-prod",
+ "name": "$15 Kentucky Feaster",
+ "id": "C-32462-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "$15 Kentucky Feaster"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "4 pieces Original Recipe, 4 Wicked Wings, 4 Original Tenders and 3 Nuggets."
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "4 pieces Original Recipe, 4 Wicked Wings, 4 Original Tenders and 3 Nuggets."
+  }
+ ],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/4k9MmGedL5lDQgbUTf33eu/249a8f79350abdb9e1ccb76dedfe9c75/J5815_24P03__15_Kentucky_Feaster.png",
+ "items": [
+  {
+   "mdmId": "I-32462-0",
+   "id": "I-32462-0",
+   "name": "$15 Kentucky Feaster",
+   "size": null,
+   "linkId": "",
+   "url": "15-kentucky-feaster",
+   "isPromo": false,
+   "posId": "",
+   "displayOrder": 0,
+   "customizable": true,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "$15 Kentucky Feaster"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "4 pieces Original Recipe, 4 Wicked Wings, 4 Original Tenders and 3 Nuggets."
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "This ain’t no food mirage. The $15 Kentucky Feaster is filled with 4 pieces of Original Recipe, 4 Original Tenders™, 4 Wicked Wings® and 3 Nuggets and a pot of sweet and sour sauce. Believe it baby.​ "
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/4k9MmGedL5lDQgbUTf33eu/249a8f79350abdb9e1ccb76dedfe9c75/J5815_24P03__15_Kentucky_Feaster.png"
+    }
+   ],
+   "modgrps": [
+    {
+     "id": "32462-1-0",
+     "name": "Chicken",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Chicken"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Chicken"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Chicken"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-41288-0",
+       "id": "M-41288-0",
+       "name": "4 PC Original Recipe",
+       "size": "Regular",
+       "linkId": "41288",
+       "url": "4-pc-original-recipe",
+       "isPromo": false,
+       "posId": "180054",
+       "displayOrder": 9084,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "4 PC Original Recipe"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "4 PC Original Recipe"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "4 PC Original Recipe"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/a8gjph41oXY7pIjk0cVK4/936656e3e20610ce20d5013238b5968f/Original_Recipe_4.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89960",
+         "name": "Modify 4 Pieces",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify 4 Pieces"
+          }
+         ],
+         "min": 4,
+         "max": 4,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify 4 Pieces"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify 4 Pieces"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-170101",
+           "id": "M-170101",
+           "name": "1 Piece Original Recipe",
+           "size": "",
+           "linkId": "mod:554851",
+           "url": "1-piece-original-recipe",
+           "isPromo": false,
+           "posId": "170101",
+           "displayOrder": 3150,
+           "customizable": true,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Recipe"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Recipe"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Recipe"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [
+            {
+             "key": "defaultreason",
+             "value": "SELECTION"
+            }
+           ],
+           "defaultQuantity": 4,
+           "isDefault": true,
+           "max": 0,
+           "content": {
+            "entityId": "M-170101",
+            "caloricValue": "984",
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          },
+          {
+           "mdmId": "M-170511",
+           "id": "M-170511",
+           "name": "1 Piece Original Crispy Fillet",
+           "size": "",
+           "linkId": "mod:556234",
+           "url": "1-piece-original-crispy-fillet",
+           "isPromo": false,
+           "posId": "170511",
+           "displayOrder": 3151,
+           "customizable": true,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Crispy Fillet"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Crispy Fillet"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Crispy Fillet"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/6FPHh3wLmPpFkHu6NjpptH/dac4a76542dcfbb8be7de6bb10f0ed15/J5349_22P11_REN_Modifier_Famous_Chicken_Fillet-2.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 135
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-170511",
+            "caloricValue": "853",
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6FPHh3wLmPpFkHu6NjpptH/dac4a76542dcfbb8be7de6bb10f0ed15/J5349_22P11_REN_Modifier_Famous_Chicken_Fillet-2.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          },
+          {
+           "mdmId": "M-170502",
+           "id": "M-170502",
+           "name": "1 Piece Zinger® Fillet",
+           "size": "",
+           "linkId": "mod:556136",
+           "url": "1-piece-zinger-fillet",
+           "isPromo": false,
+           "posId": "170502",
+           "displayOrder": 3152,
+           "customizable": true,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Zinger® Fillet"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Zinger® Fillet"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Zinger® Fillet"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/5u0nHUZEQmjSVC8BdrTZBL/c36fadb81edf1e0d4d281510ced76844/Modifier_Zinger_Fillet.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 135
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-170502",
+            "caloricValue": "876",
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5u0nHUZEQmjSVC8BdrTZBL/c36fadb81edf1e0d4d281510ced76844/Modifier_Zinger_Fillet.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          },
+          {
+           "mdmId": "M-170601",
+           "id": "M-170601",
+           "name": "1 Piece Original Tender™",
+           "size": "",
+           "linkId": "mod:554842",
+           "url": "1-piece-original-tender",
+           "isPromo": false,
+           "posId": "170601",
+           "displayOrder": 3153,
+           "customizable": true,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Tender™"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Tender™"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Tender™"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 50
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-170601",
+            "caloricValue": "412",
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "4"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "0"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-41288-0",
+        "caloricValue": "3934",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/a8gjph41oXY7pIjk0cVK4/936656e3e20610ce20d5013238b5968f/Original_Recipe_4.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 1,
+     "isHidden": false
+    },
+    {
+     "id": "32462-2-0",
+     "name": "Wicked Wings®",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Wicked Wings®"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Wicked Wings®"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Wicked Wings®"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-43493-0",
+       "id": "M-43493-0",
+       "name": "4 Wicked Wings®",
+       "size": "Regular",
+       "linkId": "43493",
+       "url": "4-wicked-wings",
+       "isPromo": false,
+       "posId": "181013",
+       "displayOrder": 9089,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "4 Wicked Wings®"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "4 Wicked Wings®"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "4 Wicked Wings®"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/42YaJQ962XIky15WEWpWNZ/288c64e1c43f9aeb313ab4b2652040a6/Wicked_Wings_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-43493-0",
+        "caloricValue": null,
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/42YaJQ962XIky15WEWpWNZ/288c64e1c43f9aeb313ab4b2652040a6/Wicked_Wings_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 2,
+     "isHidden": false
+    },
+    {
+     "id": "32462-3-0",
+     "name": "Tenders",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Tenders"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Tenders"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Tenders"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-41289-0",
+       "id": "M-41289-0",
+       "name": "4 Original Tenders",
+       "size": "Regular",
+       "linkId": "41289",
+       "url": "4-original-tenders",
+       "isPromo": false,
+       "posId": "183008",
+       "displayOrder": 9090,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "4 Original Tenders"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "4 Original Tenders"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "4 Original Tenders"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/1QXIE5OEhYiO7bbpHcXilE/7702aba348b3bfd41ce88b55a685ca54/Original_Tender_4.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89961",
+         "name": "Tenders",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Tenders"
+          }
+         ],
+         "min": 4,
+         "max": 4,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Tenders"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Tenders"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-170601",
+           "id": "M-170601",
+           "name": "1 Original Tender",
+           "size": "",
+           "linkId": "mod:554859",
+           "url": "1-original-tender",
+           "isPromo": false,
+           "posId": "170601",
+           "displayOrder": 9091,
+           "customizable": true,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "1 Original Tender"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Original Tender"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Original Tender"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [
+            {
+             "key": "defaultreason",
+             "value": "SELECTION"
+            }
+           ],
+           "defaultQuantity": 4,
+           "isDefault": true,
+           "max": 0,
+           "content": {
+            "entityId": "M-170601",
+            "caloricValue": "412",
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "4"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "0"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-41289-0",
+        "caloricValue": null,
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1QXIE5OEhYiO7bbpHcXilE/7702aba348b3bfd41ce88b55a685ca54/Original_Tender_4.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 3,
+     "isHidden": false
+    },
+    {
+     "id": "32462-4-0",
+     "name": "Nuggets",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Nuggets"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Nuggets"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Nuggets"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-43468-0",
+       "id": "M-43468-0",
+       "name": "3 Nuggets",
+       "size": "Regular",
+       "linkId": "43468",
+       "url": "3-nuggets",
+       "isPromo": false,
+       "posId": "170707",
+       "displayOrder": 9092,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "3 Nuggets"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "3 Nuggets"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "3 Nuggets"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/5gC286jpfu3CdfXkdhxr8n/d84c5ab4a5608e6f7361f80fd8e78871/Modifier_Nugget_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-43468-0",
+        "caloricValue": null,
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5gC286jpfu3CdfXkdhxr8n/d84c5ab4a5608e6f7361f80fd8e78871/Modifier_Nugget_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 4,
+     "isHidden": false
+    },
+    {
+     "id": "32462-5-0",
+     "name": "Dipping Sauce",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Dipping Sauce"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Dipping Sauce"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Dipping Sauce"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-41091-0",
+       "id": "M-41091-0",
+       "name": "Sweet & Sour Dip",
+       "size": "Regular",
+       "linkId": "41091",
+       "url": "sweet-sour-dip",
+       "isPromo": false,
+       "posId": "191009",
+       "displayOrder": 9097,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Sweet & Sour Dip"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Sweet & Sour Dip"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Sweet & Sour Dip"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/7FUeehrIIAfAr6ydz0XYgj/8f23ec80424da832fc756a4e9bf54dab/Sauce_Sweet_Sour.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "293"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-41091-0",
+        "caloricValue": "274",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7FUeehrIIAfAr6ydz0XYgj/8f23ec80424da832fc756a4e9bf54dab/Sauce_Sweet_Sour.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-41092-0",
+       "id": "M-41092-0",
+       "name": "Aioli Dip",
+       "size": "Regular",
+       "linkId": "41092",
+       "url": "aioli-dip",
+       "isPromo": false,
+       "posId": "191010",
+       "displayOrder": 9093,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Aioli Dip"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Aioli Dip"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Aioli Dip"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/2s80xCDE5wNxxqdJkFHOzH/846c86019dc0dd9d5c9a482b82f197ed/Sauce_Aioli.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "567"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-41092-0",
+        "caloricValue": "567",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2s80xCDE5wNxxqdJkFHOzH/846c86019dc0dd9d5c9a482b82f197ed/Sauce_Aioli.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-41088-0",
+       "id": "M-41088-0",
+       "name": "BBQ Dip",
+       "size": "Regular",
+       "linkId": "41088",
+       "url": "bbq-dip",
+       "isPromo": false,
+       "posId": "191006",
+       "displayOrder": 9094,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "BBQ Dip"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "BBQ Dip"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "BBQ Dip"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/6OIues0y1nbh86fribfI3g/f63bb86b4f66a8f5bb8d8d515fcfb23b/Sauce_BBQ.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "210"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-41088-0",
+        "caloricValue": "210",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6OIues0y1nbh86fribfI3g/f63bb86b4f66a8f5bb8d8d515fcfb23b/Sauce_BBQ.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-41089-0",
+       "id": "M-41089-0",
+       "name": "Supercharged Dip",
+       "size": "Regular",
+       "linkId": "41089",
+       "url": "supercharged-dip",
+       "isPromo": false,
+       "posId": "191007",
+       "displayOrder": 9095,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Supercharged Dip"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Supercharged Dip"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Supercharged Dip"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/RLMHlsQrPIe7tyFlxrRxm/143df961b5b8b411528591d3da26beaf/Sauce_Supercharged.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "440"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-41089-0",
+        "caloricValue": "440",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/RLMHlsQrPIe7tyFlxrRxm/143df961b5b8b411528591d3da26beaf/Sauce_Supercharged.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-41090-0",
+       "id": "M-41090-0",
+       "name": "Sweet Chilli Dip",
+       "size": "Regular",
+       "linkId": "41090",
+       "url": "sweet-chilli-dip",
+       "isPromo": false,
+       "posId": "191008",
+       "displayOrder": 9096,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Sweet Chilli Dip"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Sweet Chilli Dip"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Sweet Chilli Dip"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/2m4RONrsdLf2ou0NyZdWjK/9465da2e2f4a9450a6a0f96e8f12ce8f/Sauce_Sweet_Chilli.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "250"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-41090-0",
+        "caloricValue": "250",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2m4RONrsdLf2ou0NyZdWjK/9465da2e2f4a9450a6a0f96e8f12ce8f/Sauce_Sweet_Chilli.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-41087-0",
+       "id": "M-41087-0",
+       "name": "Tomato Dip",
+       "size": "Regular",
+       "linkId": "41087",
+       "url": "tomato-dip",
+       "isPromo": false,
+       "posId": "191005",
+       "displayOrder": 9098,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Tomato Dip"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Tomato Dip"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Tomato Dip"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/1J8cuucnXPg85XRtybaiqC/545271fab1f0d6de1009c0559f664c35/Sauce_Tomato.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "148"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-41087-0",
+        "caloricValue": "148",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1J8cuucnXPg85XRtybaiqC/545271fab1f0d6de1009c0559f664c35/Sauce_Tomato.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-41139-0",
+       "id": "M-41139-0",
+       "name": "No Sauce",
+       "size": "Regular",
+       "linkId": "41139",
+       "url": "no-sauce",
+       "isPromo": false,
+       "posId": "191011",
+       "displayOrder": 9099,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "No Sauce"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "No Sauce"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "No Sauce"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/7mdwN5f06AWN6F0WQEXch6/ff517b105a0a4c583e5149124f153f2d/Modifier_No_Sauce.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-41139-0",
+        "caloricValue": null,
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7mdwN5f06AWN6F0WQEXch6/ff517b105a0a4c583e5149124f153f2d/Modifier_No_Sauce.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 5,
+     "isHidden": false
+    }
+   ],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": true,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 1500
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealid",
+     "value": "9066"
+    },
+    {
+     "key": "mealdealdetailid",
+     "value": "QUICK_COMBO"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "1500"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "1500"
+    }
+   ],
+   "recommendationRules": [],
+   "content": {
+    "entityId": "I-32462-0",
+    "longDescription": "This ain’t no food mirage. The $15 Kentucky Feaster is filled with 4 pieces of Original Recipe, 4 Original Tenders™, 4 Wicked Wings® and 3 Nuggets and a pot of sweet and sour sauce. Believe it baby.​ ",
+    "caloricValue": "8396",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 735.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 8396.0,
+      "gramWiseValue": 1142.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 153.3,
+      "gramWiseValue": 20.8,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 117.8,
+      "gramWiseValue": 16.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 19.4,
+      "gramWiseValue": 2.6,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 84.5,
+      "gramWiseValue": 11.5,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 13.7,
+      "gramWiseValue": 1.9,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 4177.0,
+      "gramWiseValue": 568.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": true,
+    "showInFactSheet": false,
+    "flagText": null,
+    "tagArray": [
+     "Boneless",
+     "Original Recipe"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4k9MmGedL5lDQgbUTf33eu/249a8f79350abdb9e1ccb76dedfe9c75/J5815_24P03__15_Kentucky_Feaster.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "fomo-wow"
+   ],
+   "categoryId": "C-20069"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "QUICK_COMBO"
+  }
+ ],
+ "displayOrder": 68,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-32462-prod",
+  "caloricValue": "8396",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4k9MmGedL5lDQgbUTf33eu/249a8f79350abdb9e1ccb76dedfe9c75/J5815_24P03__15_Kentucky_Feaster.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": null,
+  "serves": 0
+ },
+ "url": "15-kentucky-feaster"
+}
