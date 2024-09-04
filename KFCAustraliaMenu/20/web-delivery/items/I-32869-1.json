@@ -67,7 +67,7 @@
      "url": "the-slab",
      "isPromo": false,
      "posId": "185017",
-     "displayOrder": 499,
+     "displayOrder": 514,
      "customizable": false,
      "dname": [
       {
@@ -127,7 +127,7 @@
          "url": "bbq-sauce",
          "isPromo": false,
          "posId": "200005",
-         "displayOrder": 500,
+         "displayOrder": 515,
          "customizable": false,
          "dname": [
           {
@@ -201,7 +201,7 @@
          "url": "cheese-sauce",
          "isPromo": false,
          "posId": "200017",
-         "displayOrder": 501,
+         "displayOrder": 516,
          "customizable": false,
          "dname": [
           {
@@ -294,7 +294,7 @@
         }
        ],
        "min": 0,
-       "max": 2,
+       "max": 5,
        "shortDescription": [
         {
          "lang": "en-US",
@@ -317,7 +317,7 @@
          "url": "bbq-sauce",
          "isPromo": false,
          "posId": "200005",
-         "displayOrder": 502,
+         "displayOrder": 517,
          "customizable": false,
          "dname": [
           {
@@ -386,7 +386,7 @@
          "url": "cheese-sauce",
          "isPromo": false,
          "posId": "200017",
-         "displayOrder": 503,
+         "displayOrder": 518,
          "customizable": false,
          "dname": [
           {
@@ -445,12 +445,357 @@
            "tertiaryImage": null
           }
          }
+        },
+        {
+         "mdmId": "M-200011",
+         "id": "M-200011",
+         "name": "Chilli Relish Sauce",
+         "size": "",
+         "linkId": "mod:554352",
+         "url": "chilli-relish-sauce",
+         "isPromo": false,
+         "posId": "200011",
+         "displayOrder": 519,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Chilli Relish Sauce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Chilli Relish Sauce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Chilli Relish Sauce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/e1t8csgFvFDyc38Ou9YhA/0a58e6747e9f63a60769f614cfd1a638/Modifier_Sauce_Chilli_Relish.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200011",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/e1t8csgFvFDyc38Ou9YhA/0a58e6747e9f63a60769f614cfd1a638/Modifier_Sauce_Chilli_Relish.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200042",
+         "id": "M-200042",
+         "name": "Jalapeno Mayo",
+         "size": "",
+         "linkId": "mod:555770",
+         "url": "jalapeno-mayo",
+         "isPromo": false,
+         "posId": "200042",
+         "displayOrder": 520,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200042",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200001",
+         "id": "M-200001",
+         "name": "Mayo",
+         "size": "",
+         "linkId": "mod:554350",
+         "url": "mayo",
+         "isPromo": false,
+         "posId": "200001",
+         "displayOrder": 521,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Mayo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Mayo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Mayo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/46SEeDBx51iTnkP6zPt82l/f3aaf2a729d86f1950cd6e2fe67aac72/Modifier_Sauce_Mayo.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200001",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/46SEeDBx51iTnkP6zPt82l/f3aaf2a729d86f1950cd6e2fe67aac72/Modifier_Sauce_Mayo.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200003",
+         "id": "M-200003",
+         "name": "Pepper Mayo",
+         "size": "",
+         "linkId": "mod:554359",
+         "url": "pepper-mayo",
+         "isPromo": false,
+         "posId": "200003",
+         "displayOrder": 522,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200003",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200004",
+         "id": "M-200004",
+         "name": "Supercharged Sauce",
+         "size": "",
+         "linkId": "mod:554355",
+         "url": "supercharged-sauce",
+         "isPromo": false,
+         "posId": "200004",
+         "displayOrder": 523,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Sauce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Sauce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Sauce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/S7OMZwS6F04k6U2qUxeQh/aee02a208e220562bc367006951c47ab/Modifier_Sauce_Supercharged.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200004",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/S7OMZwS6F04k6U2qUxeQh/aee02a208e220562bc367006951c47ab/Modifier_Sauce_Supercharged.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
         }
        ],
        "additionalProperties": [
         {
          "key": "peroptionmaximum",
-         "value": "2"
+         "value": "3"
         },
         {
          "key": "peroptionminimum",
@@ -458,7 +803,7 @@
         },
         {
          "key": "maxdistinctoptions",
-         "value": "2"
+         "value": "5"
         }
        ],
        "displayOrder": 1,
@@ -490,7 +835,7 @@
      "max": 0,
      "content": {
       "entityId": "M-43749-1",
-      "caloricValue": "3453",
+      "caloricValue": "6246",
       "image": {
        "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2iCzLwaNtliJwDmAtLVUaZ/2e7abdeb54adf5c9312fd106a3468ecb/J6194_24P10_The_Slab_ALC.png",
        "secondaryImage": null,
@@ -549,7 +894,7 @@
      "url": "regular-chips",
      "isPromo": false,
      "posId": "136005",
-     "displayOrder": 504,
+     "displayOrder": 524,
      "customizable": false,
      "dname": [
       {
@@ -609,7 +954,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 505,
+         "displayOrder": 525,
          "customizable": false,
          "dname": [
           {
@@ -678,7 +1023,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 506,
+         "displayOrder": 526,
          "customizable": false,
          "dname": [
           {
@@ -804,7 +1149,7 @@
      "url": "large-chips",
      "isPromo": false,
      "posId": "136015",
-     "displayOrder": 507,
+     "displayOrder": 527,
      "customizable": false,
      "dname": [
       {
@@ -864,7 +1209,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 508,
+         "displayOrder": 528,
          "customizable": true,
          "dname": [
           {
@@ -933,7 +1278,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 509,
+         "displayOrder": 529,
          "customizable": true,
          "dname": [
           {
@@ -1059,7 +1404,7 @@
      "url": "regular-potato-gravy",
      "isPromo": false,
      "posId": "136025",
-     "displayOrder": 510,
+     "displayOrder": 530,
      "customizable": false,
      "dname": [
       {
@@ -1133,7 +1478,7 @@
      "url": "regular-coleslaw",
      "isPromo": false,
      "posId": "136040",
-     "displayOrder": 511,
+     "displayOrder": 531,
      "customizable": false,
      "dname": [
       {
@@ -1207,7 +1552,7 @@
      "url": "regular-gravy",
      "isPromo": false,
      "posId": "136026",
-     "displayOrder": 512,
+     "displayOrder": 532,
      "customizable": false,
      "dname": [
       {
@@ -1281,7 +1626,7 @@
      "url": "dinner-roll",
      "isPromo": false,
      "posId": "136046",
-     "displayOrder": 513,
+     "displayOrder": 533,
      "customizable": false,
      "dname": [
       {
@@ -1397,7 +1742,7 @@
      "url": "regular-pepsi-max",
      "isPromo": false,
      "posId": "141055",
-     "displayOrder": 514,
+     "displayOrder": 534,
      "customizable": false,
      "dname": [
       {
@@ -1466,7 +1811,7 @@
      "url": "large-pepsi-max",
      "isPromo": false,
      "posId": "141110",
-     "displayOrder": 515,
+     "displayOrder": 535,
      "customizable": false,
      "dname": [
       {
@@ -1535,7 +1880,7 @@
      "url": "regular-pepsi",
      "isPromo": false,
      "posId": "141007",
-     "displayOrder": 516,
+     "displayOrder": 536,
      "customizable": false,
      "dname": [
       {
@@ -1604,7 +1949,7 @@
      "url": "large-pepsi",
      "isPromo": false,
      "posId": "141111",
-     "displayOrder": 517,
+     "displayOrder": 537,
      "customizable": false,
      "dname": [
       {
@@ -1673,7 +2018,7 @@
      "url": "regular-7up",
      "isPromo": false,
      "posId": "141040",
-     "displayOrder": 518,
+     "displayOrder": 538,
      "customizable": false,
      "dname": [
       {
@@ -1742,7 +2087,7 @@
      "url": "large-7up",
      "isPromo": false,
      "posId": "141112",
-     "displayOrder": 519,
+     "displayOrder": 539,
      "customizable": false,
      "dname": [
       {
@@ -1811,7 +2156,7 @@
      "url": "regular-mountain-dew",
      "isPromo": false,
      "posId": "141020",
-     "displayOrder": 520,
+     "displayOrder": 540,
      "customizable": false,
      "dname": [
       {
@@ -1880,7 +2225,7 @@
      "url": "large-mountain-dew",
      "isPromo": false,
      "posId": "141113",
-     "displayOrder": 521,
+     "displayOrder": 541,
      "customizable": false,
      "dname": [
       {
@@ -1949,7 +2294,7 @@
      "url": "regular-solo",
      "isPromo": false,
      "posId": "141030",
-     "displayOrder": 522,
+     "displayOrder": 542,
      "customizable": false,
      "dname": [
       {
@@ -2018,7 +2363,7 @@
      "url": "large-solo",
      "isPromo": false,
      "posId": "141114",
-     "displayOrder": 523,
+     "displayOrder": 543,
      "customizable": false,
      "dname": [
       {
@@ -2087,7 +2432,7 @@
      "url": "regular-sunkist-no-sugar",
      "isPromo": false,
      "posId": "141015",
-     "displayOrder": 524,
+     "displayOrder": 544,
      "customizable": false,
      "dname": [
       {
@@ -2156,7 +2501,7 @@
      "url": "large-sunkist-no-sugar",
      "isPromo": false,
      "posId": "141016",
-     "displayOrder": 525,
+     "displayOrder": 545,
      "customizable": false,
      "dname": [
       {
@@ -2225,7 +2570,7 @@
      "url": "water-600ml",
      "isPromo": false,
      "posId": "141070",
-     "displayOrder": 526,
+     "displayOrder": 546,
      "customizable": false,
      "dname": [
       {
@@ -2294,7 +2639,7 @@
      "url": "sparkling-water",
      "isPromo": false,
      "posId": "141013",
-     "displayOrder": 527,
+     "displayOrder": 547,
      "customizable": false,
      "dname": [
       {
@@ -2363,7 +2708,7 @@
      "url": "apple-juice",
      "isPromo": false,
      "posId": "141076",
-     "displayOrder": 528,
+     "displayOrder": 548,
      "customizable": false,
      "dname": [
       {
@@ -2432,7 +2777,7 @@
      "url": "lipton-peach-ice-tea",
      "isPromo": false,
      "posId": "141093",
-     "displayOrder": 529,
+     "displayOrder": 549,
      "customizable": false,
      "dname": [
       {
@@ -2501,7 +2846,7 @@
      "url": "pepsi-freeze",
      "isPromo": false,
      "posId": "141099",
-     "displayOrder": 530,
+     "displayOrder": 550,
      "customizable": false,
      "dname": [
       {
@@ -2716,7 +3061,7 @@
          "url": "the-slab",
          "isPromo": false,
          "posId": "185017",
-         "displayOrder": 531,
+         "displayOrder": 551,
          "customizable": false,
          "dname": [
           {
@@ -2776,7 +3121,7 @@
              "url": "bbq-sauce",
              "isPromo": false,
              "posId": "200005",
-             "displayOrder": 468,
+             "displayOrder": 478,
              "customizable": false,
              "dname": [
               {
@@ -2842,7 +3187,7 @@
              "url": "cheese-sauce",
              "isPromo": false,
              "posId": "200017",
-             "displayOrder": 469,
+             "displayOrder": 479,
              "customizable": false,
              "dname": [
               {
@@ -2927,7 +3272,7 @@
             }
            ],
            "min": 0,
-           "max": 2,
+           "max": 5,
            "shortDescription": [
             {
              "lang": "en-US",
@@ -2950,7 +3295,7 @@
              "url": "bbq-sauce",
              "isPromo": false,
              "posId": "200005",
-             "displayOrder": 470,
+             "displayOrder": 480,
              "customizable": false,
              "dname": [
               {
@@ -3011,7 +3356,7 @@
              "url": "cheese-sauce",
              "isPromo": false,
              "posId": "200017",
-             "displayOrder": 471,
+             "displayOrder": 481,
              "customizable": false,
              "dname": [
               {
@@ -3062,12 +3407,317 @@
              "isDefault": false,
              "max": 0,
              "content": null
+            },
+            {
+             "mdmId": "M-200011",
+             "id": "M-200011",
+             "name": "Chilli Relish Sauce",
+             "size": "",
+             "linkId": "mod:554352",
+             "url": "chilli-relish-sauce",
+             "isPromo": false,
+             "posId": "200011",
+             "displayOrder": 482,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Chilli Relish Sauce"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Chilli Relish Sauce"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Chilli Relish Sauce"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200011"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200042",
+             "id": "M-200042",
+             "name": "Jalapeno Mayo",
+             "size": "",
+             "linkId": "mod:555770",
+             "url": "jalapeno-mayo",
+             "isPromo": false,
+             "posId": "200042",
+             "displayOrder": 483,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Jalapeno Mayo"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Jalapeno Mayo"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Jalapeno Mayo"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200042"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200001",
+             "id": "M-200001",
+             "name": "Mayo",
+             "size": "",
+             "linkId": "mod:554350",
+             "url": "mayo",
+             "isPromo": false,
+             "posId": "200001",
+             "displayOrder": 484,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Mayo"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Mayo"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Mayo"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200001"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200003",
+             "id": "M-200003",
+             "name": "Pepper Mayo",
+             "size": "",
+             "linkId": "mod:554359",
+             "url": "pepper-mayo",
+             "isPromo": false,
+             "posId": "200003",
+             "displayOrder": 485,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Pepper Mayo"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Pepper Mayo"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Pepper Mayo"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200003"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200004",
+             "id": "M-200004",
+             "name": "Supercharged Sauce",
+             "size": "",
+             "linkId": "mod:554355",
+             "url": "supercharged-sauce",
+             "isPromo": false,
+             "posId": "200004",
+             "displayOrder": 486,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Sauce"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Sauce"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Sauce"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200004"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
             }
            ],
            "additionalProperties": [
             {
              "key": "peroptionmaximum",
-             "value": "2"
+             "value": "3"
             },
             {
              "key": "peroptionminimum",
@@ -3075,7 +3725,7 @@
             },
             {
              "key": "maxdistinctoptions",
-             "value": "2"
+             "value": "5"
             }
            ],
            "displayOrder": 1,
@@ -3158,7 +3808,7 @@
          "url": "regular-chips",
          "isPromo": false,
          "posId": "136005",
-         "displayOrder": 536,
+         "displayOrder": 561,
          "customizable": false,
          "dname": [
           {
@@ -3218,7 +3868,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 473,
+             "displayOrder": 488,
              "customizable": false,
              "dname": [
               {
@@ -3279,7 +3929,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 474,
+             "displayOrder": 489,
              "customizable": false,
              "dname": [
               {
@@ -3389,7 +4039,7 @@
          "url": "large-chips",
          "isPromo": false,
          "posId": "136015",
-         "displayOrder": 539,
+         "displayOrder": 564,
          "customizable": false,
          "dname": [
           {
@@ -3449,7 +4099,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 476,
+             "displayOrder": 491,
              "customizable": true,
              "dname": [
               {
@@ -3510,7 +4160,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 477,
+             "displayOrder": 492,
              "customizable": true,
              "dname": [
               {
@@ -3620,7 +4270,7 @@
          "url": "regular-potato-gravy",
          "isPromo": false,
          "posId": "136025",
-         "displayOrder": 542,
+         "displayOrder": 567,
          "customizable": false,
          "dname": [
           {
@@ -3686,7 +4336,7 @@
          "url": "regular-coleslaw",
          "isPromo": false,
          "posId": "136040",
-         "displayOrder": 543,
+         "displayOrder": 568,
          "customizable": false,
          "dname": [
           {
@@ -3752,7 +4402,7 @@
          "url": "regular-gravy",
          "isPromo": false,
          "posId": "136026",
-         "displayOrder": 544,
+         "displayOrder": 569,
          "customizable": false,
          "dname": [
           {
@@ -3818,7 +4468,7 @@
          "url": "dinner-roll",
          "isPromo": false,
          "posId": "136046",
-         "displayOrder": 545,
+         "displayOrder": 570,
          "customizable": false,
          "dname": [
           {
@@ -3926,7 +4576,7 @@
          "url": "regular-chips",
          "isPromo": false,
          "posId": "136005",
-         "displayOrder": 546,
+         "displayOrder": 571,
          "customizable": false,
          "dname": [
           {
@@ -3986,7 +4636,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 473,
+             "displayOrder": 488,
              "customizable": false,
              "dname": [
               {
@@ -4047,7 +4697,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 474,
+             "displayOrder": 489,
              "customizable": false,
              "dname": [
               {
@@ -4157,7 +4807,7 @@
          "url": "large-chips",
          "isPromo": false,
          "posId": "136015",
-         "displayOrder": 549,
+         "displayOrder": 574,
          "customizable": false,
          "dname": [
           {
@@ -4217,7 +4867,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 476,
+             "displayOrder": 491,
              "customizable": true,
              "dname": [
               {
@@ -4278,7 +4928,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 477,
+             "displayOrder": 492,
              "customizable": true,
              "dname": [
               {
@@ -4388,7 +5038,7 @@
          "url": "regular-potato-gravy",
          "isPromo": false,
          "posId": "136025",
-         "displayOrder": 552,
+         "displayOrder": 577,
          "customizable": false,
          "dname": [
           {
@@ -4454,7 +5104,7 @@
          "url": "regular-coleslaw",
          "isPromo": false,
          "posId": "136040",
-         "displayOrder": 553,
+         "displayOrder": 578,
          "customizable": false,
          "dname": [
           {
@@ -4520,7 +5170,7 @@
          "url": "regular-gravy",
          "isPromo": false,
          "posId": "136026",
-         "displayOrder": 554,
+         "displayOrder": 579,
          "customizable": false,
          "dname": [
           {
@@ -4586,7 +5236,7 @@
          "url": "dinner-roll",
          "isPromo": false,
          "posId": "136046",
-         "displayOrder": 555,
+         "displayOrder": 580,
          "customizable": false,
          "dname": [
           {
@@ -4694,7 +5344,7 @@
          "url": "regular-pepsi-max",
          "isPromo": false,
          "posId": "141055",
-         "displayOrder": 556,
+         "displayOrder": 581,
          "customizable": false,
          "dname": [
           {
@@ -4755,7 +5405,7 @@
          "url": "large-pepsi-max",
          "isPromo": false,
          "posId": "141110",
-         "displayOrder": 557,
+         "displayOrder": 582,
          "customizable": false,
          "dname": [
           {
@@ -4816,7 +5466,7 @@
          "url": "regular-pepsi",
          "isPromo": false,
          "posId": "141007",
-         "displayOrder": 558,
+         "displayOrder": 583,
          "customizable": false,
          "dname": [
           {
@@ -4877,7 +5527,7 @@
          "url": "large-pepsi",
          "isPromo": false,
          "posId": "141111",
-         "displayOrder": 559,
+         "displayOrder": 584,
          "customizable": false,
          "dname": [
           {
@@ -4938,7 +5588,7 @@
          "url": "regular-7up",
          "isPromo": false,
          "posId": "141040",
-         "displayOrder": 560,
+         "displayOrder": 585,
          "customizable": false,
          "dname": [
           {
@@ -4999,7 +5649,7 @@
          "url": "large-7up",
          "isPromo": false,
          "posId": "141112",
-         "displayOrder": 561,
+         "displayOrder": 586,
          "customizable": false,
          "dname": [
           {
@@ -5060,7 +5710,7 @@
          "url": "regular-mountain-dew",
          "isPromo": false,
          "posId": "141020",
-         "displayOrder": 562,
+         "displayOrder": 587,
          "customizable": false,
          "dname": [
           {
@@ -5121,7 +5771,7 @@
          "url": "large-mountain-dew",
          "isPromo": false,
          "posId": "141113",
-         "displayOrder": 563,
+         "displayOrder": 588,
          "customizable": false,
          "dname": [
           {
@@ -5182,7 +5832,7 @@
          "url": "regular-solo",
          "isPromo": false,
          "posId": "141030",
-         "displayOrder": 564,
+         "displayOrder": 589,
          "customizable": false,
          "dname": [
           {
@@ -5243,7 +5893,7 @@
          "url": "large-solo",
          "isPromo": false,
          "posId": "141114",
-         "displayOrder": 565,
+         "displayOrder": 590,
          "customizable": false,
          "dname": [
           {
@@ -5304,7 +5954,7 @@
          "url": "regular-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141015",
-         "displayOrder": 566,
+         "displayOrder": 591,
          "customizable": false,
          "dname": [
           {
@@ -5365,7 +6015,7 @@
          "url": "large-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141016",
-         "displayOrder": 567,
+         "displayOrder": 592,
          "customizable": false,
          "dname": [
           {
@@ -5426,7 +6076,7 @@
          "url": "water-600ml",
          "isPromo": false,
          "posId": "141070",
-         "displayOrder": 568,
+         "displayOrder": 593,
          "customizable": false,
          "dname": [
           {
@@ -5487,7 +6137,7 @@
          "url": "sparkling-water",
          "isPromo": false,
          "posId": "141013",
-         "displayOrder": 569,
+         "displayOrder": 594,
          "customizable": false,
          "dname": [
           {
@@ -5548,7 +6198,7 @@
          "url": "apple-juice",
          "isPromo": false,
          "posId": "141076",
-         "displayOrder": 570,
+         "displayOrder": 595,
          "customizable": false,
          "dname": [
           {
@@ -5609,7 +6259,7 @@
          "url": "lipton-peach-ice-tea",
          "isPromo": false,
          "posId": "141093",
-         "displayOrder": 571,
+         "displayOrder": 596,
          "customizable": false,
          "dname": [
           {
@@ -5670,7 +6320,7 @@
          "url": "pepsi-freeze",
          "isPromo": false,
          "posId": "141099",
-         "displayOrder": 572,
+         "displayOrder": 597,
          "customizable": false,
          "dname": [
           {
@@ -5778,7 +6428,7 @@
          "url": "regular-pepsi-max",
          "isPromo": false,
          "posId": "141055",
-         "displayOrder": 573,
+         "displayOrder": 598,
          "customizable": false,
          "dname": [
           {
@@ -5839,7 +6489,7 @@
          "url": "large-pepsi-max",
          "isPromo": false,
          "posId": "141110",
-         "displayOrder": 574,
+         "displayOrder": 599,
          "customizable": false,
          "dname": [
           {
@@ -5900,7 +6550,7 @@
          "url": "regular-pepsi",
          "isPromo": false,
          "posId": "141007",
-         "displayOrder": 575,
+         "displayOrder": 600,
          "customizable": false,
          "dname": [
           {
@@ -5961,7 +6611,7 @@
          "url": "large-pepsi",
          "isPromo": false,
          "posId": "141111",
-         "displayOrder": 576,
+         "displayOrder": 601,
          "customizable": false,
          "dname": [
           {
@@ -6022,7 +6672,7 @@
          "url": "regular-7up",
          "isPromo": false,
          "posId": "141040",
-         "displayOrder": 577,
+         "displayOrder": 602,
          "customizable": false,
          "dname": [
           {
@@ -6083,7 +6733,7 @@
          "url": "large-7up",
          "isPromo": false,
          "posId": "141112",
-         "displayOrder": 578,
+         "displayOrder": 603,
          "customizable": false,
          "dname": [
           {
@@ -6144,7 +6794,7 @@
          "url": "regular-mountain-dew",
          "isPromo": false,
          "posId": "141020",
-         "displayOrder": 579,
+         "displayOrder": 604,
          "customizable": false,
          "dname": [
           {
@@ -6205,7 +6855,7 @@
          "url": "large-mountain-dew",
          "isPromo": false,
          "posId": "141113",
-         "displayOrder": 580,
+         "displayOrder": 605,
          "customizable": false,
          "dname": [
           {
@@ -6266,7 +6916,7 @@
          "url": "regular-solo",
          "isPromo": false,
          "posId": "141030",
-         "displayOrder": 581,
+         "displayOrder": 606,
          "customizable": false,
          "dname": [
           {
@@ -6327,7 +6977,7 @@
          "url": "large-solo",
          "isPromo": false,
          "posId": "141114",
-         "displayOrder": 582,
+         "displayOrder": 607,
          "customizable": false,
          "dname": [
           {
@@ -6388,7 +7038,7 @@
          "url": "regular-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141015",
-         "displayOrder": 583,
+         "displayOrder": 608,
          "customizable": false,
          "dname": [
           {
@@ -6449,7 +7099,7 @@
          "url": "large-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141016",
-         "displayOrder": 584,
+         "displayOrder": 609,
          "customizable": false,
          "dname": [
           {
@@ -6510,7 +7160,7 @@
          "url": "water-600ml",
          "isPromo": false,
          "posId": "141070",
-         "displayOrder": 585,
+         "displayOrder": 610,
          "customizable": false,
          "dname": [
           {
@@ -6571,7 +7221,7 @@
          "url": "sparkling-water",
          "isPromo": false,
          "posId": "141013",
-         "displayOrder": 586,
+         "displayOrder": 611,
          "customizable": false,
          "dname": [
           {
@@ -6632,7 +7282,7 @@
          "url": "apple-juice",
          "isPromo": false,
          "posId": "141076",
-         "displayOrder": 587,
+         "displayOrder": 612,
          "customizable": false,
          "dname": [
           {
@@ -6693,7 +7343,7 @@
          "url": "lipton-peach-ice-tea",
          "isPromo": false,
          "posId": "141093",
-         "displayOrder": 588,
+         "displayOrder": 613,
          "customizable": false,
          "dname": [
           {
@@ -6754,7 +7404,7 @@
          "url": "pepsi-freeze",
          "isPromo": false,
          "posId": "141099",
-         "displayOrder": 589,
+         "displayOrder": 614,
          "customizable": false,
          "dname": [
           {
@@ -6879,7 +7529,7 @@
       "entityId": "I-32870-0",
       "shortDescription": "It’s better than a sandwich – it's a Popcorn Chicken® Slab, with BBQ and cheese sauces, served on our classic dinner rolls. Plus 2 x Regular Chips and 2 x Regular Drinks. Perfect for sharing… or not 😏 Not everywhere and not forever.",
       "longDescription": "It’s better than a sandwich – it's a Popcorn Chicken® Slab, with BBQ and cheese sauces, served on our classic dinner rolls. Plus 2 x Regular Chips and 2 x Regular Drinks. Perfect for sharing… or not 😏 Not everywhere and not forever.",
-      "caloricValue": "5897",
+      "caloricValue": "8689",
       "nutritionalInformation": [
        {
         "nutritionComponent": "Average serving size",
@@ -6891,50 +7541,50 @@
        {
         "nutritionComponent": "Energy",
         "nutritionUnit": "kj",
-        "serveWiseValue": 5897.0,
-        "gramWiseValue": 387.0,
+        "serveWiseValue": 8689.0,
+        "gramWiseValue": 570.0,
         "isActive": true
        },
        {
         "nutritionComponent": "Protein",
         "nutritionUnit": "g",
-        "serveWiseValue": 47.1,
-        "gramWiseValue": 3.1,
+        "serveWiseValue": 69.4,
+        "gramWiseValue": 4.6,
         "isActive": true
        },
        {
         "nutritionComponent": "Fat, total",
         "nutritionUnit": "g",
-        "serveWiseValue": 68.2,
-        "gramWiseValue": 4.5,
+        "serveWiseValue": 79.2,
+        "gramWiseValue": 5.2,
         "isActive": true
        },
        {
         "nutritionComponent": "Fat, saturated",
         "nutritionUnit": "g",
-        "serveWiseValue": 11.6,
-        "gramWiseValue": 0.8,
+        "serveWiseValue": 14.3,
+        "gramWiseValue": 0.9,
         "isActive": true
        },
        {
         "nutritionComponent": "Carbohydrate",
         "nutritionUnit": "g",
-        "serveWiseValue": 151.9,
-        "gramWiseValue": 10.0,
+        "serveWiseValue": 269.0,
+        "gramWiseValue": 17.6,
         "isActive": true
        },
        {
         "nutritionComponent": "Carbohydrate, sugars",
         "nutritionUnit": "g",
-        "serveWiseValue": 24.1,
-        "gramWiseValue": 1.6,
+        "serveWiseValue": 42.0,
+        "gramWiseValue": 2.8,
         "isActive": true
        },
        {
         "nutritionComponent": "Sodium",
         "nutritionUnit": "mg",
-        "serveWiseValue": 2539.0,
-        "gramWiseValue": 166.0,
+        "serveWiseValue": 3337.0,
+        "gramWiseValue": 219.0,
         "isActive": true
        }
       ],
@@ -7028,7 +7678,7 @@
          "url": "the-slab",
          "isPromo": false,
          "posId": "185017",
-         "displayOrder": 590,
+         "displayOrder": 615,
          "customizable": false,
          "dname": [
           {
@@ -7088,7 +7738,7 @@
              "url": "bbq-sauce",
              "isPromo": false,
              "posId": "200005",
-             "displayOrder": 500,
+             "displayOrder": 515,
              "customizable": false,
              "dname": [
               {
@@ -7154,7 +7804,7 @@
              "url": "cheese-sauce",
              "isPromo": false,
              "posId": "200017",
-             "displayOrder": 501,
+             "displayOrder": 516,
              "customizable": false,
              "dname": [
               {
@@ -7239,7 +7889,7 @@
             }
            ],
            "min": 0,
-           "max": 2,
+           "max": 5,
            "shortDescription": [
             {
              "lang": "en-US",
@@ -7262,7 +7912,7 @@
              "url": "bbq-sauce",
              "isPromo": false,
              "posId": "200005",
-             "displayOrder": 502,
+             "displayOrder": 517,
              "customizable": false,
              "dname": [
               {
@@ -7323,7 +7973,7 @@
              "url": "cheese-sauce",
              "isPromo": false,
              "posId": "200017",
-             "displayOrder": 503,
+             "displayOrder": 518,
              "customizable": false,
              "dname": [
               {
@@ -7374,12 +8024,317 @@
              "isDefault": false,
              "max": 0,
              "content": null
+            },
+            {
+             "mdmId": "M-200011",
+             "id": "M-200011",
+             "name": "Chilli Relish Sauce",
+             "size": "",
+             "linkId": "mod:554352",
+             "url": "chilli-relish-sauce",
+             "isPromo": false,
+             "posId": "200011",
+             "displayOrder": 519,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Chilli Relish Sauce"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Chilli Relish Sauce"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Chilli Relish Sauce"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200011"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200042",
+             "id": "M-200042",
+             "name": "Jalapeno Mayo",
+             "size": "",
+             "linkId": "mod:555770",
+             "url": "jalapeno-mayo",
+             "isPromo": false,
+             "posId": "200042",
+             "displayOrder": 520,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Jalapeno Mayo"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Jalapeno Mayo"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Jalapeno Mayo"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200042"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200001",
+             "id": "M-200001",
+             "name": "Mayo",
+             "size": "",
+             "linkId": "mod:554350",
+             "url": "mayo",
+             "isPromo": false,
+             "posId": "200001",
+             "displayOrder": 521,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Mayo"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Mayo"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Mayo"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200001"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200003",
+             "id": "M-200003",
+             "name": "Pepper Mayo",
+             "size": "",
+             "linkId": "mod:554359",
+             "url": "pepper-mayo",
+             "isPromo": false,
+             "posId": "200003",
+             "displayOrder": 522,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Pepper Mayo"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Pepper Mayo"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Pepper Mayo"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200003"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200004",
+             "id": "M-200004",
+             "name": "Supercharged Sauce",
+             "size": "",
+             "linkId": "mod:554355",
+             "url": "supercharged-sauce",
+             "isPromo": false,
+             "posId": "200004",
+             "displayOrder": 523,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Sauce"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Sauce"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Sauce"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200004"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
             }
            ],
            "additionalProperties": [
             {
              "key": "peroptionmaximum",
-             "value": "2"
+             "value": "3"
             },
             {
              "key": "peroptionminimum",
@@ -7387,7 +8342,7 @@
             },
             {
              "key": "maxdistinctoptions",
-             "value": "2"
+             "value": "5"
             }
            ],
            "displayOrder": 1,
@@ -7470,7 +8425,7 @@
          "url": "regular-chips",
          "isPromo": false,
          "posId": "136005",
-         "displayOrder": 595,
+         "displayOrder": 625,
          "customizable": false,
          "dname": [
           {
@@ -7530,7 +8485,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 505,
+             "displayOrder": 525,
              "customizable": false,
              "dname": [
               {
@@ -7591,7 +8546,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 506,
+             "displayOrder": 526,
              "customizable": false,
              "dname": [
               {
@@ -7701,7 +8656,7 @@
          "url": "large-chips",
          "isPromo": false,
          "posId": "136015",
-         "displayOrder": 598,
+         "displayOrder": 628,
          "customizable": false,
          "dname": [
           {
@@ -7761,7 +8716,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 508,
+             "displayOrder": 528,
              "customizable": true,
              "dname": [
               {
@@ -7822,7 +8777,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 509,
+             "displayOrder": 529,
              "customizable": true,
              "dname": [
               {
@@ -7932,7 +8887,7 @@
          "url": "regular-potato-gravy",
          "isPromo": false,
          "posId": "136025",
-         "displayOrder": 601,
+         "displayOrder": 631,
          "customizable": false,
          "dname": [
           {
@@ -7998,7 +8953,7 @@
          "url": "regular-coleslaw",
          "isPromo": false,
          "posId": "136040",
-         "displayOrder": 602,
+         "displayOrder": 632,
          "customizable": false,
          "dname": [
           {
@@ -8064,7 +9019,7 @@
          "url": "regular-gravy",
          "isPromo": false,
          "posId": "136026",
-         "displayOrder": 603,
+         "displayOrder": 633,
          "customizable": false,
          "dname": [
           {
@@ -8130,7 +9085,7 @@
          "url": "dinner-roll",
          "isPromo": false,
          "posId": "136046",
-         "displayOrder": 604,
+         "displayOrder": 634,
          "customizable": false,
          "dname": [
           {
@@ -8238,7 +9193,7 @@
          "url": "regular-chips",
          "isPromo": false,
          "posId": "136005",
-         "displayOrder": 605,
+         "displayOrder": 635,
          "customizable": false,
          "dname": [
           {
@@ -8298,7 +9253,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 505,
+             "displayOrder": 525,
              "customizable": false,
              "dname": [
               {
@@ -8359,7 +9314,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 506,
+             "displayOrder": 526,
              "customizable": false,
              "dname": [
               {
@@ -8469,7 +9424,7 @@
          "url": "large-chips",
          "isPromo": false,
          "posId": "136015",
-         "displayOrder": 608,
+         "displayOrder": 638,
          "customizable": false,
          "dname": [
           {
@@ -8529,7 +9484,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 508,
+             "displayOrder": 528,
              "customizable": true,
              "dname": [
               {
@@ -8590,7 +9545,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 509,
+             "displayOrder": 529,
              "customizable": true,
              "dname": [
               {
@@ -8700,7 +9655,7 @@
          "url": "regular-potato-gravy",
          "isPromo": false,
          "posId": "136025",
-         "displayOrder": 611,
+         "displayOrder": 641,
          "customizable": false,
          "dname": [
           {
@@ -8766,7 +9721,7 @@
          "url": "regular-coleslaw",
          "isPromo": false,
          "posId": "136040",
-         "displayOrder": 612,
+         "displayOrder": 642,
          "customizable": false,
          "dname": [
           {
@@ -8832,7 +9787,7 @@
          "url": "regular-gravy",
          "isPromo": false,
          "posId": "136026",
-         "displayOrder": 613,
+         "displayOrder": 643,
          "customizable": false,
          "dname": [
           {
@@ -8898,7 +9853,7 @@
          "url": "dinner-roll",
          "isPromo": false,
          "posId": "136046",
-         "displayOrder": 614,
+         "displayOrder": 644,
          "customizable": false,
          "dname": [
           {
@@ -9006,7 +9961,7 @@
          "url": "regular-pepsi-max",
          "isPromo": false,
          "posId": "141055",
-         "displayOrder": 615,
+         "displayOrder": 645,
          "customizable": false,
          "dname": [
           {
@@ -9067,7 +10022,7 @@
          "url": "large-pepsi-max",
          "isPromo": false,
          "posId": "141110",
-         "displayOrder": 616,
+         "displayOrder": 646,
          "customizable": false,
          "dname": [
           {
@@ -9128,7 +10083,7 @@
          "url": "regular-pepsi",
          "isPromo": false,
          "posId": "141007",
-         "displayOrder": 617,
+         "displayOrder": 647,
          "customizable": false,
          "dname": [
           {
@@ -9189,7 +10144,7 @@
          "url": "large-pepsi",
          "isPromo": false,
          "posId": "141111",
-         "displayOrder": 618,
+         "displayOrder": 648,
          "customizable": false,
          "dname": [
           {
@@ -9250,7 +10205,7 @@
          "url": "regular-7up",
          "isPromo": false,
          "posId": "141040",
-         "displayOrder": 619,
+         "displayOrder": 649,
          "customizable": false,
          "dname": [
           {
@@ -9311,7 +10266,7 @@
          "url": "large-7up",
          "isPromo": false,
          "posId": "141112",
-         "displayOrder": 620,
+         "displayOrder": 650,
          "customizable": false,
          "dname": [
           {
@@ -9372,7 +10327,7 @@
          "url": "regular-mountain-dew",
          "isPromo": false,
          "posId": "141020",
-         "displayOrder": 621,
+         "displayOrder": 651,
          "customizable": false,
          "dname": [
           {
@@ -9433,7 +10388,7 @@
          "url": "large-mountain-dew",
          "isPromo": false,
          "posId": "141113",
-         "displayOrder": 622,
+         "displayOrder": 652,
          "customizable": false,
          "dname": [
           {
@@ -9494,7 +10449,7 @@
          "url": "regular-solo",
          "isPromo": false,
          "posId": "141030",
-         "displayOrder": 623,
+         "displayOrder": 653,
          "customizable": false,
          "dname": [
           {
@@ -9555,7 +10510,7 @@
          "url": "large-solo",
          "isPromo": false,
          "posId": "141114",
-         "displayOrder": 624,
+         "displayOrder": 654,
          "customizable": false,
          "dname": [
           {
@@ -9616,7 +10571,7 @@
          "url": "regular-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141015",
-         "displayOrder": 625,
+         "displayOrder": 655,
          "customizable": false,
          "dname": [
           {
@@ -9677,7 +10632,7 @@
          "url": "large-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141016",
-         "displayOrder": 626,
+         "displayOrder": 656,
          "customizable": false,
          "dname": [
           {
@@ -9738,7 +10693,7 @@
          "url": "water-600ml",
          "isPromo": false,
          "posId": "141070",
-         "displayOrder": 627,
+         "displayOrder": 657,
          "customizable": false,
          "dname": [
           {
@@ -9799,7 +10754,7 @@
          "url": "sparkling-water",
          "isPromo": false,
          "posId": "141013",
-         "displayOrder": 628,
+         "displayOrder": 658,
          "customizable": false,
          "dname": [
           {
@@ -9860,7 +10815,7 @@
          "url": "apple-juice",
          "isPromo": false,
          "posId": "141076",
-         "displayOrder": 629,
+         "displayOrder": 659,
          "customizable": false,
          "dname": [
           {
@@ -9921,7 +10876,7 @@
          "url": "lipton-peach-ice-tea",
          "isPromo": false,
          "posId": "141093",
-         "displayOrder": 630,
+         "displayOrder": 660,
          "customizable": false,
          "dname": [
           {
@@ -9982,7 +10937,7 @@
          "url": "pepsi-freeze",
          "isPromo": false,
          "posId": "141099",
-         "displayOrder": 631,
+         "displayOrder": 661,
          "customizable": false,
          "dname": [
           {
@@ -10090,7 +11045,7 @@
          "url": "regular-pepsi-max",
          "isPromo": false,
          "posId": "141055",
-         "displayOrder": 632,
+         "displayOrder": 662,
          "customizable": false,
          "dname": [
           {
@@ -10151,7 +11106,7 @@
          "url": "large-pepsi-max",
          "isPromo": false,
          "posId": "141110",
-         "displayOrder": 633,
+         "displayOrder": 663,
          "customizable": false,
          "dname": [
           {
@@ -10212,7 +11167,7 @@
          "url": "regular-pepsi",
          "isPromo": false,
          "posId": "141007",
-         "displayOrder": 634,
+         "displayOrder": 664,
          "customizable": false,
          "dname": [
           {
@@ -10273,7 +11228,7 @@
          "url": "large-pepsi",
          "isPromo": false,
          "posId": "141111",
-         "displayOrder": 635,
+         "displayOrder": 665,
          "customizable": false,
          "dname": [
           {
@@ -10334,7 +11289,7 @@
          "url": "regular-7up",
          "isPromo": false,
          "posId": "141040",
-         "displayOrder": 636,
+         "displayOrder": 666,
          "customizable": false,
          "dname": [
           {
@@ -10395,7 +11350,7 @@
          "url": "large-7up",
          "isPromo": false,
          "posId": "141112",
-         "displayOrder": 637,
+         "displayOrder": 667,
          "customizable": false,
          "dname": [
           {
@@ -10456,7 +11411,7 @@
          "url": "regular-mountain-dew",
          "isPromo": false,
          "posId": "141020",
-         "displayOrder": 638,
+         "displayOrder": 668,
          "customizable": false,
          "dname": [
           {
@@ -10517,7 +11472,7 @@
          "url": "large-mountain-dew",
          "isPromo": false,
          "posId": "141113",
-         "displayOrder": 639,
+         "displayOrder": 669,
          "customizable": false,
          "dname": [
           {
@@ -10578,7 +11533,7 @@
          "url": "regular-solo",
          "isPromo": false,
          "posId": "141030",
-         "displayOrder": 640,
+         "displayOrder": 670,
          "customizable": false,
          "dname": [
           {
@@ -10639,7 +11594,7 @@
          "url": "large-solo",
          "isPromo": false,
          "posId": "141114",
-         "displayOrder": 641,
+         "displayOrder": 671,
          "customizable": false,
          "dname": [
           {
@@ -10700,7 +11655,7 @@
          "url": "regular-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141015",
-         "displayOrder": 642,
+         "displayOrder": 672,
          "customizable": false,
          "dname": [
           {
@@ -10761,7 +11716,7 @@
          "url": "large-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141016",
-         "displayOrder": 643,
+         "displayOrder": 673,
          "customizable": false,
          "dname": [
           {
@@ -10822,7 +11777,7 @@
          "url": "water-600ml",
          "isPromo": false,
          "posId": "141070",
-         "displayOrder": 644,
+         "displayOrder": 674,
          "customizable": false,
          "dname": [
           {
@@ -10883,7 +11838,7 @@
          "url": "sparkling-water",
          "isPromo": false,
          "posId": "141013",
-         "displayOrder": 645,
+         "displayOrder": 675,
          "customizable": false,
          "dname": [
           {
@@ -10944,7 +11899,7 @@
          "url": "apple-juice",
          "isPromo": false,
          "posId": "141076",
-         "displayOrder": 646,
+         "displayOrder": 676,
          "customizable": false,
          "dname": [
           {
@@ -11005,7 +11960,7 @@
          "url": "lipton-peach-ice-tea",
          "isPromo": false,
          "posId": "141093",
-         "displayOrder": 647,
+         "displayOrder": 677,
          "customizable": false,
          "dname": [
           {
@@ -11066,7 +12021,7 @@
          "url": "pepsi-freeze",
          "isPromo": false,
          "posId": "141099",
-         "displayOrder": 648,
+         "displayOrder": 678,
          "customizable": false,
          "dname": [
           {
@@ -11191,7 +12146,7 @@
       "entityId": "I-32870-1",
       "shortDescription": "It’s better than a sandwich – it's a Popcorn Chicken® Slab, with BBQ and cheese sauces, served on our classic dinner rolls. Plus 2 x Large Chips and 2 x Large Drinks. Perfect for sharing… or not 😏 Not everywhere and not forever.",
       "longDescription": "It’s better than a sandwich – it's a Popcorn Chicken® Slab, with BBQ and cheese sauces, served on our classic dinner rolls. Plus 2 x Large Chips and 2 x Large Drinks. Perfect for sharing… or not 😏 Not everywhere and not forever.",
-      "caloricValue": "8335",
+      "caloricValue": "11128",
       "nutritionalInformation": [
        {
         "nutritionComponent": "Average serving size",
@@ -11203,50 +12158,50 @@
        {
         "nutritionComponent": "Energy",
         "nutritionUnit": "kj",
-        "serveWiseValue": 8335.0,
-        "gramWiseValue": 376.0,
+        "serveWiseValue": 11128.0,
+        "gramWiseValue": 502.0,
         "isActive": true
        },
        {
         "nutritionComponent": "Protein",
         "nutritionUnit": "g",
-        "serveWiseValue": 56.5,
-        "gramWiseValue": 2.6,
+        "serveWiseValue": 78.8,
+        "gramWiseValue": 3.6,
         "isActive": true
        },
        {
         "nutritionComponent": "Fat, total",
         "nutritionUnit": "g",
-        "serveWiseValue": 91.7,
-        "gramWiseValue": 4.1,
+        "serveWiseValue": 102.7,
+        "gramWiseValue": 4.6,
         "isActive": true
        },
        {
         "nutritionComponent": "Fat, saturated",
         "nutritionUnit": "g",
-        "serveWiseValue": 14.0,
-        "gramWiseValue": 0.6,
+        "serveWiseValue": 16.7,
+        "gramWiseValue": 0.8,
         "isActive": true
        },
        {
         "nutritionComponent": "Carbohydrate",
         "nutritionUnit": "g",
-        "serveWiseValue": 235.5,
-        "gramWiseValue": 10.6,
+        "serveWiseValue": 352.6,
+        "gramWiseValue": 15.9,
         "isActive": true
        },
        {
         "nutritionComponent": "Carbohydrate, sugars",
         "nutritionUnit": "g",
-        "serveWiseValue": 24.6,
-        "gramWiseValue": 1.1,
+        "serveWiseValue": 42.4,
+        "gramWiseValue": 1.9,
         "isActive": true
        },
        {
         "nutritionComponent": "Sodium",
         "nutritionUnit": "mg",
-        "serveWiseValue": 2792.0,
-        "gramWiseValue": 126.0,
+        "serveWiseValue": 3590.0,
+        "gramWiseValue": 162.0,
         "isActive": true
        }
       ],
@@ -11340,7 +12295,7 @@
          "url": "the-slab",
          "isPromo": false,
          "posId": "185017",
-         "displayOrder": 649,
+         "displayOrder": 679,
          "customizable": false,
          "dname": [
           {
@@ -11400,7 +12355,7 @@
              "url": "bbq-sauce",
              "isPromo": false,
              "posId": "200005",
-             "displayOrder": 468,
+             "displayOrder": 478,
              "customizable": false,
              "dname": [
               {
@@ -11466,7 +12421,7 @@
              "url": "cheese-sauce",
              "isPromo": false,
              "posId": "200017",
-             "displayOrder": 469,
+             "displayOrder": 479,
              "customizable": false,
              "dname": [
               {
@@ -11551,7 +12506,7 @@
             }
            ],
            "min": 0,
-           "max": 2,
+           "max": 5,
            "shortDescription": [
             {
              "lang": "en-US",
@@ -11574,7 +12529,7 @@
              "url": "bbq-sauce",
              "isPromo": false,
              "posId": "200005",
-             "displayOrder": 470,
+             "displayOrder": 480,
              "customizable": false,
              "dname": [
               {
@@ -11635,7 +12590,7 @@
              "url": "cheese-sauce",
              "isPromo": false,
              "posId": "200017",
-             "displayOrder": 471,
+             "displayOrder": 481,
              "customizable": false,
              "dname": [
               {
@@ -11686,12 +12641,317 @@
              "isDefault": false,
              "max": 0,
              "content": null
+            },
+            {
+             "mdmId": "M-200011",
+             "id": "M-200011",
+             "name": "Chilli Relish Sauce",
+             "size": "",
+             "linkId": "mod:554352",
+             "url": "chilli-relish-sauce",
+             "isPromo": false,
+             "posId": "200011",
+             "displayOrder": 482,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Chilli Relish Sauce"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Chilli Relish Sauce"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Chilli Relish Sauce"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200011"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200042",
+             "id": "M-200042",
+             "name": "Jalapeno Mayo",
+             "size": "",
+             "linkId": "mod:555770",
+             "url": "jalapeno-mayo",
+             "isPromo": false,
+             "posId": "200042",
+             "displayOrder": 483,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Jalapeno Mayo"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Jalapeno Mayo"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Jalapeno Mayo"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200042"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200001",
+             "id": "M-200001",
+             "name": "Mayo",
+             "size": "",
+             "linkId": "mod:554350",
+             "url": "mayo",
+             "isPromo": false,
+             "posId": "200001",
+             "displayOrder": 484,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Mayo"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Mayo"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Mayo"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200001"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200003",
+             "id": "M-200003",
+             "name": "Pepper Mayo",
+             "size": "",
+             "linkId": "mod:554359",
+             "url": "pepper-mayo",
+             "isPromo": false,
+             "posId": "200003",
+             "displayOrder": 485,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Pepper Mayo"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Pepper Mayo"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Pepper Mayo"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200003"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200004",
+             "id": "M-200004",
+             "name": "Supercharged Sauce",
+             "size": "",
+             "linkId": "mod:554355",
+             "url": "supercharged-sauce",
+             "isPromo": false,
+             "posId": "200004",
+             "displayOrder": 486,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Sauce"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Sauce"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Sauce"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200004"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
             }
            ],
            "additionalProperties": [
             {
              "key": "peroptionmaximum",
-             "value": "2"
+             "value": "3"
             },
             {
              "key": "peroptionminimum",
@@ -11699,7 +12959,7 @@
             },
             {
              "key": "maxdistinctoptions",
-             "value": "2"
+             "value": "5"
             }
            ],
            "displayOrder": 1,
@@ -11782,7 +13042,7 @@
          "url": "6-pieces-original-recipe",
          "isPromo": false,
          "posId": "180056",
-         "displayOrder": 654,
+         "displayOrder": 689,
          "customizable": false,
          "dname": [
           {
@@ -11842,7 +13102,7 @@
              "url": "1-piece-original-recipe",
              "isPromo": false,
              "posId": "170101",
-             "displayOrder": 655,
+             "displayOrder": 690,
              "customizable": true,
              "dname": [
               {
@@ -11908,7 +13168,7 @@
              "url": "1-piece-original-crispy-fillet",
              "isPromo": false,
              "posId": "170511",
-             "displayOrder": 656,
+             "displayOrder": 691,
              "customizable": true,
              "dname": [
               {
@@ -11969,7 +13229,7 @@
              "url": "1-piece-zinger-fillet",
              "isPromo": false,
              "posId": "170502",
-             "displayOrder": 657,
+             "displayOrder": 692,
              "customizable": true,
              "dname": [
               {
@@ -12030,7 +13290,7 @@
              "url": "1-piece-original-tender",
              "isPromo": false,
              "posId": "170601",
-             "displayOrder": 658,
+             "displayOrder": 693,
              "customizable": true,
              "dname": [
               {
@@ -12177,7 +13437,7 @@
          "url": "6-original-tenders",
          "isPromo": false,
          "posId": "183003",
-         "displayOrder": 659,
+         "displayOrder": 694,
          "customizable": false,
          "dname": [
           {
@@ -12237,7 +13497,7 @@
              "url": "1-piece-original-tender",
              "isPromo": false,
              "posId": "170601",
-             "displayOrder": 660,
+             "displayOrder": 695,
              "customizable": true,
              "dname": [
               {
@@ -12389,7 +13649,7 @@
          "url": "2-dipping-sauces",
          "isPromo": false,
          "posId": "200040",
-         "displayOrder": 661,
+         "displayOrder": 696,
          "customizable": false,
          "dname": [
           {
@@ -12449,7 +13709,7 @@
              "url": "aioli-dip",
              "isPromo": false,
              "posId": "191010",
-             "displayOrder": 662,
+             "displayOrder": 697,
              "customizable": true,
              "dname": [
               {
@@ -12515,7 +13775,7 @@
              "url": "bbq-dip",
              "isPromo": false,
              "posId": "191006",
-             "displayOrder": 663,
+             "displayOrder": 698,
              "customizable": true,
              "dname": [
               {
@@ -12576,7 +13836,7 @@
              "url": "supercharged-dip",
              "isPromo": false,
              "posId": "191007",
-             "displayOrder": 664,
+             "displayOrder": 699,
              "customizable": true,
              "dname": [
               {
@@ -12637,7 +13897,7 @@
              "url": "sweet-chilli-dip",
              "isPromo": false,
              "posId": "191008",
-             "displayOrder": 665,
+             "displayOrder": 700,
              "customizable": true,
              "dname": [
               {
@@ -12698,7 +13958,7 @@
              "url": "sweet-sour-dip",
              "isPromo": false,
              "posId": "191009",
-             "displayOrder": 666,
+             "displayOrder": 701,
              "customizable": true,
              "dname": [
               {
@@ -12759,7 +14019,7 @@
              "url": "tomato-dip",
              "isPromo": false,
              "posId": "191005",
-             "displayOrder": 667,
+             "displayOrder": 702,
              "customizable": true,
              "dname": [
               {
@@ -12820,7 +14080,7 @@
              "url": "no-sauce",
              "isPromo": false,
              "posId": "191011",
-             "displayOrder": 668,
+             "displayOrder": 703,
              "customizable": true,
              "dname": [
               {
@@ -12967,7 +14227,7 @@
          "url": "large-chips",
          "isPromo": false,
          "posId": "136010",
-         "displayOrder": 669,
+         "displayOrder": 704,
          "customizable": false,
          "dname": [
           {
@@ -13027,7 +14287,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 670,
+             "displayOrder": 705,
              "customizable": false,
              "dname": [
               {
@@ -13088,7 +14348,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 671,
+             "displayOrder": 706,
              "customizable": false,
              "dname": [
               {
@@ -13198,7 +14458,7 @@
          "url": "large-potato-gravy",
          "isPromo": false,
          "posId": "136027",
-         "displayOrder": 672,
+         "displayOrder": 707,
          "customizable": false,
          "dname": [
           {
@@ -13264,7 +14524,7 @@
          "url": "large-coleslaw",
          "isPromo": false,
          "posId": "136045",
-         "displayOrder": 673,
+         "displayOrder": 708,
          "customizable": false,
          "dname": [
           {
@@ -13330,7 +14590,7 @@
          "url": "regular-gravy",
          "isPromo": false,
          "posId": "136026",
-         "displayOrder": 674,
+         "displayOrder": 709,
          "customizable": false,
          "dname": [
           {
@@ -13396,7 +14656,7 @@
          "url": "4-dinner-rolls",
          "isPromo": false,
          "posId": "136047",
-         "displayOrder": 675,
+         "displayOrder": 710,
          "customizable": false,
          "dname": [
           {
@@ -13462,7 +14722,7 @@
          "url": "125l-pepsi-max",
          "isPromo": false,
          "posId": "141061",
-         "displayOrder": 676,
+         "displayOrder": 711,
          "customizable": false,
          "dname": [
           {
@@ -13523,7 +14783,7 @@
          "url": "125l-pepsi",
          "isPromo": false,
          "posId": "141011",
-         "displayOrder": 677,
+         "displayOrder": 712,
          "customizable": false,
          "dname": [
           {
@@ -13584,7 +14844,7 @@
          "url": "125l-7up",
          "isPromo": false,
          "posId": "141044",
-         "displayOrder": 678,
+         "displayOrder": 713,
          "customizable": false,
          "dname": [
           {
@@ -13645,7 +14905,7 @@
          "url": "125l-mountain-dew",
          "isPromo": false,
          "posId": "141026",
-         "displayOrder": 679,
+         "displayOrder": 714,
          "customizable": false,
          "dname": [
           {
@@ -13706,7 +14966,7 @@
          "url": "125l-solo",
          "isPromo": false,
          "posId": "141032",
-         "displayOrder": 680,
+         "displayOrder": 715,
          "customizable": false,
          "dname": [
           {
@@ -13767,7 +15027,7 @@
          "url": "125l-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141017",
-         "displayOrder": 681,
+         "displayOrder": 716,
          "customizable": false,
          "dname": [
           {
@@ -13870,7 +15130,7 @@
          "url": "large-chips",
          "isPromo": false,
          "posId": "136010",
-         "displayOrder": 682,
+         "displayOrder": 717,
          "customizable": false,
          "dname": [
           {
@@ -13930,7 +15190,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 670,
+             "displayOrder": 705,
              "customizable": false,
              "dname": [
               {
@@ -13991,7 +15251,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 671,
+             "displayOrder": 706,
              "customizable": false,
              "dname": [
               {
@@ -14101,7 +15361,7 @@
          "url": "large-potato-gravy",
          "isPromo": false,
          "posId": "136027",
-         "displayOrder": 685,
+         "displayOrder": 720,
          "customizable": false,
          "dname": [
           {
@@ -14167,7 +15427,7 @@
          "url": "large-coleslaw",
          "isPromo": false,
          "posId": "136045",
-         "displayOrder": 686,
+         "displayOrder": 721,
          "customizable": false,
          "dname": [
           {
@@ -14233,7 +15493,7 @@
          "url": "regular-gravy",
          "isPromo": false,
          "posId": "136026",
-         "displayOrder": 687,
+         "displayOrder": 722,
          "customizable": false,
          "dname": [
           {
@@ -14299,7 +15559,7 @@
          "url": "4-dinner-rolls",
          "isPromo": false,
          "posId": "136047",
-         "displayOrder": 688,
+         "displayOrder": 723,
          "customizable": false,
          "dname": [
           {
@@ -14365,7 +15625,7 @@
          "url": "125l-pepsi-max",
          "isPromo": false,
          "posId": "141061",
-         "displayOrder": 689,
+         "displayOrder": 724,
          "customizable": false,
          "dname": [
           {
@@ -14426,7 +15686,7 @@
          "url": "125l-pepsi",
          "isPromo": false,
          "posId": "141011",
-         "displayOrder": 690,
+         "displayOrder": 725,
          "customizable": false,
          "dname": [
           {
@@ -14487,7 +15747,7 @@
          "url": "125l-7up",
          "isPromo": false,
          "posId": "141044",
-         "displayOrder": 691,
+         "displayOrder": 726,
          "customizable": false,
          "dname": [
           {
@@ -14548,7 +15808,7 @@
          "url": "125l-mountain-dew",
          "isPromo": false,
          "posId": "141026",
-         "displayOrder": 692,
+         "displayOrder": 727,
          "customizable": false,
          "dname": [
           {
@@ -14609,7 +15869,7 @@
          "url": "125l-solo",
          "isPromo": false,
          "posId": "141032",
-         "displayOrder": 693,
+         "displayOrder": 728,
          "customizable": false,
          "dname": [
           {
@@ -14670,7 +15930,7 @@
          "url": "125l-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141017",
-         "displayOrder": 694,
+         "displayOrder": 729,
          "customizable": false,
          "dname": [
           {
@@ -14786,7 +16046,7 @@
       "entityId": "I-32871-0",
       "shortDescription": "It’s better than a sandwich – it's a Popcorn Chicken® Slab, with BBQ and cheese sauces, served on our classic dinner rolls. Plus 6 pieces of Original Recipe, 6x Tenders, 2x large chips, 2x dipping sauces/ Perfect for sharing… or not 😏 Not everywhere and not forever.",
       "longDescription": "It’s better than a sandwich – it's a Popcorn Chicken® Slab, with BBQ and cheese sauces, served on our classic dinner rolls. Plus 6 pieces of Original Recipe, 6x Tenders, 2x large chips, 2x dipping sauces/ Perfect for sharing… or not 😏 Not everywhere and not forever.",
-      "caloricValue": "17822",
+      "caloricValue": "20615",
       "nutritionalInformation": [
        {
         "nutritionComponent": "Average serving size",
@@ -14798,50 +16058,50 @@
        {
         "nutritionComponent": "Energy",
         "nutritionUnit": "kj",
-        "serveWiseValue": 17822.0,
-        "gramWiseValue": 985.0,
+        "serveWiseValue": 20615.0,
+        "gramWiseValue": 1139.0,
         "isActive": true
        },
        {
         "nutritionComponent": "Protein",
         "nutritionUnit": "g",
-        "serveWiseValue": 230.7,
-        "gramWiseValue": 12.8,
+        "serveWiseValue": 253.0,
+        "gramWiseValue": 14.0,
         "isActive": true
        },
        {
         "nutritionComponent": "Fat, total",
         "nutritionUnit": "g",
-        "serveWiseValue": 235.4,
-        "gramWiseValue": 13.0,
+        "serveWiseValue": 246.4,
+        "gramWiseValue": 13.6,
         "isActive": true
        },
        {
         "nutritionComponent": "Fat, saturated",
         "nutritionUnit": "g",
-        "serveWiseValue": 35.1,
-        "gramWiseValue": 1.9,
+        "serveWiseValue": 37.8,
+        "gramWiseValue": 2.1,
         "isActive": true
        },
        {
         "nutritionComponent": "Carbohydrate",
         "nutritionUnit": "g",
-        "serveWiseValue": 306.6,
-        "gramWiseValue": 16.9,
+        "serveWiseValue": 423.7,
+        "gramWiseValue": 23.4,
         "isActive": true
        },
        {
         "nutritionComponent": "Carbohydrate, sugars",
         "nutritionUnit": "g",
-        "serveWiseValue": 28.4,
-        "gramWiseValue": 1.6,
+        "serveWiseValue": 46.3,
+        "gramWiseValue": 2.6,
         "isActive": true
        },
        {
         "nutritionComponent": "Sodium",
         "nutritionUnit": "mg",
-        "serveWiseValue": 7051.0,
-        "gramWiseValue": 390.0,
+        "serveWiseValue": 7849.0,
+        "gramWiseValue": 434.0,
         "isActive": true
        }
       ],
@@ -14954,7 +16214,7 @@
          "url": "aioli-dip",
          "isPromo": false,
          "posId": "191010",
-         "displayOrder": 373,
+         "displayOrder": 383,
          "customizable": false,
          "dname": [
           {
@@ -15020,7 +16280,7 @@
          "url": "bbq-dip",
          "isPromo": false,
          "posId": "191006",
-         "displayOrder": 374,
+         "displayOrder": 384,
          "customizable": false,
          "dname": [
           {
@@ -15081,7 +16341,7 @@
          "url": "supercharged-dip",
          "isPromo": false,
          "posId": "191007",
-         "displayOrder": 375,
+         "displayOrder": 385,
          "customizable": false,
          "dname": [
           {
@@ -15142,7 +16402,7 @@
          "url": "sweet-sour-dip",
          "isPromo": false,
          "posId": "191009",
-         "displayOrder": 376,
+         "displayOrder": 386,
          "customizable": false,
          "dname": [
           {
@@ -15203,7 +16463,7 @@
          "url": "sweet-chilli-dip",
          "isPromo": false,
          "posId": "191008",
-         "displayOrder": 377,
+         "displayOrder": 387,
          "customizable": false,
          "dname": [
           {
@@ -15264,7 +16524,7 @@
          "url": "tomato-dip",
          "isPromo": false,
          "posId": "191005",
-         "displayOrder": 378,
+         "displayOrder": 388,
          "customizable": false,
          "dname": [
           {
@@ -15325,7 +16585,7 @@
          "url": "no-sauce",
          "isPromo": false,
          "posId": "191011",
-         "displayOrder": 379,
+         "displayOrder": 389,
          "customizable": false,
          "dname": [
           {
@@ -15428,7 +16688,7 @@
          "url": "1-piece-original-tender",
          "isPromo": false,
          "posId": "170601",
-         "displayOrder": 380,
+         "displayOrder": 390,
          "customizable": false,
          "dname": [
           {
@@ -16194,7 +17454,7 @@
          "url": "1-piece-original-recipe",
          "isPromo": false,
          "posId": "170101",
-         "displayOrder": 371,
+         "displayOrder": 381,
          "customizable": false,
          "dname": [
           {
@@ -16623,7 +17883,239 @@
       }
      ],
      "recommendationRules": null,
-     "content": null,
+     "content": {
+      "entityId": "I-32872",
+      "longDescription": "Soft and fluffy potato mash with warm, rich gravy. Mmmmm…",
+      "caloricValue": "267",
+      "nutritionalInformation": [
+       {
+        "nutritionComponent": "Average serving size",
+        "nutritionUnit": "g",
+        "serveWiseValue": 110.0,
+        "gramWiseValue": 1.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Energy",
+        "nutritionUnit": "kj",
+        "serveWiseValue": 267.0,
+        "gramWiseValue": 243.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Protein",
+        "nutritionUnit": "g",
+        "serveWiseValue": 1.9,
+        "gramWiseValue": 1.7,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, total",
+        "nutritionUnit": "g",
+        "serveWiseValue": 0.9,
+        "gramWiseValue": 0.8,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, saturated",
+        "nutritionUnit": "g",
+        "serveWiseValue": 0.1,
+        "gramWiseValue": 0.1,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate",
+        "nutritionUnit": "g",
+        "serveWiseValue": 12.0,
+        "gramWiseValue": 10.9,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate, sugars",
+        "nutritionUnit": "g",
+        "serveWiseValue": 0.8,
+        "gramWiseValue": 0.7,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Sodium",
+        "nutritionUnit": "mg",
+        "serveWiseValue": 532.0,
+        "gramWiseValue": 484.0,
+        "isActive": true
+       }
+      ],
+      "allergenInformation": [
+       {
+        "allergenComponent": "Cereals containing gluten - Wheat",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Barley",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Oats",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Rye",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Spelt",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Crustacea & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Egg & Egg Products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Fish & Fish Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Milk & Milk Products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Molluscs and mollusc products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Almonds",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Beech nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Cashews",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hickory nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pecans",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pine nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pili nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Shea nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Walnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sesame seeds and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Peanuts and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Soybeans and their products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Lupin & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sulphites #",
+        "isPresent": true,
+        "isTrace": false
+       }
+      ],
+      "hideNutritionInformation": false,
+      "hideAllergenInformation": false,
+      "showInFactSheet": true,
+      "flagText": null,
+      "tagArray": [
+       "Sides"
+      ],
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4JxZD8A9xTZJEvgY6AOM9G/529d6e2e035ce066acc6313530dbaf28/Potato___Gravy_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      },
+      "serves": 0
+     },
      "categoryUrl": [
       "fomo-wow"
      ],
@@ -17027,7 +18519,239 @@
       }
      ],
      "recommendationRules": null,
-     "content": null,
+     "content": {
+      "entityId": "I-32867",
+      "longDescription": "Soft, individual white bread rolls with sesame seed topping, a great accompaniment to your meal.",
+      "caloricValue": "460",
+      "nutritionalInformation": [
+       {
+        "nutritionComponent": "Average serving size",
+        "nutritionUnit": "g",
+        "serveWiseValue": 40.0,
+        "gramWiseValue": 1.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Energy",
+        "nutritionUnit": "kj",
+        "serveWiseValue": 460.0,
+        "gramWiseValue": 1150.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Protein",
+        "nutritionUnit": "g",
+        "serveWiseValue": 4.1,
+        "gramWiseValue": 10.2,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, total",
+        "nutritionUnit": "g",
+        "serveWiseValue": 2.4,
+        "gramWiseValue": 6.1,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, saturated",
+        "nutritionUnit": "g",
+        "serveWiseValue": 0.3,
+        "gramWiseValue": 0.7,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate",
+        "nutritionUnit": "g",
+        "serveWiseValue": 16.9,
+        "gramWiseValue": 42.3,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate, sugars",
+        "nutritionUnit": "g",
+        "serveWiseValue": 2.8,
+        "gramWiseValue": 7.1,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Sodium",
+        "nutritionUnit": "mg",
+        "serveWiseValue": 133.0,
+        "gramWiseValue": 332.0,
+        "isActive": true
+       }
+      ],
+      "allergenInformation": [
+       {
+        "allergenComponent": "Cereals containing gluten - Wheat",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Barley",
+        "isPresent": false,
+        "isTrace": true
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Oats",
+        "isPresent": false,
+        "isTrace": true
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Rye",
+        "isPresent": false,
+        "isTrace": true
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Spelt",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Crustacea & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Egg & Egg Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Fish & Fish Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Milk & Milk Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Molluscs and mollusc products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Almonds",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Beech nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Cashews",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hickory nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pecans",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pine nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pili nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Shea nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Walnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sesame seeds and their products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Peanuts and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Soybeans and their products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Lupin & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sulphites #",
+        "isPresent": false,
+        "isTrace": false
+       }
+      ],
+      "hideNutritionInformation": false,
+      "hideAllergenInformation": false,
+      "showInFactSheet": true,
+      "flagText": null,
+      "tagArray": [
+       "Sides"
+      ],
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5wUTudczH7zK125hsbiaaL/912599163787b884bf6ca05c7017fa9d/Modifier_Dinner_Roll_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      },
+      "serves": 0
+     },
      "categoryUrl": [
       "fomo-wow"
      ],
@@ -17040,7 +18764,7 @@
   "entityId": "I-32869-1",
   "shortDescription": "It’s better than a sandwich – it's a Popcorn Chicken® Slab, with BBQ and cheese sauces, served on our classic dinner rolls 🤤 Plus a Large Chips and Large Drink. Not everywhere and not forever.",
   "longDescription": "It’s better than a sandwich – it's a Popcorn Chicken® Slab, with BBQ and cheese sauces, served on our classic dinner rolls 🤤 Plus a Large Chips and Large Drink. Not everywhere and not forever.",
-  "caloricValue": "5894",
+  "caloricValue": "8687",
   "nutritionalInformation": [
    {
     "nutritionComponent": "Average serving size",
@@ -17052,50 +18776,50 @@
    {
     "nutritionComponent": "Energy",
     "nutritionUnit": "kj",
-    "serveWiseValue": 5894.0,
-    "gramWiseValue": 429.0,
+    "serveWiseValue": 8687.0,
+    "gramWiseValue": 632.0,
     "isActive": true
    },
    {
     "nutritionComponent": "Protein",
     "nutritionUnit": "g",
-    "serveWiseValue": 47.0,
-    "gramWiseValue": 3.4,
+    "serveWiseValue": 69.3,
+    "gramWiseValue": 5.0,
     "isActive": true
    },
    {
     "nutritionComponent": "Fat, total",
     "nutritionUnit": "g",
-    "serveWiseValue": 68.2,
-    "gramWiseValue": 5.0,
+    "serveWiseValue": 79.2,
+    "gramWiseValue": 5.8,
     "isActive": true
    },
    {
     "nutritionComponent": "Fat, saturated",
     "nutritionUnit": "g",
-    "serveWiseValue": 11.6,
-    "gramWiseValue": 0.8,
+    "serveWiseValue": 14.3,
+    "gramWiseValue": 1.0,
     "isActive": true
    },
    {
     "nutritionComponent": "Carbohydrate",
     "nutritionUnit": "g",
-    "serveWiseValue": 151.8,
-    "gramWiseValue": 11.0,
+    "serveWiseValue": 268.9,
+    "gramWiseValue": 19.6,
     "isActive": true
    },
    {
     "nutritionComponent": "Carbohydrate, sugars",
     "nutritionUnit": "g",
-    "serveWiseValue": 24.1,
-    "gramWiseValue": 1.8,
+    "serveWiseValue": 42.0,
+    "gramWiseValue": 3.1,
     "isActive": true
    },
    {
     "nutritionComponent": "Sodium",
     "nutritionUnit": "mg",
-    "serveWiseValue": 2519.0,
-    "gramWiseValue": 183.0,
+    "serveWiseValue": 3318.0,
+    "gramWiseValue": 241.0,
     "isActive": true
    }
   ],
