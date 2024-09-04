@@ -1,0 +1,329 @@
+{
+ "mdmId": "I-41089",
+ "id": "I-41089",
+ "name": "Supercharged Dip",
+ "size": null,
+ "linkId": "41089",
+ "url": "supercharged-dip",
+ "isPromo": false,
+ "posId": "191007",
+ "displayOrder": 0,
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Supercharged Dip"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "Supercharged Dip"
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted."
+  }
+ ],
+ "imageName": [
+  {
+   "lang": "en-US",
+   "value": "https://images.ctfassets.net/crbk84xktnsl/RLMHlsQrPIe7tyFlxrRxm/143df961b5b8b411528591d3da26beaf/Sauce_Supercharged.png"
+  }
+ ],
+ "modgrps": [],
+ "modgrpIds": null,
+ "isHidden": false,
+ "isCategoryHidden": false,
+ "availability": [
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "0001"
+    },
+    "endTime": {
+     "time": "2359"
+    }
+   },
+   "price": 60
+  },
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "2310"
+    },
+    "endTime": {
+     "time": "0550"
+    }
+   },
+   "price": 65
+  }
+ ],
+ "isTimeSpecific": false,
+ "effectiveStartDateTime": 0,
+ "effectiveEndDateTime": 0,
+ "additionalProperties": [
+  {
+   "key": "mealdealdetailid",
+   "value": "MENU_ITEM"
+  },
+  {
+   "key": "calories",
+   "value": "440"
+  },
+  {
+   "key": "pricewithouttax",
+   "value": "60"
+  },
+  {
+   "key": "upSizeItemPrice",
+   "value": "60"
+  }
+ ],
+ "recommendationRules": [],
+ "content": {
+  "entityId": "I-41089",
+  "longDescription": "Got a double dipper problem? Give everyone their own favourite dipping sauce! Sorted.",
+  "caloricValue": "440",
+  "nutritionalInformation": [
+   {
+    "nutritionComponent": "Average serving size",
+    "nutritionUnit": "g",
+    "serveWiseValue": 25.0,
+    "gramWiseValue": 1.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Energy",
+    "nutritionUnit": "kj",
+    "serveWiseValue": 440.0,
+    "gramWiseValue": 1760.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Protein",
+    "nutritionUnit": "g",
+    "serveWiseValue": 0.4,
+    "gramWiseValue": 1.7,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, total",
+    "nutritionUnit": "g",
+    "serveWiseValue": 9.8,
+    "gramWiseValue": 39.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, saturated",
+    "nutritionUnit": "g",
+    "serveWiseValue": 0.8,
+    "gramWiseValue": 3.3,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate",
+    "nutritionUnit": "g",
+    "serveWiseValue": 4.2,
+    "gramWiseValue": 16.9,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate, sugars",
+    "nutritionUnit": "g",
+    "serveWiseValue": 3.0,
+    "gramWiseValue": 12.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Sodium",
+    "nutritionUnit": "mg",
+    "serveWiseValue": 185.0,
+    "gramWiseValue": 740.0,
+    "isActive": true
+   }
+  ],
+  "allergenInformation": [
+   {
+    "allergenComponent": "Cereals containing gluten - Wheat",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Barley",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Oats",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Rye",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Spelt",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Crustacea & their Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Egg & Egg Products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Fish & Fish Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Milk & Milk Products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Molluscs and mollusc products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Almonds",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Beech nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Cashews",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Chestnut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Hickory nut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pecans",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pine nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pili nut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Shea nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Walnuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Sesame seeds and their products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Peanuts and their products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Soybeans and their products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Lupin & their Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Sulphites #",
+    "isPresent": false,
+    "isTrace": false
+   }
+  ],
+  "hideNutritionInformation": true,
+  "hideAllergenInformation": false,
+  "showInFactSheet": true,
+  "flagText": null,
+  "tagArray": [
+   "Sides"
+  ],
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/RLMHlsQrPIe7tyFlxrRxm/143df961b5b8b411528591d3da26beaf/Sauce_Supercharged.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "serves": 0
+ },
+ "categoryUrl": [
+  "sides"
+ ],
+ "categoryId": "C-20020"
+}
