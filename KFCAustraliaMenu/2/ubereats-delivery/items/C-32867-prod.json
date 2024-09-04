@@ -66,6 +66,20 @@
       }
      },
      "price": 100
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 100
     }
    ],
    "isTimeSpecific": false,
@@ -99,7 +113,7 @@
    "value": "MENU_ITEM"
   }
  ],
- "displayOrder": 4,
+ "displayOrder": 3,
  "isHidden": false,
  "content": null,
  "url": "dinner-roll-add-on"
