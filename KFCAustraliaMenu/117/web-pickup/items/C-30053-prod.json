@@ -1,0 +1,717 @@
+{
+ "mdmId": "C-30053-prod",
+ "name": "Regular Coleslaw",
+ "id": "C-30053-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Regular Coleslaw"
+  }
+ ],
+ "shortDescription": [],
+ "longDescription": [],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/5JQ6qPVrrWnLMeM1Z1LGRg/17d75713e8a86451ced4fe1afbb85e0d/Coleslaw_reg.png",
+ "items": [
+  {
+   "mdmId": "I-30053",
+   "id": "I-30053",
+   "name": "Regular Coleslaw",
+   "size": null,
+   "linkId": "40980",
+   "url": "regular-coleslaw",
+   "isPromo": false,
+   "posId": "136040",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Regular Coleslaw"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Regular Coleslaw"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Crisp cabbage and carrots finely chopped in a mayonnaise-based sauce. The perfect sidekick for your meal."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/5JQ6qPVrrWnLMeM1Z1LGRg/17d75713e8a86451ced4fe1afbb85e0d/Coleslaw_reg.png"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 545
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 600
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "calories",
+     "value": "411"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "545"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "545"
+    }
+   ],
+   "recommendationRules": [
+    {
+     "recommendationType": "upsell",
+     "startDateTime": 0,
+     "endDateTime": 0,
+     "name": [
+      {
+       "lang": "en-US",
+       "value": "Web - Pickup_Delivery - Upsell - Regular Coleslaw"
+      }
+     ],
+     "headerText": [
+      {
+       "lang": "en-US",
+       "value": "Web - Pickup_Delivery - Upsell - Regular Coleslaw"
+      }
+     ],
+     "recommendedItems": [
+      {
+       "mdmId": "I-30096",
+       "id": "I-30096",
+       "name": "Large Coleslaw",
+       "size": null,
+       "linkId": "40979",
+       "url": "large-coleslaw",
+       "isPromo": false,
+       "posId": "136045",
+       "displayOrder": 1,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Large Coleslaw"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Large Coleslaw"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Crisp cabbage and carrots finely chopped in a mayonnaise-based sauce. The perfect sidekick for your meal."
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/4yCscBrUGTPYhR2eUn7YSf/a9bd4b7edeb2182aba0d62367e66be65/Coleslaw_lge.png"
+        }
+       ],
+       "modgrps": [],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 845
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 925
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "calories",
+         "value": "1683"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "845"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "845"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-30096",
+        "longDescription": "Crisp cabbage and carrots finely chopped in a mayonnaise-based sauce. The perfect sidekick for your meal.",
+        "caloricValue": "1714",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 450.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 1714.0,
+          "gramWiseValue": 381.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 4.5,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 14.4,
+          "gramWiseValue": 3.2,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.8,
+          "gramWiseValue": 0.4,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 64.8,
+          "gramWiseValue": 14.4,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 54.9,
+          "gramWiseValue": 12.2,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 648.0,
+          "gramWiseValue": 144.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": true,
+        "hideAllergenInformation": true,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4yCscBrUGTPYhR2eUn7YSf/a9bd4b7edeb2182aba0d62367e66be65/Coleslaw_lge.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "sides"
+       ],
+       "categoryId": "C-20020"
+      }
+     ]
+    }
+   ],
+   "content": {
+    "entityId": "I-30053",
+    "longDescription": "Crisp cabbage and carrots finely chopped in a mayonnaise-based sauce. The perfect sidekick for your meal.",
+    "caloricValue": "419",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 110.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 419.0,
+      "gramWiseValue": 381.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 1.1,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 3.5,
+      "gramWiseValue": 3.2,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.4,
+      "gramWiseValue": 0.4,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 15.8,
+      "gramWiseValue": 14.4,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 13.4,
+      "gramWiseValue": 12.2,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 158.0,
+      "gramWiseValue": 144.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Sides"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5JQ6qPVrrWnLMeM1Z1LGRg/17d75713e8a86451ced4fe1afbb85e0d/Coleslaw_reg.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "sides"
+   ],
+   "categoryId": "C-20020"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 9,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-30053-prod",
+  "caloricValue": "419",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5JQ6qPVrrWnLMeM1Z1LGRg/17d75713e8a86451ced4fe1afbb85e0d/Coleslaw_reg.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": null,
+  "serves": 0
+ },
+ "url": "regular-coleslaw"
+}
