@@ -1,0 +1,1028 @@
+{
+ "mdmId": "I-32868",
+ "id": "I-32868",
+ "name": "The Slab",
+ "size": null,
+ "linkId": "43749",
+ "url": "the-slab",
+ "isPromo": false,
+ "posId": "185017",
+ "displayOrder": 0,
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "The Slab"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "A new cult product filled with loads of our famous popcorn chicken, held together by 6 of our soft rolls oozing with tasty Cheese and BBQ sauce."
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "It’s better than a sandwich – it's a Popcorn Chicken® Slab, with BBQ and cheese sauces, served on our classic dinner rolls. Perfect for sharing… or not 😏 Not everywhere and not forever."
+  }
+ ],
+ "imageName": [
+  {
+   "lang": "en-US",
+   "value": "https://images.ctfassets.net/crbk84xktnsl/2iCzLwaNtliJwDmAtLVUaZ/2e7abdeb54adf5c9312fd106a3468ecb/J6194_24P10_The_Slab_ALC.png"
+  }
+ ],
+ "modgrps": [
+  {
+   "id": "92033",
+   "name": "Recipe",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Recipe"
+    }
+   ],
+   "min": 0,
+   "max": 2,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Recipe"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Recipe"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-200005",
+     "id": "M-200005",
+     "name": "BBQ Sauce",
+     "size": "",
+     "linkId": "mod:554481",
+     "url": "bbq-sauce",
+     "isPromo": false,
+     "posId": "200005",
+     "displayOrder": 91,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "BBQ Sauce"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "BBQ Sauce"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "BBQ Sauce"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/1T7KFiAkbVunJylykaL4Dc/ddb50181024592e00a114a02e79ab543/Modifier_Sauce_BBQ.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "defaultreason",
+       "value": "RECIPE"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-200005",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1T7KFiAkbVunJylykaL4Dc/ddb50181024592e00a114a02e79ab543/Modifier_Sauce_BBQ.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200017",
+     "id": "M-200017",
+     "name": "Cheese Sauce",
+     "size": "",
+     "linkId": "mod:556192",
+     "url": "cheese-sauce",
+     "isPromo": false,
+     "posId": "200017",
+     "displayOrder": 92,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Sauce"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Sauce"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Sauce"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/6wC2mvSvG5Ho00c59mFCdr/141499e0803751f2dbd606cb0c31d122/J5950_24P04_Sauce_Nacho_Cheese.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "defaultreason",
+       "value": "RECIPE"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-200017",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6wC2mvSvG5Ho00c59mFCdr/141499e0803751f2dbd606cb0c31d122/J5950_24P04_Sauce_Nacho_Cheese.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 0,
+   "isHidden": false
+  },
+  {
+   "id": "92034",
+   "name": "Extras",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Extras"
+    }
+   ],
+   "min": 0,
+   "max": 5,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Extras"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Extras"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-200005",
+     "id": "M-200005",
+     "name": "BBQ Sauce",
+     "size": "",
+     "linkId": "mod:554481",
+     "url": "bbq-sauce",
+     "isPromo": false,
+     "posId": "200005",
+     "displayOrder": 93,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "BBQ Sauce"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "BBQ Sauce"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "BBQ Sauce"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/1T7KFiAkbVunJylykaL4Dc/ddb50181024592e00a114a02e79ab543/Modifier_Sauce_BBQ.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200005",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1T7KFiAkbVunJylykaL4Dc/ddb50181024592e00a114a02e79ab543/Modifier_Sauce_BBQ.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200017",
+     "id": "M-200017",
+     "name": "Cheese Sauce",
+     "size": "",
+     "linkId": "mod:556192",
+     "url": "cheese-sauce",
+     "isPromo": false,
+     "posId": "200017",
+     "displayOrder": 94,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Sauce"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Sauce"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Sauce"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/6wC2mvSvG5Ho00c59mFCdr/141499e0803751f2dbd606cb0c31d122/J5950_24P04_Sauce_Nacho_Cheese.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 50
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200017",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6wC2mvSvG5Ho00c59mFCdr/141499e0803751f2dbd606cb0c31d122/J5950_24P04_Sauce_Nacho_Cheese.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200011",
+     "id": "M-200011",
+     "name": "Chilli Relish Sauce",
+     "size": "",
+     "linkId": "mod:554352",
+     "url": "chilli-relish-sauce",
+     "isPromo": false,
+     "posId": "200011",
+     "displayOrder": 95,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Chilli Relish Sauce"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Chilli Relish Sauce"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Chilli Relish Sauce"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/e1t8csgFvFDyc38Ou9YhA/0a58e6747e9f63a60769f614cfd1a638/Modifier_Sauce_Chilli_Relish.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200011",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/e1t8csgFvFDyc38Ou9YhA/0a58e6747e9f63a60769f614cfd1a638/Modifier_Sauce_Chilli_Relish.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200042",
+     "id": "M-200042",
+     "name": "Jalapeno Mayo",
+     "size": "",
+     "linkId": "mod:555770",
+     "url": "jalapeno-mayo",
+     "isPromo": false,
+     "posId": "200042",
+     "displayOrder": 96,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Jalapeno Mayo"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Jalapeno Mayo"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Jalapeno Mayo"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200042",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200001",
+     "id": "M-200001",
+     "name": "Mayo",
+     "size": "",
+     "linkId": "mod:554350",
+     "url": "mayo",
+     "isPromo": false,
+     "posId": "200001",
+     "displayOrder": 97,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Mayo"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Mayo"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Mayo"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/46SEeDBx51iTnkP6zPt82l/f3aaf2a729d86f1950cd6e2fe67aac72/Modifier_Sauce_Mayo.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200001",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/46SEeDBx51iTnkP6zPt82l/f3aaf2a729d86f1950cd6e2fe67aac72/Modifier_Sauce_Mayo.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200003",
+     "id": "M-200003",
+     "name": "Pepper Mayo",
+     "size": "",
+     "linkId": "mod:554359",
+     "url": "pepper-mayo",
+     "isPromo": false,
+     "posId": "200003",
+     "displayOrder": 98,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Pepper Mayo"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Pepper Mayo"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Pepper Mayo"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200003",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200004",
+     "id": "M-200004",
+     "name": "Supercharged Sauce",
+     "size": "",
+     "linkId": "mod:554355",
+     "url": "supercharged-sauce",
+     "isPromo": false,
+     "posId": "200004",
+     "displayOrder": 99,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Supercharged Sauce"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Supercharged Sauce"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Supercharged Sauce"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/S7OMZwS6F04k6U2qUxeQh/aee02a208e220562bc367006951c47ab/Modifier_Sauce_Supercharged.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200004",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/S7OMZwS6F04k6U2qUxeQh/aee02a208e220562bc367006951c47ab/Modifier_Sauce_Supercharged.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "3"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "5"
+    }
+   ],
+   "displayOrder": 1,
+   "isHidden": false
+  }
+ ],
+ "modgrpIds": null,
+ "isHidden": false,
+ "isCategoryHidden": false,
+ "availability": [
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "0001"
+    },
+    "endTime": {
+     "time": "2359"
+    }
+   },
+   "price": 1295
+  }
+ ],
+ "isTimeSpecific": false,
+ "effectiveStartDateTime": 0,
+ "effectiveEndDateTime": 0,
+ "additionalProperties": [
+  {
+   "key": "mealdealdetailid",
+   "value": "MENU_ITEM"
+  },
+  {
+   "key": "pricewithouttax",
+   "value": "1295"
+  },
+  {
+   "key": "upSizeItemPrice",
+   "value": "1295"
+  }
+ ],
+ "recommendationRules": [],
+ "content": {
+  "entityId": "I-32868",
+  "longDescription": "It’s better than a sandwich – it's a Popcorn Chicken® Slab, with BBQ and cheese sauces, served on our classic dinner rolls. Perfect for sharing… or not 😏 Not everywhere and not forever.",
+  "caloricValue": "3453",
+  "nutritionalInformation": [
+   {
+    "nutritionComponent": "Average serving size",
+    "nutritionUnit": "g",
+    "serveWiseValue": 535.0,
+    "gramWiseValue": 1.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Energy",
+    "nutritionUnit": "kj",
+    "serveWiseValue": 3453.0,
+    "gramWiseValue": 645.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Protein",
+    "nutritionUnit": "g",
+    "serveWiseValue": 37.5,
+    "gramWiseValue": 7.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, total",
+    "nutritionUnit": "g",
+    "serveWiseValue": 44.7,
+    "gramWiseValue": 8.4,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, saturated",
+    "nutritionUnit": "g",
+    "serveWiseValue": 9.2,
+    "gramWiseValue": 1.7,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate",
+    "nutritionUnit": "g",
+    "serveWiseValue": 68.2,
+    "gramWiseValue": 12.7,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate, sugars",
+    "nutritionUnit": "g",
+    "serveWiseValue": 23.6,
+    "gramWiseValue": 4.4,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Sodium",
+    "nutritionUnit": "mg",
+    "serveWiseValue": 2247.0,
+    "gramWiseValue": 420.0,
+    "isActive": true
+   }
+  ],
+  "allergenInformation": [
+   {
+    "allergenComponent": "Cereals containing gluten - Wheat",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Barley",
+    "isPresent": false,
+    "isTrace": true
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Oats",
+    "isPresent": false,
+    "isTrace": true
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Rye",
+    "isPresent": false,
+    "isTrace": true
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Spelt",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Crustacea & their Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Egg & Egg Products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Fish & Fish Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Milk & Milk Products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Molluscs and mollusc products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Almonds",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Beech nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Cashews",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Chestnut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Hickory nut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pecans",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pine nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pili nut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Shea nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Walnuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Sesame seeds and their products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Peanuts and their products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Soybeans and their products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Lupin & their Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Sulphites #",
+    "isPresent": false,
+    "isTrace": false
+   }
+  ],
+  "hideNutritionInformation": false,
+  "hideAllergenInformation": false,
+  "showInFactSheet": true,
+  "flagText": null,
+  "tagArray": [
+   "Boneless",
+   "Sides"
+  ],
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2iCzLwaNtliJwDmAtLVUaZ/2e7abdeb54adf5c9312fd106a3468ecb/J6194_24P10_The_Slab_ALC.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "serves": 0
+ },
+ "categoryUrl": [
+  "burgers"
+ ],
+ "categoryId": "C-20034"
+}
