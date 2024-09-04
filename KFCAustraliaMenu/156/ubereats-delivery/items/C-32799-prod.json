@@ -1,0 +1,292 @@
+{
+ "mdmId": "C-32799-prod",
+ "name": "2 Pieces of Chicken",
+ "id": "C-32799-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "2 Pieces of Chicken"
+  }
+ ],
+ "shortDescription": [],
+ "longDescription": [],
+ "imageName": "C-32799",
+ "items": [
+  {
+   "mdmId": "I-32799",
+   "id": "I-32799",
+   "name": "2 Pieces of Chicken",
+   "size": null,
+   "linkId": "43699",
+   "url": "2-pieces-of-chicken",
+   "isPromo": false,
+   "posId": "180052",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "2 Pieces of Chicken"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "2 Pieces of Chicken"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "2 Pieces of Chicken"
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "I-32799"
+    }
+   ],
+   "modgrps": [
+    {
+     "id": "92000",
+     "name": "Modify 2 pieces",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Modify 2 pieces"
+      }
+     ],
+     "min": 2,
+     "max": 2,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify 2 pieces"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify 2 pieces"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-170101",
+       "id": "M-170101",
+       "name": "1 Piece Original Recipe",
+       "size": "",
+       "linkId": "mod:554826",
+       "url": "1-piece-original-recipe",
+       "isPromo": false,
+       "posId": "170101",
+       "displayOrder": 474,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Recipe"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Recipe"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Recipe"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "defaultreason",
+         "value": "SELECTION"
+        }
+       ],
+       "defaultQuantity": 2,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-170101",
+        "caloricValue": "984",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-170601",
+       "id": "M-170601",
+       "name": "1 Piece Original Tender™",
+       "size": "",
+       "linkId": "mod:554832",
+       "url": "1-piece-original-tender",
+       "isPromo": false,
+       "posId": "170601",
+       "displayOrder": 475,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Tender™"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Tender™"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Tender™"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 50
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-170601",
+        "caloricValue": "412",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "2"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 0,
+     "isHidden": false
+    }
+   ],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": true,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 690
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "690"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "690"
+    }
+   ],
+   "recommendationRules": [],
+   "content": null,
+   "categoryUrl": [
+    "fomo-wow"
+   ],
+   "categoryId": "C-20069"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 78,
+ "isHidden": false,
+ "content": null,
+ "url": "2-pieces-of-chicken"
+}
