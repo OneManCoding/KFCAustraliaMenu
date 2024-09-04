@@ -1,0 +1,388 @@
+{
+ "mdmId": "C-32720-prod",
+ "name": "Kentucky Snack Pack",
+ "id": "C-32720-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Kentucky Snack Pack"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "Our famous golden chips are topped with your fave Popcorn Chicken and drizzled with fiery Supercharged sauce. Yes, just yes. Not everywhere and not forever."
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "This is what you came for. Say hello to your new addiction - the Kentucky Snack Pack. That's our famous, golden chips topped with your fave Popcorn Chicken and drizzled with fiery supercharged sauce. Yep, it's as good as it sounds."
+  }
+ ],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/10tV0Idj4S3zLfVoWQ0AE3/f8637809912b0df346ece4951c0b50cc/J5815_24P02__3.95_Kentucky_Snack_Pack.png",
+ "items": [
+  {
+   "mdmId": "I-32720",
+   "id": "I-32720",
+   "name": "Kentucky Snack Pack",
+   "size": null,
+   "linkId": "43655",
+   "url": "kentucky-snack-pack",
+   "isPromo": false,
+   "posId": "191014",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Kentucky Snack Pack"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "This is what you came for. Say hello to your new addiction - the Kentucky Snack Pack. That's our famous, golden chips topped with your fave Popcorn Chicken and drizzled with fiery supercharged sauce. Yep, it's as good as it sounds."
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Our famous golden chips are topped with your fave Popcorn Chicken and drizzled with fiery Supercharged sauce. Yes, just yes. Not everywhere and not forever."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/10tV0Idj4S3zLfVoWQ0AE3/f8637809912b0df346ece4951c0b50cc/J5815_24P02__3.95_Kentucky_Snack_Pack.png"
+    }
+   ],
+   "modgrps": [
+    {
+     "id": "91941",
+     "name": "Modify Chips",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Modify Chips"
+      }
+     ],
+     "min": 0,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify Chips"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-200031",
+       "id": "M-200031",
+       "name": "Extra Salt",
+       "size": "",
+       "linkId": "mod:554382",
+       "url": "extra-salt",
+       "isPromo": false,
+       "posId": "200031",
+       "displayOrder": 857,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Extra Salt"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Extra Salt"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Extra Salt"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-200031",
+        "caloricValue": null,
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-200030",
+       "id": "M-200030",
+       "name": "No Salt",
+       "size": "",
+       "linkId": "mod:554383",
+       "url": "no-salt",
+       "isPromo": false,
+       "posId": "200030",
+       "displayOrder": 858,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "No Salt"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "No Salt"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "No Salt"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-200030",
+        "caloricValue": null,
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 0,
+     "isHidden": false
+    }
+   ],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": true,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 695
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "695"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "695"
+    }
+   ],
+   "recommendationRules": [],
+   "content": {
+    "entityId": "I-32720",
+    "shortDescription": "This is what you came for. Say hello to your new addiction - the Kentucky Snack Pack. That's our famous, golden chips topped with your fave Popcorn Chicken and drizzled with fiery supercharged sauce. Yep, it's as good as it sounds.",
+    "longDescription": "Our famous golden chips are topped with your fave Popcorn Chicken and drizzled with fiery Supercharged sauce. Yes, just yes. Not everywhere and not forever.",
+    "caloricValue": "4110",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 352.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 4110.0,
+      "gramWiseValue": 1168.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 23.4,
+      "gramWiseValue": 6.7,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 51.5,
+      "gramWiseValue": 14.6,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 4.9,
+      "gramWiseValue": 1.4,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 106.6,
+      "gramWiseValue": 30.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 3.4,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 1044.0,
+      "gramWiseValue": 297.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Lighter"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/10tV0Idj4S3zLfVoWQ0AE3/f8637809912b0df346ece4951c0b50cc/J5815_24P02__3.95_Kentucky_Snack_Pack.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "fomo-wow"
+   ],
+   "categoryId": "C-20069"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 63,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-32720-prod",
+  "caloricValue": "4110",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/10tV0Idj4S3zLfVoWQ0AE3/f8637809912b0df346ece4951c0b50cc/J5815_24P02__3.95_Kentucky_Snack_Pack.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [
+   "Snacks"
+  ],
+  "shortDescription": "Our famous golden chips are topped with your fave Popcorn Chicken and drizzled with fiery Supercharged sauce. Yes, just yes. Not everywhere and not forever.",
+  "serves": 0
+ },
+ "url": "kentucky-snack-pack"
+}
