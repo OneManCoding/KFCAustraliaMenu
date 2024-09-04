@@ -82,7 +82,7 @@
        "url": "1-piece-original-recipe",
        "isPromo": false,
        "posId": "170101",
-       "displayOrder": 48,
+       "displayOrder": 57,
        "customizable": false,
        "dname": [
         {
@@ -156,7 +156,7 @@
        "url": "1-piece-original-tender",
        "isPromo": false,
        "posId": "170601",
-       "displayOrder": 49,
+       "displayOrder": 58,
        "customizable": false,
        "dname": [
         {
@@ -252,6 +252,20 @@
       }
      },
      "price": 1695
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 1850
     }
    ],
    "isTimeSpecific": false,
@@ -346,6 +360,20 @@
           }
          },
          "price": 995
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 1080
         }
        ],
        "isTimeSpecific": false,
@@ -677,7 +705,7 @@
            "url": "1-piece-original-tenders",
            "isPromo": false,
            "posId": "170601",
-           "displayOrder": 61,
+           "displayOrder": 70,
            "customizable": false,
            "dname": [
             {
@@ -785,7 +813,7 @@
            "url": "aioli-dip",
            "isPromo": false,
            "posId": "191010",
-           "displayOrder": 62,
+           "displayOrder": 71,
            "customizable": false,
            "dname": [
             {
@@ -851,7 +879,7 @@
            "url": "bbq-dip",
            "isPromo": false,
            "posId": "191006",
-           "displayOrder": 63,
+           "displayOrder": 72,
            "customizable": false,
            "dname": [
             {
@@ -912,7 +940,7 @@
            "url": "supercharged-dip",
            "isPromo": false,
            "posId": "191007",
-           "displayOrder": 64,
+           "displayOrder": 73,
            "customizable": false,
            "dname": [
             {
@@ -973,7 +1001,7 @@
            "url": "sweet-chilli-dip",
            "isPromo": false,
            "posId": "191008",
-           "displayOrder": 65,
+           "displayOrder": 74,
            "customizable": false,
            "dname": [
             {
@@ -1034,7 +1062,7 @@
            "url": "sweet-sour-dip",
            "isPromo": false,
            "posId": "191009",
-           "displayOrder": 66,
+           "displayOrder": 75,
            "customizable": false,
            "dname": [
             {
@@ -1095,7 +1123,7 @@
            "url": "tomato-dip",
            "isPromo": false,
            "posId": "191005",
-           "displayOrder": 67,
+           "displayOrder": 76,
            "customizable": false,
            "dname": [
             {
@@ -1156,7 +1184,7 @@
            "url": "no-sauce",
            "isPromo": false,
            "posId": "191011",
-           "displayOrder": 68,
+           "displayOrder": 77,
            "customizable": false,
            "dname": [
             {
@@ -1244,6 +1272,20 @@
           }
          },
          "price": 1195
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 1355
         }
        ],
        "isTimeSpecific": false,
@@ -1560,6 +1602,20 @@
           }
          },
          "price": 995
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 1095
         }
        ],
        "isTimeSpecific": false,
@@ -1910,7 +1966,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 388,
+           "displayOrder": 407,
            "customizable": false,
            "dname": [
             {
@@ -1971,7 +2027,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 389,
+           "displayOrder": 408,
            "customizable": false,
            "dname": [
             {
@@ -2629,20 +2685,20 @@
        "categoryId": "C-20069"
       },
       {
-       "mdmId": "I-30090",
-       "id": "I-30090",
-       "name": "Go Bucket® Popcorn Chicken",
+       "mdmId": "I-32866",
+       "id": "I-32866",
+       "name": "Go Bucket® Popcorn Chicken® ADD ON",
        "size": null,
-       "linkId": "40972",
-       "url": "go-bucket-popcorn-chicken",
+       "linkId": "43747",
+       "url": "go-bucket-popcorn-chicken-add-on",
        "isPromo": false,
-       "posId": "191002",
+       "posId": "191003",
        "displayOrder": 3,
        "customizable": false,
        "dname": [
         {
          "lang": "en-US",
-         "value": "Go Bucket® Popcorn Chicken"
+         "value": "Go Bucket® Popcorn Chicken® ADD ON"
         }
        ],
        "shortDescription": [
@@ -2660,12 +2716,12 @@
        "imageName": [
         {
          "lang": "en-US",
-         "value": "I-30090"
+         "value": "I-32866"
         }
        ],
        "modgrps": [
         {
-         "id": "90347",
+         "id": "92030",
          "name": "Modify Chips",
          "dname": [
           {
@@ -2697,7 +2753,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 253,
+           "displayOrder": 384,
            "customizable": false,
            "dname": [
             {
@@ -2758,7 +2814,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 254,
+           "displayOrder": 385,
            "customizable": false,
            "dname": [
             {
@@ -2831,7 +2887,7 @@
        ],
        "modgrpIds": null,
        "isHidden": false,
-       "isCategoryHidden": false,
+       "isCategoryHidden": true,
        "availability": [
         {
          "dayOfWeek": {
@@ -2857,10 +2913,6 @@
          "value": "MENU_ITEM"
         },
         {
-         "key": "calories",
-         "value": "2165"
-        },
-        {
          "key": "pricewithouttax",
          "value": "495"
         },
@@ -2870,242 +2922,11 @@
         }
        ],
        "recommendationRules": null,
-       "content": {
-        "entityId": "I-30090",
-        "shortDescription": "Popcorn Chicken with 1 Portion of Chips. ",
-        "longDescription": "Truly the snack of all trades! Pick up Popcorn Chicken and Chips. Or mix it up with 3 Nuggets, 2 Wicked Wings, or 1 Original Tender. Let’s go!",
-        "caloricValue": "2351",
-        "nutritionalInformation": [
-         {
-          "nutritionComponent": "Average serving size",
-          "nutritionUnit": "g",
-          "serveWiseValue": 199.0,
-          "gramWiseValue": 1.0,
-          "isActive": true
-         },
-         {
-          "nutritionComponent": "Energy",
-          "nutritionUnit": "kj",
-          "serveWiseValue": 2351.0,
-          "gramWiseValue": 1181.0,
-          "isActive": true
-         },
-         {
-          "nutritionComponent": "Protein",
-          "nutritionUnit": "g",
-          "serveWiseValue": 18.5,
-          "gramWiseValue": 9.3,
-          "isActive": true
-         },
-         {
-          "nutritionComponent": "Fat, total",
-          "nutritionUnit": "g",
-          "serveWiseValue": 27.2,
-          "gramWiseValue": 13.7,
-          "isActive": true
-         },
-         {
-          "nutritionComponent": "Fat, saturated",
-          "nutritionUnit": "g",
-          "serveWiseValue": 2.7,
-          "gramWiseValue": 1.4,
-          "isActive": true
-         },
-         {
-          "nutritionComponent": "Carbohydrate",
-          "nutritionUnit": "g",
-          "serveWiseValue": 60.9,
-          "gramWiseValue": 30.6,
-          "isActive": true
-         },
-         {
-          "nutritionComponent": "Carbohydrate, sugars",
-          "nutritionUnit": "g",
-          "serveWiseValue": 0.6,
-          "gramWiseValue": 0.3,
-          "isActive": true
-         },
-         {
-          "nutritionComponent": "Sodium",
-          "nutritionUnit": "mg",
-          "serveWiseValue": 709.0,
-          "gramWiseValue": 357.0,
-          "isActive": true
-         }
-        ],
-        "allergenInformation": [
-         {
-          "allergenComponent": "Cereals containing gluten - Wheat",
-          "isPresent": true,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Cereals containing gluten - Barley",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Cereals containing gluten - Oats",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Cereals containing gluten - Rye",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Cereals containing gluten - Spelt",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Crustacea & their Products",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Egg & Egg Products",
-          "isPresent": true,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Fish & Fish Products",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Milk & Milk Products",
-          "isPresent": true,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Molluscs and mollusc products",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Almonds",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Beech nuts",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Cashews",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Chestnut",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Hickory nut",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Pecans",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Pine nuts",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Pili nut",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Shea nuts",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Tree Nuts and their products - Walnuts",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Sesame seeds and their products",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Peanuts and their products",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Soybeans and their products",
-          "isPresent": true,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Lupin & their Products",
-          "isPresent": false,
-          "isTrace": false
-         },
-         {
-          "allergenComponent": "Sulphites #",
-          "isPresent": false,
-          "isTrace": false
-         }
-        ],
-        "hideNutritionInformation": false,
-        "hideAllergenInformation": false,
-        "showInFactSheet": true,
-        "flagText": null,
-        "tagArray": [],
-        "image": {
-         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/xiZX7QpmtcZ3E6Ut3OYNy/8cd5bf414effa5fae1c82c60a146d3d5/Go_Bucket_Popcorn_Chicken.png",
-         "secondaryImage": null,
-         "tertiaryImage": null
-        },
-        "serves": 0
-       },
+       "content": null,
        "categoryUrl": [
-        "snacks-kids-meals"
+        "fomo-wow"
        ],
-       "categoryId": "C-20006"
+       "categoryId": "C-20069"
       },
       {
        "mdmId": "I-32856",
@@ -3160,6 +2981,20 @@
           }
          },
          "price": 545
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 595
         }
        ],
        "isTimeSpecific": false,

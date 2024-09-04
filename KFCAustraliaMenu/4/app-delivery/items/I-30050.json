@@ -67,7 +67,7 @@
      "url": "extra-salt",
      "isPromo": false,
      "posId": "200031",
-     "displayOrder": 408,
+     "displayOrder": 426,
      "customizable": false,
      "dname": [
       {
@@ -136,7 +136,7 @@
      "url": "no-salt",
      "isPromo": false,
      "posId": "200030",
-     "displayOrder": 409,
+     "displayOrder": 427,
      "customizable": false,
      "dname": [
       {
@@ -232,6 +232,20 @@
     }
    },
    "price": 545
+  },
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "2310"
+    },
+    "endTime": {
+     "time": "0550"
+    }
+   },
+   "price": 545
   }
  ],
  "isTimeSpecific": false,
@@ -323,6 +337,20 @@
         },
         "endTime": {
          "time": "2359"
+        }
+       },
+       "price": 745
+      },
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "2310"
+        },
+        "endTime": {
+         "time": "0550"
         }
        },
        "price": 745
@@ -638,6 +666,20 @@
         },
         "endTime": {
          "time": "2359"
+        }
+       },
+       "price": 745
+      },
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "2310"
+        },
+        "endTime": {
+         "time": "0550"
         }
        },
        "price": 745
