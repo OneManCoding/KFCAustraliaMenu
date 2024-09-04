@@ -1,0 +1,5523 @@
+{
+ "mdmId": "I-32437-0",
+ "id": "I-32437-0",
+ "name": "Twister® Nuggs Combo",
+ "size": null,
+ "linkId": "",
+ "url": "twister-nuggs-combo",
+ "isPromo": false,
+ "posId": "",
+ "displayOrder": 0,
+ "customizable": true,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Twister® Nuggs Combo"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "Zinger® Crunch Twister®  , 1 Regular Chips, 6 Nuggets and 1 Regular Drink."
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "A Twister® accompanied with a Regular Drink, thick-cut chips and 6 Nuggets with sweet and sour sauce. Mic drop.​"
+  }
+ ],
+ "imageName": [
+  {
+   "lang": "en-US",
+   "value": "https://images.ctfassets.net/crbk84xktnsl/7MrDxeTXhUU8AW4zvW34nT/6c7a3560c3216a48c922c65bc109826a/_10_Twister_Combo___6_Nuggs.png"
+  }
+ ],
+ "modgrps": [
+  {
+   "id": "32437-1-0",
+   "name": "Twister®",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Twister®"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Twister®"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Twister®"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-42828-0",
+     "id": "M-42828-0",
+     "name": "Zinger® Crunch Twister®",
+     "size": "Regular",
+     "linkId": "42828",
+     "url": "zinger-crunch-twister",
+     "isPromo": false,
+     "posId": "120009",
+     "displayOrder": 7132,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Zinger® Crunch Twister®"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Zinger® Crunch Twister®"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Zinger® Crunch Twister®"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/64h4WUKrd9wq013dRpQID3/7b77b09077a4367ee5802706e5f0e393/Zinger_Crunch_Twister.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "91388",
+       "name": "Recipe",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Recipe"
+        }
+       ],
+       "min": 0,
+       "max": 3,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Recipe"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Recipe"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200042",
+         "id": "M-200042",
+         "name": "Jalapeno Mayo",
+         "size": "",
+         "linkId": "mod:555770",
+         "url": "jalapeno-mayo",
+         "isPromo": false,
+         "posId": "200042",
+         "displayOrder": 1931,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "defaultreason",
+           "value": "RECIPE"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": {
+          "entityId": "M-200042",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200010",
+         "id": "M-200010",
+         "name": "Crunchy Slaw",
+         "size": "",
+         "linkId": "mod:555765",
+         "url": "crunchy-slaw",
+         "isPromo": false,
+         "posId": "200010",
+         "displayOrder": 1932,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "defaultreason",
+           "value": "RECIPE"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": {
+          "entityId": "M-200010",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200006",
+         "id": "M-200006",
+         "name": "Corn Chips",
+         "size": "",
+         "linkId": "mod:555920",
+         "url": "corn-chips",
+         "isPromo": false,
+         "posId": "200006",
+         "displayOrder": 1933,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Corn Chips"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Corn Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Corn Chips"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/21fl9F2d5YYaMgiRHFH1Hl/83a9e20f5d3c49252addf1937c34e4b7/Modifier_Corn_Chips.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "defaultreason",
+           "value": "RECIPE"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": {
+          "entityId": "M-200006",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/21fl9F2d5YYaMgiRHFH1Hl/83a9e20f5d3c49252addf1937c34e4b7/Modifier_Corn_Chips.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      },
+      {
+       "id": "91392",
+       "name": "Extras",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Extras"
+        }
+       ],
+       "min": 0,
+       "max": 5,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Extras"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Extras"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200013",
+         "id": "M-200013",
+         "name": "Bacon Slice",
+         "size": "",
+         "linkId": "mod:554351",
+         "url": "bacon-slice",
+         "isPromo": false,
+         "posId": "200013",
+         "displayOrder": 1934,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Bacon Slice"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Bacon Slice"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Bacon Slice"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/4RnpMB57vc8wxpVGjkvKAq/a0c35711441960b99ec2bd98f6521fed/Modifier_Bacon.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 100
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200013",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4RnpMB57vc8wxpVGjkvKAq/a0c35711441960b99ec2bd98f6521fed/Modifier_Bacon.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200005",
+         "id": "M-200005",
+         "name": "BBQ Sauce",
+         "size": "",
+         "linkId": "mod:554481",
+         "url": "bbq-sauce",
+         "isPromo": false,
+         "posId": "200005",
+         "displayOrder": 1935,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Sauce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Sauce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Sauce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/1T7KFiAkbVunJylykaL4Dc/ddb50181024592e00a114a02e79ab543/Modifier_Sauce_BBQ.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200005",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1T7KFiAkbVunJylykaL4Dc/ddb50181024592e00a114a02e79ab543/Modifier_Sauce_BBQ.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200009",
+         "id": "M-200009",
+         "name": "Cheese Slice",
+         "size": "",
+         "linkId": "mod:554358",
+         "url": "cheese-slice",
+         "isPromo": false,
+         "posId": "200009",
+         "displayOrder": 1936,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Cheese Slice"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Cheese Slice"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Cheese Slice"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/65YVjpJ0l6ICtbk3PtnNAz/75b1c509de9f3e82db206ec6210b2d82/Modifier_Cheese_Slice.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 50
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200009",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/65YVjpJ0l6ICtbk3PtnNAz/75b1c509de9f3e82db206ec6210b2d82/Modifier_Cheese_Slice.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200011",
+         "id": "M-200011",
+         "name": "Chilli Relish Sauce",
+         "size": "",
+         "linkId": "mod:554352",
+         "url": "chilli-relish-sauce",
+         "isPromo": false,
+         "posId": "200011",
+         "displayOrder": 1937,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Chilli Relish Sauce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Chilli Relish Sauce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Chilli Relish Sauce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/e1t8csgFvFDyc38Ou9YhA/0a58e6747e9f63a60769f614cfd1a638/Modifier_Sauce_Chilli_Relish.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200011",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/e1t8csgFvFDyc38Ou9YhA/0a58e6747e9f63a60769f614cfd1a638/Modifier_Sauce_Chilli_Relish.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200006",
+         "id": "M-200006",
+         "name": "Corn Chips",
+         "size": "",
+         "linkId": "mod:555920",
+         "url": "corn-chips",
+         "isPromo": false,
+         "posId": "200006",
+         "displayOrder": 1938,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Corn Chips"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Corn Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Corn Chips"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/21fl9F2d5YYaMgiRHFH1Hl/83a9e20f5d3c49252addf1937c34e4b7/Modifier_Corn_Chips.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 50
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200006",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/21fl9F2d5YYaMgiRHFH1Hl/83a9e20f5d3c49252addf1937c34e4b7/Modifier_Corn_Chips.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200010",
+         "id": "M-200010",
+         "name": "Crunchy Slaw",
+         "size": "",
+         "linkId": "mod:555765",
+         "url": "crunchy-slaw",
+         "isPromo": false,
+         "posId": "200010",
+         "displayOrder": 1939,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 50
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200010",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200042",
+         "id": "M-200042",
+         "name": "Jalapeno Mayo",
+         "size": "",
+         "linkId": "mod:555770",
+         "url": "jalapeno-mayo",
+         "isPromo": false,
+         "posId": "200042",
+         "displayOrder": 1940,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200042",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200008",
+         "id": "M-200008",
+         "name": "Lettuce",
+         "size": "",
+         "linkId": "mod:554357",
+         "url": "lettuce",
+         "isPromo": false,
+         "posId": "200008",
+         "displayOrder": 1941,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Lettuce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Lettuce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Lettuce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/66hSImOHbH6vlmRxCkqv88/794acadf750c1784e171868e05779407/Modifier_Lettuce.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200008",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/66hSImOHbH6vlmRxCkqv88/794acadf750c1784e171868e05779407/Modifier_Lettuce.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200001",
+         "id": "M-200001",
+         "name": "Mayo",
+         "size": "",
+         "linkId": "mod:554350",
+         "url": "mayo",
+         "isPromo": false,
+         "posId": "200001",
+         "displayOrder": 1942,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Mayo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Mayo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Mayo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/46SEeDBx51iTnkP6zPt82l/f3aaf2a729d86f1950cd6e2fe67aac72/Modifier_Sauce_Mayo.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200001",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/46SEeDBx51iTnkP6zPt82l/f3aaf2a729d86f1950cd6e2fe67aac72/Modifier_Sauce_Mayo.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200003",
+         "id": "M-200003",
+         "name": "Pepper Mayo",
+         "size": "",
+         "linkId": "mod:554359",
+         "url": "pepper-mayo",
+         "isPromo": false,
+         "posId": "200003",
+         "displayOrder": 1943,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200003",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200004",
+         "id": "M-200004",
+         "name": "Supercharged Sauce",
+         "size": "",
+         "linkId": "mod:554355",
+         "url": "supercharged-sauce",
+         "isPromo": false,
+         "posId": "200004",
+         "displayOrder": 1944,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Sauce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Sauce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Sauce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/S7OMZwS6F04k6U2qUxeQh/aee02a208e220562bc367006951c47ab/Modifier_Sauce_Supercharged.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200004",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/S7OMZwS6F04k6U2qUxeQh/aee02a208e220562bc367006951c47ab/Modifier_Sauce_Supercharged.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "3"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "5"
+        }
+       ],
+       "displayOrder": 1,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "2374"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-42828-0",
+      "caloricValue": "2336",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/64h4WUKrd9wq013dRpQID3/7b77b09077a4367ee5802706e5f0e393/Zinger_Crunch_Twister.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-42826-0",
+     "id": "M-42826-0",
+     "name": "Original Crunch Twister®",
+     "size": "Regular",
+     "linkId": "42826",
+     "url": "original-crunch-twister",
+     "isPromo": false,
+     "posId": "120008",
+     "displayOrder": 7147,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Original Crunch Twister®"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Original Crunch Twister®"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Original Crunch Twister®"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/5f6TJ8neVDoWDYeq1yiXzC/6f8ecf0d1db5b9d1c068249bbc3356e4/Original_Crunch_Twister.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "91387",
+       "name": "Recipe",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Recipe"
+        }
+       ],
+       "min": 0,
+       "max": 2,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Recipe"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Recipe"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200010",
+         "id": "M-200010",
+         "name": "Crunchy Slaw",
+         "size": "",
+         "linkId": "mod:555765",
+         "url": "crunchy-slaw",
+         "isPromo": false,
+         "posId": "200010",
+         "displayOrder": 1946,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "defaultreason",
+           "value": "RECIPE"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": {
+          "entityId": "M-200010",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200003",
+         "id": "M-200003",
+         "name": "Pepper Mayo",
+         "size": "",
+         "linkId": "mod:554359",
+         "url": "pepper-mayo",
+         "isPromo": false,
+         "posId": "200003",
+         "displayOrder": 1947,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "defaultreason",
+           "value": "RECIPE"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": {
+          "entityId": "M-200003",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      },
+      {
+       "id": "91384",
+       "name": "Extras",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Extras"
+        }
+       ],
+       "min": 0,
+       "max": 5,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Extras"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Extras"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200013",
+         "id": "M-200013",
+         "name": "Bacon Slice",
+         "size": "",
+         "linkId": "mod:554351",
+         "url": "bacon-slice",
+         "isPromo": false,
+         "posId": "200013",
+         "displayOrder": 1948,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Bacon Slice"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Bacon Slice"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Bacon Slice"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/4RnpMB57vc8wxpVGjkvKAq/a0c35711441960b99ec2bd98f6521fed/Modifier_Bacon.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 100
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200013",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4RnpMB57vc8wxpVGjkvKAq/a0c35711441960b99ec2bd98f6521fed/Modifier_Bacon.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200005",
+         "id": "M-200005",
+         "name": "BBQ Sauce",
+         "size": "",
+         "linkId": "mod:554481",
+         "url": "bbq-sauce",
+         "isPromo": false,
+         "posId": "200005",
+         "displayOrder": 1949,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Sauce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Sauce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Sauce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/1T7KFiAkbVunJylykaL4Dc/ddb50181024592e00a114a02e79ab543/Modifier_Sauce_BBQ.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200005",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1T7KFiAkbVunJylykaL4Dc/ddb50181024592e00a114a02e79ab543/Modifier_Sauce_BBQ.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200009",
+         "id": "M-200009",
+         "name": "Cheese Slice",
+         "size": "",
+         "linkId": "mod:554358",
+         "url": "cheese-slice",
+         "isPromo": false,
+         "posId": "200009",
+         "displayOrder": 1950,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Cheese Slice"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Cheese Slice"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Cheese Slice"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/65YVjpJ0l6ICtbk3PtnNAz/75b1c509de9f3e82db206ec6210b2d82/Modifier_Cheese_Slice.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 50
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200009",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/65YVjpJ0l6ICtbk3PtnNAz/75b1c509de9f3e82db206ec6210b2d82/Modifier_Cheese_Slice.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200011",
+         "id": "M-200011",
+         "name": "Chilli Relish Sauce",
+         "size": "",
+         "linkId": "mod:554352",
+         "url": "chilli-relish-sauce",
+         "isPromo": false,
+         "posId": "200011",
+         "displayOrder": 1951,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Chilli Relish Sauce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Chilli Relish Sauce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Chilli Relish Sauce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/e1t8csgFvFDyc38Ou9YhA/0a58e6747e9f63a60769f614cfd1a638/Modifier_Sauce_Chilli_Relish.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200011",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/e1t8csgFvFDyc38Ou9YhA/0a58e6747e9f63a60769f614cfd1a638/Modifier_Sauce_Chilli_Relish.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200006",
+         "id": "M-200006",
+         "name": "Corn Chips",
+         "size": "",
+         "linkId": "mod:555920",
+         "url": "corn-chips",
+         "isPromo": false,
+         "posId": "200006",
+         "displayOrder": 1952,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Corn Chips"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Corn Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Corn Chips"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/21fl9F2d5YYaMgiRHFH1Hl/83a9e20f5d3c49252addf1937c34e4b7/Modifier_Corn_Chips.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 50
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200006",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/21fl9F2d5YYaMgiRHFH1Hl/83a9e20f5d3c49252addf1937c34e4b7/Modifier_Corn_Chips.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200010",
+         "id": "M-200010",
+         "name": "Crunchy Slaw",
+         "size": "",
+         "linkId": "mod:555765",
+         "url": "crunchy-slaw",
+         "isPromo": false,
+         "posId": "200010",
+         "displayOrder": 1953,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Crunchy Slaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 50
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200010",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200042",
+         "id": "M-200042",
+         "name": "Jalapeno Mayo",
+         "size": "",
+         "linkId": "mod:555770",
+         "url": "jalapeno-mayo",
+         "isPromo": false,
+         "posId": "200042",
+         "displayOrder": 1954,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Jalapeno Mayo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200042",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200008",
+         "id": "M-200008",
+         "name": "Lettuce",
+         "size": "",
+         "linkId": "mod:554357",
+         "url": "lettuce",
+         "isPromo": false,
+         "posId": "200008",
+         "displayOrder": 1955,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Lettuce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Lettuce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Lettuce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/66hSImOHbH6vlmRxCkqv88/794acadf750c1784e171868e05779407/Modifier_Lettuce.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200008",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/66hSImOHbH6vlmRxCkqv88/794acadf750c1784e171868e05779407/Modifier_Lettuce.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200001",
+         "id": "M-200001",
+         "name": "Mayo",
+         "size": "",
+         "linkId": "mod:554350",
+         "url": "mayo",
+         "isPromo": false,
+         "posId": "200001",
+         "displayOrder": 1956,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Mayo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Mayo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Mayo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/46SEeDBx51iTnkP6zPt82l/f3aaf2a729d86f1950cd6e2fe67aac72/Modifier_Sauce_Mayo.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200001",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/46SEeDBx51iTnkP6zPt82l/f3aaf2a729d86f1950cd6e2fe67aac72/Modifier_Sauce_Mayo.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200003",
+         "id": "M-200003",
+         "name": "Pepper Mayo",
+         "size": "",
+         "linkId": "mod:554359",
+         "url": "pepper-mayo",
+         "isPromo": false,
+         "posId": "200003",
+         "displayOrder": 1957,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Pepper Mayo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200003",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200004",
+         "id": "M-200004",
+         "name": "Supercharged Sauce",
+         "size": "",
+         "linkId": "mod:554355",
+         "url": "supercharged-sauce",
+         "isPromo": false,
+         "posId": "200004",
+         "displayOrder": 1958,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Sauce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Sauce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Sauce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/S7OMZwS6F04k6U2qUxeQh/aee02a208e220562bc367006951c47ab/Modifier_Sauce_Supercharged.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200004",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/S7OMZwS6F04k6U2qUxeQh/aee02a208e220562bc367006951c47ab/Modifier_Sauce_Supercharged.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "3"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "5"
+        }
+       ],
+       "displayOrder": 1,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "2278"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-42826-0",
+      "caloricValue": "2213",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5f6TJ8neVDoWDYeq1yiXzC/6f8ecf0d1db5b9d1c068249bbc3356e4/Original_Crunch_Twister.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 1,
+   "isHidden": false
+  },
+  {
+   "id": "32437-2-0",
+   "name": "Chips",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Chips"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Chips"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Chips"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-40976-0",
+     "id": "M-40976-0",
+     "name": "Regular Chips",
+     "size": "Regular",
+     "linkId": "40976",
+     "url": "regular-chips",
+     "isPromo": false,
+     "posId": "136005",
+     "displayOrder": 7161,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Chips"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Chips"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "89711",
+       "name": "Modify Chips",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200031",
+         "id": "M-200031",
+         "name": "Extra Salt",
+         "size": "",
+         "linkId": "mod:554382",
+         "url": "extra-salt",
+         "isPromo": false,
+         "posId": "200031",
+         "displayOrder": 489,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200031",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200030",
+         "id": "M-200030",
+         "name": "No Salt",
+         "size": "",
+         "linkId": "mod:554383",
+         "url": "no-salt",
+         "isPromo": false,
+         "posId": "200030",
+         "displayOrder": 490,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200030",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "1169"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-40976-0",
+      "caloricValue": "1216",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-41472-0",
+     "id": "M-41472-0",
+     "name": "Large Chips",
+     "size": "Large",
+     "linkId": "41472",
+     "url": "large-chips",
+     "isPromo": false,
+     "posId": "136015",
+     "displayOrder": 7164,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "90080",
+       "name": "Modify Chips",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200031",
+         "id": "M-200031",
+         "name": "Extra Salt",
+         "size": "",
+         "linkId": "mod:554382",
+         "url": "extra-salt",
+         "isPromo": false,
+         "posId": "200031",
+         "displayOrder": 492,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200031",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200030",
+         "id": "M-200030",
+         "name": "No Salt",
+         "size": "",
+         "linkId": "mod:554383",
+         "url": "no-salt",
+         "isPromo": false,
+         "posId": "200030",
+         "displayOrder": 493,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200030",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 160
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "2338"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-41472-0",
+      "caloricValue": "2431",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 2,
+   "isHidden": false
+  },
+  {
+   "id": "32437-3-0",
+   "name": "Drink",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Drink"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Drink"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Drink"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-40925-0",
+     "id": "M-40925-0",
+     "name": "Regular Pepsi Max^",
+     "size": "Regular",
+     "linkId": "40925",
+     "url": "regular-pepsi-max",
+     "isPromo": false,
+     "posId": "141055",
+     "displayOrder": 7167,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi Max^"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi Max^"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi Max^"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/qqRoWs0EZPlv744RML2Gu/7961adc7152050f688f01b2c7b3d3f1d/Drink_Pepsi_Max_Can_reg_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-40925-0",
+      "caloricValue": "6",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/qqRoWs0EZPlv744RML2Gu/7961adc7152050f688f01b2c7b3d3f1d/Drink_Pepsi_Max_Can_reg_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-41474-0",
+     "id": "M-41474-0",
+     "name": "Large Pepsi Max",
+     "size": "Large",
+     "linkId": "41474",
+     "url": "large-pepsi-max",
+     "isPromo": false,
+     "posId": "141110",
+     "displayOrder": 7168,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Large Pepsi Max"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Pepsi Max"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Pepsi Max"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/4170xSKj9DBbyrxaU013yF/5989cd40b3177f2656bc13add85ba594/Drink_Pepsi_Max_Bottle_lge.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 90
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-41474-0",
+      "caloricValue": "10",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4170xSKj9DBbyrxaU013yF/5989cd40b3177f2656bc13add85ba594/Drink_Pepsi_Max_Bottle_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40928-0",
+     "id": "M-40928-0",
+     "name": "Regular Pepsi^",
+     "size": "Regular",
+     "linkId": "40928",
+     "url": "regular-pepsi",
+     "isPromo": false,
+     "posId": "141007",
+     "displayOrder": 7169,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi^"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi^"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi^"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/5thPp7gDYiWtmHynzH7GCm/9935f8d852333861b113a9ad34d22653/Drink_Pepsi_Can_reg_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40928-0",
+      "caloricValue": "723",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5thPp7gDYiWtmHynzH7GCm/9935f8d852333861b113a9ad34d22653/Drink_Pepsi_Can_reg_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-41478-0",
+     "id": "M-41478-0",
+     "name": "Large Pepsi",
+     "size": "Large",
+     "linkId": "41478",
+     "url": "large-pepsi",
+     "isPromo": false,
+     "posId": "141111",
+     "displayOrder": 7170,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Large Pepsi"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Pepsi"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Pepsi"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/1AXy0CdXkW9XMwkjpvDKaT/118c06b9198eeb1a71bdbd72c6837cc5/Drink_Pepsi_Bottle_lge.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 90
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-41478-0",
+      "caloricValue": "1115",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1AXy0CdXkW9XMwkjpvDKaT/118c06b9198eeb1a71bdbd72c6837cc5/Drink_Pepsi_Bottle_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40931-0",
+     "id": "M-40931-0",
+     "name": "Regular 7Up",
+     "size": "Regular",
+     "linkId": "40931",
+     "url": "regular-7up",
+     "isPromo": false,
+     "posId": "141040",
+     "displayOrder": 7171,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular 7Up"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular 7Up"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular 7Up"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/10vA0ZBy4qfmnlPksBxmZa/90975cfa76ec89768a0d01596557c4dc/Drink_7up_Can_reg.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40931-0",
+      "caloricValue": "695",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/10vA0ZBy4qfmnlPksBxmZa/90975cfa76ec89768a0d01596557c4dc/Drink_7up_Can_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-41473-0",
+     "id": "M-41473-0",
+     "name": "Large 7Up",
+     "size": "Large",
+     "linkId": "41473",
+     "url": "large-7up",
+     "isPromo": false,
+     "posId": "141112",
+     "displayOrder": 7172,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Large 7Up"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large 7Up"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large 7Up"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/7IwoZzz4DLCtIl1hLZ4pPV/88b6a58d8d3978d0b8bd7154557b7afe/Drink_7up_Bottle_lge.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 90
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-41473-0",
+      "caloricValue": "1077",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7IwoZzz4DLCtIl1hLZ4pPV/88b6a58d8d3978d0b8bd7154557b7afe/Drink_7up_Bottle_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40934-0",
+     "id": "M-40934-0",
+     "name": "Regular Mountain Dew",
+     "size": "Regular",
+     "linkId": "40934",
+     "url": "regular-mountain-dew",
+     "isPromo": false,
+     "posId": "141020",
+     "displayOrder": 7173,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Mountain Dew"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Mountain Dew"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Mountain Dew"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/2IaZi6zyTWuP2WAF2CwYMx/d9aad4a0ff2777552885ace90cf3bab6/Drink_Mt_Dew_Can_reg.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40934-0",
+      "caloricValue": "737",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2IaZi6zyTWuP2WAF2CwYMx/d9aad4a0ff2777552885ace90cf3bab6/Drink_Mt_Dew_Can_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-41477-0",
+     "id": "M-41477-0",
+     "name": "Large Mountain Dew",
+     "size": "Large",
+     "linkId": "41477",
+     "url": "large-mountain-dew",
+     "isPromo": false,
+     "posId": "141113",
+     "displayOrder": 7174,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Large Mountain Dew"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Mountain Dew"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Mountain Dew"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/6A6CCbGzzfNBvBbn5g0YUE/12224b6231fb73067ed84690f536e3c9/Drink_Mt_Dew_Bottle_lge.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 90
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-41477-0",
+      "caloricValue": "1184",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6A6CCbGzzfNBvBbn5g0YUE/12224b6231fb73067ed84690f536e3c9/Drink_Mt_Dew_Bottle_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40937-0",
+     "id": "M-40937-0",
+     "name": "Regular Solo",
+     "size": "Regular",
+     "linkId": "40937",
+     "url": "regular-solo",
+     "isPromo": false,
+     "posId": "141030",
+     "displayOrder": 7175,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Solo"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Solo"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Solo"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/7JWYwg8WmbEbWMvkneffqs/9a8266d054ef77680a5b605710531d23/Drink_Solo_Can_reg.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40937-0",
+      "caloricValue": "780",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7JWYwg8WmbEbWMvkneffqs/9a8266d054ef77680a5b605710531d23/Drink_Solo_Can_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-41475-0",
+     "id": "M-41475-0",
+     "name": "Large Solo",
+     "size": "Large",
+     "linkId": "41475",
+     "url": "large-solo",
+     "isPromo": false,
+     "posId": "141114",
+     "displayOrder": 7176,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Large Solo"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Solo"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Solo"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/2PkIcbW9LdNdgvPanV3L1k/3465265f8bacc328574d51a69c80b9ab/Drink_Solo_Bottle_lge.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 90
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-41475-0",
+      "caloricValue": "1198",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2PkIcbW9LdNdgvPanV3L1k/3465265f8bacc328574d51a69c80b9ab/Drink_Solo_Bottle_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-43220-0",
+     "id": "M-43220-0",
+     "name": "Regular Sunkist No Sugar",
+     "size": "Regular",
+     "linkId": "43220",
+     "url": "regular-sunkist-no-sugar",
+     "isPromo": false,
+     "posId": "141015",
+     "displayOrder": 7177,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Sunkist No Sugar"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Sunkist No Sugar"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Sunkist No Sugar"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/4Z2X1gS4pBVAQ1e2rcgbbF/ed36c99d0dfb18db950435f6ea45ba22/Drink_Sunkist_Can_No_Sugar_reg.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-43220-0",
+      "caloricValue": "8",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4Z2X1gS4pBVAQ1e2rcgbbF/ed36c99d0dfb18db950435f6ea45ba22/Drink_Sunkist_Can_No_Sugar_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-43221-0",
+     "id": "M-43221-0",
+     "name": "Large Sunkist No Sugar",
+     "size": "Large",
+     "linkId": "43221",
+     "url": "large-sunkist-no-sugar",
+     "isPromo": false,
+     "posId": "141016",
+     "displayOrder": 7178,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Large Sunkist No Sugar"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Sunkist No Sugar"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Sunkist No Sugar"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/19A5nquNEbFGPUiFEbYRjl/0e408f808715f357d24c0dfa7c8817d0/Drink_Sunkist_Bottle_No_Sugar_lge.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 90
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-43221-0",
+      "caloricValue": "12",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/19A5nquNEbFGPUiFEbYRjl/0e408f808715f357d24c0dfa7c8817d0/Drink_Sunkist_Bottle_No_Sugar_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40943-0",
+     "id": "M-40943-0",
+     "name": "Water 600mL",
+     "size": "Regular",
+     "linkId": "40943",
+     "url": "water-600ml",
+     "isPromo": false,
+     "posId": "141070",
+     "displayOrder": 7179,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Water 600mL"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Water 600mL"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Water 600mL"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/5ZiQMAY0aJrb1EEw5VcoLn/d5c9666a2cb6fcffe076841b1192cb03/Drink_Water_Bottle_lge.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40943-0",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5ZiQMAY0aJrb1EEw5VcoLn/d5c9666a2cb6fcffe076841b1192cb03/Drink_Water_Bottle_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-43222-0",
+     "id": "M-43222-0",
+     "name": "Sparkling Water",
+     "size": "Regular",
+     "linkId": "43222",
+     "url": "sparkling-water",
+     "isPromo": false,
+     "posId": "141013",
+     "displayOrder": 7180,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Sparkling Water"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Sparkling Water"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Sparkling Water"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/29dUOyiqgTbuWTDOn6Z3b7/f11be2c9bb6f8eda3e03b5cd4f453e2d/Drink_Sparkling_Water.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-43222-0",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/29dUOyiqgTbuWTDOn6Z3b7/f11be2c9bb6f8eda3e03b5cd4f453e2d/Drink_Sparkling_Water.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40945-0",
+     "id": "M-40945-0",
+     "name": "Apple Juice",
+     "size": "Regular",
+     "linkId": "40945",
+     "url": "apple-juice",
+     "isPromo": false,
+     "posId": "141076",
+     "displayOrder": 7181,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Apple Juice"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Apple Juice"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Apple Juice"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/2JjBMZBp5y60rJEoKLDEWa/6814291d2f76c75afa086e11ad47c5e7/Drink_Apple_Juice.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40945-0",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2JjBMZBp5y60rJEoKLDEWa/6814291d2f76c75afa086e11ad47c5e7/Drink_Apple_Juice.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-42719-0",
+     "id": "M-42719-0",
+     "name": "Lipton Peach Ice Tea",
+     "size": "Regular",
+     "linkId": "42719",
+     "url": "lipton-peach-ice-tea",
+     "isPromo": false,
+     "posId": "141093",
+     "displayOrder": 7182,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Lipton Peach Ice Tea"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Lipton Peach Ice Tea"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Lipton Peach Ice Tea"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/4F4LvVjFY0w0CEpcVdYZFI/0ed9d39ff9e1d45d4bb84eedda97dc73/Drink_Lipton_Iced_Tea.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 90
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-42719-0",
+      "caloricValue": "395",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4F4LvVjFY0w0CEpcVdYZFI/0ed9d39ff9e1d45d4bb84eedda97dc73/Drink_Lipton_Iced_Tea.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40946-0",
+     "id": "M-40946-0",
+     "name": "Pepsi Freeze^",
+     "size": "Regular",
+     "linkId": "40946",
+     "url": "pepsi-freeze",
+     "isPromo": false,
+     "posId": "141099",
+     "displayOrder": 7183,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Pepsi Freeze^"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Pepsi Freeze^"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Pepsi Freeze^"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "90264",
+       "name": "Modify Freeze",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-141103",
+         "id": "M-141103",
+         "name": "Half Mountain Dew Freeze^",
+         "size": "",
+         "linkId": "mod:554773",
+         "url": "half-mountain-dew-freeze",
+         "isPromo": false,
+         "posId": "141103",
+         "displayOrder": 515,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141103",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-141116",
+         "id": "M-141116",
+         "name": "Half Raspberry Freeze",
+         "size": "",
+         "linkId": "mod:555397",
+         "url": "half-raspberry-freeze",
+         "isPromo": false,
+         "posId": "141116",
+         "displayOrder": 516,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141116",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 80
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "690"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40946-0",
+      "caloricValue": "734",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40947-0",
+     "id": "M-40947-0",
+     "name": "Mountain Dew Freeze^",
+     "size": "Regular",
+     "linkId": "40947",
+     "url": "mountain-dew-freeze",
+     "isPromo": false,
+     "posId": "141101",
+     "displayOrder": 7186,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Mountain Dew Freeze^"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Mountain Dew Freeze^"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Mountain Dew Freeze^"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "90069",
+       "name": "Modify Freeze",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-141102",
+         "id": "M-141102",
+         "name": "Half Pepsi Freeze^",
+         "size": "",
+         "linkId": "mod:554774",
+         "url": "half-pepsi-freeze",
+         "isPromo": false,
+         "posId": "141102",
+         "displayOrder": 518,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141102",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-141116",
+         "id": "M-141116",
+         "name": "Half Raspberry Freeze",
+         "size": "",
+         "linkId": "mod:555397",
+         "url": "half-raspberry-freeze",
+         "isPromo": false,
+         "posId": "141116",
+         "displayOrder": 519,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141116",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 80
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "895"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40947-0",
+      "caloricValue": "782",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-42079-0",
+     "id": "M-42079-0",
+     "name": "Raspberry Freeze",
+     "size": "Regular",
+     "linkId": "42079",
+     "url": "raspberry-freeze",
+     "isPromo": false,
+     "posId": "141109",
+     "displayOrder": 7189,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Raspberry Freeze"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Raspberry Freeze"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Raspberry Freeze"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "90650",
+       "name": "Modify Freeze",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-141103",
+         "id": "M-141103",
+         "name": "Half Mountain Dew Freeze^",
+         "size": "",
+         "linkId": "mod:554773",
+         "url": "half-mountain-dew-freeze",
+         "isPromo": false,
+         "posId": "141103",
+         "displayOrder": 521,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141103",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-141102",
+         "id": "M-141102",
+         "name": "Half Pepsi Freeze^",
+         "size": "",
+         "linkId": "mod:554774",
+         "url": "half-pepsi-freeze",
+         "isPromo": false,
+         "posId": "141102",
+         "displayOrder": 522,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141102",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 80
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "819"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-42079-0",
+      "caloricValue": "760",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 3,
+   "isHidden": false
+  },
+  {
+   "id": "32437-4-0",
+   "name": "Nuggets",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Nuggets"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Nuggets"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Nuggets"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-41081-0",
+     "id": "M-41081-0",
+     "name": "6 Nuggets",
+     "size": "Regular",
+     "linkId": "41081",
+     "url": "6-nuggets",
+     "isPromo": false,
+     "posId": "184000",
+     "displayOrder": 7192,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "6 Nuggets"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "6 Nuggets"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "6 Nuggets"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/5O1B23t7SrZL6HiUNrLgWd/5aed1e37a0eb57fef114c5ca531d4e24/Modifier_Nugget_1.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "89903",
+       "name": "Dipping Sauce",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Dipping Sauce"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Dipping Sauce"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Dipping Sauce"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-191010",
+         "id": "M-191010",
+         "name": "Aioli Dip",
+         "size": "",
+         "linkId": "mod:554494",
+         "url": "aioli-dip",
+         "isPromo": false,
+         "posId": "191010",
+         "displayOrder": 3738,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Aioli Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Aioli Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Aioli Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/2s80xCDE5wNxxqdJkFHOzH/846c86019dc0dd9d5c9a482b82f197ed/Sauce_Aioli.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-191010",
+          "caloricValue": "567",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2s80xCDE5wNxxqdJkFHOzH/846c86019dc0dd9d5c9a482b82f197ed/Sauce_Aioli.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-191006",
+         "id": "M-191006",
+         "name": "BBQ Dip",
+         "size": "",
+         "linkId": "mod:554492",
+         "url": "bbq-dip",
+         "isPromo": false,
+         "posId": "191006",
+         "displayOrder": 3739,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/6OIues0y1nbh86fribfI3g/f63bb86b4f66a8f5bb8d8d515fcfb23b/Sauce_BBQ.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-191006",
+          "caloricValue": "210",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6OIues0y1nbh86fribfI3g/f63bb86b4f66a8f5bb8d8d515fcfb23b/Sauce_BBQ.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-191007",
+         "id": "M-191007",
+         "name": "Supercharged Dip",
+         "size": "",
+         "linkId": "mod:554493",
+         "url": "supercharged-dip",
+         "isPromo": false,
+         "posId": "191007",
+         "displayOrder": 3740,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/RLMHlsQrPIe7tyFlxrRxm/143df961b5b8b411528591d3da26beaf/Sauce_Supercharged.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-191007",
+          "caloricValue": "440",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/RLMHlsQrPIe7tyFlxrRxm/143df961b5b8b411528591d3da26beaf/Sauce_Supercharged.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-191008",
+         "id": "M-191008",
+         "name": "Sweet Chilli Dip",
+         "size": "",
+         "linkId": "mod:554490",
+         "url": "sweet-chilli-dip",
+         "isPromo": false,
+         "posId": "191008",
+         "displayOrder": 3741,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Sweet Chilli Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Sweet Chilli Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Sweet Chilli Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/2m4RONrsdLf2ou0NyZdWjK/9465da2e2f4a9450a6a0f96e8f12ce8f/Sauce_Sweet_Chilli.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-191008",
+          "caloricValue": "250",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2m4RONrsdLf2ou0NyZdWjK/9465da2e2f4a9450a6a0f96e8f12ce8f/Sauce_Sweet_Chilli.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-191009",
+         "id": "M-191009",
+         "name": "Sweet & Sour Dip",
+         "size": "",
+         "linkId": "mod:554491",
+         "url": "sweet-sour-dip",
+         "isPromo": false,
+         "posId": "191009",
+         "displayOrder": 3742,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Sweet & Sour Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Sweet & Sour Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Sweet & Sour Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7FUeehrIIAfAr6ydz0XYgj/8f23ec80424da832fc756a4e9bf54dab/Sauce_Sweet_Sour.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "defaultreason",
+           "value": "SELECTION"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": {
+          "entityId": "M-191009",
+          "caloricValue": "274",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7FUeehrIIAfAr6ydz0XYgj/8f23ec80424da832fc756a4e9bf54dab/Sauce_Sweet_Sour.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-191005",
+         "id": "M-191005",
+         "name": "Tomato Dip",
+         "size": "",
+         "linkId": "mod:554495",
+         "url": "tomato-dip",
+         "isPromo": false,
+         "posId": "191005",
+         "displayOrder": 3743,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Tomato Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Tomato Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Tomato Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/1J8cuucnXPg85XRtybaiqC/545271fab1f0d6de1009c0559f664c35/Sauce_Tomato.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-191005",
+          "caloricValue": "148",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1J8cuucnXPg85XRtybaiqC/545271fab1f0d6de1009c0559f664c35/Sauce_Tomato.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-191011",
+         "id": "M-191011",
+         "name": "No Sauce",
+         "size": "",
+         "linkId": "mod:554489",
+         "url": "no-sauce",
+         "isPromo": false,
+         "posId": "191011",
+         "displayOrder": 3744,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "No Sauce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Sauce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Sauce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7mdwN5f06AWN6F0WQEXch6/ff517b105a0a4c583e5149124f153f2d/Modifier_No_Sauce.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-191011",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7mdwN5f06AWN6F0WQEXch6/ff517b105a0a4c583e5149124f153f2d/Modifier_No_Sauce.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "1342"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-41081-0",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5O1B23t7SrZL6HiUNrLgWd/5aed1e37a0eb57fef114c5ca531d4e24/Modifier_Nugget_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 4,
+   "isHidden": false
+  }
+ ],
+ "modgrpIds": null,
+ "isHidden": false,
+ "isCategoryHidden": true,
+ "availability": [
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "0001"
+    },
+    "endTime": {
+     "time": "2359"
+    }
+   },
+   "price": 1000
+  }
+ ],
+ "isTimeSpecific": false,
+ "effectiveStartDateTime": 0,
+ "effectiveEndDateTime": 0,
+ "additionalProperties": [
+  {
+   "key": "mealdealid",
+   "value": "9062"
+  },
+  {
+   "key": "mealdealdetailid",
+   "value": "QUICK_COMBO"
+  },
+  {
+   "key": "upsizeextraprice",
+   "value": "2.50"
+  },
+  {
+   "key": "pricewithouttax",
+   "value": "1000"
+  },
+  {
+   "key": "upSizeItemPrice",
+   "value": "1000"
+  }
+ ],
+ "recommendationRules": [],
+ "content": {
+  "entityId": "I-32437-0",
+  "longDescription": "A Twister® accompanied with a Regular Drink, thick-cut chips and 6 Nuggets with sweet and sour sauce. Mic drop.​",
+  "caloricValue": "4758",
+  "nutritionalInformation": [
+   {
+    "nutritionComponent": "Average serving size",
+    "nutritionUnit": "g",
+    "serveWiseValue": 859.0,
+    "gramWiseValue": 1.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Energy",
+    "nutritionUnit": "kj",
+    "serveWiseValue": 4758.0,
+    "gramWiseValue": 554.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Protein",
+    "nutritionUnit": "g",
+    "serveWiseValue": 44.6,
+    "gramWiseValue": 5.2,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, total",
+    "nutritionUnit": "g",
+    "serveWiseValue": 55.1,
+    "gramWiseValue": 6.4,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, saturated",
+    "nutritionUnit": "g",
+    "serveWiseValue": 8.1,
+    "gramWiseValue": 0.9,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate",
+    "nutritionUnit": "g",
+    "serveWiseValue": 114.1,
+    "gramWiseValue": 13.3,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate, sugars",
+    "nutritionUnit": "g",
+    "serveWiseValue": 18.5,
+    "gramWiseValue": 2.1,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Sodium",
+    "nutritionUnit": "mg",
+    "serveWiseValue": 1913.0,
+    "gramWiseValue": 223.0,
+    "isActive": true
+   }
+  ],
+  "allergenInformation": [],
+  "hideNutritionInformation": false,
+  "hideAllergenInformation": true,
+  "showInFactSheet": false,
+  "flagText": null,
+  "tagArray": [
+   "Boneless",
+   "Lighter"
+  ],
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7MrDxeTXhUU8AW4zvW34nT/6c7a3560c3216a48c922c65bc109826a/_10_Twister_Combo___6_Nuggs.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "serves": 0
+ },
+ "categoryUrl": [
+  "fomo-wow"
+ ],
+ "categoryId": "C-20069"
+}
