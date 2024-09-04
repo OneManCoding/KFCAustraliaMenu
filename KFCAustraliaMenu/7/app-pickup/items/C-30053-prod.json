@@ -66,6 +66,20 @@
       }
      },
      "price": 545
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 600
     }
    ],
    "isTimeSpecific": false,
@@ -160,6 +174,20 @@
           }
          },
          "price": 745
+        },
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "2310"
+          },
+          "endTime": {
+           "time": "0550"
+          }
+         },
+         "price": 820
         }
        ],
        "isTimeSpecific": false,
@@ -670,7 +698,7 @@
    "value": "MENU_ITEM"
   }
  ],
- "displayOrder": 11,
+ "displayOrder": 9,
  "isHidden": false,
  "content": {
   "entityId": "C-30053-prod",

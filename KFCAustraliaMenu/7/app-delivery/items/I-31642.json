@@ -67,7 +67,7 @@
      "url": "1-piece-original-recipe",
      "isPromo": false,
      "posId": "170101",
-     "displayOrder": 128,
+     "displayOrder": 137,
      "customizable": false,
      "dname": [
       {
@@ -141,7 +141,7 @@
      "url": "1-piece-original-tender",
      "isPromo": false,
      "posId": "170601",
-     "displayOrder": 129,
+     "displayOrder": 138,
      "customizable": false,
      "dname": [
       {
@@ -237,6 +237,20 @@
     }
    },
    "price": 1845
+  },
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "2310"
+    },
+    "endTime": {
+     "time": "0550"
+    }
+   },
+   "price": 1845
   }
  ],
  "isTimeSpecific": false,
@@ -328,6 +342,20 @@
         },
         "endTime": {
          "time": "2359"
+        }
+       },
+       "price": 1045
+      },
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "2310"
+        },
+        "endTime": {
+         "time": "0550"
         }
        },
        "price": 1045
@@ -662,7 +690,7 @@
          "url": "1-piece-original-tender",
          "isPromo": false,
          "posId": "170601",
-         "displayOrder": 133,
+         "displayOrder": 142,
          "customizable": false,
          "dname": [
           {
@@ -770,7 +798,7 @@
          "url": "aioli-dip",
          "isPromo": false,
          "posId": "191010",
-         "displayOrder": 134,
+         "displayOrder": 143,
          "customizable": false,
          "dname": [
           {
@@ -836,7 +864,7 @@
          "url": "bbq-dip",
          "isPromo": false,
          "posId": "191006",
-         "displayOrder": 135,
+         "displayOrder": 144,
          "customizable": false,
          "dname": [
           {
@@ -897,7 +925,7 @@
          "url": "supercharged-dip",
          "isPromo": false,
          "posId": "191007",
-         "displayOrder": 136,
+         "displayOrder": 145,
          "customizable": false,
          "dname": [
           {
@@ -958,7 +986,7 @@
          "url": "sweet-chilli-dip",
          "isPromo": false,
          "posId": "191008",
-         "displayOrder": 137,
+         "displayOrder": 146,
          "customizable": false,
          "dname": [
           {
@@ -1019,7 +1047,7 @@
          "url": "sweet-sour-dip",
          "isPromo": false,
          "posId": "191009",
-         "displayOrder": 138,
+         "displayOrder": 147,
          "customizable": false,
          "dname": [
           {
@@ -1080,7 +1108,7 @@
          "url": "tomato-dip",
          "isPromo": false,
          "posId": "191005",
-         "displayOrder": 139,
+         "displayOrder": 148,
          "customizable": false,
          "dname": [
           {
@@ -1141,7 +1169,7 @@
          "url": "no-sauce",
          "isPromo": false,
          "posId": "191011",
-         "displayOrder": 140,
+         "displayOrder": 149,
          "customizable": false,
          "dname": [
           {
@@ -1226,6 +1254,20 @@
         },
         "endTime": {
          "time": "2359"
+        }
+       },
+       "price": 1145
+      },
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "2310"
+        },
+        "endTime": {
+         "time": "0550"
         }
        },
        "price": 1145
@@ -1542,6 +1584,20 @@
         },
         "endTime": {
          "time": "2359"
+        }
+       },
+       "price": 1095
+      },
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "2310"
+        },
+        "endTime": {
+         "time": "0550"
         }
        },
        "price": 1095
@@ -1895,7 +1951,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 482,
+         "displayOrder": 501,
          "customizable": false,
          "dname": [
           {
@@ -1956,7 +2012,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 483,
+         "displayOrder": 502,
          "customizable": false,
          "dname": [
           {
@@ -2614,20 +2670,20 @@
      "categoryId": "C-20069"
     },
     {
-     "mdmId": "I-30090",
-     "id": "I-30090",
-     "name": "Go Bucket® Popcorn Chicken",
+     "mdmId": "I-32866",
+     "id": "I-32866",
+     "name": "Go Bucket® Popcorn Chicken® ADD ON",
      "size": null,
-     "linkId": "40972",
-     "url": "go-bucket-popcorn-chicken",
+     "linkId": "43747",
+     "url": "go-bucket-popcorn-chicken-add-on",
      "isPromo": false,
-     "posId": "191002",
+     "posId": "191003",
      "displayOrder": 3,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "Go Bucket® Popcorn Chicken"
+       "value": "Go Bucket® Popcorn Chicken® ADD ON"
       }
      ],
      "shortDescription": [
@@ -2645,12 +2701,12 @@
      "imageName": [
       {
        "lang": "en-US",
-       "value": "I-30090"
+       "value": "I-32866"
       }
      ],
      "modgrps": [
       {
-       "id": "90347",
+       "id": "92030",
        "name": "Modify Chips",
        "dname": [
         {
@@ -2682,7 +2738,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 333,
+         "displayOrder": 478,
          "customizable": false,
          "dname": [
           {
@@ -2743,7 +2799,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 334,
+         "displayOrder": 479,
          "customizable": false,
          "dname": [
           {
@@ -2816,7 +2872,7 @@
      ],
      "modgrpIds": null,
      "isHidden": false,
-     "isCategoryHidden": false,
+     "isCategoryHidden": true,
      "availability": [
       {
        "dayOfWeek": {
@@ -2830,7 +2886,7 @@
          "time": "2359"
         }
        },
-       "price": 675
+       "price": 495
       }
      ],
      "isTimeSpecific": false,
@@ -2842,21 +2898,17 @@
        "value": "MENU_ITEM"
       },
       {
-       "key": "calories",
-       "value": "2165"
-      },
-      {
        "key": "pricewithouttax",
-       "value": "675"
+       "value": "495"
       },
       {
        "key": "upSizeItemPrice",
-       "value": "675"
+       "value": "495"
       }
      ],
      "recommendationRules": null,
      "content": {
-      "entityId": "I-30090",
+      "entityId": "I-32866",
       "shortDescription": "Popcorn Chicken with 1 Portion of Chips. ",
       "longDescription": "Truly the snack of all trades! Pick up Popcorn Chicken and Chips. Or mix it up with 3 Nuggets, 2 Wicked Wings, or 1 Original Tender. Let’s go!",
       "caloricValue": "2351",
@@ -3088,9 +3140,9 @@
       "serves": 0
      },
      "categoryUrl": [
-      "snacks-kids-meals"
+      "fomo-wow"
      ],
-     "categoryId": "C-20006"
+     "categoryId": "C-20069"
     },
     {
      "mdmId": "I-32856",
@@ -3142,6 +3194,20 @@
         },
         "endTime": {
          "time": "2359"
+        }
+       },
+       "price": 545
+      },
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "2310"
+        },
+        "endTime": {
+         "time": "0550"
         }
        },
        "price": 545

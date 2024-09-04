@@ -24,13 +24,13 @@
  "longDescription": [
   {
    "lang": "en-US",
-   "value": "Dinner Roll ADD ON"
+   "value": "Soft, individual white bread rolls with sesame seed topping, a great accompaniment to your meal."
   }
  ],
  "imageName": [
   {
    "lang": "en-US",
-   "value": "I-32867"
+   "value": "https://images.ctfassets.net/crbk84xktnsl/5wUTudczH7zK125hsbiaaL/912599163787b884bf6ca05c7017fa9d/Modifier_Dinner_Roll_1.png"
   }
  ],
  "modgrps": [],
@@ -48,6 +48,20 @@
     },
     "endTime": {
      "time": "2359"
+    }
+   },
+   "price": 100
+  },
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "2310"
+    },
+    "endTime": {
+     "time": "0550"
     }
    },
    "price": 100
@@ -71,7 +85,239 @@
   }
  ],
  "recommendationRules": [],
- "content": null,
+ "content": {
+  "entityId": "I-32867",
+  "longDescription": "Soft, individual white bread rolls with sesame seed topping, a great accompaniment to your meal.",
+  "caloricValue": "460",
+  "nutritionalInformation": [
+   {
+    "nutritionComponent": "Average serving size",
+    "nutritionUnit": "g",
+    "serveWiseValue": 40.0,
+    "gramWiseValue": 1.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Energy",
+    "nutritionUnit": "kj",
+    "serveWiseValue": 460.0,
+    "gramWiseValue": 1150.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Protein",
+    "nutritionUnit": "g",
+    "serveWiseValue": 4.1,
+    "gramWiseValue": 10.2,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, total",
+    "nutritionUnit": "g",
+    "serveWiseValue": 2.4,
+    "gramWiseValue": 6.1,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, saturated",
+    "nutritionUnit": "g",
+    "serveWiseValue": 0.3,
+    "gramWiseValue": 0.7,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate",
+    "nutritionUnit": "g",
+    "serveWiseValue": 16.9,
+    "gramWiseValue": 42.3,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate, sugars",
+    "nutritionUnit": "g",
+    "serveWiseValue": 2.8,
+    "gramWiseValue": 7.1,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Sodium",
+    "nutritionUnit": "mg",
+    "serveWiseValue": 133.0,
+    "gramWiseValue": 332.0,
+    "isActive": true
+   }
+  ],
+  "allergenInformation": [
+   {
+    "allergenComponent": "Cereals containing gluten - Wheat",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Barley",
+    "isPresent": false,
+    "isTrace": true
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Oats",
+    "isPresent": false,
+    "isTrace": true
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Rye",
+    "isPresent": false,
+    "isTrace": true
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Spelt",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Crustacea & their Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Egg & Egg Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Fish & Fish Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Milk & Milk Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Molluscs and mollusc products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Almonds",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Beech nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Cashews",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Chestnut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Hickory nut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pecans",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pine nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pili nut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Shea nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Walnuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Sesame seeds and their products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Peanuts and their products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Soybeans and their products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Lupin & their Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Sulphites #",
+    "isPresent": false,
+    "isTrace": false
+   }
+  ],
+  "hideNutritionInformation": false,
+  "hideAllergenInformation": false,
+  "showInFactSheet": true,
+  "flagText": null,
+  "tagArray": [
+   "Sides"
+  ],
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5wUTudczH7zK125hsbiaaL/912599163787b884bf6ca05c7017fa9d/Modifier_Dinner_Roll_1.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "serves": 0
+ },
  "categoryUrl": [
   "fomo-wow"
  ],

@@ -82,7 +82,7 @@
        "url": "lettuce",
        "isPromo": false,
        "posId": "200008",
-       "displayOrder": 261,
+       "displayOrder": 270,
        "customizable": false,
        "dname": [
         {
@@ -156,7 +156,7 @@
        "url": "pepper-mayo",
        "isPromo": false,
        "posId": "200003",
-       "displayOrder": 262,
+       "displayOrder": 271,
        "customizable": false,
        "dname": [
         {
@@ -1058,6 +1058,20 @@
       }
      },
      "price": 495
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 495
     }
    ],
    "isTimeSpecific": false,
@@ -1328,7 +1342,7 @@
    "value": "MENU_ITEM"
   }
  ],
- "displayOrder": 6,
+ "displayOrder": 4,
  "isHidden": false,
  "content": {
   "entityId": "C-30713-prod",
