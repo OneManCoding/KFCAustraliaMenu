@@ -10996,6 +10996,808 @@
      ],
      "recommendedItems": [
       {
+       "mdmId": "I-32603",
+       "id": "I-32603",
+       "name": "MAKE IT A COMBO for $4",
+       "size": null,
+       "linkId": "43586",
+       "url": "make-it-a-combo-for-4",
+       "isPromo": false,
+       "posId": "100040",
+       "displayOrder": 1,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "MAKE IT A COMBO for $4"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Chips & Regular Drink"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Chips & Regular Drink"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "I-32603"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "91906",
+         "name": "Select 2 Items",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Select 2 Items"
+          }
+         ],
+         "min": 2,
+         "max": 2,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Select 2 Items"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Select 2 Items"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-136005",
+           "id": "M-136005",
+           "name": "Regular Chips",
+           "size": "",
+           "linkId": "mod:556353",
+           "url": "regular-chips",
+           "isPromo": false,
+           "posId": "136005",
+           "displayOrder": 462,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Regular Chips"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular Chips"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular Chips"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-136005"
+            }
+           ],
+           "modgrps": [
+            {
+             "id": "91909",
+             "name": "Modify Chips",
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Modify Chips"
+              }
+             ],
+             "min": 0,
+             "max": 1,
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Modify Chips"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Modify Chips"
+              }
+             ],
+             "modifiers": [
+              {
+               "mdmId": "M-200031",
+               "id": "M-200031",
+               "name": "Extra Salt",
+               "size": "",
+               "linkId": "mod:554382",
+               "url": "extra-salt",
+               "isPromo": false,
+               "posId": "200031",
+               "displayOrder": 463,
+               "customizable": true,
+               "dname": [
+                {
+                 "lang": "en-US",
+                 "value": "Extra Salt"
+                }
+               ],
+               "shortDescription": [
+                {
+                 "lang": "en-US",
+                 "value": "Extra Salt"
+                }
+               ],
+               "longDescription": [
+                {
+                 "lang": "en-US",
+                 "value": "Extra Salt"
+                }
+               ],
+               "imageName": [
+                {
+                 "lang": "en-US",
+                 "value": "M-200031"
+                }
+               ],
+               "modgrps": [],
+               "isHidden": false,
+               "availability": [
+                {
+                 "dayOfWeek": {
+                  "day": "EVERYDAY"
+                 },
+                 "availableHours": {
+                  "startTime": {
+                   "time": "0001"
+                  },
+                  "endTime": {
+                   "time": "2359"
+                  }
+                 },
+                 "price": 0
+                }
+               ],
+               "effectiveStartDateTime": 0,
+               "effectiveEndDateTime": 0,
+               "additionalProperties": [],
+               "defaultQuantity": 1,
+               "isDefault": false,
+               "max": 0,
+               "content": null
+              },
+              {
+               "mdmId": "M-200030",
+               "id": "M-200030",
+               "name": "No Salt",
+               "size": "",
+               "linkId": "mod:554383",
+               "url": "no-salt",
+               "isPromo": false,
+               "posId": "200030",
+               "displayOrder": 464,
+               "customizable": true,
+               "dname": [
+                {
+                 "lang": "en-US",
+                 "value": "No Salt"
+                }
+               ],
+               "shortDescription": [
+                {
+                 "lang": "en-US",
+                 "value": "No Salt"
+                }
+               ],
+               "longDescription": [
+                {
+                 "lang": "en-US",
+                 "value": "No Salt"
+                }
+               ],
+               "imageName": [
+                {
+                 "lang": "en-US",
+                 "value": "M-200030"
+                }
+               ],
+               "modgrps": [],
+               "isHidden": false,
+               "availability": [
+                {
+                 "dayOfWeek": {
+                  "day": "EVERYDAY"
+                 },
+                 "availableHours": {
+                  "startTime": {
+                   "time": "0001"
+                  },
+                  "endTime": {
+                   "time": "2359"
+                  }
+                 },
+                 "price": 0
+                }
+               ],
+               "effectiveStartDateTime": 0,
+               "effectiveEndDateTime": 0,
+               "additionalProperties": [],
+               "defaultQuantity": 1,
+               "isDefault": false,
+               "max": 0,
+               "content": null
+              }
+             ],
+             "additionalProperties": [
+              {
+               "key": "peroptionmaximum",
+               "value": "0"
+              },
+              {
+               "key": "peroptionminimum",
+               "value": "0"
+              },
+              {
+               "key": "maxdistinctoptions",
+               "value": "0"
+              }
+             ],
+             "displayOrder": 0,
+             "isHidden": false
+            }
+           ],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [
+            {
+             "key": "defaultreason",
+             "value": "SELECTION"
+            }
+           ],
+           "defaultQuantity": 1,
+           "isDefault": true,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-141055",
+           "id": "M-141055",
+           "name": "Regular Pepsi Max",
+           "size": "",
+           "linkId": "mod:556349",
+           "url": "regular-pepsi-max",
+           "isPromo": false,
+           "posId": "141055",
+           "displayOrder": 465,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Regular Pepsi Max"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular Pepsi Max"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular Pepsi Max"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-141055"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [
+            {
+             "key": "defaultreason",
+             "value": "SELECTION"
+            }
+           ],
+           "defaultQuantity": 1,
+           "isDefault": true,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-141007",
+           "id": "M-141007",
+           "name": "Regular Pepsi",
+           "size": "",
+           "linkId": "mod:556366",
+           "url": "regular-pepsi",
+           "isPromo": false,
+           "posId": "141007",
+           "displayOrder": 466,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Regular Pepsi"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular Pepsi"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular Pepsi"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-141007"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-141040",
+           "id": "M-141040",
+           "name": "Regular 7Up",
+           "size": "",
+           "linkId": "mod:556342",
+           "url": "regular-7up",
+           "isPromo": false,
+           "posId": "141040",
+           "displayOrder": 467,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Regular 7Up"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular 7Up"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular 7Up"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-141040"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-141030",
+           "id": "M-141030",
+           "name": "Regular Solo",
+           "size": "",
+           "linkId": "mod:556368",
+           "url": "regular-solo",
+           "isPromo": false,
+           "posId": "141030",
+           "displayOrder": 468,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Regular Solo"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular Solo"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular Solo"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-141030"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-141015",
+           "id": "M-141015",
+           "name": "Regular Sunkist No Sugar",
+           "size": "",
+           "linkId": "mod:556351",
+           "url": "regular-sunkist-no-sugar",
+           "isPromo": false,
+           "posId": "141015",
+           "displayOrder": 469,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Regular Sunkist No Sugar"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular Sunkist No Sugar"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Regular Sunkist No Sugar"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-141015"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-141071",
+           "id": "M-141071",
+           "name": "Bottled Water",
+           "size": "",
+           "linkId": "mod:556347",
+           "url": "bottled-water",
+           "isPromo": false,
+           "posId": "141071",
+           "displayOrder": 470,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Bottled Water"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Bottled Water"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Bottled Water"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-141071"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
+           "mdmId": "M-141013",
+           "id": "M-141013",
+           "name": "Sparkling Water",
+           "size": "",
+           "linkId": "mod:556369",
+           "url": "sparkling-water",
+           "isPromo": false,
+           "posId": "141013",
+           "displayOrder": 471,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Sparkling Water"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Sparkling Water"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Sparkling Water"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-141013"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "2"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "0"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "modgrpIds": null,
+       "isHidden": false,
+       "isCategoryHidden": true,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 400
+        }
+       ],
+       "isTimeSpecific": false,
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "mealdealdetailid",
+         "value": "MENU_ITEM"
+        },
+        {
+         "key": "pricewithouttax",
+         "value": "400"
+        },
+        {
+         "key": "upSizeItemPrice",
+         "value": "400"
+        }
+       ],
+       "recommendationRules": null,
+       "content": {
+        "entityId": "I-32603",
+        "longDescription": "Get more for your buck and add Regular Chips and a Regular Drink for just $4. Not everywhere and not forever. Pick up only.",
+        "caloricValue": "1175",
+        "nutritionalInformation": [],
+        "allergenInformation": [],
+        "hideNutritionInformation": true,
+        "hideAllergenInformation": true,
+        "showInFactSheet": false,
+        "flagText": null,
+        "tagArray": [],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1BPupobU5GcaIzId0pG7K9/2b93a5d393f127a4955b5a0146ce02f5/Combo_It_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
+       "categoryUrl": [
+        "fomo-wow"
+       ],
+       "categoryId": "C-20069"
+      },
+      {
        "mdmId": "I-31962",
        "id": "I-31962",
        "name": "2 Original Tenders™ ADD ON",
@@ -12733,7 +13535,239 @@
         }
        ],
        "recommendationRules": null,
-       "content": null,
+       "content": {
+        "entityId": "I-32872",
+        "longDescription": "Soft and fluffy potato mash with warm, rich gravy. Mmmmm…",
+        "caloricValue": "267",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 110.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 267.0,
+          "gramWiseValue": 243.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 1.9,
+          "gramWiseValue": 1.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.9,
+          "gramWiseValue": 0.8,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.1,
+          "gramWiseValue": 0.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 12.0,
+          "gramWiseValue": 10.9,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.8,
+          "gramWiseValue": 0.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 532.0,
+          "gramWiseValue": 484.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": true,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4JxZD8A9xTZJEvgY6AOM9G/529d6e2e035ce066acc6313530dbaf28/Potato___Gravy_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
        "categoryUrl": [
         "fomo-wow"
        ],
@@ -13137,7 +14171,239 @@
         }
        ],
        "recommendationRules": null,
-       "content": null,
+       "content": {
+        "entityId": "I-32867",
+        "longDescription": "Soft, individual white bread rolls with sesame seed topping, a great accompaniment to your meal.",
+        "caloricValue": "460",
+        "nutritionalInformation": [
+         {
+          "nutritionComponent": "Average serving size",
+          "nutritionUnit": "g",
+          "serveWiseValue": 40.0,
+          "gramWiseValue": 1.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Energy",
+          "nutritionUnit": "kj",
+          "serveWiseValue": 460.0,
+          "gramWiseValue": 1150.0,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Protein",
+          "nutritionUnit": "g",
+          "serveWiseValue": 4.1,
+          "gramWiseValue": 10.2,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, total",
+          "nutritionUnit": "g",
+          "serveWiseValue": 2.4,
+          "gramWiseValue": 6.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Fat, saturated",
+          "nutritionUnit": "g",
+          "serveWiseValue": 0.3,
+          "gramWiseValue": 0.7,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate",
+          "nutritionUnit": "g",
+          "serveWiseValue": 16.9,
+          "gramWiseValue": 42.3,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Carbohydrate, sugars",
+          "nutritionUnit": "g",
+          "serveWiseValue": 2.8,
+          "gramWiseValue": 7.1,
+          "isActive": true
+         },
+         {
+          "nutritionComponent": "Sodium",
+          "nutritionUnit": "mg",
+          "serveWiseValue": 133.0,
+          "gramWiseValue": 332.0,
+          "isActive": true
+         }
+        ],
+        "allergenInformation": [
+         {
+          "allergenComponent": "Cereals containing gluten - Wheat",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Barley",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Oats",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Rye",
+          "isPresent": false,
+          "isTrace": true
+         },
+         {
+          "allergenComponent": "Cereals containing gluten - Spelt",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Crustacea & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Egg & Egg Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Fish & Fish Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Milk & Milk Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Molluscs and mollusc products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Almonds",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Beech nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Cashews",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Hickory nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pecans",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pine nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pili nut",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Shea nuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Tree Nuts and their products - Walnuts",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sesame seeds and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Peanuts and their products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Soybeans and their products",
+          "isPresent": true,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Lupin & their Products",
+          "isPresent": false,
+          "isTrace": false
+         },
+         {
+          "allergenComponent": "Sulphites #",
+          "isPresent": false,
+          "isTrace": false
+         }
+        ],
+        "hideNutritionInformation": false,
+        "hideAllergenInformation": false,
+        "showInFactSheet": true,
+        "flagText": null,
+        "tagArray": [
+         "Sides"
+        ],
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5wUTudczH7zK125hsbiaaL/912599163787b884bf6ca05c7017fa9d/Modifier_Dinner_Roll_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "serves": 0
+       },
        "categoryUrl": [
         "fomo-wow"
        ],
