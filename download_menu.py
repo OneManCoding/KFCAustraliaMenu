@@ -16,7 +16,6 @@ async def download_data_and_save(menu_base_url, store_number, menu_option, sessi
 
     os.makedirs(directory, exist_ok=True)
 
-    # Read etags from store-specific metadata file
     etags = read_etags(metadata_file)
     etag_value = None
     for etag_info in etags:
@@ -49,7 +48,6 @@ async def download_data_and_save(menu_base_url, store_number, menu_option, sessi
                             sha1_uncompressed = calculate_sha1_uncompressed(data.encode('utf-8'))
                             etag_info["sha1_uncompressed"] = sha1_uncompressed
 
-                            # Update store-specific metadata file
                             update_metadata(metadata_file, etag_info)
                             print(f"Downloaded and saved {filename} from {url}")
                         else:

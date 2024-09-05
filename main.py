@@ -13,10 +13,11 @@ base_directory = "/home/runner/work/kfc/kfc"
 
 async def download_menu_data(store_number, store_info, menu_base_url, session):
     semaphore = asyncio.Semaphore(CONCURRENT_DOWNLOADS)
+    metadata_file = f"metadata/metadata_menu_{store_number}.json"
 
     async def download_with_semaphore(menu_option):
         async with semaphore:
-            return await download_data_and_save(menu_base_url, store_number, menu_option, session)
+            return await download_data_and_save(menu_base_url, store_number, menu_option, session, metadata_file)
 
     menu_options = store_info.get(store_number, [])
     if not menu_options:
