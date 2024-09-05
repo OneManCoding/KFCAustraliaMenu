@@ -1,4 +1,3 @@
-# etag_helper.py
 import os
 import json
 
@@ -16,6 +15,10 @@ def read_etags(metadata_file_path):
     return etags
 
 def update_metadata(metadata_file_path, etag_info):
+    # Ensure the metadata directory exists
+    metadata_dir = os.path.dirname(metadata_file_path)
+    os.makedirs(metadata_dir, exist_ok=True)
+
     try:
         # Read existing metadata
         with open(metadata_file_path, 'r') as metadata_file:
@@ -43,7 +46,14 @@ def update_metadata(metadata_file_path, etag_info):
 
     return metadata
 
-def save_etag_info(etags):
-    with open("metadata_menu.json", "w") as metadata_file:
+def save_etag_info(etags, store_number):
+    # Define the path to the store-specific metadata file
+    metadata_dir = "metadata"
+    metadata_file_path = os.path.join(metadata_dir, f"metadata_menu_{store_number}.json")
+    
+    # Ensure the directory exists
+    os.makedirs(metadata_dir, exist_ok=True)
+
+    with open(metadata_file_path, 'w') as metadata_file:
         for item in etags:
             metadata_file.write(json.dumps(item) + "\n")

@@ -8,7 +8,7 @@ from hash_utils import calculate_sha1_uncompressed
 
 base_directory = "/home/runner/work/kfc/kfc"
 
-async def download_data_and_save(menu_base_url, store_number, menu_option, session, max_retries=5):
+async def download_data_and_save(menu_base_url, store_number, menu_option, session, metadata_file, max_retries=5):
     url = menu_base_url.format(store_number, menu_option)
     filename = f"KFCAustraliaMenu-{store_number}-{menu_option}.json"
     directory = f"KFCAustraliaMenu/{store_number}/{menu_option}/"
@@ -16,7 +16,8 @@ async def download_data_and_save(menu_base_url, store_number, menu_option, sessi
 
     os.makedirs(directory, exist_ok=True)
 
-    etags = read_etags("metadata_menu.json")
+    # Read etags from store-specific metadata file
+    etags = read_etags(metadata_file)
     etag_value = None
     for etag_info in etags:
         if etag_info.get("filename") == full_filename:
@@ -48,7 +49,8 @@ async def download_data_and_save(menu_base_url, store_number, menu_option, sessi
                             sha1_uncompressed = calculate_sha1_uncompressed(data.encode('utf-8'))
                             etag_info["sha1_uncompressed"] = sha1_uncompressed
 
-                            update_metadata("metadata_menu.json", etag_info)
+                            # Update store-specific metadata file
+                            update_metadata(metadata_file, etag_info)
                             print(f"Downloaded and saved {filename} from {url}")
                         else:
                             print(f"{filename} has not been modified on the server.")

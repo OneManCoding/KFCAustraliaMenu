@@ -5,11 +5,13 @@ import aiofiles
 import asyncio
 import aiohttp
 from etag_helper_menu_items import read_etags, update_metadata
-from hash_utils import calculate_sha1_uncompressed
+from hash_utils import calculate_sha1_uncompressed, calculate_sha1_compressed
 
 base_directory = "/home/runner/work/kfc/kfc"
 
 async def download_menu_items(menu_item_base_url, store_number, menu_option, item_ids, session, max_retries=5):
+    metadata_file_path = f"metadata/metadata_menu_items_{store_number}.json"  # Store-specific metadata file
+
     for item_id in item_ids:
         url = menu_item_base_url.format(store_number=store_number, menu_option=menu_option, item_id=item_id)
         filename = f"{item_id}.json"
@@ -18,7 +20,7 @@ async def download_menu_items(menu_item_base_url, store_number, menu_option, ite
 
         os.makedirs(directory, exist_ok=True)
 
-        etags = read_etags("metadata_menu_items.json")
+        etags = read_etags(metadata_file_path)  # Use store-specific metadata file
         etag_value = None
         for etag_info in etags:
             if etag_info.get("filename") == full_filename:
@@ -50,7 +52,7 @@ async def download_menu_items(menu_item_base_url, store_number, menu_option, ite
                                 sha1_uncompressed = calculate_sha1_uncompressed(data.encode('utf-8'))
                                 etag_info["sha1_uncompressed"] = sha1_uncompressed
 
-                                update_metadata("metadata_menu_items.json", etag_info)
+                                update_metadata(metadata_file_path, etag_info)  # Update store-specific metadata
 
                                 print(f"Downloaded and saved {filename} from {url}")
                                 break
