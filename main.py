@@ -16,9 +16,7 @@ async def download_menu_data(store_number, store_info, menu_base_url, session):
 
     async def download_with_semaphore(menu_option):
         async with semaphore:
-            # Define store-specific metadata file
-            metadata_file = f"metadata/metadata_menu_{store_number}.json"
-            return await download_data_and_save(menu_base_url, store_number, menu_option, session, metadata_file)
+            return await download_data_and_save(menu_base_url, store_number, menu_option, session)
 
     menu_options = store_info.get(store_number, [])
     if not menu_options:
@@ -33,6 +31,7 @@ async def download_menu_data(store_number, store_info, menu_base_url, session):
 
 async def extract_and_download_items(store_number, store_info, menu_item_base_url, session):
     semaphore = asyncio.Semaphore(CONCURRENT_DOWNLOADS)
+    metadata_file = f"metadata/metadata_menu_items_{store_number}.json"
 
     async def extract_and_download(menu_option):
         async with semaphore:
@@ -50,8 +49,6 @@ async def extract_and_download_items(store_number, store_info, menu_item_base_ur
 
                 # Download each item immediately after extraction
                 if item_ids:
-                    # Define store-specific metadata file
-                    metadata_file = f"metadata/metadata_menu_items_{store_number}.json"
                     await download_menu_items(menu_item_base_url, store_number, menu_option, item_ids, session, metadata_file)
                 else:
                     print(f"No valid item IDs found in {filename} for store {store_number}, menu option {menu_option}.")
