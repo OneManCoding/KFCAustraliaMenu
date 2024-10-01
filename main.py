@@ -67,7 +67,10 @@ async def main(store_numbers):
     menu_base_url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/catalogs/afd3813afa364270bfd33f0a8d77252d/KFCAustraliaMenu-{}-{}"
     menu_item_base_url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/catalogs/afd3813afa364270bfd33f0a8d77252d/KFCAustraliaMenu-{store_number}-{menu_option}/items/{item_id}"
 
-    async with aiohttp.ClientSession() as session:
+    session = None
+    try:
+        session = aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=5))
+        
         all_skipped = True  # Assume all will be skipped unless proven otherwise
         for store_number in store_numbers:
             # Download the menu for the store number
@@ -83,6 +86,10 @@ async def main(store_numbers):
         if all_skipped:
             print("All store numbers returned HTTP 302 for menus. Stopping the script.")
             sys.exit(1)
+
+    finally:
+        if session:
+            await session.close()
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

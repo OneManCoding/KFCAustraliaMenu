@@ -10,6 +10,10 @@ from hash_utils import calculate_sha1_uncompressed, calculate_sha1_compressed
 base_directory = "/home/runner/work/kfc/kfc"
 
 async def download_menu_items(menu_item_base_url, store_number, menu_option, item_ids, session, metadata_file_path, max_retries=5):
+    # Ensure the metadata directory exists
+    metadata_directory = os.path.dirname(metadata_file_path)
+    os.makedirs(metadata_directory, exist_ok=True)
+
     for item_id in item_ids:
         url = menu_item_base_url.format(store_number=store_number, menu_option=menu_option, item_id=item_id)
         filename = f"{item_id}.json"
@@ -18,6 +22,7 @@ async def download_menu_items(menu_item_base_url, store_number, menu_option, ite
 
         os.makedirs(directory, exist_ok=True)
 
+        # Load existing ETag information
         etags = read_etags(metadata_file_path)
         etag_value = None
         for etag_info in etags:
@@ -40,16 +45,17 @@ async def download_menu_items(menu_item_base_url, store_number, menu_option, ite
                                 if last_modified:
                                     etag_info["last-modified"] = last_modified
 
+                                # Parse and write the response data
                                 data_dict = json.loads(await response.text())
-
                                 data = json.dumps(data_dict, ensure_ascii=False, indent=1)
 
-                                async with aiofiles.open(os.path.join(directory, filename), mode='w', encoding='utf-8') as f:
+                                async with aiofiles.open(full_filename, mode='w', encoding='utf-8') as f:
                                     await f.write(data)
 
                                 sha1_uncompressed = calculate_sha1_uncompressed(data.encode('utf-8'))
                                 etag_info["sha1_uncompressed"] = sha1_uncompressed
 
+                                # Update the ETag metadata
                                 update_metadata(metadata_file_path, etag_info)
 
                                 print(f"Downloaded and saved {filename} from {url}")
@@ -57,14 +63,20 @@ async def download_menu_items(menu_item_base_url, store_number, menu_option, ite
                             else:
                                 print(f"{filename} has not been modified on the server.")
                                 break
-                        elif response.status == 304:
-                            print(f"{filename} has not been modified on the server.")
-                            break
                         else:
-                            print(f"Failed to download {filename} from {url}. Status code: {response.status}")
+                            print(f"No ETag found in response for {filename}.")
+                    elif response.status == 304:
+                        print(f"{filename} has not been modified on the server.")
+                        break
                     elif response.status == 403:
                         print(f"{filename} is forbidden (HTTP 403). Skipping.")
                         break
+                    elif response.status == 404:
+                        print(f"{filename} not found (HTTP 404). Skipping.")
+                        break
+                    else:
+                        print(f"Failed to download {filename} from {url}. Status code: {response.status}")
+            
             except aiohttp.ClientError as e:
                 print(f"Request error: {e}")
                 if retry < max_retries - 1:
@@ -74,6 +86,16 @@ async def download_menu_items(menu_item_base_url, store_number, menu_option, ite
                     print(f"Max retries reached for {filename}. Skipping.")
                     break
 
+            except asyncio.TimeoutError:
+                print(f"Request for {url} timed out. Retrying ({retry + 1}/{max_retries})...")
+                if retry == max_retries - 1:
+                    print(f"Max retries reached for {filename}. Skipping.")
+                    break
+            except Exception as e:
+                print(f"An unexpected error occurred: {str(e)}")
+                break
+
+        # Adding a slight delay between downloads
         await asyncio.sleep(0.5)
 
 async def create_directory_if_not_exists(directory_path):
