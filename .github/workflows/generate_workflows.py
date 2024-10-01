@@ -88,6 +88,7 @@ jobs:
       run: |
         while true; do
           # Check the number of running workflows
+          sleep 120
           RUNNING_WORKFLOWS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \\
                                   "https://api.github.com/repos/${{ github.repository }}/actions/runs?status=in_progress" \\
                                   | jq '.workflow_runs | length')
