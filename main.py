@@ -8,7 +8,7 @@ from download_menu_items import download_menu_items
 from json_handler import extract_mdmid_and_id
 
 # Limit the number of concurrent downloads
-CONCURRENT_DOWNLOADS = 5
+CONCURRENT_DOWNLOADS = 7
 base_directory = "/home/runner/work/kfc/kfc"
 
 async def download_menu_data(store_number, store_info, menu_base_url, session):
