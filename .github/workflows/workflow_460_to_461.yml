@@ -91,7 +91,7 @@ jobs:
                                   | jq '.workflow_runs | length')
           echo "Number of running workflows: $RUNNING_WORKFLOWS"
 
-          if [ "$RUNNING_WORKFLOWS" -lt 2 ]; then
+          if [ "$RUNNING_WORKFLOWS" -lt 10 ]; then
             # Trigger the next workflow
             echo "Triggering next workflow..."
             curl -X POST \
