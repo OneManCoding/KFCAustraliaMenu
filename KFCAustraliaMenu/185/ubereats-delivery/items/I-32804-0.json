@@ -67,7 +67,7 @@
      "url": "3-pieces-original-recipe",
      "isPromo": false,
      "posId": "180053",
-     "displayOrder": 7988,
+     "displayOrder": 7987,
      "customizable": false,
      "dname": [
       {
@@ -127,7 +127,7 @@
          "url": "1-piece-original-recipe",
          "isPromo": false,
          "posId": "170101",
-         "displayOrder": 2729,
+         "displayOrder": 2364,
          "customizable": true,
          "dname": [
           {
@@ -193,6 +193,75 @@
          }
         },
         {
+         "mdmId": "M-170102",
+         "id": "M-170102",
+         "name": "1 Piece Hot & Spicy®",
+         "size": "",
+         "linkId": "mod:554665",
+         "url": "1-piece-hot-spicy",
+         "isPromo": false,
+         "posId": "170102",
+         "displayOrder": 2365,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Hot & Spicy®"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Hot & Spicy®"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Hot & Spicy®"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-170102",
+          "caloricValue": "1149",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
          "mdmId": "M-170511",
          "id": "M-170511",
          "name": "1 Piece Original Crispy Fillet",
@@ -201,7 +270,7 @@
          "url": "1-piece-original-crispy-fillet",
          "isPromo": false,
          "posId": "170511",
-         "displayOrder": 2730,
+         "displayOrder": 2366,
          "customizable": true,
          "dname": [
           {
@@ -270,7 +339,7 @@
          "url": "1-piece-zinger-fillet",
          "isPromo": false,
          "posId": "170502",
-         "displayOrder": 2731,
+         "displayOrder": 2367,
          "customizable": true,
          "dname": [
           {
@@ -339,7 +408,7 @@
          "url": "1-piece-original-tender",
          "isPromo": false,
          "posId": "170601",
-         "displayOrder": 2732,
+         "displayOrder": 2368,
          "customizable": true,
          "dname": [
           {
@@ -562,7 +631,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 496,
+         "displayOrder": 494,
          "customizable": false,
          "dname": [
           {
@@ -631,7 +700,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 497,
+         "displayOrder": 495,
          "customizable": false,
          "dname": [
           {
@@ -817,7 +886,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 499,
+         "displayOrder": 497,
          "customizable": true,
          "dname": [
           {
@@ -886,7 +955,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 500,
+         "displayOrder": 498,
          "customizable": true,
          "dname": [
           {
@@ -2514,7 +2583,7 @@
          "url": "half-mountain-dew-freeze",
          "isPromo": false,
          "posId": "141103",
-         "displayOrder": 522,
+         "displayOrder": 520,
          "customizable": true,
          "dname": [
           {
@@ -2583,7 +2652,7 @@
          "url": "half-raspberry-freeze",
          "isPromo": false,
          "posId": "141116",
-         "displayOrder": 523,
+         "displayOrder": 521,
          "customizable": true,
          "dname": [
           {
@@ -2769,7 +2838,7 @@
          "url": "half-pepsi-freeze",
          "isPromo": false,
          "posId": "141102",
-         "displayOrder": 525,
+         "displayOrder": 523,
          "customizable": true,
          "dname": [
           {
@@ -2838,7 +2907,7 @@
          "url": "half-raspberry-freeze",
          "isPromo": false,
          "posId": "141116",
-         "displayOrder": 526,
+         "displayOrder": 524,
          "customizable": true,
          "dname": [
           {
@@ -3024,7 +3093,7 @@
          "url": "half-mountain-dew-freeze",
          "isPromo": false,
          "posId": "141103",
-         "displayOrder": 528,
+         "displayOrder": 526,
          "customizable": true,
          "dname": [
           {
@@ -3093,7 +3162,7 @@
          "url": "half-pepsi-freeze",
          "isPromo": false,
          "posId": "141102",
-         "displayOrder": 529,
+         "displayOrder": 527,
          "customizable": true,
          "dname": [
           {

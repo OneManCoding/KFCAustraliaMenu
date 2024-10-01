@@ -82,7 +82,7 @@
        "url": "1-piece-original-recipe",
        "isPromo": false,
        "posId": "170101",
-       "displayOrder": 135,
+       "displayOrder": 129,
        "customizable": false,
        "dname": [
         {
@@ -148,6 +148,75 @@
        }
       },
       {
+       "mdmId": "M-170102",
+       "id": "M-170102",
+       "name": "1 Piece Hot & Spicy®",
+       "size": "",
+       "linkId": "mod:555414",
+       "url": "1-piece-hot-spicy",
+       "isPromo": false,
+       "posId": "170102",
+       "displayOrder": 130,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-170102",
+        "caloricValue": "1149",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
        "mdmId": "M-170601",
        "id": "M-170601",
        "name": "1 Piece Original Tender",
@@ -156,7 +225,7 @@
        "url": "1-piece-original-tender",
        "isPromo": false,
        "posId": "170601",
-       "displayOrder": 136,
+       "displayOrder": 131,
        "customizable": false,
        "dname": [
         {
@@ -252,20 +321,6 @@
       }
      },
      "price": 445
-    },
-    {
-     "dayOfWeek": {
-      "day": "EVERYDAY"
-     },
-     "availableHours": {
-      "startTime": {
-       "time": "2310"
-      },
-      "endTime": {
-       "time": "0550"
-      }
-     },
-     "price": 445
     }
    ],
    "isTimeSpecific": false,
@@ -357,20 +412,6 @@
           },
           "endTime": {
            "time": "2359"
-          }
-         },
-         "price": 745
-        },
-        {
-         "dayOfWeek": {
-          "day": "EVERYDAY"
-         },
-         "availableHours": {
-          "startTime": {
-           "time": "2310"
-          },
-          "endTime": {
-           "time": "0550"
           }
          },
          "price": 745
@@ -705,7 +746,7 @@
            "url": "1-piece-original-tender",
            "isPromo": false,
            "posId": "170601",
-           "displayOrder": 142,
+           "displayOrder": 139,
            "customizable": false,
            "dname": [
             {
@@ -813,7 +854,7 @@
            "url": "aioli-dip",
            "isPromo": false,
            "posId": "191010",
-           "displayOrder": 143,
+           "displayOrder": 140,
            "customizable": false,
            "dname": [
             {
@@ -879,7 +920,7 @@
            "url": "bbq-dip",
            "isPromo": false,
            "posId": "191006",
-           "displayOrder": 144,
+           "displayOrder": 141,
            "customizable": false,
            "dname": [
             {
@@ -940,7 +981,7 @@
            "url": "supercharged-dip",
            "isPromo": false,
            "posId": "191007",
-           "displayOrder": 145,
+           "displayOrder": 142,
            "customizable": false,
            "dname": [
             {
@@ -1001,7 +1042,7 @@
            "url": "sweet-chilli-dip",
            "isPromo": false,
            "posId": "191008",
-           "displayOrder": 146,
+           "displayOrder": 143,
            "customizable": false,
            "dname": [
             {
@@ -1062,7 +1103,7 @@
            "url": "sweet-sour-dip",
            "isPromo": false,
            "posId": "191009",
-           "displayOrder": 147,
+           "displayOrder": 144,
            "customizable": false,
            "dname": [
             {
@@ -1123,7 +1164,7 @@
            "url": "tomato-dip",
            "isPromo": false,
            "posId": "191005",
-           "displayOrder": 148,
+           "displayOrder": 145,
            "customizable": false,
            "dname": [
             {
@@ -1184,7 +1225,7 @@
            "url": "no-sauce",
            "isPromo": false,
            "posId": "191011",
-           "displayOrder": 149,
+           "displayOrder": 146,
            "customizable": false,
            "dname": [
             {
@@ -1269,20 +1310,6 @@
           },
           "endTime": {
            "time": "2359"
-          }
-         },
-         "price": 1145
-        },
-        {
-         "dayOfWeek": {
-          "day": "EVERYDAY"
-         },
-         "availableHours": {
-          "startTime": {
-           "time": "2310"
-          },
-          "endTime": {
-           "time": "0550"
           }
          },
          "price": 1145
@@ -1618,7 +1645,7 @@
            "url": "1-piece-original-recipe",
            "isPromo": false,
            "posId": "170101",
-           "displayOrder": 137,
+           "displayOrder": 132,
            "customizable": false,
            "dname": [
             {
@@ -1676,6 +1703,67 @@
            "content": null
           },
           {
+           "mdmId": "M-170102",
+           "id": "M-170102",
+           "name": "1 Piece Hot & Spicy®",
+           "size": "",
+           "linkId": "mod:554735",
+           "url": "1-piece-hot-spicy",
+           "isPromo": false,
+           "posId": "170102",
+           "displayOrder": 133,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Hot & Spicy®"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Hot & Spicy®"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Hot & Spicy®"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "M-170102"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": null
+          },
+          {
            "mdmId": "M-170601",
            "id": "M-170601",
            "name": "1 Piece Original Tender™",
@@ -1684,7 +1772,7 @@
            "url": "1-piece-original-tender",
            "isPromo": false,
            "posId": "170601",
-           "displayOrder": 138,
+           "displayOrder": 134,
            "customizable": false,
            "dname": [
             {
@@ -1769,20 +1857,6 @@
           },
           "endTime": {
            "time": "2359"
-          }
-         },
-         "price": 1845
-        },
-        {
-         "dayOfWeek": {
-          "day": "EVERYDAY"
-         },
-         "availableHours": {
-          "startTime": {
-           "time": "2310"
-          },
-          "endTime": {
-           "time": "0550"
           }
          },
          "price": 1845
@@ -2136,7 +2210,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 501,
+           "displayOrder": 484,
            "customizable": false,
            "dname": [
             {
@@ -2197,7 +2271,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 502,
+           "displayOrder": 485,
            "customizable": false,
            "dname": [
             {
@@ -2923,7 +2997,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 478,
+           "displayOrder": 452,
            "customizable": false,
            "dname": [
             {
@@ -2984,7 +3058,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 479,
+           "displayOrder": 453,
            "customizable": false,
            "dname": [
             {
@@ -3379,20 +3453,6 @@
           },
           "endTime": {
            "time": "2359"
-          }
-         },
-         "price": 545
-        },
-        {
-         "dayOfWeek": {
-          "day": "EVERYDAY"
-         },
-         "availableHours": {
-          "startTime": {
-           "time": "2310"
-          },
-          "endTime": {
-           "time": "0550"
           }
          },
          "price": 545

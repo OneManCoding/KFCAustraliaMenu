@@ -1,0 +1,1732 @@
+{
+ "mdmId": "I-33024-0",
+ "id": "I-33024-0",
+ "name": "$4.95 Hot & Spicy® Fill Up Until 4pm",
+ "size": null,
+ "linkId": "",
+ "url": "495-hot-spicy-fill-up-until-4pm",
+ "isPromo": false,
+ "posId": "",
+ "displayOrder": 0,
+ "customizable": true,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "$4.95 Hot & Spicy® Fill Up Until 4pm"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "1 Piece Hot & Spicy Chicken, 1 Wicked Wing, 1 Dinner Roll, 1 Regular Chips and 1 Regular Potato & Gravy."
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "Get a lot for a little with the $4.95 Hot & Spicy® Fill Up! That’s 1 piece of mouth-watering Hot & Spicy®, 1 Wicked Wing®, Regular Chips, Potato & Gravy and Dinner Roll. Prep the pocket change! 🤑 Not everywhere and not forever. Available until 4pm. Pick up only."
+  }
+ ],
+ "imageName": [
+  {
+   "lang": "en-US",
+   "value": "https://images.ctfassets.net/crbk84xktnsl/IRj0qwoBv0AMtQwTo0aXW/54704198b6135c135d59ba4904459ab2/J6198_24P11_Hot_Spicy_FillUp__1_.png"
+  }
+ ],
+ "modgrps": [
+  {
+   "id": "33024-1-0",
+   "name": "Chicken",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Chicken"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Chicken"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Chicken"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-41211-0",
+     "id": "M-41211-0",
+     "name": "1 Piece Hot & Spicy®",
+     "size": "Regular",
+     "linkId": "41211",
+     "url": "1-piece-hot-spicy",
+     "isPromo": false,
+     "posId": "170102",
+     "displayOrder": 6051,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Hot & Spicy®"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Hot & Spicy®"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Hot & Spicy®"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "1276"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-41211-0",
+      "caloricValue": "1149",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-41210-0",
+     "id": "M-41210-0",
+     "name": "1 Piece Original Recipe",
+     "size": "Regular",
+     "linkId": "41210",
+     "url": "1-piece-original-recipe",
+     "isPromo": false,
+     "posId": "170101",
+     "displayOrder": 6052,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Original Recipe"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Original Recipe"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Original Recipe"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "1031"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-41210-0",
+      "caloricValue": "984",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 1,
+   "isHidden": false
+  },
+  {
+   "id": "33024-2-0",
+   "name": "Wicked Wing®",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Wicked Wing®"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Wicked Wing®"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Wicked Wing®"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-41638-0",
+     "id": "M-41638-0",
+     "name": "1 Wicked Wing®",
+     "size": "Regular",
+     "linkId": "41638",
+     "url": "1-wicked-wing",
+     "isPromo": false,
+     "posId": "181004",
+     "displayOrder": 6053,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "1 Wicked Wing®"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Wicked Wing®"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Wicked Wing®"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/42YaJQ962XIky15WEWpWNZ/288c64e1c43f9aeb313ab4b2652040a6/Wicked_Wings_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "552"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-41638-0",
+      "caloricValue": "504",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/42YaJQ962XIky15WEWpWNZ/288c64e1c43f9aeb313ab4b2652040a6/Wicked_Wings_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 2,
+   "isHidden": false
+  },
+  {
+   "id": "33024-3-0",
+   "name": "Chips",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Chips"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Chips"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Chips"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-41184-0",
+     "id": "M-41184-0",
+     "name": "Regular Chips",
+     "size": "Regular",
+     "linkId": "41184",
+     "url": "regular-chips",
+     "isPromo": false,
+     "posId": "136008",
+     "displayOrder": 6054,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Chips"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Chips"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "89838",
+       "name": "Modify Chips",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200031",
+         "id": "M-200031",
+         "name": "Extra Salt",
+         "size": "",
+         "linkId": "mod:554382",
+         "url": "extra-salt",
+         "isPromo": false,
+         "posId": "200031",
+         "displayOrder": 567,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200031",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200030",
+         "id": "M-200030",
+         "name": "No Salt",
+         "size": "",
+         "linkId": "mod:554383",
+         "url": "no-salt",
+         "isPromo": false,
+         "posId": "200030",
+         "displayOrder": 568,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200030",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "1169"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-41184-0",
+      "caloricValue": "1216",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 3,
+   "isHidden": false
+  },
+  {
+   "id": "33024-4-0",
+   "name": "Potato & Gravy",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Potato & Gravy"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Potato & Gravy"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Potato & Gravy"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-40978-0",
+     "id": "M-40978-0",
+     "name": "Regular Potato & Gravy",
+     "size": "Regular",
+     "linkId": "40978",
+     "url": "regular-potato-gravy",
+     "isPromo": false,
+     "posId": "136025",
+     "displayOrder": 6057,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Potato & Gravy"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Potato & Gravy"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Potato & Gravy"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/4JxZD8A9xTZJEvgY6AOM9G/529d6e2e035ce066acc6313530dbaf28/Potato___Gravy_reg.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "296"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-40978-0",
+      "caloricValue": "267",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4JxZD8A9xTZJEvgY6AOM9G/529d6e2e035ce066acc6313530dbaf28/Potato___Gravy_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 4,
+   "isHidden": false
+  },
+  {
+   "id": "33024-5-0",
+   "name": "Roll",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Roll"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Roll"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Roll"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-40982-0",
+     "id": "M-40982-0",
+     "name": "Dinner Roll",
+     "size": "Regular",
+     "linkId": "40982",
+     "url": "dinner-roll",
+     "isPromo": false,
+     "posId": "136046",
+     "displayOrder": 6058,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Dinner Roll"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Dinner Roll"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Dinner Roll"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/5wUTudczH7zK125hsbiaaL/912599163787b884bf6ca05c7017fa9d/Modifier_Dinner_Roll_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "460"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-40982-0",
+      "caloricValue": "460",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5wUTudczH7zK125hsbiaaL/912599163787b884bf6ca05c7017fa9d/Modifier_Dinner_Roll_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 5,
+   "isHidden": false
+  },
+  {
+   "id": "33024-6-0",
+   "name": "ADD Drink for $1.50?",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "ADD Drink for $1.50?"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "ADD Drink for $1.50?"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "ADD Drink for $1.50?"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-41688-0",
+     "id": "M-41688-0",
+     "name": "No Drink",
+     "size": "Regular",
+     "linkId": "41688",
+     "url": "no-drink",
+     "isPromo": false,
+     "posId": "141002",
+     "displayOrder": 6059,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "No Drink"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "No Drink"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "No Drink"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/7mdwN5f06AWN6F0WQEXch6/ff517b105a0a4c583e5149124f153f2d/Modifier_No_Sauce.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "0"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-41688-0",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7mdwN5f06AWN6F0WQEXch6/ff517b105a0a4c583e5149124f153f2d/Modifier_No_Sauce.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40925-0",
+     "id": "M-40925-0",
+     "name": "Regular Pepsi Max",
+     "size": "Regular",
+     "linkId": "40925",
+     "url": "regular-pepsi-max",
+     "isPromo": false,
+     "posId": "141055",
+     "displayOrder": 6060,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi Max"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi Max"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi Max"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/qqRoWs0EZPlv744RML2Gu/7961adc7152050f688f01b2c7b3d3f1d/Drink_Pepsi_Max_Can_reg_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 150
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40925-0",
+      "caloricValue": "6",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/qqRoWs0EZPlv744RML2Gu/7961adc7152050f688f01b2c7b3d3f1d/Drink_Pepsi_Max_Can_reg_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40928-0",
+     "id": "M-40928-0",
+     "name": "Regular Pepsi",
+     "size": "Regular",
+     "linkId": "40928",
+     "url": "regular-pepsi",
+     "isPromo": false,
+     "posId": "141007",
+     "displayOrder": 6061,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Pepsi"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/5thPp7gDYiWtmHynzH7GCm/9935f8d852333861b113a9ad34d22653/Drink_Pepsi_Can_reg_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 150
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40928-0",
+      "caloricValue": "723",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5thPp7gDYiWtmHynzH7GCm/9935f8d852333861b113a9ad34d22653/Drink_Pepsi_Can_reg_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40931-0",
+     "id": "M-40931-0",
+     "name": "Regular 7Up",
+     "size": "Regular",
+     "linkId": "40931",
+     "url": "regular-7up",
+     "isPromo": false,
+     "posId": "141040",
+     "displayOrder": 6062,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular 7Up"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular 7Up"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular 7Up"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/10vA0ZBy4qfmnlPksBxmZa/90975cfa76ec89768a0d01596557c4dc/Drink_7up_Can_reg.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 150
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40931-0",
+      "caloricValue": "695",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/10vA0ZBy4qfmnlPksBxmZa/90975cfa76ec89768a0d01596557c4dc/Drink_7up_Can_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40934-0",
+     "id": "M-40934-0",
+     "name": "Regular Mountain Dew",
+     "size": "Regular",
+     "linkId": "40934",
+     "url": "regular-mountain-dew",
+     "isPromo": false,
+     "posId": "141020",
+     "displayOrder": 6063,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Mountain Dew"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Mountain Dew"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Mountain Dew"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/2IaZi6zyTWuP2WAF2CwYMx/d9aad4a0ff2777552885ace90cf3bab6/Drink_Mt_Dew_Can_reg.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 150
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40934-0",
+      "caloricValue": "737",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2IaZi6zyTWuP2WAF2CwYMx/d9aad4a0ff2777552885ace90cf3bab6/Drink_Mt_Dew_Can_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40937-0",
+     "id": "M-40937-0",
+     "name": "Regular Solo",
+     "size": "Regular",
+     "linkId": "40937",
+     "url": "regular-solo",
+     "isPromo": false,
+     "posId": "141030",
+     "displayOrder": 6064,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Solo"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Solo"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Solo"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/7JWYwg8WmbEbWMvkneffqs/9a8266d054ef77680a5b605710531d23/Drink_Solo_Can_reg.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 150
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40937-0",
+      "caloricValue": "780",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7JWYwg8WmbEbWMvkneffqs/9a8266d054ef77680a5b605710531d23/Drink_Solo_Can_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-43220-0",
+     "id": "M-43220-0",
+     "name": "Regular Sunkist No Sugar",
+     "size": "Regular",
+     "linkId": "43220",
+     "url": "regular-sunkist-no-sugar",
+     "isPromo": false,
+     "posId": "141015",
+     "displayOrder": 6065,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Sunkist No Sugar"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Sunkist No Sugar"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Sunkist No Sugar"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/4Z2X1gS4pBVAQ1e2rcgbbF/ed36c99d0dfb18db950435f6ea45ba22/Drink_Sunkist_Can_No_Sugar_reg.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 150
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-43220-0",
+      "caloricValue": "8",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4Z2X1gS4pBVAQ1e2rcgbbF/ed36c99d0dfb18db950435f6ea45ba22/Drink_Sunkist_Can_No_Sugar_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40943-0",
+     "id": "M-40943-0",
+     "name": "Water 600mL",
+     "size": "Regular",
+     "linkId": "40943",
+     "url": "water-600ml",
+     "isPromo": false,
+     "posId": "141070",
+     "displayOrder": 6066,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Water 600mL"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Water 600mL"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Water 600mL"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/5ZiQMAY0aJrb1EEw5VcoLn/d5c9666a2cb6fcffe076841b1192cb03/Drink_Water_Bottle_lge.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 150
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40943-0",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5ZiQMAY0aJrb1EEw5VcoLn/d5c9666a2cb6fcffe076841b1192cb03/Drink_Water_Bottle_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-43222-0",
+     "id": "M-43222-0",
+     "name": "Sparkling Water",
+     "size": "Regular",
+     "linkId": "43222",
+     "url": "sparkling-water",
+     "isPromo": false,
+     "posId": "141013",
+     "displayOrder": 6067,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Sparkling Water"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Sparkling Water"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Sparkling Water"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/29dUOyiqgTbuWTDOn6Z3b7/f11be2c9bb6f8eda3e03b5cd4f453e2d/Drink_Sparkling_Water.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 150
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-43222-0",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/29dUOyiqgTbuWTDOn6Z3b7/f11be2c9bb6f8eda3e03b5cd4f453e2d/Drink_Sparkling_Water.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40945-0",
+     "id": "M-40945-0",
+     "name": "Apple Juice",
+     "size": "Regular",
+     "linkId": "40945",
+     "url": "apple-juice",
+     "isPromo": false,
+     "posId": "141076",
+     "displayOrder": 6068,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Apple Juice"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Apple Juice"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Apple Juice"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/2JjBMZBp5y60rJEoKLDEWa/6814291d2f76c75afa086e11ad47c5e7/Drink_Apple_Juice.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 150
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40945-0",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2JjBMZBp5y60rJEoKLDEWa/6814291d2f76c75afa086e11ad47c5e7/Drink_Apple_Juice.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 6,
+   "isHidden": false
+  }
+ ],
+ "modgrpIds": null,
+ "isHidden": false,
+ "isCategoryHidden": true,
+ "availability": [
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "0001"
+    },
+    "endTime": {
+     "time": "2359"
+    }
+   },
+   "price": 495
+  }
+ ],
+ "isTimeSpecific": false,
+ "effectiveStartDateTime": 0,
+ "effectiveEndDateTime": 0,
+ "additionalProperties": [
+  {
+   "key": "mealdealid",
+   "value": "7111"
+  },
+  {
+   "key": "mealdealdetailid",
+   "value": "QUICK_COMBO"
+  },
+  {
+   "key": "pricewithouttax",
+   "value": "495"
+  },
+  {
+   "key": "upSizeItemPrice",
+   "value": "495"
+  }
+ ],
+ "recommendationRules": [],
+ "content": {
+  "entityId": "I-33024-0",
+  "longDescription": "Get a lot for a little with the $4.95 Hot & Spicy® Fill Up! That’s 1 piece of mouth-watering Hot & Spicy®, 1 Wicked Wing®, Regular Chips, Potato & Gravy and Dinner Roll. Prep the pocket change! 🤑 Not everywhere and not forever. Available until 4pm. Pick up only.",
+  "caloricValue": "3596",
+  "nutritionalInformation": [
+   {
+    "nutritionComponent": "Average serving size",
+    "nutritionUnit": "g",
+    "serveWiseValue": 401.0,
+    "gramWiseValue": 1.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Energy",
+    "nutritionUnit": "kj",
+    "serveWiseValue": 3596.0,
+    "gramWiseValue": 898.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Protein",
+    "nutritionUnit": "g",
+    "serveWiseValue": 36.1,
+    "gramWiseValue": 9.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, total",
+    "nutritionUnit": "g",
+    "serveWiseValue": 41.1,
+    "gramWiseValue": 10.3,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, saturated",
+    "nutritionUnit": "g",
+    "serveWiseValue": 5.7,
+    "gramWiseValue": 1.4,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate",
+    "nutritionUnit": "g",
+    "serveWiseValue": 85.4,
+    "gramWiseValue": 21.3,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate, sugars",
+    "nutritionUnit": "g",
+    "serveWiseValue": 4.2,
+    "gramWiseValue": 1.1,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Sodium",
+    "nutritionUnit": "mg",
+    "serveWiseValue": 1588.0,
+    "gramWiseValue": 397.0,
+    "isActive": true
+   }
+  ],
+  "allergenInformation": [],
+  "hideNutritionInformation": false,
+  "hideAllergenInformation": true,
+  "showInFactSheet": true,
+  "flagText": null,
+  "tagArray": [
+   "Spicy"
+  ],
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/IRj0qwoBv0AMtQwTo0aXW/54704198b6135c135d59ba4904459ab2/J6198_24P11_Hot_Spicy_FillUp__1_.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "serves": 0
+ },
+ "categoryUrl": [
+  "colonels-offers"
+ ],
+ "categoryId": "C-20038"
+}

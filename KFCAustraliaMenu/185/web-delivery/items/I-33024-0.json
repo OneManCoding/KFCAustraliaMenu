@@ -1,10 +1,10 @@
 {
  "mdmId": "I-33024-0",
  "id": "I-33024-0",
- "name": "$4.95 Hot & Spicy Fill Up",
+ "name": "$4.95 Hot & Spicy® Fill Up Until 4pm",
  "size": null,
  "linkId": "",
- "url": "495-hot-spicy-fill-up",
+ "url": "495-hot-spicy-fill-up-until-4pm",
  "isPromo": false,
  "posId": "",
  "displayOrder": 0,
@@ -12,7 +12,7 @@
  "dname": [
   {
    "lang": "en-US",
-   "value": "$4.95 Hot & Spicy Fill Up"
+   "value": "$4.95 Hot & Spicy® Fill Up Until 4pm"
   }
  ],
  "shortDescription": [
@@ -24,7 +24,7 @@
  "longDescription": [
   {
    "lang": "en-US",
-   "value": "Fill up on the fried side with the $4.95 Hot & Spicy® Fill Up! That’s 1 piece of mouth-watering Hot & Spicy®, 1 Wicked Wing, Regular Chips, P&G and Dinner Roll. Prep the pocket change! 🤑 Not everywhere and not forever. Available until 4pm. Pick up only."
+   "value": "Get a lot for a little with the $4.95 Hot & Spicy® Fill Up! That’s 1 piece of mouth-watering Hot & Spicy®, 1 Wicked Wing®, Regular Chips, Potato & Gravy and Dinner Roll. Prep the pocket change! 🤑 Not everywhere and not forever. Available until 4pm. Pick up only."
   }
  ],
  "imageName": [
@@ -59,6 +59,80 @@
    ],
    "modifiers": [
     {
+     "mdmId": "M-41211-0",
+     "id": "M-41211-0",
+     "name": "1 Piece Hot & Spicy®",
+     "size": "Regular",
+     "linkId": "41211",
+     "url": "1-piece-hot-spicy",
+     "isPromo": false,
+     "posId": "170102",
+     "displayOrder": 5485,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Hot & Spicy®"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Hot & Spicy®"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Hot & Spicy®"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "1276"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-41211-0",
+      "caloricValue": "1149",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
      "mdmId": "M-41210-0",
      "id": "M-41210-0",
      "name": "1 Piece Original Recipe",
@@ -67,7 +141,7 @@
      "url": "1-piece-original-recipe",
      "isPromo": false,
      "posId": "170101",
-     "displayOrder": 5488,
+     "displayOrder": 5486,
      "customizable": false,
      "dname": [
       {
@@ -183,7 +257,7 @@
      "url": "1-wicked-wing",
      "isPromo": false,
      "posId": "181004",
-     "displayOrder": 5489,
+     "displayOrder": 5487,
      "customizable": false,
      "dname": [
       {
@@ -299,7 +373,7 @@
      "url": "regular-chips",
      "isPromo": false,
      "posId": "136008",
-     "displayOrder": 5490,
+     "displayOrder": 5488,
      "customizable": false,
      "dname": [
       {
@@ -359,7 +433,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 1106,
+         "displayOrder": 483,
          "customizable": true,
          "dname": [
           {
@@ -428,7 +502,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 1107,
+         "displayOrder": 484,
          "customizable": true,
          "dname": [
           {
@@ -596,7 +670,7 @@
      "url": "regular-potato-gravy",
      "isPromo": false,
      "posId": "136025",
-     "displayOrder": 5493,
+     "displayOrder": 5491,
      "customizable": false,
      "dname": [
       {
@@ -712,7 +786,7 @@
      "url": "dinner-roll",
      "isPromo": false,
      "posId": "136046",
-     "displayOrder": 5494,
+     "displayOrder": 5492,
      "customizable": false,
      "dname": [
       {
@@ -828,7 +902,7 @@
      "url": "no-drink",
      "isPromo": false,
      "posId": "141002",
-     "displayOrder": 5495,
+     "displayOrder": 5493,
      "customizable": false,
      "dname": [
       {
@@ -902,7 +976,7 @@
      "url": "regular-pepsi-max",
      "isPromo": false,
      "posId": "141055",
-     "displayOrder": 5496,
+     "displayOrder": 5494,
      "customizable": false,
      "dname": [
       {
@@ -971,7 +1045,7 @@
      "url": "regular-pepsi",
      "isPromo": false,
      "posId": "141007",
-     "displayOrder": 5497,
+     "displayOrder": 5495,
      "customizable": false,
      "dname": [
       {
@@ -1040,7 +1114,7 @@
      "url": "regular-7up",
      "isPromo": false,
      "posId": "141040",
-     "displayOrder": 5498,
+     "displayOrder": 5496,
      "customizable": false,
      "dname": [
       {
@@ -1109,7 +1183,7 @@
      "url": "regular-mountain-dew",
      "isPromo": false,
      "posId": "141020",
-     "displayOrder": 5499,
+     "displayOrder": 5497,
      "customizable": false,
      "dname": [
       {
@@ -1178,7 +1252,7 @@
      "url": "regular-solo",
      "isPromo": false,
      "posId": "141030",
-     "displayOrder": 5500,
+     "displayOrder": 5498,
      "customizable": false,
      "dname": [
       {
@@ -1247,7 +1321,7 @@
      "url": "regular-sunkist-no-sugar",
      "isPromo": false,
      "posId": "141015",
-     "displayOrder": 5501,
+     "displayOrder": 5499,
      "customizable": false,
      "dname": [
       {
@@ -1316,7 +1390,7 @@
      "url": "water-600ml",
      "isPromo": false,
      "posId": "141070",
-     "displayOrder": 5502,
+     "displayOrder": 5500,
      "customizable": false,
      "dname": [
       {
@@ -1385,7 +1459,7 @@
      "url": "sparkling-water",
      "isPromo": false,
      "posId": "141013",
-     "displayOrder": 5503,
+     "displayOrder": 5501,
      "customizable": false,
      "dname": [
       {
@@ -1454,7 +1528,7 @@
      "url": "apple-juice",
      "isPromo": false,
      "posId": "141076",
-     "displayOrder": 5504,
+     "displayOrder": 5502,
      "customizable": false,
      "dname": [
       {
@@ -1576,7 +1650,7 @@
  "recommendationRules": [],
  "content": {
   "entityId": "I-33024-0",
-  "longDescription": "Fill up on the fried side with the $4.95 Hot & Spicy® Fill Up! That’s 1 piece of mouth-watering Hot & Spicy®, 1 Wicked Wing, Regular Chips, P&G and Dinner Roll. Prep the pocket change! 🤑 Not everywhere and not forever. Available until 4pm. Pick up only.",
+  "longDescription": "Get a lot for a little with the $4.95 Hot & Spicy® Fill Up! That’s 1 piece of mouth-watering Hot & Spicy®, 1 Wicked Wing®, Regular Chips, Potato & Gravy and Dinner Roll. Prep the pocket change! 🤑 Not everywhere and not forever. Available until 4pm. Pick up only.",
   "caloricValue": "3596",
   "nutritionalInformation": [
    {

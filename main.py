@@ -28,7 +28,7 @@ async def download_menu_data(store_number, store_info, menu_base_url, session):
     results = await asyncio.gather(*tasks)
 
     # Check if all tasks returned False (indicating HTTP 302)
-    return any(results)
+    return any(results)  # Return True if at least one menu was processed successfully
 
 async def extract_and_download_items(store_number, store_info, menu_item_base_url, session):
     semaphore = asyncio.Semaphore(CONCURRENT_DOWNLOADS)
@@ -79,8 +79,9 @@ async def main(store_numbers):
                 # Extract and download items immediately after extraction
                 await extract_and_download_items(store_number, store_info, menu_item_base_url, session)
 
+        # Stop the script if all store numbers returned HTTP 302 for menus
         if all_skipped:
-            print("All store numbers returned HTTP 302. Stopping the script.")
+            print("All store numbers returned HTTP 302 for menus. Stopping the script.")
             sys.exit(1)
 
 if __name__ == "__main__":
