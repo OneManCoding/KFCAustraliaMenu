@@ -67,7 +67,7 @@
      "url": "10-pc-original-recipe",
      "isPromo": false,
      "posId": "180060",
-     "displayOrder": 2656,
+     "displayOrder": 2163,
      "customizable": false,
      "dname": [
       {
@@ -127,7 +127,7 @@
          "url": "1-piece-original-recipe",
          "isPromo": false,
          "posId": "170101",
-         "displayOrder": 2657,
+         "displayOrder": 2164,
          "customizable": true,
          "dname": [
           {
@@ -193,6 +193,75 @@
          }
         },
         {
+         "mdmId": "M-170102",
+         "id": "M-170102",
+         "name": "1 Piece Hot & Spicy®",
+         "size": "",
+         "linkId": "mod:554538",
+         "url": "1-piece-hot-spicy",
+         "isPromo": false,
+         "posId": "170102",
+         "displayOrder": 2165,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Hot & Spicy®"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Hot & Spicy®"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Hot & Spicy®"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-170102",
+          "caloricValue": "1149",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
          "mdmId": "M-170601",
          "id": "M-170601",
          "name": "1 Piece Original Tender™",
@@ -201,7 +270,7 @@
          "url": "1-piece-original-tender",
          "isPromo": false,
          "posId": "170601",
-         "displayOrder": 2658,
+         "displayOrder": 2166,
          "customizable": true,
          "dname": [
           {
@@ -270,7 +339,7 @@
          "url": "1-piece-original-crispy-fillet",
          "isPromo": false,
          "posId": "170511",
-         "displayOrder": 2659,
+         "displayOrder": 2167,
          "customizable": true,
          "dname": [
           {
@@ -339,7 +408,7 @@
          "url": "1-piece-zinger-fillet",
          "isPromo": false,
          "posId": "170502",
-         "displayOrder": 2660,
+         "displayOrder": 2168,
          "customizable": true,
          "dname": [
           {
@@ -502,7 +571,7 @@
      "url": "large-chips",
      "isPromo": false,
      "posId": "136010",
-     "displayOrder": 2661,
+     "displayOrder": 2169,
      "customizable": false,
      "dname": [
       {
@@ -562,7 +631,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 705,
+         "displayOrder": 685,
          "customizable": false,
          "dname": [
           {
@@ -631,7 +700,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 706,
+         "displayOrder": 686,
          "customizable": false,
          "dname": [
           {
@@ -757,7 +826,7 @@
      "url": "large-potato-gravy",
      "isPromo": false,
      "posId": "136027",
-     "displayOrder": 2664,
+     "displayOrder": 2172,
      "customizable": false,
      "dname": [
       {
@@ -831,7 +900,7 @@
      "url": "large-coleslaw",
      "isPromo": false,
      "posId": "136045",
-     "displayOrder": 2665,
+     "displayOrder": 2173,
      "customizable": false,
      "dname": [
       {
@@ -905,7 +974,7 @@
      "url": "regular-gravy",
      "isPromo": false,
      "posId": "136026",
-     "displayOrder": 2666,
+     "displayOrder": 2174,
      "customizable": false,
      "dname": [
       {
@@ -979,7 +1048,7 @@
      "url": "4-dinner-rolls",
      "isPromo": false,
      "posId": "136047",
-     "displayOrder": 2667,
+     "displayOrder": 2175,
      "customizable": false,
      "dname": [
       {
@@ -1047,30 +1116,30 @@
     {
      "mdmId": "M-40927-0",
      "id": "M-40927-0",
-     "name": "1.25L Pepsi Max^",
+     "name": "1.25L Pepsi Max",
      "size": "Regular",
      "linkId": "40927",
      "url": "125l-pepsi-max",
      "isPromo": false,
      "posId": "141061",
-     "displayOrder": 2668,
+     "displayOrder": 2176,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "imageName": [
@@ -1116,30 +1185,30 @@
     {
      "mdmId": "M-40930-0",
      "id": "M-40930-0",
-     "name": "1.25L Pepsi^",
+     "name": "1.25L Pepsi",
      "size": "Regular",
      "linkId": "40930",
      "url": "125l-pepsi",
      "isPromo": false,
      "posId": "141011",
-     "displayOrder": 2669,
+     "displayOrder": 2177,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "imageName": [
@@ -1183,75 +1252,6 @@
      }
     },
     {
-     "mdmId": "M-40933-0",
-     "id": "M-40933-0",
-     "name": "1.25L 7Up",
-     "size": "Regular",
-     "linkId": "40933",
-     "url": "125l-7up",
-     "isPromo": false,
-     "posId": "141044",
-     "displayOrder": 2670,
-     "customizable": false,
-     "dname": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "shortDescription": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "longDescription": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "imageName": [
-      {
-       "lang": "en-US",
-       "value": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png"
-      }
-     ],
-     "modgrps": [],
-     "isHidden": false,
-     "availability": [
-      {
-       "dayOfWeek": {
-        "day": "EVERYDAY"
-       },
-       "availableHours": {
-        "startTime": {
-         "time": "0001"
-        },
-        "endTime": {
-         "time": "2359"
-        }
-       },
-       "price": 0
-      }
-     ],
-     "effectiveStartDateTime": 0,
-     "effectiveEndDateTime": 0,
-     "additionalProperties": [],
-     "defaultQuantity": 1,
-     "isDefault": false,
-     "max": 0,
-     "content": {
-      "entityId": "M-40933-0",
-      "caloricValue": "2244",
-      "image": {
-       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png",
-       "secondaryImage": null,
-       "tertiaryImage": null
-      }
-     }
-    },
-    {
      "mdmId": "M-40936-0",
      "id": "M-40936-0",
      "name": "1.25L Mountain Dew",
@@ -1260,7 +1260,7 @@
      "url": "125l-mountain-dew",
      "isPromo": false,
      "posId": "141026",
-     "displayOrder": 2671,
+     "displayOrder": 2178,
      "customizable": false,
      "dname": [
       {
@@ -1329,7 +1329,7 @@
      "url": "125l-solo",
      "isPromo": false,
      "posId": "141032",
-     "displayOrder": 2672,
+     "displayOrder": 2179,
      "customizable": false,
      "dname": [
       {
@@ -1398,7 +1398,7 @@
      "url": "125l-sunkist-no-sugar",
      "isPromo": false,
      "posId": "141017",
-     "displayOrder": 2673,
+     "displayOrder": 2180,
      "customizable": false,
      "dname": [
       {
@@ -1509,7 +1509,7 @@
      "url": "large-chips",
      "isPromo": false,
      "posId": "136010",
-     "displayOrder": 2674,
+     "displayOrder": 2181,
      "customizable": false,
      "dname": [
       {
@@ -1569,7 +1569,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 705,
+         "displayOrder": 685,
          "customizable": false,
          "dname": [
           {
@@ -1638,7 +1638,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 706,
+         "displayOrder": 686,
          "customizable": false,
          "dname": [
           {
@@ -1764,7 +1764,7 @@
      "url": "large-potato-gravy",
      "isPromo": false,
      "posId": "136027",
-     "displayOrder": 2677,
+     "displayOrder": 2184,
      "customizable": false,
      "dname": [
       {
@@ -1838,7 +1838,7 @@
      "url": "large-coleslaw",
      "isPromo": false,
      "posId": "136045",
-     "displayOrder": 2678,
+     "displayOrder": 2185,
      "customizable": false,
      "dname": [
       {
@@ -1912,7 +1912,7 @@
      "url": "regular-gravy",
      "isPromo": false,
      "posId": "136026",
-     "displayOrder": 2679,
+     "displayOrder": 2186,
      "customizable": false,
      "dname": [
       {
@@ -1986,7 +1986,7 @@
      "url": "4-dinner-rolls",
      "isPromo": false,
      "posId": "136047",
-     "displayOrder": 2680,
+     "displayOrder": 2187,
      "customizable": false,
      "dname": [
       {
@@ -2054,30 +2054,30 @@
     {
      "mdmId": "M-40927-0",
      "id": "M-40927-0",
-     "name": "1.25L Pepsi Max^",
+     "name": "1.25L Pepsi Max",
      "size": "Regular",
      "linkId": "40927",
      "url": "125l-pepsi-max",
      "isPromo": false,
      "posId": "141061",
-     "displayOrder": 2681,
+     "displayOrder": 2188,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "imageName": [
@@ -2123,30 +2123,30 @@
     {
      "mdmId": "M-40930-0",
      "id": "M-40930-0",
-     "name": "1.25L Pepsi^",
+     "name": "1.25L Pepsi",
      "size": "Regular",
      "linkId": "40930",
      "url": "125l-pepsi",
      "isPromo": false,
      "posId": "141011",
-     "displayOrder": 2682,
+     "displayOrder": 2189,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "imageName": [
@@ -2190,75 +2190,6 @@
      }
     },
     {
-     "mdmId": "M-40933-0",
-     "id": "M-40933-0",
-     "name": "1.25L 7Up",
-     "size": "Regular",
-     "linkId": "40933",
-     "url": "125l-7up",
-     "isPromo": false,
-     "posId": "141044",
-     "displayOrder": 2683,
-     "customizable": false,
-     "dname": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "shortDescription": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "longDescription": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "imageName": [
-      {
-       "lang": "en-US",
-       "value": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png"
-      }
-     ],
-     "modgrps": [],
-     "isHidden": false,
-     "availability": [
-      {
-       "dayOfWeek": {
-        "day": "EVERYDAY"
-       },
-       "availableHours": {
-        "startTime": {
-         "time": "0001"
-        },
-        "endTime": {
-         "time": "2359"
-        }
-       },
-       "price": 0
-      }
-     ],
-     "effectiveStartDateTime": 0,
-     "effectiveEndDateTime": 0,
-     "additionalProperties": [],
-     "defaultQuantity": 1,
-     "isDefault": false,
-     "max": 0,
-     "content": {
-      "entityId": "M-40933-0",
-      "caloricValue": "2244",
-      "image": {
-       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png",
-       "secondaryImage": null,
-       "tertiaryImage": null
-      }
-     }
-    },
-    {
      "mdmId": "M-40936-0",
      "id": "M-40936-0",
      "name": "1.25L Mountain Dew",
@@ -2267,7 +2198,7 @@
      "url": "125l-mountain-dew",
      "isPromo": false,
      "posId": "141026",
-     "displayOrder": 2684,
+     "displayOrder": 2190,
      "customizable": false,
      "dname": [
       {
@@ -2336,7 +2267,7 @@
      "url": "125l-solo",
      "isPromo": false,
      "posId": "141032",
-     "displayOrder": 2685,
+     "displayOrder": 2191,
      "customizable": false,
      "dname": [
       {
@@ -2405,7 +2336,7 @@
      "url": "125l-sunkist-no-sugar",
      "isPromo": false,
      "posId": "141017",
-     "displayOrder": 2686,
+     "displayOrder": 2192,
      "customizable": false,
      "dname": [
       {
@@ -2516,7 +2447,7 @@
      "url": "large-coleslaw",
      "isPromo": false,
      "posId": "136045",
-     "displayOrder": 2687,
+     "displayOrder": 2193,
      "customizable": false,
      "dname": [
       {
@@ -2590,7 +2521,7 @@
      "url": "large-chips",
      "isPromo": false,
      "posId": "136010",
-     "displayOrder": 2688,
+     "displayOrder": 2194,
      "customizable": false,
      "dname": [
       {
@@ -2650,7 +2581,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 705,
+         "displayOrder": 685,
          "customizable": false,
          "dname": [
           {
@@ -2719,7 +2650,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 706,
+         "displayOrder": 686,
          "customizable": false,
          "dname": [
           {
@@ -2845,7 +2776,7 @@
      "url": "large-potato-gravy",
      "isPromo": false,
      "posId": "136027",
-     "displayOrder": 2691,
+     "displayOrder": 2197,
      "customizable": false,
      "dname": [
       {
@@ -2919,7 +2850,7 @@
      "url": "regular-gravy",
      "isPromo": false,
      "posId": "136026",
-     "displayOrder": 2692,
+     "displayOrder": 2198,
      "customizable": false,
      "dname": [
       {
@@ -2993,7 +2924,7 @@
      "url": "4-dinner-rolls",
      "isPromo": false,
      "posId": "136047",
-     "displayOrder": 2693,
+     "displayOrder": 2199,
      "customizable": false,
      "dname": [
       {
@@ -3061,30 +2992,30 @@
     {
      "mdmId": "M-40927-0",
      "id": "M-40927-0",
-     "name": "1.25L Pepsi Max^",
+     "name": "1.25L Pepsi Max",
      "size": "Regular",
      "linkId": "40927",
      "url": "125l-pepsi-max",
      "isPromo": false,
      "posId": "141061",
-     "displayOrder": 2694,
+     "displayOrder": 2200,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "imageName": [
@@ -3130,30 +3061,30 @@
     {
      "mdmId": "M-40930-0",
      "id": "M-40930-0",
-     "name": "1.25L Pepsi^",
+     "name": "1.25L Pepsi",
      "size": "Regular",
      "linkId": "40930",
      "url": "125l-pepsi",
      "isPromo": false,
      "posId": "141011",
-     "displayOrder": 2695,
+     "displayOrder": 2201,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "imageName": [
@@ -3197,75 +3128,6 @@
      }
     },
     {
-     "mdmId": "M-40933-0",
-     "id": "M-40933-0",
-     "name": "1.25L 7Up",
-     "size": "Regular",
-     "linkId": "40933",
-     "url": "125l-7up",
-     "isPromo": false,
-     "posId": "141044",
-     "displayOrder": 2696,
-     "customizable": false,
-     "dname": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "shortDescription": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "longDescription": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "imageName": [
-      {
-       "lang": "en-US",
-       "value": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png"
-      }
-     ],
-     "modgrps": [],
-     "isHidden": false,
-     "availability": [
-      {
-       "dayOfWeek": {
-        "day": "EVERYDAY"
-       },
-       "availableHours": {
-        "startTime": {
-         "time": "0001"
-        },
-        "endTime": {
-         "time": "2359"
-        }
-       },
-       "price": 0
-      }
-     ],
-     "effectiveStartDateTime": 0,
-     "effectiveEndDateTime": 0,
-     "additionalProperties": [],
-     "defaultQuantity": 1,
-     "isDefault": false,
-     "max": 0,
-     "content": {
-      "entityId": "M-40933-0",
-      "caloricValue": "2244",
-      "image": {
-       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png",
-       "secondaryImage": null,
-       "tertiaryImage": null
-      }
-     }
-    },
-    {
      "mdmId": "M-40936-0",
      "id": "M-40936-0",
      "name": "1.25L Mountain Dew",
@@ -3274,7 +3136,7 @@
      "url": "125l-mountain-dew",
      "isPromo": false,
      "posId": "141026",
-     "displayOrder": 2697,
+     "displayOrder": 2202,
      "customizable": false,
      "dname": [
       {
@@ -3343,7 +3205,7 @@
      "url": "125l-solo",
      "isPromo": false,
      "posId": "141032",
-     "displayOrder": 2698,
+     "displayOrder": 2203,
      "customizable": false,
      "dname": [
       {
@@ -3412,7 +3274,7 @@
      "url": "125l-sunkist-no-sugar",
      "isPromo": false,
      "posId": "141017",
-     "displayOrder": 2699,
+     "displayOrder": 2204,
      "customizable": false,
      "dname": [
       {
@@ -3523,7 +3385,7 @@
      "url": "large-potato-gravy",
      "isPromo": false,
      "posId": "136027",
-     "displayOrder": 2700,
+     "displayOrder": 2205,
      "customizable": false,
      "dname": [
       {
@@ -3597,7 +3459,7 @@
      "url": "large-chips",
      "isPromo": false,
      "posId": "136010",
-     "displayOrder": 2701,
+     "displayOrder": 2206,
      "customizable": false,
      "dname": [
       {
@@ -3657,7 +3519,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 705,
+         "displayOrder": 685,
          "customizable": false,
          "dname": [
           {
@@ -3726,7 +3588,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 706,
+         "displayOrder": 686,
          "customizable": false,
          "dname": [
           {
@@ -3852,7 +3714,7 @@
      "url": "large-coleslaw",
      "isPromo": false,
      "posId": "136045",
-     "displayOrder": 2704,
+     "displayOrder": 2209,
      "customizable": false,
      "dname": [
       {
@@ -3926,7 +3788,7 @@
      "url": "regular-gravy",
      "isPromo": false,
      "posId": "136026",
-     "displayOrder": 2705,
+     "displayOrder": 2210,
      "customizable": false,
      "dname": [
       {
@@ -4000,7 +3862,7 @@
      "url": "4-dinner-rolls",
      "isPromo": false,
      "posId": "136047",
-     "displayOrder": 2706,
+     "displayOrder": 2211,
      "customizable": false,
      "dname": [
       {
@@ -4068,30 +3930,30 @@
     {
      "mdmId": "M-40927-0",
      "id": "M-40927-0",
-     "name": "1.25L Pepsi Max^",
+     "name": "1.25L Pepsi Max",
      "size": "Regular",
      "linkId": "40927",
      "url": "125l-pepsi-max",
      "isPromo": false,
      "posId": "141061",
-     "displayOrder": 2707,
+     "displayOrder": 2212,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "imageName": [
@@ -4137,30 +3999,30 @@
     {
      "mdmId": "M-40930-0",
      "id": "M-40930-0",
-     "name": "1.25L Pepsi^",
+     "name": "1.25L Pepsi",
      "size": "Regular",
      "linkId": "40930",
      "url": "125l-pepsi",
      "isPromo": false,
      "posId": "141011",
-     "displayOrder": 2708,
+     "displayOrder": 2213,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "imageName": [
@@ -4204,75 +4066,6 @@
      }
     },
     {
-     "mdmId": "M-40933-0",
-     "id": "M-40933-0",
-     "name": "1.25L 7Up",
-     "size": "Regular",
-     "linkId": "40933",
-     "url": "125l-7up",
-     "isPromo": false,
-     "posId": "141044",
-     "displayOrder": 2709,
-     "customizable": false,
-     "dname": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "shortDescription": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "longDescription": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "imageName": [
-      {
-       "lang": "en-US",
-       "value": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png"
-      }
-     ],
-     "modgrps": [],
-     "isHidden": false,
-     "availability": [
-      {
-       "dayOfWeek": {
-        "day": "EVERYDAY"
-       },
-       "availableHours": {
-        "startTime": {
-         "time": "0001"
-        },
-        "endTime": {
-         "time": "2359"
-        }
-       },
-       "price": 0
-      }
-     ],
-     "effectiveStartDateTime": 0,
-     "effectiveEndDateTime": 0,
-     "additionalProperties": [],
-     "defaultQuantity": 1,
-     "isDefault": false,
-     "max": 0,
-     "content": {
-      "entityId": "M-40933-0",
-      "caloricValue": "2244",
-      "image": {
-       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png",
-       "secondaryImage": null,
-       "tertiaryImage": null
-      }
-     }
-    },
-    {
      "mdmId": "M-40936-0",
      "id": "M-40936-0",
      "name": "1.25L Mountain Dew",
@@ -4281,7 +4074,7 @@
      "url": "125l-mountain-dew",
      "isPromo": false,
      "posId": "141026",
-     "displayOrder": 2710,
+     "displayOrder": 2214,
      "customizable": false,
      "dname": [
       {
@@ -4350,7 +4143,7 @@
      "url": "125l-solo",
      "isPromo": false,
      "posId": "141032",
-     "displayOrder": 2711,
+     "displayOrder": 2215,
      "customizable": false,
      "dname": [
       {
@@ -4419,7 +4212,7 @@
      "url": "125l-sunkist-no-sugar",
      "isPromo": false,
      "posId": "141017",
-     "displayOrder": 2712,
+     "displayOrder": 2216,
      "customizable": false,
      "dname": [
       {
@@ -4524,30 +4317,30 @@
     {
      "mdmId": "M-40927-0",
      "id": "M-40927-0",
-     "name": "1.25L Pepsi Max^",
+     "name": "1.25L Pepsi Max",
      "size": "Regular",
      "linkId": "40927",
      "url": "125l-pepsi-max",
      "isPromo": false,
      "posId": "141061",
-     "displayOrder": 2713,
+     "displayOrder": 2217,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi Max^"
+       "value": "1.25L Pepsi Max"
       }
      ],
      "imageName": [
@@ -4593,30 +4386,30 @@
     {
      "mdmId": "M-40930-0",
      "id": "M-40930-0",
-     "name": "1.25L Pepsi^",
+     "name": "1.25L Pepsi",
      "size": "Regular",
      "linkId": "40930",
      "url": "125l-pepsi",
      "isPromo": false,
      "posId": "141011",
-     "displayOrder": 2714,
+     "displayOrder": 2218,
      "customizable": false,
      "dname": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "shortDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "longDescription": [
       {
        "lang": "en-US",
-       "value": "1.25L Pepsi^"
+       "value": "1.25L Pepsi"
       }
      ],
      "imageName": [
@@ -4660,75 +4453,6 @@
      }
     },
     {
-     "mdmId": "M-40933-0",
-     "id": "M-40933-0",
-     "name": "1.25L 7Up",
-     "size": "Regular",
-     "linkId": "40933",
-     "url": "125l-7up",
-     "isPromo": false,
-     "posId": "141044",
-     "displayOrder": 2715,
-     "customizable": false,
-     "dname": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "shortDescription": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "longDescription": [
-      {
-       "lang": "en-US",
-       "value": "1.25L 7Up"
-      }
-     ],
-     "imageName": [
-      {
-       "lang": "en-US",
-       "value": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png"
-      }
-     ],
-     "modgrps": [],
-     "isHidden": false,
-     "availability": [
-      {
-       "dayOfWeek": {
-        "day": "EVERYDAY"
-       },
-       "availableHours": {
-        "startTime": {
-         "time": "0001"
-        },
-        "endTime": {
-         "time": "2359"
-        }
-       },
-       "price": 0
-      }
-     ],
-     "effectiveStartDateTime": 0,
-     "effectiveEndDateTime": 0,
-     "additionalProperties": [],
-     "defaultQuantity": 1,
-     "isDefault": false,
-     "max": 0,
-     "content": {
-      "entityId": "M-40933-0",
-      "caloricValue": "2244",
-      "image": {
-       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png",
-       "secondaryImage": null,
-       "tertiaryImage": null
-      }
-     }
-    },
-    {
      "mdmId": "M-40936-0",
      "id": "M-40936-0",
      "name": "1.25L Mountain Dew",
@@ -4737,7 +4461,7 @@
      "url": "125l-mountain-dew",
      "isPromo": false,
      "posId": "141026",
-     "displayOrder": 2716,
+     "displayOrder": 2219,
      "customizable": false,
      "dname": [
       {
@@ -4806,7 +4530,7 @@
      "url": "large-chips",
      "isPromo": false,
      "posId": "136010",
-     "displayOrder": 2717,
+     "displayOrder": 2220,
      "customizable": false,
      "dname": [
       {
@@ -4866,7 +4590,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 705,
+         "displayOrder": 685,
          "customizable": false,
          "dname": [
           {
@@ -4935,7 +4659,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 706,
+         "displayOrder": 686,
          "customizable": false,
          "dname": [
           {
@@ -5061,7 +4785,7 @@
      "url": "large-potato-gravy",
      "isPromo": false,
      "posId": "136027",
-     "displayOrder": 2720,
+     "displayOrder": 2223,
      "customizable": false,
      "dname": [
       {
@@ -5135,7 +4859,7 @@
      "url": "large-coleslaw",
      "isPromo": false,
      "posId": "136045",
-     "displayOrder": 2721,
+     "displayOrder": 2224,
      "customizable": false,
      "dname": [
       {
@@ -5209,7 +4933,7 @@
      "url": "regular-gravy",
      "isPromo": false,
      "posId": "136026",
-     "displayOrder": 2722,
+     "displayOrder": 2225,
      "customizable": false,
      "dname": [
       {
@@ -5283,7 +5007,7 @@
      "url": "4-dinner-rolls",
      "isPromo": false,
      "posId": "136047",
-     "displayOrder": 2723,
+     "displayOrder": 2226,
      "customizable": false,
      "dname": [
       {
@@ -5357,7 +5081,7 @@
      "url": "125l-solo",
      "isPromo": false,
      "posId": "141032",
-     "displayOrder": 2724,
+     "displayOrder": 2227,
      "customizable": false,
      "dname": [
       {
@@ -5426,7 +5150,7 @@
      "url": "125l-sunkist-no-sugar",
      "isPromo": false,
      "posId": "141017",
-     "displayOrder": 2725,
+     "displayOrder": 2228,
      "customizable": false,
      "dname": [
       {
@@ -5646,7 +5370,7 @@
          "url": "15-pc-original-recipe",
          "isPromo": false,
          "posId": "180033",
-         "displayOrder": 2726,
+         "displayOrder": 2229,
          "customizable": false,
          "dname": [
           {
@@ -5706,7 +5430,7 @@
              "url": "1-piece-original-recipe",
              "isPromo": false,
              "posId": "170101",
-             "displayOrder": 2727,
+             "displayOrder": 2230,
              "customizable": true,
              "dname": [
               {
@@ -5764,6 +5488,67 @@
              "content": null
             },
             {
+             "mdmId": "M-170102",
+             "id": "M-170102",
+             "name": "1 Piece Hot & Spicy®",
+             "size": "",
+             "linkId": "mod:554721",
+             "url": "1-piece-hot-spicy",
+             "isPromo": false,
+             "posId": "170102",
+             "displayOrder": 2231,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Hot & Spicy®"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Hot & Spicy®"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Hot & Spicy®"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-170102"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
              "mdmId": "M-170511",
              "id": "M-170511",
              "name": "1 Piece Original Crispy Fillet",
@@ -5772,7 +5557,7 @@
              "url": "1-piece-original-crispy-fillet",
              "isPromo": false,
              "posId": "170511",
-             "displayOrder": 2728,
+             "displayOrder": 2232,
              "customizable": true,
              "dname": [
               {
@@ -5833,7 +5618,7 @@
              "url": "1-piece-zinger-fillet",
              "isPromo": false,
              "posId": "170502",
-             "displayOrder": 2729,
+             "displayOrder": 2233,
              "customizable": true,
              "dname": [
               {
@@ -5894,7 +5679,7 @@
              "url": "1-piece-original-tender",
              "isPromo": false,
              "posId": "170601",
-             "displayOrder": 2730,
+             "displayOrder": 2234,
              "customizable": true,
              "dname": [
               {
@@ -6041,7 +5826,7 @@
          "url": "18-nuggets",
          "isPromo": false,
          "posId": "184005",
-         "displayOrder": 2731,
+         "displayOrder": 2235,
          "customizable": false,
          "dname": [
           {
@@ -6144,7 +5929,7 @@
          "url": "3-dipping-sauces",
          "isPromo": false,
          "posId": "200039",
-         "displayOrder": 2732,
+         "displayOrder": 2236,
          "customizable": false,
          "dname": [
           {
@@ -6204,7 +5989,7 @@
              "url": "aioli-dip",
              "isPromo": false,
              "posId": "191010",
-             "displayOrder": 2733,
+             "displayOrder": 2237,
              "customizable": true,
              "dname": [
               {
@@ -6270,7 +6055,7 @@
              "url": "bbq-dip",
              "isPromo": false,
              "posId": "191006",
-             "displayOrder": 2734,
+             "displayOrder": 2238,
              "customizable": true,
              "dname": [
               {
@@ -6331,7 +6116,7 @@
              "url": "supercharged-dip",
              "isPromo": false,
              "posId": "191007",
-             "displayOrder": 2735,
+             "displayOrder": 2239,
              "customizable": true,
              "dname": [
               {
@@ -6397,7 +6182,7 @@
              "url": "sweet-sour-dip",
              "isPromo": false,
              "posId": "191009",
-             "displayOrder": 2736,
+             "displayOrder": 2240,
              "customizable": true,
              "dname": [
               {
@@ -6463,7 +6248,7 @@
              "url": "sweet-chilli-dip",
              "isPromo": false,
              "posId": "191008",
-             "displayOrder": 2737,
+             "displayOrder": 2241,
              "customizable": true,
              "dname": [
               {
@@ -6524,7 +6309,7 @@
              "url": "tomato-dip",
              "isPromo": false,
              "posId": "191005",
-             "displayOrder": 2738,
+             "displayOrder": 2242,
              "customizable": true,
              "dname": [
               {
@@ -6585,7 +6370,7 @@
              "url": "no-sauce",
              "isPromo": false,
              "posId": "191011",
-             "displayOrder": 2739,
+             "displayOrder": 2243,
              "customizable": true,
              "dname": [
               {
@@ -6732,7 +6517,7 @@
          "url": "large-chips",
          "isPromo": false,
          "posId": "136010",
-         "displayOrder": 2740,
+         "displayOrder": 2244,
          "customizable": false,
          "dname": [
           {
@@ -6792,7 +6577,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 705,
+             "displayOrder": 685,
              "customizable": false,
              "dname": [
               {
@@ -6853,7 +6638,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 706,
+             "displayOrder": 686,
              "customizable": false,
              "dname": [
               {
@@ -6963,7 +6748,7 @@
          "url": "large-potato-gravy",
          "isPromo": false,
          "posId": "136027",
-         "displayOrder": 2743,
+         "displayOrder": 2247,
          "customizable": false,
          "dname": [
           {
@@ -7029,7 +6814,7 @@
          "url": "large-coleslaw",
          "isPromo": false,
          "posId": "136045",
-         "displayOrder": 2744,
+         "displayOrder": 2248,
          "customizable": false,
          "dname": [
           {
@@ -7095,7 +6880,7 @@
          "url": "4-dinner-rolls",
          "isPromo": false,
          "posId": "136047",
-         "displayOrder": 2745,
+         "displayOrder": 2249,
          "customizable": false,
          "dname": [
           {
@@ -7155,30 +6940,30 @@
         {
          "mdmId": "M-40927-0",
          "id": "M-40927-0",
-         "name": "1.25L Pepsi Max^",
+         "name": "1.25L Pepsi Max",
          "size": "Regular",
          "linkId": "40927",
          "url": "125l-pepsi-max",
          "isPromo": false,
          "posId": "141061",
-         "displayOrder": 2746,
+         "displayOrder": 2250,
          "customizable": false,
          "dname": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "shortDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "longDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "imageName": [
@@ -7216,97 +7001,36 @@
         {
          "mdmId": "M-40930-0",
          "id": "M-40930-0",
-         "name": "1.25L Pepsi^",
+         "name": "1.25L Pepsi",
          "size": "Regular",
          "linkId": "40930",
          "url": "125l-pepsi",
          "isPromo": false,
          "posId": "141011",
-         "displayOrder": 2747,
+         "displayOrder": 2251,
          "customizable": false,
          "dname": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "shortDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "longDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "imageName": [
           {
            "lang": "en-US",
            "value": "M-40930-0"
-          }
-         ],
-         "modgrps": [],
-         "isHidden": false,
-         "availability": [
-          {
-           "dayOfWeek": {
-            "day": "EVERYDAY"
-           },
-           "availableHours": {
-            "startTime": {
-             "time": "0001"
-            },
-            "endTime": {
-             "time": "2359"
-            }
-           },
-           "price": 0
-          }
-         ],
-         "effectiveStartDateTime": 0,
-         "effectiveEndDateTime": 0,
-         "additionalProperties": [],
-         "defaultQuantity": 1,
-         "isDefault": false,
-         "max": 0,
-         "content": null
-        },
-        {
-         "mdmId": "M-40933-0",
-         "id": "M-40933-0",
-         "name": "1.25L 7Up",
-         "size": "Regular",
-         "linkId": "40933",
-         "url": "125l-7up",
-         "isPromo": false,
-         "posId": "141044",
-         "displayOrder": 2748,
-         "customizable": false,
-         "dname": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "shortDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "longDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "imageName": [
-          {
-           "lang": "en-US",
-           "value": "M-40933-0"
           }
          ],
          "modgrps": [],
@@ -7344,7 +7068,7 @@
          "url": "125l-mountain-dew",
          "isPromo": false,
          "posId": "141026",
-         "displayOrder": 2749,
+         "displayOrder": 2252,
          "customizable": false,
          "dname": [
           {
@@ -7405,7 +7129,7 @@
          "url": "125l-solo",
          "isPromo": false,
          "posId": "141032",
-         "displayOrder": 2750,
+         "displayOrder": 2253,
          "customizable": false,
          "dname": [
           {
@@ -7466,7 +7190,7 @@
          "url": "125l-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141017",
-         "displayOrder": 2751,
+         "displayOrder": 2254,
          "customizable": false,
          "dname": [
           {
@@ -7569,7 +7293,7 @@
          "url": "large-chips",
          "isPromo": false,
          "posId": "136010",
-         "displayOrder": 2752,
+         "displayOrder": 2255,
          "customizable": false,
          "dname": [
           {
@@ -7629,7 +7353,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 705,
+             "displayOrder": 685,
              "customizable": false,
              "dname": [
               {
@@ -7690,7 +7414,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 706,
+             "displayOrder": 686,
              "customizable": false,
              "dname": [
               {
@@ -7800,7 +7524,7 @@
          "url": "large-potato-gravy",
          "isPromo": false,
          "posId": "136027",
-         "displayOrder": 2755,
+         "displayOrder": 2258,
          "customizable": false,
          "dname": [
           {
@@ -7866,7 +7590,7 @@
          "url": "large-coleslaw",
          "isPromo": false,
          "posId": "136045",
-         "displayOrder": 2756,
+         "displayOrder": 2259,
          "customizable": false,
          "dname": [
           {
@@ -7932,7 +7656,7 @@
          "url": "4-dinner-rolls",
          "isPromo": false,
          "posId": "136047",
-         "displayOrder": 2757,
+         "displayOrder": 2260,
          "customizable": false,
          "dname": [
           {
@@ -7992,30 +7716,30 @@
         {
          "mdmId": "M-40927-0",
          "id": "M-40927-0",
-         "name": "1.25L Pepsi Max^",
+         "name": "1.25L Pepsi Max",
          "size": "Regular",
          "linkId": "40927",
          "url": "125l-pepsi-max",
          "isPromo": false,
          "posId": "141061",
-         "displayOrder": 2758,
+         "displayOrder": 2261,
          "customizable": false,
          "dname": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "shortDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "longDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "imageName": [
@@ -8053,97 +7777,36 @@
         {
          "mdmId": "M-40930-0",
          "id": "M-40930-0",
-         "name": "1.25L Pepsi^",
+         "name": "1.25L Pepsi",
          "size": "Regular",
          "linkId": "40930",
          "url": "125l-pepsi",
          "isPromo": false,
          "posId": "141011",
-         "displayOrder": 2759,
+         "displayOrder": 2262,
          "customizable": false,
          "dname": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "shortDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "longDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "imageName": [
           {
            "lang": "en-US",
            "value": "M-40930-0"
-          }
-         ],
-         "modgrps": [],
-         "isHidden": false,
-         "availability": [
-          {
-           "dayOfWeek": {
-            "day": "EVERYDAY"
-           },
-           "availableHours": {
-            "startTime": {
-             "time": "0001"
-            },
-            "endTime": {
-             "time": "2359"
-            }
-           },
-           "price": 0
-          }
-         ],
-         "effectiveStartDateTime": 0,
-         "effectiveEndDateTime": 0,
-         "additionalProperties": [],
-         "defaultQuantity": 1,
-         "isDefault": false,
-         "max": 0,
-         "content": null
-        },
-        {
-         "mdmId": "M-40933-0",
-         "id": "M-40933-0",
-         "name": "1.25L 7Up",
-         "size": "Regular",
-         "linkId": "40933",
-         "url": "125l-7up",
-         "isPromo": false,
-         "posId": "141044",
-         "displayOrder": 2760,
-         "customizable": false,
-         "dname": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "shortDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "longDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "imageName": [
-          {
-           "lang": "en-US",
-           "value": "M-40933-0"
           }
          ],
          "modgrps": [],
@@ -8181,7 +7844,7 @@
          "url": "125l-mountain-dew",
          "isPromo": false,
          "posId": "141026",
-         "displayOrder": 2761,
+         "displayOrder": 2263,
          "customizable": false,
          "dname": [
           {
@@ -8242,7 +7905,7 @@
          "url": "125l-solo",
          "isPromo": false,
          "posId": "141032",
-         "displayOrder": 2762,
+         "displayOrder": 2264,
          "customizable": false,
          "dname": [
           {
@@ -8303,7 +7966,7 @@
          "url": "125l-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141017",
-         "displayOrder": 2763,
+         "displayOrder": 2265,
          "customizable": false,
          "dname": [
           {
@@ -8406,7 +8069,7 @@
          "url": "large-chips",
          "isPromo": false,
          "posId": "136010",
-         "displayOrder": 2764,
+         "displayOrder": 2266,
          "customizable": false,
          "dname": [
           {
@@ -8466,7 +8129,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 705,
+             "displayOrder": 685,
              "customizable": false,
              "dname": [
               {
@@ -8527,7 +8190,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 706,
+             "displayOrder": 686,
              "customizable": false,
              "dname": [
               {
@@ -8637,7 +8300,7 @@
          "url": "large-potato-gravy",
          "isPromo": false,
          "posId": "136027",
-         "displayOrder": 2767,
+         "displayOrder": 2269,
          "customizable": false,
          "dname": [
           {
@@ -8703,7 +8366,7 @@
          "url": "large-coleslaw",
          "isPromo": false,
          "posId": "136045",
-         "displayOrder": 2768,
+         "displayOrder": 2270,
          "customizable": false,
          "dname": [
           {
@@ -8769,7 +8432,7 @@
          "url": "4-dinner-rolls",
          "isPromo": false,
          "posId": "136047",
-         "displayOrder": 2769,
+         "displayOrder": 2271,
          "customizable": false,
          "dname": [
           {
@@ -8829,30 +8492,30 @@
         {
          "mdmId": "M-40927-0",
          "id": "M-40927-0",
-         "name": "1.25L Pepsi Max^",
+         "name": "1.25L Pepsi Max",
          "size": "Regular",
          "linkId": "40927",
          "url": "125l-pepsi-max",
          "isPromo": false,
          "posId": "141061",
-         "displayOrder": 2770,
+         "displayOrder": 2272,
          "customizable": false,
          "dname": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "shortDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "longDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "imageName": [
@@ -8890,97 +8553,36 @@
         {
          "mdmId": "M-40930-0",
          "id": "M-40930-0",
-         "name": "1.25L Pepsi^",
+         "name": "1.25L Pepsi",
          "size": "Regular",
          "linkId": "40930",
          "url": "125l-pepsi",
          "isPromo": false,
          "posId": "141011",
-         "displayOrder": 2771,
+         "displayOrder": 2273,
          "customizable": false,
          "dname": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "shortDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "longDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "imageName": [
           {
            "lang": "en-US",
            "value": "M-40930-0"
-          }
-         ],
-         "modgrps": [],
-         "isHidden": false,
-         "availability": [
-          {
-           "dayOfWeek": {
-            "day": "EVERYDAY"
-           },
-           "availableHours": {
-            "startTime": {
-             "time": "0001"
-            },
-            "endTime": {
-             "time": "2359"
-            }
-           },
-           "price": 0
-          }
-         ],
-         "effectiveStartDateTime": 0,
-         "effectiveEndDateTime": 0,
-         "additionalProperties": [],
-         "defaultQuantity": 1,
-         "isDefault": false,
-         "max": 0,
-         "content": null
-        },
-        {
-         "mdmId": "M-40933-0",
-         "id": "M-40933-0",
-         "name": "1.25L 7Up",
-         "size": "Regular",
-         "linkId": "40933",
-         "url": "125l-7up",
-         "isPromo": false,
-         "posId": "141044",
-         "displayOrder": 2772,
-         "customizable": false,
-         "dname": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "shortDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "longDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "imageName": [
-          {
-           "lang": "en-US",
-           "value": "M-40933-0"
           }
          ],
          "modgrps": [],
@@ -9018,7 +8620,7 @@
          "url": "125l-mountain-dew",
          "isPromo": false,
          "posId": "141026",
-         "displayOrder": 2773,
+         "displayOrder": 2274,
          "customizable": false,
          "dname": [
           {
@@ -9079,7 +8681,7 @@
          "url": "125l-solo",
          "isPromo": false,
          "posId": "141032",
-         "displayOrder": 2774,
+         "displayOrder": 2275,
          "customizable": false,
          "dname": [
           {
@@ -9140,7 +8742,7 @@
          "url": "125l-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141017",
-         "displayOrder": 2775,
+         "displayOrder": 2276,
          "customizable": false,
          "dname": [
           {
@@ -9243,7 +8845,7 @@
          "url": "large-potato-gravy",
          "isPromo": false,
          "posId": "136027",
-         "displayOrder": 2776,
+         "displayOrder": 2277,
          "customizable": false,
          "dname": [
           {
@@ -9309,7 +8911,7 @@
          "url": "large-chips",
          "isPromo": false,
          "posId": "136010",
-         "displayOrder": 2777,
+         "displayOrder": 2278,
          "customizable": false,
          "dname": [
           {
@@ -9369,7 +8971,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 705,
+             "displayOrder": 685,
              "customizable": false,
              "dname": [
               {
@@ -9430,7 +9032,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 706,
+             "displayOrder": 686,
              "customizable": false,
              "dname": [
               {
@@ -9540,7 +9142,7 @@
          "url": "large-coleslaw",
          "isPromo": false,
          "posId": "136045",
-         "displayOrder": 2780,
+         "displayOrder": 2281,
          "customizable": false,
          "dname": [
           {
@@ -9606,7 +9208,7 @@
          "url": "4-dinner-rolls",
          "isPromo": false,
          "posId": "136047",
-         "displayOrder": 2781,
+         "displayOrder": 2282,
          "customizable": false,
          "dname": [
           {
@@ -9666,30 +9268,30 @@
         {
          "mdmId": "M-40927-0",
          "id": "M-40927-0",
-         "name": "1.25L Pepsi Max^",
+         "name": "1.25L Pepsi Max",
          "size": "Regular",
          "linkId": "40927",
          "url": "125l-pepsi-max",
          "isPromo": false,
          "posId": "141061",
-         "displayOrder": 2782,
+         "displayOrder": 2283,
          "customizable": false,
          "dname": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "shortDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "longDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "imageName": [
@@ -9727,97 +9329,36 @@
         {
          "mdmId": "M-40930-0",
          "id": "M-40930-0",
-         "name": "1.25L Pepsi^",
+         "name": "1.25L Pepsi",
          "size": "Regular",
          "linkId": "40930",
          "url": "125l-pepsi",
          "isPromo": false,
          "posId": "141011",
-         "displayOrder": 2783,
+         "displayOrder": 2284,
          "customizable": false,
          "dname": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "shortDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "longDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "imageName": [
           {
            "lang": "en-US",
            "value": "M-40930-0"
-          }
-         ],
-         "modgrps": [],
-         "isHidden": false,
-         "availability": [
-          {
-           "dayOfWeek": {
-            "day": "EVERYDAY"
-           },
-           "availableHours": {
-            "startTime": {
-             "time": "0001"
-            },
-            "endTime": {
-             "time": "2359"
-            }
-           },
-           "price": 0
-          }
-         ],
-         "effectiveStartDateTime": 0,
-         "effectiveEndDateTime": 0,
-         "additionalProperties": [],
-         "defaultQuantity": 1,
-         "isDefault": false,
-         "max": 0,
-         "content": null
-        },
-        {
-         "mdmId": "M-40933-0",
-         "id": "M-40933-0",
-         "name": "1.25L 7Up",
-         "size": "Regular",
-         "linkId": "40933",
-         "url": "125l-7up",
-         "isPromo": false,
-         "posId": "141044",
-         "displayOrder": 2784,
-         "customizable": false,
-         "dname": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "shortDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "longDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "imageName": [
-          {
-           "lang": "en-US",
-           "value": "M-40933-0"
           }
          ],
          "modgrps": [],
@@ -9855,7 +9396,7 @@
          "url": "125l-mountain-dew",
          "isPromo": false,
          "posId": "141026",
-         "displayOrder": 2785,
+         "displayOrder": 2285,
          "customizable": false,
          "dname": [
           {
@@ -9916,7 +9457,7 @@
          "url": "125l-solo",
          "isPromo": false,
          "posId": "141032",
-         "displayOrder": 2786,
+         "displayOrder": 2286,
          "customizable": false,
          "dname": [
           {
@@ -9977,7 +9518,7 @@
          "url": "125l-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141017",
-         "displayOrder": 2787,
+         "displayOrder": 2287,
          "customizable": false,
          "dname": [
           {
@@ -10080,7 +9621,7 @@
          "url": "regular-gravy",
          "isPromo": false,
          "posId": "136078",
-         "displayOrder": 2788,
+         "displayOrder": 2288,
          "customizable": false,
          "dname": [
           {
@@ -10141,7 +9682,7 @@
          "url": "regular-coleslaw",
          "isPromo": false,
          "posId": "136077",
-         "displayOrder": 2789,
+         "displayOrder": 2289,
          "customizable": false,
          "dname": [
           {
@@ -10244,7 +9785,7 @@
          "url": "regular-gravy",
          "isPromo": false,
          "posId": "136078",
-         "displayOrder": 2790,
+         "displayOrder": 2290,
          "customizable": false,
          "dname": [
           {
@@ -10305,7 +9846,7 @@
          "url": "regular-coleslaw",
          "isPromo": false,
          "posId": "136077",
-         "displayOrder": 2791,
+         "displayOrder": 2291,
          "customizable": false,
          "dname": [
           {
@@ -10402,30 +9943,30 @@
         {
          "mdmId": "M-40927-0",
          "id": "M-40927-0",
-         "name": "1.25L Pepsi Max^",
+         "name": "1.25L Pepsi Max",
          "size": "Regular",
          "linkId": "40927",
          "url": "125l-pepsi-max",
          "isPromo": false,
          "posId": "141061",
-         "displayOrder": 2792,
+         "displayOrder": 2292,
          "customizable": false,
          "dname": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "shortDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "longDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi Max^"
+           "value": "1.25L Pepsi Max"
           }
          ],
          "imageName": [
@@ -10463,97 +10004,36 @@
         {
          "mdmId": "M-40930-0",
          "id": "M-40930-0",
-         "name": "1.25L Pepsi^",
+         "name": "1.25L Pepsi",
          "size": "Regular",
          "linkId": "40930",
          "url": "125l-pepsi",
          "isPromo": false,
          "posId": "141011",
-         "displayOrder": 2793,
+         "displayOrder": 2293,
          "customizable": false,
          "dname": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "shortDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "longDescription": [
           {
            "lang": "en-US",
-           "value": "1.25L Pepsi^"
+           "value": "1.25L Pepsi"
           }
          ],
          "imageName": [
           {
            "lang": "en-US",
            "value": "M-40930-0"
-          }
-         ],
-         "modgrps": [],
-         "isHidden": false,
-         "availability": [
-          {
-           "dayOfWeek": {
-            "day": "EVERYDAY"
-           },
-           "availableHours": {
-            "startTime": {
-             "time": "0001"
-            },
-            "endTime": {
-             "time": "2359"
-            }
-           },
-           "price": 0
-          }
-         ],
-         "effectiveStartDateTime": 0,
-         "effectiveEndDateTime": 0,
-         "additionalProperties": [],
-         "defaultQuantity": 1,
-         "isDefault": false,
-         "max": 0,
-         "content": null
-        },
-        {
-         "mdmId": "M-40933-0",
-         "id": "M-40933-0",
-         "name": "1.25L 7Up",
-         "size": "Regular",
-         "linkId": "40933",
-         "url": "125l-7up",
-         "isPromo": false,
-         "posId": "141044",
-         "displayOrder": 2794,
-         "customizable": false,
-         "dname": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "shortDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "longDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up"
-          }
-         ],
-         "imageName": [
-          {
-           "lang": "en-US",
-           "value": "M-40933-0"
           }
          ],
          "modgrps": [],
@@ -10591,7 +10071,7 @@
          "url": "125l-mountain-dew",
          "isPromo": false,
          "posId": "141026",
-         "displayOrder": 2795,
+         "displayOrder": 2294,
          "customizable": false,
          "dname": [
           {
@@ -10652,7 +10132,7 @@
          "url": "125l-solo",
          "isPromo": false,
          "posId": "141032",
-         "displayOrder": 2796,
+         "displayOrder": 2295,
          "customizable": false,
          "dname": [
           {
@@ -10713,7 +10193,7 @@
          "url": "125l-sunkist-no-sugar",
          "isPromo": false,
          "posId": "141017",
-         "displayOrder": 2797,
+         "displayOrder": 2296,
          "customizable": false,
          "dname": [
           {
@@ -10774,7 +10254,7 @@
          "url": "large-chips",
          "isPromo": false,
          "posId": "136010",
-         "displayOrder": 2798,
+         "displayOrder": 2297,
          "customizable": false,
          "dname": [
           {
@@ -10834,7 +10314,7 @@
              "url": "extra-salt",
              "isPromo": false,
              "posId": "200031",
-             "displayOrder": 705,
+             "displayOrder": 685,
              "customizable": false,
              "dname": [
               {
@@ -10895,7 +10375,7 @@
              "url": "no-salt",
              "isPromo": false,
              "posId": "200030",
-             "displayOrder": 706,
+             "displayOrder": 686,
              "customizable": false,
              "dname": [
               {
@@ -11005,7 +10485,7 @@
          "url": "large-potato-gravy",
          "isPromo": false,
          "posId": "136027",
-         "displayOrder": 2801,
+         "displayOrder": 2300,
          "customizable": false,
          "dname": [
           {
@@ -11071,7 +10551,7 @@
          "url": "large-coleslaw",
          "isPromo": false,
          "posId": "136045",
-         "displayOrder": 2802,
+         "displayOrder": 2301,
          "customizable": false,
          "dname": [
           {
@@ -11137,7 +10617,7 @@
          "url": "4-dinner-rolls",
          "isPromo": false,
          "posId": "136047",
-         "displayOrder": 2803,
+         "displayOrder": 2302,
          "customizable": false,
          "dname": [
           {
@@ -11372,6 +10852,161 @@
    ],
    "recommendedItems": [
     {
+     "mdmId": "I-32986",
+     "id": "I-32986",
+     "name": "4 Pieces Hot & Spicy® ADD ON",
+     "size": null,
+     "linkId": "43816",
+     "url": "4-pieces-hot-spicy-add-on",
+     "isPromo": false,
+     "posId": "170119",
+     "displayOrder": 1,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "4 Pieces Hot & Spicy® ADD ON"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "4 Pieces of Hot & Spicy Chicken"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "4 Pieces of Hot & Spicy Chicken"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "I-32986"
+      }
+     ],
+     "modgrps": [],
+     "modgrpIds": null,
+     "isHidden": false,
+     "isCategoryHidden": true,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 745
+      }
+     ],
+     "isTimeSpecific": false,
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "mealdealdetailid",
+       "value": "MENU_ITEM"
+      },
+      {
+       "key": "pricewithouttax",
+       "value": "745"
+      },
+      {
+       "key": "upSizeItemPrice",
+       "value": "745"
+      }
+     ],
+     "recommendationRules": null,
+     "content": {
+      "entityId": "I-32986",
+      "longDescription": "What’s a feast without a little fire? Not everywhere & not forever.",
+      "caloricValue": "4596",
+      "nutritionalInformation": [
+       {
+        "nutritionComponent": "Average serving size",
+        "nutritionUnit": "g",
+        "serveWiseValue": 365.0,
+        "gramWiseValue": 1.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Energy",
+        "nutritionUnit": "kj",
+        "serveWiseValue": 4596.0,
+        "gramWiseValue": 1260.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Protein",
+        "nutritionUnit": "g",
+        "serveWiseValue": 73.7,
+        "gramWiseValue": 20.2,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, total",
+        "nutritionUnit": "g",
+        "serveWiseValue": 70.8,
+        "gramWiseValue": 19.4,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, saturated",
+        "nutritionUnit": "g",
+        "serveWiseValue": 10.6,
+        "gramWiseValue": 2.9,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate",
+        "nutritionUnit": "g",
+        "serveWiseValue": 42.3,
+        "gramWiseValue": 11.6,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate, sugars",
+        "nutritionUnit": "g",
+        "serveWiseValue": 1.1,
+        "gramWiseValue": 0.3,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Sodium",
+        "nutritionUnit": "mg",
+        "serveWiseValue": 2371.0,
+        "gramWiseValue": 650.0,
+        "isActive": true
+       }
+      ],
+      "allergenInformation": [],
+      "hideNutritionInformation": false,
+      "hideAllergenInformation": true,
+      "showInFactSheet": true,
+      "flagText": null,
+      "tagArray": [
+       "Spicy"
+      ],
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1VyRjyBQ2rih8srCoE7NJT/8fbf099d279f5e48787d6d6318699334/J6198_24P11_620x466px_Hot_Spicy_4_pcs.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      },
+      "serves": 0
+     },
+     "categoryUrl": [
+      "fomo-wow"
+     ],
+     "categoryId": "C-20069"
+    },
+    {
      "mdmId": "I-32505",
      "id": "I-32505",
      "name": "Large Chips ADD ON",
@@ -11380,7 +11015,7 @@
      "url": "large-chips-add-on",
      "isPromo": false,
      "posId": "136022",
-     "displayOrder": 2,
+     "displayOrder": 3,
      "customizable": false,
      "dname": [
       {
@@ -11440,7 +11075,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 401,
+         "displayOrder": 394,
          "customizable": false,
          "dname": [
           {
@@ -11501,7 +11136,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 402,
+         "displayOrder": 395,
          "customizable": false,
          "dname": [
           {
@@ -11856,7 +11491,7 @@
      "url": "large-potato-gravy-add-on",
      "isPromo": false,
      "posId": "136038",
-     "displayOrder": 3,
+     "displayOrder": 4,
      "customizable": false,
      "dname": [
       {
@@ -12167,7 +11802,7 @@
      "url": "maxi-popcorn-chicken-add-on",
      "isPromo": false,
      "posId": "185025",
-     "displayOrder": 4,
+     "displayOrder": 5,
      "customizable": false,
      "dname": [
       {
@@ -12470,6 +12105,796 @@
      "categoryId": "C-20069"
     },
     {
+     "mdmId": "I-32509",
+     "id": "I-32509",
+     "name": "6 Nuggets ADD ON",
+     "size": null,
+     "linkId": "43530",
+     "url": "6-nuggets-add-on",
+     "isPromo": false,
+     "posId": "184025",
+     "displayOrder": 6,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "6 Nuggets ADD ON"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "6 Nuggets ADD ON"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "6 Nuggets ADD ON"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "I-32509"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "91873",
+       "name": "Dipping Sauce",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Dipping Sauce"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Dipping Sauce"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Dipping Sauce"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-191010",
+         "id": "M-191010",
+         "name": "Aioli Dip",
+         "size": "",
+         "linkId": "mod:554494",
+         "url": "aioli-dip",
+         "isPromo": false,
+         "posId": "191010",
+         "displayOrder": 385,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Aioli Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Aioli Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Aioli Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-191010"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-191006",
+         "id": "M-191006",
+         "name": "BBQ Dip",
+         "size": "",
+         "linkId": "mod:554492",
+         "url": "bbq-dip",
+         "isPromo": false,
+         "posId": "191006",
+         "displayOrder": 386,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "BBQ Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-191006"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-191007",
+         "id": "M-191007",
+         "name": "Supercharged Dip",
+         "size": "",
+         "linkId": "mod:554493",
+         "url": "supercharged-dip",
+         "isPromo": false,
+         "posId": "191007",
+         "displayOrder": 387,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Supercharged Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-191007"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-191009",
+         "id": "M-191009",
+         "name": "Sweet & Sour Dip",
+         "size": "",
+         "linkId": "mod:554491",
+         "url": "sweet-sour-dip",
+         "isPromo": false,
+         "posId": "191009",
+         "displayOrder": 388,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Sweet & Sour Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Sweet & Sour Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Sweet & Sour Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-191009"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "defaultreason",
+           "value": "SELECTION"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-191008",
+         "id": "M-191008",
+         "name": "Sweet Chilli Dip",
+         "size": "",
+         "linkId": "mod:554490",
+         "url": "sweet-chilli-dip",
+         "isPromo": false,
+         "posId": "191008",
+         "displayOrder": 389,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Sweet Chilli Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Sweet Chilli Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Sweet Chilli Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-191008"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-191005",
+         "id": "M-191005",
+         "name": "Tomato Dip",
+         "size": "",
+         "linkId": "mod:554495",
+         "url": "tomato-dip",
+         "isPromo": false,
+         "posId": "191005",
+         "displayOrder": 390,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Tomato Dip"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Tomato Dip"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Tomato Dip"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-191005"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-191011",
+         "id": "M-191011",
+         "name": "No Sauce",
+         "size": "",
+         "linkId": "mod:554489",
+         "url": "no-sauce",
+         "isPromo": false,
+         "posId": "191011",
+         "displayOrder": 391,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "No Sauce"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Sauce"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Sauce"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-191011"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "modgrpIds": null,
+     "isHidden": false,
+     "isCategoryHidden": true,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 545
+      }
+     ],
+     "isTimeSpecific": false,
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "mealdealdetailid",
+       "value": "MENU_ITEM"
+      },
+      {
+       "key": "calories",
+       "value": "1342"
+      },
+      {
+       "key": "pricewithouttax",
+       "value": "545"
+      },
+      {
+       "key": "upSizeItemPrice",
+       "value": "545"
+      }
+     ],
+     "recommendationRules": null,
+     "content": {
+      "entityId": "I-32509",
+      "longDescription": "Our chicken is Aussie as. Our nugs are made with 100% real Aussie chicken breast meat, coated in the secret recipe of 11 herbs and spices. Score 6 nugs and a dipping sauce. \n\n",
+      "caloricValue": "1324",
+      "nutritionalInformation": [
+       {
+        "nutritionComponent": "Average serving size",
+        "nutritionUnit": "g",
+        "serveWiseValue": 127.0,
+        "gramWiseValue": 1.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Energy",
+        "nutritionUnit": "kj",
+        "serveWiseValue": 1324.0,
+        "gramWiseValue": 1040.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Protein",
+        "nutritionUnit": "g",
+        "serveWiseValue": 16.2,
+        "gramWiseValue": 12.7,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, total",
+        "nutritionUnit": "g",
+        "serveWiseValue": 15.8,
+        "gramWiseValue": 12.4,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, saturated",
+        "nutritionUnit": "g",
+        "serveWiseValue": 2.3,
+        "gramWiseValue": 1.8,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate",
+        "nutritionUnit": "g",
+        "serveWiseValue": 27.1,
+        "gramWiseValue": 21.3,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate, sugars",
+        "nutritionUnit": "g",
+        "serveWiseValue": 12.1,
+        "gramWiseValue": 9.5,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Sodium",
+        "nutritionUnit": "mg",
+        "serveWiseValue": 780.0,
+        "gramWiseValue": 613.0,
+        "isActive": true
+       }
+      ],
+      "allergenInformation": [
+       {
+        "allergenComponent": "Cereals containing gluten - Wheat",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Barley",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Oats",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Rye",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Spelt",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Crustacea & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Egg & Egg Products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Fish & Fish Products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Milk & Milk Products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Molluscs and mollusc products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Almonds",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Beech nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Cashews",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hickory nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pecans",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pine nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pili nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Shea nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Walnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sesame seeds and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Peanuts and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Soybeans and their products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Lupin & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sulphites #",
+        "isPresent": false,
+        "isTrace": false
+       }
+      ],
+      "hideNutritionInformation": false,
+      "hideAllergenInformation": false,
+      "showInFactSheet": true,
+      "flagText": null,
+      "tagArray": [
+       "Boneless"
+      ],
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3uc78BrQBBH3MAMe5xXz7J/0b2be45f972b97b0bc132bf21825e758/Nuggets_6.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      },
+      "serves": 0
+     },
+     "categoryUrl": [
+      "fomo-wow"
+     ],
+     "categoryId": "C-20069"
+    },
+    {
      "mdmId": "I-30839",
      "id": "I-30839",
      "name": "4 Pieces Original Recipe Chicken ADD ON",
@@ -12478,7 +12903,7 @@
      "url": "4-pieces-original-recipe-chicken-add-on",
      "isPromo": false,
      "posId": "180074",
-     "displayOrder": 6,
+     "displayOrder": 7,
      "customizable": false,
      "dname": [
       {
@@ -12530,6 +12955,67 @@
        ],
        "modifiers": [
         {
+         "mdmId": "M-170102",
+         "id": "M-170102",
+         "name": "1 Piece Hot & Spicy®",
+         "size": "",
+         "linkId": "mod:554843",
+         "url": "1-piece-hot-spicy",
+         "isPromo": false,
+         "posId": "170102",
+         "displayOrder": 367,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Hot & Spicy®"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Hot & Spicy®"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Hot & Spicy®"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-170102"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
          "mdmId": "M-170101",
          "id": "M-170101",
          "name": "1 Piece Original Recipe",
@@ -12538,7 +13024,7 @@
          "url": "1-piece-original-recipe",
          "isPromo": false,
          "posId": "170101",
-         "displayOrder": 382,
+         "displayOrder": 368,
          "customizable": false,
          "dname": [
           {
@@ -12897,7 +13383,7 @@
      "url": "5-original-tenders-add-on",
      "isPromo": false,
      "posId": "183017",
-     "displayOrder": 7,
+     "displayOrder": 8,
      "customizable": false,
      "dname": [
       {
@@ -12957,7 +13443,7 @@
          "url": "1-piece-original-tenders",
          "isPromo": false,
          "posId": "170601",
-         "displayOrder": 391,
+         "displayOrder": 377,
          "customizable": false,
          "dname": [
           {
@@ -13065,7 +13551,7 @@
          "url": "aioli-dip",
          "isPromo": false,
          "posId": "191010",
-         "displayOrder": 71,
+         "displayOrder": 64,
          "customizable": false,
          "dname": [
           {
@@ -13131,7 +13617,7 @@
          "url": "bbq-dip",
          "isPromo": false,
          "posId": "191006",
-         "displayOrder": 72,
+         "displayOrder": 65,
          "customizable": false,
          "dname": [
           {
@@ -13192,7 +13678,7 @@
          "url": "supercharged-dip",
          "isPromo": false,
          "posId": "191007",
-         "displayOrder": 73,
+         "displayOrder": 66,
          "customizable": false,
          "dname": [
           {
@@ -13253,7 +13739,7 @@
          "url": "sweet-chilli-dip",
          "isPromo": false,
          "posId": "191008",
-         "displayOrder": 74,
+         "displayOrder": 67,
          "customizable": false,
          "dname": [
           {
@@ -13314,7 +13800,7 @@
          "url": "sweet-sour-dip",
          "isPromo": false,
          "posId": "191009",
-         "displayOrder": 75,
+         "displayOrder": 68,
          "customizable": false,
          "dname": [
           {
@@ -13375,7 +13861,7 @@
          "url": "tomato-dip",
          "isPromo": false,
          "posId": "191005",
-         "displayOrder": 76,
+         "displayOrder": 69,
          "customizable": false,
          "dname": [
           {
@@ -13436,7 +13922,7 @@
          "url": "no-sauce",
          "isPromo": false,
          "posId": "191011",
-         "displayOrder": 77,
+         "displayOrder": 70,
          "customizable": false,
          "dname": [
           {
@@ -13582,7 +14068,7 @@
      "url": "125l-pepsi-max-add-on",
      "isPromo": false,
      "posId": "141068",
-     "displayOrder": 8,
+     "displayOrder": 9,
      "customizable": false,
      "dname": [
       {
@@ -13894,7 +14380,7 @@
      "url": "double-chocolate-mousse-add-on",
      "isPromo": false,
      "posId": "136055",
-     "displayOrder": 9,
+     "displayOrder": 10,
      "customizable": false,
      "dname": [
       {
