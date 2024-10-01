@@ -76,20 +76,6 @@
       }
      },
      "price": 375
-    },
-    {
-     "dayOfWeek": {
-      "day": "EVERYDAY"
-     },
-     "availableHours": {
-      "startTime": {
-       "time": "2310"
-      },
-      "endTime": {
-       "time": "0550"
-      }
-     },
-     "price": 410
     }
    ],
    "isTimeSpecific": false,
@@ -402,20 +388,6 @@
       }
      },
      "price": 475
-    },
-    {
-     "dayOfWeek": {
-      "day": "EVERYDAY"
-     },
-     "availableHours": {
-      "startTime": {
-       "time": "2310"
-      },
-      "endTime": {
-       "time": "0550"
-      }
-     },
-     "price": 520
     }
    ],
    "isTimeSpecific": false,
@@ -670,6 +642,164 @@
     },
     "serves": 0
    },
+   "categoryUrl": [
+    "drinks"
+   ],
+   "categoryId": "C-20049"
+  },
+  {
+   "mdmId": "I-43847",
+   "id": "I-43847",
+   "name": "Regular Pepsi Max",
+   "size": null,
+   "linkId": "43847",
+   "url": "regular-pepsi-max",
+   "isPromo": false,
+   "posId": "141516",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Regular Pepsi Max"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "^ Pepsi Max, Pepsi, Pepsi Freeze & Mountain Dew Freeze contains caffeine. Mountain Dew Freeze is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine."
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "^ Pepsi Max, Pepsi, Pepsi Freeze & Mountain Dew Freeze contains caffeine. Mountain Dew Freeze is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "I-43847"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 375
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "375"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "375"
+    }
+   ],
+   "recommendationRules": [],
+   "content": null,
+   "categoryUrl": [
+    "drinks"
+   ],
+   "categoryId": "C-20049"
+  },
+  {
+   "mdmId": "I-43848",
+   "id": "I-43848",
+   "name": "Large Pepsi Max",
+   "size": null,
+   "linkId": "43848",
+   "url": "large-pepsi-max",
+   "isPromo": false,
+   "posId": "141517",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Large Pepsi Max"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "^ Pepsi Max, Pepsi, Pepsi Freeze & Mountain Dew Freeze contains caffeine. Mountain Dew Freeze is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine."
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "^ Pepsi Max, Pepsi, Pepsi Freeze & Mountain Dew Freeze contains caffeine. Mountain Dew Freeze is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "I-43848"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 475
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "475"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "475"
+    }
+   ],
+   "recommendationRules": [],
+   "content": null,
    "categoryUrl": [
     "drinks"
    ],

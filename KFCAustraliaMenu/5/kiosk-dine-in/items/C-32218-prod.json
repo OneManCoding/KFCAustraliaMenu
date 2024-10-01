@@ -92,7 +92,7 @@
        "url": "original-crunch-twister",
        "isPromo": false,
        "posId": "120008",
-       "displayOrder": 7707,
+       "displayOrder": 12846,
        "customizable": false,
        "dname": [
         {
@@ -152,7 +152,7 @@
            "url": "crunchy-slaw",
            "isPromo": false,
            "posId": "200010",
-           "displayOrder": 4148,
+           "displayOrder": 5214,
            "customizable": false,
            "dname": [
             {
@@ -226,7 +226,7 @@
            "url": "pepper-mayo",
            "isPromo": false,
            "posId": "200003",
-           "displayOrder": 4149,
+           "displayOrder": 5215,
            "customizable": false,
            "dname": [
             {
@@ -342,7 +342,7 @@
            "url": "bacon-slice",
            "isPromo": false,
            "posId": "200013",
-           "displayOrder": 4150,
+           "displayOrder": 5216,
            "customizable": false,
            "dname": [
             {
@@ -411,7 +411,7 @@
            "url": "bbq-sauce",
            "isPromo": false,
            "posId": "200005",
-           "displayOrder": 4151,
+           "displayOrder": 5217,
            "customizable": false,
            "dname": [
             {
@@ -480,7 +480,7 @@
            "url": "cheese-slice",
            "isPromo": false,
            "posId": "200009",
-           "displayOrder": 4152,
+           "displayOrder": 5218,
            "customizable": false,
            "dname": [
             {
@@ -549,7 +549,7 @@
            "url": "chilli-relish-sauce",
            "isPromo": false,
            "posId": "200011",
-           "displayOrder": 4153,
+           "displayOrder": 5219,
            "customizable": false,
            "dname": [
             {
@@ -618,7 +618,7 @@
            "url": "corn-chips",
            "isPromo": false,
            "posId": "200006",
-           "displayOrder": 4154,
+           "displayOrder": 5220,
            "customizable": false,
            "dname": [
             {
@@ -687,7 +687,7 @@
            "url": "crunchy-slaw",
            "isPromo": false,
            "posId": "200010",
-           "displayOrder": 4155,
+           "displayOrder": 5221,
            "customizable": false,
            "dname": [
             {
@@ -756,7 +756,7 @@
            "url": "jalapeno-mayo",
            "isPromo": false,
            "posId": "200042",
-           "displayOrder": 4156,
+           "displayOrder": 5222,
            "customizable": false,
            "dname": [
             {
@@ -825,7 +825,7 @@
            "url": "lettuce",
            "isPromo": false,
            "posId": "200008",
-           "displayOrder": 4157,
+           "displayOrder": 5223,
            "customizable": false,
            "dname": [
             {
@@ -894,7 +894,7 @@
            "url": "mayo",
            "isPromo": false,
            "posId": "200001",
-           "displayOrder": 4158,
+           "displayOrder": 5224,
            "customizable": false,
            "dname": [
             {
@@ -963,7 +963,7 @@
            "url": "pepper-mayo",
            "isPromo": false,
            "posId": "200003",
-           "displayOrder": 4159,
+           "displayOrder": 5225,
            "customizable": false,
            "dname": [
             {
@@ -1032,7 +1032,7 @@
            "url": "supercharged-sauce",
            "isPromo": false,
            "posId": "200004",
-           "displayOrder": 4160,
+           "displayOrder": 5226,
            "customizable": false,
            "dname": [
             {
@@ -1200,7 +1200,7 @@
        "url": "snack-popcorn-chicken",
        "isPromo": false,
        "posId": "185002",
-       "displayOrder": 7721,
+       "displayOrder": 12860,
        "customizable": false,
        "dname": [
         {
@@ -1274,7 +1274,7 @@
        "url": "1-piece-original-recipe",
        "isPromo": false,
        "posId": "170101",
-       "displayOrder": 7722,
+       "displayOrder": 12861,
        "customizable": false,
        "dname": [
         {
@@ -1340,6 +1340,80 @@
        }
       },
       {
+       "mdmId": "M-41211-0",
+       "id": "M-41211-0",
+       "name": "1 Piece Hot & Spicy®",
+       "size": "Regular",
+       "linkId": "41211",
+       "url": "1-piece-hot-spicy",
+       "isPromo": false,
+       "posId": "170102",
+       "displayOrder": 12862,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": -100
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "1276"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-41211-0",
+        "caloricValue": "1149",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
        "mdmId": "M-42710-0",
        "id": "M-42710-0",
        "name": "2 Pieces Hot & Crispy™",
@@ -1348,7 +1422,7 @@
        "url": "2-pieces-hot-crispy",
        "isPromo": false,
        "posId": "182007",
-       "displayOrder": 7723,
+       "displayOrder": 12863,
        "customizable": false,
        "dname": [
         {
@@ -1422,7 +1496,7 @@
        "url": "3-wicked-wings",
        "isPromo": false,
        "posId": "170703",
-       "displayOrder": 7724,
+       "displayOrder": 12864,
        "customizable": false,
        "dname": [
         {
@@ -1496,7 +1570,7 @@
        "url": "1-piece-original-tender",
        "isPromo": false,
        "posId": "170601",
-       "displayOrder": 7725,
+       "displayOrder": 12865,
        "customizable": false,
        "dname": [
         {
@@ -1570,7 +1644,7 @@
        "url": "1-piece-original-crispy-fillet",
        "isPromo": false,
        "posId": "182012",
-       "displayOrder": 7726,
+       "displayOrder": 12866,
        "customizable": false,
        "dname": [
         {
@@ -1639,7 +1713,7 @@
        "url": "1-piece-zinger-fillet",
        "isPromo": false,
        "posId": "170502",
-       "displayOrder": 7727,
+       "displayOrder": 12867,
        "customizable": false,
        "dname": [
         {
@@ -1755,7 +1829,7 @@
        "url": "regular-chips",
        "isPromo": false,
        "posId": "136008",
-       "displayOrder": 7728,
+       "displayOrder": 12868,
        "customizable": false,
        "dname": [
         {
@@ -1815,7 +1889,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 1212,
+           "displayOrder": 1213,
            "customizable": true,
            "dname": [
             {
@@ -1884,7 +1958,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 1213,
+           "displayOrder": 1214,
            "customizable": true,
            "dname": [
             {
@@ -2010,7 +2084,7 @@
        "url": "large-chips",
        "isPromo": false,
        "posId": "136015",
-       "displayOrder": 7731,
+       "displayOrder": 12871,
        "customizable": false,
        "dname": [
         {
@@ -2070,7 +2144,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 775,
+           "displayOrder": 1235,
            "customizable": true,
            "dname": [
             {
@@ -2139,7 +2213,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 776,
+           "displayOrder": 1236,
            "customizable": true,
            "dname": [
             {
@@ -2265,7 +2339,7 @@
        "url": "regular-coleslaw",
        "isPromo": false,
        "posId": "136040",
-       "displayOrder": 7734,
+       "displayOrder": 12874,
        "customizable": false,
        "dname": [
         {
@@ -2339,7 +2413,7 @@
        "url": "regular-gravy",
        "isPromo": false,
        "posId": "136026",
-       "displayOrder": 7735,
+       "displayOrder": 12875,
        "customizable": false,
        "dname": [
         {
@@ -2413,7 +2487,7 @@
        "url": "dinner-roll",
        "isPromo": false,
        "posId": "136046",
-       "displayOrder": 7736,
+       "displayOrder": 12876,
        "customizable": false,
        "dname": [
         {
@@ -2529,7 +2603,7 @@
        "url": "regular-gravy",
        "isPromo": false,
        "posId": "136026",
-       "displayOrder": 7737,
+       "displayOrder": 12877,
        "customizable": false,
        "dname": [
         {
@@ -2603,7 +2677,7 @@
        "url": "regular-chips",
        "isPromo": false,
        "posId": "136008",
-       "displayOrder": 7738,
+       "displayOrder": 12878,
        "customizable": false,
        "dname": [
         {
@@ -2663,7 +2737,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 1212,
+           "displayOrder": 1213,
            "customizable": true,
            "dname": [
             {
@@ -2732,7 +2806,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 1213,
+           "displayOrder": 1214,
            "customizable": true,
            "dname": [
             {
@@ -2858,7 +2932,7 @@
        "url": "regular-coleslaw",
        "isPromo": false,
        "posId": "136040",
-       "displayOrder": 7741,
+       "displayOrder": 12881,
        "customizable": false,
        "dname": [
         {
@@ -2932,7 +3006,7 @@
        "url": "dinner-roll",
        "isPromo": false,
        "posId": "136046",
-       "displayOrder": 7742,
+       "displayOrder": 12882,
        "customizable": false,
        "dname": [
         {
@@ -3042,30 +3116,30 @@
       {
        "mdmId": "M-40925-0",
        "id": "M-40925-0",
-       "name": "Regular Pepsi Max^",
+       "name": "Regular Pepsi Max",
        "size": "Regular",
        "linkId": "40925",
        "url": "regular-pepsi-max",
        "isPromo": false,
        "posId": "141055",
-       "displayOrder": 7743,
+       "displayOrder": 12883,
        "customizable": false,
        "dname": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi Max^"
+         "value": "Regular Pepsi Max"
         }
        ],
        "shortDescription": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi Max^"
+         "value": "Regular Pepsi Max"
         }
        ],
        "longDescription": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi Max^"
+         "value": "Regular Pepsi Max"
         }
        ],
        "imageName": [
@@ -3117,7 +3191,7 @@
        "url": "large-pepsi-max",
        "isPromo": false,
        "posId": "141110",
-       "displayOrder": 7744,
+       "displayOrder": 12884,
        "customizable": false,
        "dname": [
         {
@@ -3180,30 +3254,30 @@
       {
        "mdmId": "M-40928-0",
        "id": "M-40928-0",
-       "name": "Regular Pepsi^",
+       "name": "Regular Pepsi",
        "size": "Regular",
        "linkId": "40928",
        "url": "regular-pepsi",
        "isPromo": false,
        "posId": "141007",
-       "displayOrder": 7745,
+       "displayOrder": 12885,
        "customizable": false,
        "dname": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi^"
+         "value": "Regular Pepsi"
         }
        ],
        "shortDescription": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi^"
+         "value": "Regular Pepsi"
         }
        ],
        "longDescription": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi^"
+         "value": "Regular Pepsi"
         }
        ],
        "imageName": [
@@ -3255,7 +3329,7 @@
        "url": "large-pepsi",
        "isPromo": false,
        "posId": "141111",
-       "displayOrder": 7746,
+       "displayOrder": 12886,
        "customizable": false,
        "dname": [
         {
@@ -3324,7 +3398,7 @@
        "url": "regular-mountain-dew",
        "isPromo": false,
        "posId": "141020",
-       "displayOrder": 7747,
+       "displayOrder": 12887,
        "customizable": false,
        "dname": [
         {
@@ -3393,7 +3467,7 @@
        "url": "large-mountain-dew",
        "isPromo": false,
        "posId": "141113",
-       "displayOrder": 7748,
+       "displayOrder": 12888,
        "customizable": false,
        "dname": [
         {
@@ -3462,7 +3536,7 @@
        "url": "regular-solo",
        "isPromo": false,
        "posId": "141030",
-       "displayOrder": 7749,
+       "displayOrder": 12889,
        "customizable": false,
        "dname": [
         {
@@ -3531,7 +3605,7 @@
        "url": "large-solo",
        "isPromo": false,
        "posId": "141114",
-       "displayOrder": 7750,
+       "displayOrder": 12890,
        "customizable": false,
        "dname": [
         {
@@ -3600,7 +3674,7 @@
        "url": "water-600ml",
        "isPromo": false,
        "posId": "141070",
-       "displayOrder": 7751,
+       "displayOrder": 12891,
        "customizable": false,
        "dname": [
         {
@@ -3669,7 +3743,7 @@
        "url": "sparkling-water",
        "isPromo": false,
        "posId": "141013",
-       "displayOrder": 7752,
+       "displayOrder": 12892,
        "customizable": false,
        "dname": [
         {
@@ -3738,7 +3812,7 @@
        "url": "pepsi-freeze",
        "isPromo": false,
        "posId": "141099",
-       "displayOrder": 7753,
+       "displayOrder": 12893,
        "customizable": false,
        "dname": [
         {
@@ -3798,7 +3872,7 @@
            "url": "half-mountain-dew-freeze",
            "isPromo": false,
            "posId": "141103",
-           "displayOrder": 800,
+           "displayOrder": 1274,
            "customizable": true,
            "dname": [
             {
@@ -3867,7 +3941,7 @@
            "url": "half-raspberry-freeze",
            "isPromo": false,
            "posId": "141116",
-           "displayOrder": 801,
+           "displayOrder": 1275,
            "customizable": true,
            "dname": [
             {
@@ -3993,7 +4067,7 @@
        "url": "mountain-dew-freeze",
        "isPromo": false,
        "posId": "141101",
-       "displayOrder": 7756,
+       "displayOrder": 12896,
        "customizable": false,
        "dname": [
         {
@@ -4053,7 +4127,7 @@
            "url": "half-pepsi-freeze",
            "isPromo": false,
            "posId": "141102",
-           "displayOrder": 803,
+           "displayOrder": 1277,
            "customizable": true,
            "dname": [
             {
@@ -4122,7 +4196,7 @@
            "url": "half-raspberry-freeze",
            "isPromo": false,
            "posId": "141116",
-           "displayOrder": 804,
+           "displayOrder": 1278,
            "customizable": true,
            "dname": [
             {
@@ -4248,7 +4322,7 @@
        "url": "raspberry-freeze",
        "isPromo": false,
        "posId": "141109",
-       "displayOrder": 7759,
+       "displayOrder": 12899,
        "customizable": false,
        "dname": [
         {
@@ -4308,7 +4382,7 @@
            "url": "half-mountain-dew-freeze",
            "isPromo": false,
            "posId": "141103",
-           "displayOrder": 806,
+           "displayOrder": 1280,
            "customizable": true,
            "dname": [
             {
@@ -4377,7 +4451,7 @@
            "url": "half-pepsi-freeze",
            "isPromo": false,
            "posId": "141102",
-           "displayOrder": 807,
+           "displayOrder": 1281,
            "customizable": true,
            "dname": [
             {
@@ -4868,7 +4942,7 @@
        "url": "original-crunch-twister",
        "isPromo": false,
        "posId": "120008",
-       "displayOrder": 7762,
+       "displayOrder": 12902,
        "customizable": false,
        "dname": [
         {
@@ -4928,7 +5002,7 @@
            "url": "crunchy-slaw",
            "isPromo": false,
            "posId": "200010",
-           "displayOrder": 7012,
+           "displayOrder": 9895,
            "customizable": false,
            "dname": [
             {
@@ -5002,7 +5076,7 @@
            "url": "pepper-mayo",
            "isPromo": false,
            "posId": "200003",
-           "displayOrder": 7013,
+           "displayOrder": 9896,
            "customizable": false,
            "dname": [
             {
@@ -5118,7 +5192,7 @@
            "url": "bacon-slice",
            "isPromo": false,
            "posId": "200013",
-           "displayOrder": 7014,
+           "displayOrder": 9897,
            "customizable": false,
            "dname": [
             {
@@ -5187,7 +5261,7 @@
            "url": "bbq-sauce",
            "isPromo": false,
            "posId": "200005",
-           "displayOrder": 7015,
+           "displayOrder": 9898,
            "customizable": false,
            "dname": [
             {
@@ -5256,7 +5330,7 @@
            "url": "cheese-slice",
            "isPromo": false,
            "posId": "200009",
-           "displayOrder": 7016,
+           "displayOrder": 9899,
            "customizable": false,
            "dname": [
             {
@@ -5325,7 +5399,7 @@
            "url": "chilli-relish-sauce",
            "isPromo": false,
            "posId": "200011",
-           "displayOrder": 7017,
+           "displayOrder": 9900,
            "customizable": false,
            "dname": [
             {
@@ -5394,7 +5468,7 @@
            "url": "corn-chips",
            "isPromo": false,
            "posId": "200006",
-           "displayOrder": 7018,
+           "displayOrder": 9901,
            "customizable": false,
            "dname": [
             {
@@ -5463,7 +5537,7 @@
            "url": "crunchy-slaw",
            "isPromo": false,
            "posId": "200010",
-           "displayOrder": 7019,
+           "displayOrder": 9902,
            "customizable": false,
            "dname": [
             {
@@ -5532,7 +5606,7 @@
            "url": "jalapeno-mayo",
            "isPromo": false,
            "posId": "200042",
-           "displayOrder": 7020,
+           "displayOrder": 9903,
            "customizable": false,
            "dname": [
             {
@@ -5601,7 +5675,7 @@
            "url": "lettuce",
            "isPromo": false,
            "posId": "200008",
-           "displayOrder": 7021,
+           "displayOrder": 9904,
            "customizable": false,
            "dname": [
             {
@@ -5670,7 +5744,7 @@
            "url": "mayo",
            "isPromo": false,
            "posId": "200001",
-           "displayOrder": 7022,
+           "displayOrder": 9905,
            "customizable": false,
            "dname": [
             {
@@ -5739,7 +5813,7 @@
            "url": "pepper-mayo",
            "isPromo": false,
            "posId": "200003",
-           "displayOrder": 7023,
+           "displayOrder": 9906,
            "customizable": false,
            "dname": [
             {
@@ -5808,7 +5882,7 @@
            "url": "supercharged-sauce",
            "isPromo": false,
            "posId": "200004",
-           "displayOrder": 7024,
+           "displayOrder": 9907,
            "customizable": false,
            "dname": [
             {
@@ -5976,7 +6050,7 @@
        "url": "snack-popcorn-chicken",
        "isPromo": false,
        "posId": "185002",
-       "displayOrder": 7776,
+       "displayOrder": 12916,
        "customizable": false,
        "dname": [
         {
@@ -6050,7 +6124,7 @@
        "url": "1-piece-original-recipe",
        "isPromo": false,
        "posId": "170101",
-       "displayOrder": 7777,
+       "displayOrder": 12917,
        "customizable": false,
        "dname": [
         {
@@ -6116,6 +6190,80 @@
        }
       },
       {
+       "mdmId": "M-41211-1",
+       "id": "M-41211-1",
+       "name": "1 Piece Hot & Spicy®",
+       "size": "Regular",
+       "linkId": "41211",
+       "url": "1-piece-hot-spicy",
+       "isPromo": false,
+       "posId": "170102",
+       "displayOrder": 12918,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": -100
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "1276"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-41211-1",
+        "caloricValue": "1149",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
        "mdmId": "M-42710-1",
        "id": "M-42710-1",
        "name": "2 Pieces Hot & Crispy™",
@@ -6124,7 +6272,7 @@
        "url": "2-pieces-hot-crispy",
        "isPromo": false,
        "posId": "182007",
-       "displayOrder": 7778,
+       "displayOrder": 12919,
        "customizable": false,
        "dname": [
         {
@@ -6198,7 +6346,7 @@
        "url": "3-wicked-wings",
        "isPromo": false,
        "posId": "170703",
-       "displayOrder": 7779,
+       "displayOrder": 12920,
        "customizable": false,
        "dname": [
         {
@@ -6272,7 +6420,7 @@
        "url": "1-piece-original-tender",
        "isPromo": false,
        "posId": "170601",
-       "displayOrder": 7780,
+       "displayOrder": 12921,
        "customizable": false,
        "dname": [
         {
@@ -6346,7 +6494,7 @@
        "url": "1-piece-original-crispy-fillet",
        "isPromo": false,
        "posId": "182012",
-       "displayOrder": 7781,
+       "displayOrder": 12922,
        "customizable": false,
        "dname": [
         {
@@ -6415,7 +6563,7 @@
        "url": "1-piece-zinger-fillet",
        "isPromo": false,
        "posId": "170502",
-       "displayOrder": 7782,
+       "displayOrder": 12923,
        "customizable": false,
        "dname": [
         {
@@ -6531,7 +6679,7 @@
        "url": "regular-chips",
        "isPromo": false,
        "posId": "136008",
-       "displayOrder": 7783,
+       "displayOrder": 12924,
        "customizable": false,
        "dname": [
         {
@@ -6591,7 +6739,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 1388,
+           "displayOrder": 1286,
            "customizable": true,
            "dname": [
             {
@@ -6660,7 +6808,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 1389,
+           "displayOrder": 1287,
            "customizable": true,
            "dname": [
             {
@@ -6786,7 +6934,7 @@
        "url": "large-chips",
        "isPromo": false,
        "posId": "136015",
-       "displayOrder": 7786,
+       "displayOrder": 12927,
        "customizable": false,
        "dname": [
         {
@@ -6846,7 +6994,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 822,
+           "displayOrder": 1289,
            "customizable": true,
            "dname": [
             {
@@ -6915,7 +7063,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 823,
+           "displayOrder": 1290,
            "customizable": true,
            "dname": [
             {
@@ -7041,7 +7189,7 @@
        "url": "regular-coleslaw",
        "isPromo": false,
        "posId": "136040",
-       "displayOrder": 7789,
+       "displayOrder": 12930,
        "customizable": false,
        "dname": [
         {
@@ -7115,7 +7263,7 @@
        "url": "regular-gravy",
        "isPromo": false,
        "posId": "136026",
-       "displayOrder": 7790,
+       "displayOrder": 12931,
        "customizable": false,
        "dname": [
         {
@@ -7189,7 +7337,7 @@
        "url": "dinner-roll",
        "isPromo": false,
        "posId": "136046",
-       "displayOrder": 7791,
+       "displayOrder": 12932,
        "customizable": false,
        "dname": [
         {
@@ -7305,7 +7453,7 @@
        "url": "regular-gravy",
        "isPromo": false,
        "posId": "136026",
-       "displayOrder": 7792,
+       "displayOrder": 12933,
        "customizable": false,
        "dname": [
         {
@@ -7379,7 +7527,7 @@
        "url": "regular-chips",
        "isPromo": false,
        "posId": "136008",
-       "displayOrder": 7793,
+       "displayOrder": 12934,
        "customizable": false,
        "dname": [
         {
@@ -7439,7 +7587,7 @@
            "url": "extra-salt",
            "isPromo": false,
            "posId": "200031",
-           "displayOrder": 1388,
+           "displayOrder": 1286,
            "customizable": true,
            "dname": [
             {
@@ -7508,7 +7656,7 @@
            "url": "no-salt",
            "isPromo": false,
            "posId": "200030",
-           "displayOrder": 1389,
+           "displayOrder": 1287,
            "customizable": true,
            "dname": [
             {
@@ -7634,7 +7782,7 @@
        "url": "regular-coleslaw",
        "isPromo": false,
        "posId": "136040",
-       "displayOrder": 7796,
+       "displayOrder": 12937,
        "customizable": false,
        "dname": [
         {
@@ -7708,7 +7856,7 @@
        "url": "dinner-roll",
        "isPromo": false,
        "posId": "136046",
-       "displayOrder": 7797,
+       "displayOrder": 12938,
        "customizable": false,
        "dname": [
         {
@@ -7818,30 +7966,30 @@
       {
        "mdmId": "M-40925-1",
        "id": "M-40925-1",
-       "name": "Regular Pepsi Max^",
+       "name": "Regular Pepsi Max",
        "size": "Regular",
        "linkId": "40925",
        "url": "regular-pepsi-max",
        "isPromo": false,
        "posId": "141055",
-       "displayOrder": 7798,
+       "displayOrder": 12939,
        "customizable": false,
        "dname": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi Max^"
+         "value": "Regular Pepsi Max"
         }
        ],
        "shortDescription": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi Max^"
+         "value": "Regular Pepsi Max"
         }
        ],
        "longDescription": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi Max^"
+         "value": "Regular Pepsi Max"
         }
        ],
        "imageName": [
@@ -7893,7 +8041,7 @@
        "url": "large-pepsi-max",
        "isPromo": false,
        "posId": "141110",
-       "displayOrder": 7799,
+       "displayOrder": 12940,
        "customizable": false,
        "dname": [
         {
@@ -7956,30 +8104,30 @@
       {
        "mdmId": "M-40928-1",
        "id": "M-40928-1",
-       "name": "Regular Pepsi^",
+       "name": "Regular Pepsi",
        "size": "Regular",
        "linkId": "40928",
        "url": "regular-pepsi",
        "isPromo": false,
        "posId": "141007",
-       "displayOrder": 7800,
+       "displayOrder": 12941,
        "customizable": false,
        "dname": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi^"
+         "value": "Regular Pepsi"
         }
        ],
        "shortDescription": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi^"
+         "value": "Regular Pepsi"
         }
        ],
        "longDescription": [
         {
          "lang": "en-US",
-         "value": "Regular Pepsi^"
+         "value": "Regular Pepsi"
         }
        ],
        "imageName": [
@@ -8031,7 +8179,7 @@
        "url": "large-pepsi",
        "isPromo": false,
        "posId": "141111",
-       "displayOrder": 7801,
+       "displayOrder": 12942,
        "customizable": false,
        "dname": [
         {
@@ -8100,7 +8248,7 @@
        "url": "regular-mountain-dew",
        "isPromo": false,
        "posId": "141020",
-       "displayOrder": 7802,
+       "displayOrder": 12943,
        "customizable": false,
        "dname": [
         {
@@ -8169,7 +8317,7 @@
        "url": "large-mountain-dew",
        "isPromo": false,
        "posId": "141113",
-       "displayOrder": 7803,
+       "displayOrder": 12944,
        "customizable": false,
        "dname": [
         {
@@ -8238,7 +8386,7 @@
        "url": "regular-solo",
        "isPromo": false,
        "posId": "141030",
-       "displayOrder": 7804,
+       "displayOrder": 12945,
        "customizable": false,
        "dname": [
         {
@@ -8307,7 +8455,7 @@
        "url": "large-solo",
        "isPromo": false,
        "posId": "141114",
-       "displayOrder": 7805,
+       "displayOrder": 12946,
        "customizable": false,
        "dname": [
         {
@@ -8376,7 +8524,7 @@
        "url": "water-600ml",
        "isPromo": false,
        "posId": "141070",
-       "displayOrder": 7806,
+       "displayOrder": 12947,
        "customizable": false,
        "dname": [
         {
@@ -8445,7 +8593,7 @@
        "url": "sparkling-water",
        "isPromo": false,
        "posId": "141013",
-       "displayOrder": 7807,
+       "displayOrder": 12948,
        "customizable": false,
        "dname": [
         {
@@ -8514,7 +8662,7 @@
        "url": "pepsi-freeze",
        "isPromo": false,
        "posId": "141099",
-       "displayOrder": 7808,
+       "displayOrder": 12949,
        "customizable": false,
        "dname": [
         {
@@ -8574,7 +8722,7 @@
            "url": "half-mountain-dew-freeze",
            "isPromo": false,
            "posId": "141103",
-           "displayOrder": 847,
+           "displayOrder": 1328,
            "customizable": true,
            "dname": [
             {
@@ -8643,7 +8791,7 @@
            "url": "half-raspberry-freeze",
            "isPromo": false,
            "posId": "141116",
-           "displayOrder": 848,
+           "displayOrder": 1329,
            "customizable": true,
            "dname": [
             {
@@ -8769,7 +8917,7 @@
        "url": "mountain-dew-freeze",
        "isPromo": false,
        "posId": "141101",
-       "displayOrder": 7811,
+       "displayOrder": 12952,
        "customizable": false,
        "dname": [
         {
@@ -8829,7 +8977,7 @@
            "url": "half-pepsi-freeze",
            "isPromo": false,
            "posId": "141102",
-           "displayOrder": 850,
+           "displayOrder": 1331,
            "customizable": true,
            "dname": [
             {
@@ -8898,7 +9046,7 @@
            "url": "half-raspberry-freeze",
            "isPromo": false,
            "posId": "141116",
-           "displayOrder": 851,
+           "displayOrder": 1332,
            "customizable": true,
            "dname": [
             {
@@ -9024,7 +9172,7 @@
        "url": "raspberry-freeze",
        "isPromo": false,
        "posId": "141109",
-       "displayOrder": 7814,
+       "displayOrder": 12955,
        "customizable": false,
        "dname": [
         {
@@ -9084,7 +9232,7 @@
            "url": "half-mountain-dew-freeze",
            "isPromo": false,
            "posId": "141103",
-           "displayOrder": 853,
+           "displayOrder": 1334,
            "customizable": true,
            "dname": [
             {
@@ -9153,7 +9301,7 @@
            "url": "half-pepsi-freeze",
            "isPromo": false,
            "posId": "141102",
-           "displayOrder": 854,
+           "displayOrder": 1335,
            "customizable": true,
            "dname": [
             {
@@ -9582,7 +9730,7 @@
    "value": "QUICK_COMBO"
   }
  ],
- "displayOrder": 11,
+ "displayOrder": 13,
  "isHidden": false,
  "content": {
   "entityId": "C-32218-prod",

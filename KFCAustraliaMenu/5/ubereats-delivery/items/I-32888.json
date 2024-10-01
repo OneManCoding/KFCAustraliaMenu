@@ -1,0 +1,1449 @@
+{
+ "mdmId": "I-32888",
+ "id": "I-32888",
+ "name": "Zinger® Crunch Burger",
+ "size": null,
+ "linkId": "43760",
+ "url": "zinger-crunch-burger",
+ "isPromo": false,
+ "posId": "100503",
+ "displayOrder": 0,
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Zinger® Crunch Burger"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "UBER EATS"
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "With jalapeno mayo, slaw, Zinger fillet and corn chips, the Zinger Crunch Burger is the best thing since Zinger. "
+  }
+ ],
+ "imageName": [
+  {
+   "lang": "en-US",
+   "value": "https://images.ctfassets.net/crbk84xktnsl/5VLTVxAdES3m9k8sAYQQLw/a327b60ee76ec89f26fb67970e26a8bd/Zinger_Crunch_Burger.png"
+  }
+ ],
+ "modgrps": [
+  {
+   "id": "92063",
+   "name": "Recipe",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Recipe"
+    }
+   ],
+   "min": 0,
+   "max": 4,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Recipe"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Recipe"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-200009",
+     "id": "M-200009",
+     "name": "Cheese Slice",
+     "size": "",
+     "linkId": "mod:554358",
+     "url": "cheese-slice",
+     "isPromo": false,
+     "posId": "200009",
+     "displayOrder": 378,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Slice"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Slice"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Slice"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/65YVjpJ0l6ICtbk3PtnNAz/75b1c509de9f3e82db206ec6210b2d82/Modifier_Cheese_Slice.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "defaultreason",
+       "value": "RECIPE"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-200009",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/65YVjpJ0l6ICtbk3PtnNAz/75b1c509de9f3e82db206ec6210b2d82/Modifier_Cheese_Slice.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200006",
+     "id": "M-200006",
+     "name": "Corn Chips",
+     "size": "",
+     "linkId": "mod:555920",
+     "url": "corn-chips",
+     "isPromo": false,
+     "posId": "200006",
+     "displayOrder": 379,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Corn Chips"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Corn Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Corn Chips"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/21fl9F2d5YYaMgiRHFH1Hl/83a9e20f5d3c49252addf1937c34e4b7/Modifier_Corn_Chips.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "defaultreason",
+       "value": "RECIPE"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-200006",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/21fl9F2d5YYaMgiRHFH1Hl/83a9e20f5d3c49252addf1937c34e4b7/Modifier_Corn_Chips.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200010",
+     "id": "M-200010",
+     "name": "Crunchy Slaw",
+     "size": "",
+     "linkId": "mod:555765",
+     "url": "crunchy-slaw",
+     "isPromo": false,
+     "posId": "200010",
+     "displayOrder": 380,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Crunchy Slaw"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Crunchy Slaw"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Crunchy Slaw"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "defaultreason",
+       "value": "RECIPE"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-200010",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200042",
+     "id": "M-200042",
+     "name": "Jalapeno Mayo",
+     "size": "",
+     "linkId": "mod:555770",
+     "url": "jalapeno-mayo",
+     "isPromo": false,
+     "posId": "200042",
+     "displayOrder": 381,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Jalapeno Mayo"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Jalapeno Mayo"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Jalapeno Mayo"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "defaultreason",
+       "value": "RECIPE"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-200042",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 0,
+   "isHidden": false
+  },
+  {
+   "id": "92060",
+   "name": "Extras",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Extras"
+    }
+   ],
+   "min": 0,
+   "max": 5,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Extras"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Extras"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-200013",
+     "id": "M-200013",
+     "name": "Bacon Slice",
+     "size": "",
+     "linkId": "mod:554351",
+     "url": "bacon-slice",
+     "isPromo": false,
+     "posId": "200013",
+     "displayOrder": 15,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Bacon Slice"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Bacon Slice"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Bacon Slice"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/4RnpMB57vc8wxpVGjkvKAq/a0c35711441960b99ec2bd98f6521fed/Modifier_Bacon.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 100
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200013",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4RnpMB57vc8wxpVGjkvKAq/a0c35711441960b99ec2bd98f6521fed/Modifier_Bacon.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200005",
+     "id": "M-200005",
+     "name": "BBQ Sauce",
+     "size": "",
+     "linkId": "mod:554481",
+     "url": "bbq-sauce",
+     "isPromo": false,
+     "posId": "200005",
+     "displayOrder": 16,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "BBQ Sauce"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "BBQ Sauce"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "BBQ Sauce"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/1T7KFiAkbVunJylykaL4Dc/ddb50181024592e00a114a02e79ab543/Modifier_Sauce_BBQ.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200005",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1T7KFiAkbVunJylykaL4Dc/ddb50181024592e00a114a02e79ab543/Modifier_Sauce_BBQ.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200009",
+     "id": "M-200009",
+     "name": "Cheese Slice",
+     "size": "",
+     "linkId": "mod:554358",
+     "url": "cheese-slice",
+     "isPromo": false,
+     "posId": "200009",
+     "displayOrder": 17,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Slice"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Slice"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Cheese Slice"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/65YVjpJ0l6ICtbk3PtnNAz/75b1c509de9f3e82db206ec6210b2d82/Modifier_Cheese_Slice.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 50
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200009",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/65YVjpJ0l6ICtbk3PtnNAz/75b1c509de9f3e82db206ec6210b2d82/Modifier_Cheese_Slice.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200011",
+     "id": "M-200011",
+     "name": "Chilli Relish Sauce",
+     "size": "",
+     "linkId": "mod:554352",
+     "url": "chilli-relish-sauce",
+     "isPromo": false,
+     "posId": "200011",
+     "displayOrder": 18,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Chilli Relish Sauce"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Chilli Relish Sauce"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Chilli Relish Sauce"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/e1t8csgFvFDyc38Ou9YhA/0a58e6747e9f63a60769f614cfd1a638/Modifier_Sauce_Chilli_Relish.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200011",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/e1t8csgFvFDyc38Ou9YhA/0a58e6747e9f63a60769f614cfd1a638/Modifier_Sauce_Chilli_Relish.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200006",
+     "id": "M-200006",
+     "name": "Corn Chips",
+     "size": "",
+     "linkId": "mod:555920",
+     "url": "corn-chips",
+     "isPromo": false,
+     "posId": "200006",
+     "displayOrder": 19,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Corn Chips"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Corn Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Corn Chips"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/21fl9F2d5YYaMgiRHFH1Hl/83a9e20f5d3c49252addf1937c34e4b7/Modifier_Corn_Chips.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 50
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200006",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/21fl9F2d5YYaMgiRHFH1Hl/83a9e20f5d3c49252addf1937c34e4b7/Modifier_Corn_Chips.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200010",
+     "id": "M-200010",
+     "name": "Crunchy Slaw",
+     "size": "",
+     "linkId": "mod:555765",
+     "url": "crunchy-slaw",
+     "isPromo": false,
+     "posId": "200010",
+     "displayOrder": 20,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Crunchy Slaw"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Crunchy Slaw"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Crunchy Slaw"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 50
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200010",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7BmQNbNBCiGyn6wsFBeyc5/8b9319c3228f3453284cee041a51c85f/Modifier_Crunchy_Slaw.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200042",
+     "id": "M-200042",
+     "name": "Jalapeno Mayo",
+     "size": "",
+     "linkId": "mod:555770",
+     "url": "jalapeno-mayo",
+     "isPromo": false,
+     "posId": "200042",
+     "displayOrder": 21,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Jalapeno Mayo"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Jalapeno Mayo"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Jalapeno Mayo"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200042",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/25gG8FF9nZOIVKkGa9nnzK/9ac7d6f6bd2da025b40eb28f4506d228/Modifier_Sauce_Jalapeno_Mayo.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200008",
+     "id": "M-200008",
+     "name": "Lettuce",
+     "size": "",
+     "linkId": "mod:554357",
+     "url": "lettuce",
+     "isPromo": false,
+     "posId": "200008",
+     "displayOrder": 22,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Lettuce"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Lettuce"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Lettuce"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/66hSImOHbH6vlmRxCkqv88/794acadf750c1784e171868e05779407/Modifier_Lettuce.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200008",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/66hSImOHbH6vlmRxCkqv88/794acadf750c1784e171868e05779407/Modifier_Lettuce.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200001",
+     "id": "M-200001",
+     "name": "Mayo",
+     "size": "",
+     "linkId": "mod:554350",
+     "url": "mayo",
+     "isPromo": false,
+     "posId": "200001",
+     "displayOrder": 23,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Mayo"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Mayo"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Mayo"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/46SEeDBx51iTnkP6zPt82l/f3aaf2a729d86f1950cd6e2fe67aac72/Modifier_Sauce_Mayo.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200001",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/46SEeDBx51iTnkP6zPt82l/f3aaf2a729d86f1950cd6e2fe67aac72/Modifier_Sauce_Mayo.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200003",
+     "id": "M-200003",
+     "name": "Pepper Mayo",
+     "size": "",
+     "linkId": "mod:554359",
+     "url": "pepper-mayo",
+     "isPromo": false,
+     "posId": "200003",
+     "displayOrder": 24,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Pepper Mayo"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Pepper Mayo"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Pepper Mayo"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200003",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4PcYbCzHQ5lNsJA3RRH10d/2b459f168819a6e2cfec6eb2d9721e59/Modifier_Sauce_Pepper_Mayo.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-200004",
+     "id": "M-200004",
+     "name": "Supercharged Sauce",
+     "size": "",
+     "linkId": "mod:554355",
+     "url": "supercharged-sauce",
+     "isPromo": false,
+     "posId": "200004",
+     "displayOrder": 25,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Supercharged Sauce"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Supercharged Sauce"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Supercharged Sauce"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/S7OMZwS6F04k6U2qUxeQh/aee02a208e220562bc367006951c47ab/Modifier_Sauce_Supercharged.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-200004",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/S7OMZwS6F04k6U2qUxeQh/aee02a208e220562bc367006951c47ab/Modifier_Sauce_Supercharged.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "3"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "5"
+    }
+   ],
+   "displayOrder": 1,
+   "isHidden": false
+  }
+ ],
+ "modgrpIds": null,
+ "isHidden": false,
+ "isCategoryHidden": false,
+ "availability": [
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "0001"
+    },
+    "endTime": {
+     "time": "2359"
+    }
+   },
+   "price": 1345
+  }
+ ],
+ "isTimeSpecific": false,
+ "effectiveStartDateTime": 0,
+ "effectiveEndDateTime": 0,
+ "additionalProperties": [
+  {
+   "key": "mealdealdetailid",
+   "value": "MENU_ITEM"
+  },
+  {
+   "key": "pricewithouttax",
+   "value": "1345"
+  },
+  {
+   "key": "upSizeItemPrice",
+   "value": "1345"
+  }
+ ],
+ "recommendationRules": [],
+ "content": {
+  "entityId": "I-32888",
+  "longDescription": "With jalapeno mayo, slaw, Zinger fillet and corn chips, the Zinger Crunch Burger is the best thing since Zinger. ",
+  "caloricValue": "2318",
+  "nutritionalInformation": [
+   {
+    "nutritionComponent": "Average serving size",
+    "nutritionUnit": "g",
+    "serveWiseValue": 245.0,
+    "gramWiseValue": 1.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Energy",
+    "nutritionUnit": "kj",
+    "serveWiseValue": 2318.0,
+    "gramWiseValue": 947.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Protein",
+    "nutritionUnit": "g",
+    "serveWiseValue": 30.8,
+    "gramWiseValue": 12.6,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, total",
+    "nutritionUnit": "g",
+    "serveWiseValue": 27.4,
+    "gramWiseValue": 11.2,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, saturated",
+    "nutritionUnit": "g",
+    "serveWiseValue": 4.5,
+    "gramWiseValue": 1.8,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate",
+    "nutritionUnit": "g",
+    "serveWiseValue": 45.7,
+    "gramWiseValue": 18.7,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate, sugars",
+    "nutritionUnit": "g",
+    "serveWiseValue": 8.5,
+    "gramWiseValue": 3.5,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Sodium",
+    "nutritionUnit": "mg",
+    "serveWiseValue": 1184.0,
+    "gramWiseValue": 484.0,
+    "isActive": true
+   }
+  ],
+  "allergenInformation": [
+   {
+    "allergenComponent": "Cereals containing gluten - Wheat",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Barley",
+    "isPresent": false,
+    "isTrace": true
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Oats",
+    "isPresent": false,
+    "isTrace": true
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Rye",
+    "isPresent": false,
+    "isTrace": true
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Spelt",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Crustacea & their Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Egg & Egg Products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Fish & Fish Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Milk & Milk Products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Molluscs and mollusc products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Almonds",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Beech nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Cashews",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Chestnut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Hickory nut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pecans",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pine nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pili nut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Shea nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Walnuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Sesame seeds and their products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Peanuts and their products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Soybeans and their products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Lupin & their Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Sulphites #",
+    "isPresent": false,
+    "isTrace": false
+   }
+  ],
+  "hideNutritionInformation": false,
+  "hideAllergenInformation": false,
+  "showInFactSheet": true,
+  "flagText": null,
+  "tagArray": [],
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5VLTVxAdES3m9k8sAYQQLw/a327b60ee76ec89f26fb67970e26a8bd/Zinger_Crunch_Burger.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "serves": 0
+ },
+ "categoryUrl": [
+  "burgers"
+ ],
+ "categoryId": "C-20034"
+}
