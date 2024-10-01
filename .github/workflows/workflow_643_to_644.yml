@@ -24,6 +24,13 @@ jobs:
         echo "Sleeping for $RANDOM_SLEEP_TIME seconds..."
         sleep $RANDOM_SLEEP_TIME
 
+    - name: Run the store_info.py script
+      run: |
+        python store_info.py
+        RANDOM_SLEEP_TIME=$((RANDOM % 46 + 15))
+        echo "Sleeping for $RANDOM_SLEEP_TIME seconds..."
+        sleep $RANDOM_SLEEP_TIME
+
     - name: Run the main.py script
       run: |
         python main.py 643 644
@@ -63,7 +70,6 @@ jobs:
         git push origin main
 
     - name: Commit and push changes
-      if: success()  # Only run this step if the previous steps were successful
       run: |
         git pull
         git add .
