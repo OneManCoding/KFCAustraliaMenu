@@ -46,7 +46,7 @@ async def extract_and_download_items(store_number, store_info, menu_item_base_ur
 
                 # Extract item IDs from the JSON file
                 extract_mdmid_and_id(temp_filepath, extracted_values)
-                item_ids = [value for value in extracted_values if value.startswith(('C', 'I'))]
+                item_ids = [value for value in extracted_values if "kfc" not in value.lower()]
 
                 # Download each item immediately after extraction
                 if item_ids:
