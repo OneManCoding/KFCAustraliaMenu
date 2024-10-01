@@ -1,0 +1,1079 @@
+{
+ "mdmId": "I-32463-0",
+ "id": "I-32463-0",
+ "name": "$3 Freeze & Nuggs",
+ "size": null,
+ "linkId": "",
+ "url": "3-freeze-nuggs",
+ "isPromo": false,
+ "posId": "",
+ "displayOrder": 0,
+ "customizable": true,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "$3 Freeze & Nuggs"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "3 Nuggets and 1 Freeze."
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": " A Pepsi Freeze and 3 Nuggs – this one’s perfect for nuggs and chill."
+  }
+ ],
+ "imageName": [
+  {
+   "lang": "en-US",
+   "value": "https://images.ctfassets.net/crbk84xktnsl/rTTmvIjBtqW1DBYAJqNIk/0b5f284ddc1dedbe217ee9187ce69cfe/_3_Freeze___3_nuggs.png"
+  }
+ ],
+ "modgrps": [
+  {
+   "id": "32463-1-0",
+   "name": "Nuggets",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Nuggets"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Nuggets"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Nuggets"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-43468-0",
+     "id": "M-43468-0",
+     "name": "3 Nuggets",
+     "size": "Regular",
+     "linkId": "43468",
+     "url": "3-nuggets",
+     "isPromo": false,
+     "posId": "170707",
+     "displayOrder": 7856,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "3 Nuggets"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "3 Nuggets"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "3 Nuggets"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/5gC286jpfu3CdfXkdhxr8n/d84c5ab4a5608e6f7361f80fd8e78871/Modifier_Nugget_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-43468-0",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5gC286jpfu3CdfXkdhxr8n/d84c5ab4a5608e6f7361f80fd8e78871/Modifier_Nugget_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 1,
+   "isHidden": false
+  },
+  {
+   "id": "32463-2-0",
+   "name": "Freeze",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Freeze"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Freeze"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Freeze"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-40946-0",
+     "id": "M-40946-0",
+     "name": "Pepsi Freeze^",
+     "size": "Regular",
+     "linkId": "40946",
+     "url": "pepsi-freeze",
+     "isPromo": false,
+     "posId": "141099",
+     "displayOrder": 7857,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Pepsi Freeze^"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Pepsi Freeze^"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Pepsi Freeze^"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "90264",
+       "name": "Modify Freeze",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-141103",
+         "id": "M-141103",
+         "name": "Half Mountain Dew Freeze^",
+         "size": "",
+         "linkId": "mod:554773",
+         "url": "half-mountain-dew-freeze",
+         "isPromo": false,
+         "posId": "141103",
+         "displayOrder": 544,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141103",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-141116",
+         "id": "M-141116",
+         "name": "Half Raspberry Freeze",
+         "size": "",
+         "linkId": "mod:555397",
+         "url": "half-raspberry-freeze",
+         "isPromo": false,
+         "posId": "141116",
+         "displayOrder": 545,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141116",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "690"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-40946-0",
+      "caloricValue": "734",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-40947-0",
+     "id": "M-40947-0",
+     "name": "Mountain Dew Freeze^",
+     "size": "Regular",
+     "linkId": "40947",
+     "url": "mountain-dew-freeze",
+     "isPromo": false,
+     "posId": "141101",
+     "displayOrder": 7860,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Mountain Dew Freeze^"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Mountain Dew Freeze^"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Mountain Dew Freeze^"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "90069",
+       "name": "Modify Freeze",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-141102",
+         "id": "M-141102",
+         "name": "Half Pepsi Freeze^",
+         "size": "",
+         "linkId": "mod:554774",
+         "url": "half-pepsi-freeze",
+         "isPromo": false,
+         "posId": "141102",
+         "displayOrder": 547,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141102",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-141116",
+         "id": "M-141116",
+         "name": "Half Raspberry Freeze",
+         "size": "",
+         "linkId": "mod:555397",
+         "url": "half-raspberry-freeze",
+         "isPromo": false,
+         "posId": "141116",
+         "displayOrder": 548,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Raspberry Freeze"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141116",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "895"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-40947-0",
+      "caloricValue": "782",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-42079-0",
+     "id": "M-42079-0",
+     "name": "Raspberry Freeze",
+     "size": "Regular",
+     "linkId": "42079",
+     "url": "raspberry-freeze",
+     "isPromo": false,
+     "posId": "141109",
+     "displayOrder": 7863,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Raspberry Freeze"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Raspberry Freeze"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Raspberry Freeze"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "90650",
+       "name": "Modify Freeze",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Freeze"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-141103",
+         "id": "M-141103",
+         "name": "Half Mountain Dew Freeze^",
+         "size": "",
+         "linkId": "mod:554773",
+         "url": "half-mountain-dew-freeze",
+         "isPromo": false,
+         "posId": "141103",
+         "displayOrder": 550,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Mountain Dew Freeze^"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141103",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-141102",
+         "id": "M-141102",
+         "name": "Half Pepsi Freeze^",
+         "size": "",
+         "linkId": "mod:554774",
+         "url": "half-pepsi-freeze",
+         "isPromo": false,
+         "posId": "141102",
+         "displayOrder": 551,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Half Pepsi Freeze^"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141102",
+          "caloricValue": "null ",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "819"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-42079-0",
+      "caloricValue": "760",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 2,
+   "isHidden": false
+  }
+ ],
+ "modgrpIds": null,
+ "isHidden": false,
+ "isCategoryHidden": true,
+ "availability": [
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "0001"
+    },
+    "endTime": {
+     "time": "2359"
+    }
+   },
+   "price": 300
+  }
+ ],
+ "isTimeSpecific": false,
+ "effectiveStartDateTime": 0,
+ "effectiveEndDateTime": 0,
+ "additionalProperties": [
+  {
+   "key": "mealdealid",
+   "value": "9067"
+  },
+  {
+   "key": "mealdealdetailid",
+   "value": "QUICK_COMBO"
+  },
+  {
+   "key": "pricewithouttax",
+   "value": "300"
+  },
+  {
+   "key": "upSizeItemPrice",
+   "value": "300"
+  }
+ ],
+ "recommendationRules": [],
+ "content": {
+  "entityId": "I-32463-0",
+  "longDescription": " A Pepsi Freeze and 3 Nuggs – this one’s perfect for nuggs and chill.",
+  "caloricValue": "1259",
+  "nutritionalInformation": [
+   {
+    "nutritionComponent": "Average serving size",
+    "nutritionUnit": "g",
+    "serveWiseValue": 410.0,
+    "gramWiseValue": 1.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Energy",
+    "nutritionUnit": "kj",
+    "serveWiseValue": 1259.0,
+    "gramWiseValue": 307.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Protein",
+    "nutritionUnit": "g",
+    "serveWiseValue": 8.0,
+    "gramWiseValue": 2.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, total",
+    "nutritionUnit": "g",
+    "serveWiseValue": 7.7,
+    "gramWiseValue": 1.9,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, saturated",
+    "nutritionUnit": "g",
+    "serveWiseValue": 1.2,
+    "gramWiseValue": 0.3,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate",
+    "nutritionUnit": "g",
+    "serveWiseValue": 49.0,
+    "gramWiseValue": 12.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate, sugars",
+    "nutritionUnit": "g",
+    "serveWiseValue": 43.2,
+    "gramWiseValue": 10.5,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Sodium",
+    "nutritionUnit": "mg",
+    "serveWiseValue": 343.0,
+    "gramWiseValue": 84.0,
+    "isActive": true
+   }
+  ],
+  "allergenInformation": [],
+  "hideNutritionInformation": false,
+  "hideAllergenInformation": true,
+  "showInFactSheet": false,
+  "flagText": null,
+  "tagArray": [
+   "Boneless",
+   "Sweet"
+  ],
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/rTTmvIjBtqW1DBYAJqNIk/0b5f284ddc1dedbe217ee9187ce69cfe/_3_Freeze___3_nuggs.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "serves": 0
+ },
+ "categoryUrl": [
+  "fomo-wow"
+ ],
+ "categoryId": "C-20069"
+}

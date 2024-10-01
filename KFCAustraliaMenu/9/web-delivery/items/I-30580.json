@@ -1,0 +1,7741 @@
+{
+ "mdmId": "I-30580",
+ "id": "I-30580",
+ "name": "21 Pieces of Chicken",
+ "size": null,
+ "linkId": "41045",
+ "url": "21-pieces-of-chicken",
+ "isPromo": false,
+ "posId": "180066",
+ "displayOrder": 0,
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "21 Pieces of Chicken"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "21 Pieces of Chicken"
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "21 pieces of Colonel Sanders' world-famous, mouth-watering Original Recipe chicken with 11 secret herbs and spices. Made fresh and cooked in-store.\n"
+  }
+ ],
+ "imageName": [
+  {
+   "lang": "en-US",
+   "value": "https://images.ctfassets.net/crbk84xktnsl/7vkyZsdvJn73zdfncH1Bu5/c227bde532bf1fa839b8c3e8f32375a7/Original_Recipe_21_Bucket.png"
+  }
+ ],
+ "modgrps": [
+  {
+   "id": "89726",
+   "name": "Modify 21 piece",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Modify 21 piece"
+    }
+   ],
+   "min": 21,
+   "max": 21,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Modify 21 piece"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Modify 21 piece"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-170101",
+     "id": "M-170101",
+     "name": "1 Piece Original Recipe",
+     "size": "",
+     "linkId": "mod:554451",
+     "url": "1-piece-original-recipe",
+     "isPromo": false,
+     "posId": "170101",
+     "displayOrder": 51,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Original Recipe"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Original Recipe"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Original Recipe"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "defaultreason",
+       "value": "SELECTION"
+      }
+     ],
+     "defaultQuantity": 21,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-170101",
+      "caloricValue": "984",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-170102",
+     "id": "M-170102",
+     "name": "1 Piece Hot & Spicy®",
+     "size": "",
+     "linkId": "mod:554459",
+     "url": "1-piece-hot-spicy",
+     "isPromo": false,
+     "posId": "170102",
+     "displayOrder": 52,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Hot & Spicy®"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Hot & Spicy®"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Hot & Spicy®"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-170102",
+      "caloricValue": "1149",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    },
+    {
+     "mdmId": "M-170601",
+     "id": "M-170601",
+     "name": "1 Piece Original Tender",
+     "size": "",
+     "linkId": "mod:554450",
+     "url": "1-piece-original-tender",
+     "isPromo": false,
+     "posId": "170601",
+     "displayOrder": 53,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Original Tender"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Original Tender"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "1 Piece Original Tender"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 50
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": false,
+     "max": 0,
+     "content": {
+      "entityId": "M-170601",
+      "caloricValue": "412",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "21"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 0,
+   "isHidden": false
+  }
+ ],
+ "modgrpIds": null,
+ "isHidden": false,
+ "isCategoryHidden": false,
+ "availability": [
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "0001"
+    },
+    "endTime": {
+     "time": "2359"
+    }
+   },
+   "price": 3995
+  },
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "2310"
+    },
+    "endTime": {
+     "time": "0550"
+    }
+   },
+   "price": 3995
+  }
+ ],
+ "isTimeSpecific": false,
+ "effectiveStartDateTime": 0,
+ "effectiveEndDateTime": 0,
+ "additionalProperties": [
+  {
+   "key": "mealdealdetailid",
+   "value": "MENU_ITEM"
+  },
+  {
+   "key": "calories",
+   "value": "21659"
+  },
+  {
+   "key": "pricewithouttax",
+   "value": "3995"
+  },
+  {
+   "key": "upSizeItemPrice",
+   "value": "3995"
+  }
+ ],
+ "recommendationRules": [
+  {
+   "recommendationType": "upsell",
+   "startDateTime": 0,
+   "endDateTime": 0,
+   "name": [
+    {
+     "lang": "en-US",
+     "value": "Web - Pickup_Delivery - Upsell - 21 Pieces of Chicken"
+    }
+   ],
+   "headerText": [
+    {
+     "lang": "en-US",
+     "value": "Web - Pickup_Delivery - Upsell - 21 Pieces of Chicken"
+    }
+   ],
+   "recommendedItems": [
+    {
+     "mdmId": "I-32444-0",
+     "id": "I-32444-0",
+     "name": "Giant Feast",
+     "size": null,
+     "linkId": "",
+     "url": "giant-feast",
+     "isPromo": false,
+     "posId": "",
+     "displayOrder": 1,
+     "customizable": true,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Giant Feast"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "15 Pieces Original Recipe® Chicken, 18 Nuggets, 3 large Chips, 1 large Potato & Gravy, 1 Gravy, 1 1.25L Drink and 3 Dipping Sauces."
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Giant Feast is everything you could want and some. 15 pieces of Original Recipe® Chicken, 18 juicy Nuggs, 3 large Chippies and all your fave sides to share with friends and fam. Not everywhere and not forever."
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/4swZ3QuwefOL0cgqFUPTuC/6c4fa368860952e7f58ae68d567d2f2d/Giant_Feast.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "32444-1-0",
+       "name": "Chicken",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Chicken"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Chicken"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Chicken"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-41203-0",
+         "id": "M-41203-0",
+         "name": "15 PC Original Recipe",
+         "size": "Regular",
+         "linkId": "41203",
+         "url": "15-pc-original-recipe",
+         "isPromo": false,
+         "posId": "180033",
+         "displayOrder": 2568,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "15 PC Original Recipe"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "15 PC Original Recipe"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "15 PC Original Recipe"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-41203-0"
+          }
+         ],
+         "modgrps": [
+          {
+           "id": "89852",
+           "name": "Modify 15 pieces",
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Modify 15 pieces"
+            }
+           ],
+           "min": 15,
+           "max": 15,
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify 15 pieces"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify 15 pieces"
+            }
+           ],
+           "modifiers": [
+            {
+             "mdmId": "M-170101",
+             "id": "M-170101",
+             "name": "1 Piece Original Recipe",
+             "size": "",
+             "linkId": "mod:554707",
+             "url": "1-piece-original-recipe",
+             "isPromo": false,
+             "posId": "170101",
+             "displayOrder": 2569,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Original Recipe"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Original Recipe"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Original Recipe"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-170101"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [
+              {
+               "key": "defaultreason",
+               "value": "SELECTION"
+              }
+             ],
+             "defaultQuantity": 15,
+             "isDefault": true,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-170102",
+             "id": "M-170102",
+             "name": "1 Piece Hot & Spicy®",
+             "size": "",
+             "linkId": "mod:554721",
+             "url": "1-piece-hot-spicy",
+             "isPromo": false,
+             "posId": "170102",
+             "displayOrder": 2570,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Hot & Spicy®"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Hot & Spicy®"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Hot & Spicy®"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-170102"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-170511",
+             "id": "M-170511",
+             "name": "1 Piece Original Crispy Fillet",
+             "size": "",
+             "linkId": "mod:556235",
+             "url": "1-piece-original-crispy-fillet",
+             "isPromo": false,
+             "posId": "170511",
+             "displayOrder": 2571,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Original Crispy Fillet"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Original Crispy Fillet"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Original Crispy Fillet"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-170511"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 135
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-170502",
+             "id": "M-170502",
+             "name": "1 Piece Zinger® Fillet",
+             "size": "",
+             "linkId": "mod:554722",
+             "url": "1-piece-zinger-fillet",
+             "isPromo": false,
+             "posId": "170502",
+             "displayOrder": 2572,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Zinger® Fillet"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Zinger® Fillet"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Zinger® Fillet"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-170502"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 135
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-170601",
+             "id": "M-170601",
+             "name": "1 Piece Original Tender™",
+             "size": "",
+             "linkId": "mod:554709",
+             "url": "1-piece-original-tender",
+             "isPromo": false,
+             "posId": "170601",
+             "displayOrder": 2573,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Original Tender™"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Original Tender™"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "1 Piece Original Tender™"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-170601"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 50
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            }
+           ],
+           "additionalProperties": [
+            {
+             "key": "peroptionmaximum",
+             "value": "15"
+            },
+            {
+             "key": "peroptionminimum",
+             "value": "0"
+            },
+            {
+             "key": "maxdistinctoptions",
+             "value": "0"
+            }
+           ],
+           "displayOrder": 0,
+           "isHidden": false
+          }
+         ],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 1,
+       "isHidden": false
+      },
+      {
+       "id": "32444-2-0",
+       "name": "Nuggets",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Nuggets"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Nuggets"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Nuggets"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-41204-0",
+         "id": "M-41204-0",
+         "name": "18 Nuggets",
+         "size": "Regular",
+         "linkId": "41204",
+         "url": "18-nuggets",
+         "isPromo": false,
+         "posId": "184005",
+         "displayOrder": 2574,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "18 Nuggets"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "18 Nuggets"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "18 Nuggets"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-41204-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 2,
+       "isHidden": false
+      },
+      {
+       "id": "32444-3-0",
+       "name": "Dipping Sauces",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Dipping Sauces"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Dipping Sauces"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Dipping Sauces"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-41024-0",
+         "id": "M-41024-0",
+         "name": "3 Dipping Sauces",
+         "size": "Regular",
+         "linkId": "41024",
+         "url": "3-dipping-sauces",
+         "isPromo": false,
+         "posId": "200039",
+         "displayOrder": 2575,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "3 Dipping Sauces"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "3 Dipping Sauces"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "3 Dipping Sauces"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-41024-0"
+          }
+         ],
+         "modgrps": [
+          {
+           "id": "89720",
+           "name": "Dipping Sauce",
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Dipping Sauce"
+            }
+           ],
+           "min": 3,
+           "max": 3,
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Dipping Sauce"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Dipping Sauce"
+            }
+           ],
+           "modifiers": [
+            {
+             "mdmId": "M-191010",
+             "id": "M-191010",
+             "name": "Aioli Dip",
+             "size": "",
+             "linkId": "mod:554406",
+             "url": "aioli-dip",
+             "isPromo": false,
+             "posId": "191010",
+             "displayOrder": 2576,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Aioli Dip"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Aioli Dip"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Aioli Dip"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-191010"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [
+              {
+               "key": "defaultreason",
+               "value": "SELECTION"
+              }
+             ],
+             "defaultQuantity": 1,
+             "isDefault": true,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-191006",
+             "id": "M-191006",
+             "name": "BBQ Dip",
+             "size": "",
+             "linkId": "mod:554401",
+             "url": "bbq-dip",
+             "isPromo": false,
+             "posId": "191006",
+             "displayOrder": 2577,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "BBQ Dip"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "BBQ Dip"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "BBQ Dip"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-191006"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-191007",
+             "id": "M-191007",
+             "name": "Supercharged Dip",
+             "size": "",
+             "linkId": "mod:554400",
+             "url": "supercharged-dip",
+             "isPromo": false,
+             "posId": "191007",
+             "displayOrder": 2578,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Dip"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Dip"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Supercharged Dip"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-191007"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [
+              {
+               "key": "defaultreason",
+               "value": "SELECTION"
+              }
+             ],
+             "defaultQuantity": 1,
+             "isDefault": true,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-191009",
+             "id": "M-191009",
+             "name": "Sweet & Sour Dip",
+             "size": "",
+             "linkId": "mod:554405",
+             "url": "sweet-sour-dip",
+             "isPromo": false,
+             "posId": "191009",
+             "displayOrder": 2579,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Sweet & Sour Dip"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Sweet & Sour Dip"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Sweet & Sour Dip"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-191009"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [
+              {
+               "key": "defaultreason",
+               "value": "SELECTION"
+              }
+             ],
+             "defaultQuantity": 1,
+             "isDefault": true,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-191008",
+             "id": "M-191008",
+             "name": "Sweet Chilli Dip",
+             "size": "",
+             "linkId": "mod:554402",
+             "url": "sweet-chilli-dip",
+             "isPromo": false,
+             "posId": "191008",
+             "displayOrder": 2580,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Sweet Chilli Dip"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Sweet Chilli Dip"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Sweet Chilli Dip"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-191008"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-191005",
+             "id": "M-191005",
+             "name": "Tomato Dip",
+             "size": "",
+             "linkId": "mod:554404",
+             "url": "tomato-dip",
+             "isPromo": false,
+             "posId": "191005",
+             "displayOrder": 2581,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Tomato Dip"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Tomato Dip"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Tomato Dip"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-191005"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-191011",
+             "id": "M-191011",
+             "name": "No Sauce",
+             "size": "",
+             "linkId": "mod:554403",
+             "url": "no-sauce",
+             "isPromo": false,
+             "posId": "191011",
+             "displayOrder": 2582,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "No Sauce"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Sauce"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Sauce"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-191011"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            }
+           ],
+           "additionalProperties": [
+            {
+             "key": "peroptionmaximum",
+             "value": "3"
+            },
+            {
+             "key": "peroptionminimum",
+             "value": "0"
+            },
+            {
+             "key": "maxdistinctoptions",
+             "value": "0"
+            }
+           ],
+           "displayOrder": 0,
+           "isHidden": false
+          }
+         ],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 3,
+       "isHidden": false
+      },
+      {
+       "id": "32444-4-0",
+       "name": "First Side",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "First Side"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "First Side"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "First Side"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-40975-0",
+         "id": "M-40975-0",
+         "name": "Large Chips",
+         "size": "Regular",
+         "linkId": "40975",
+         "url": "large-chips",
+         "isPromo": false,
+         "posId": "136010",
+         "displayOrder": 2583,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40975-0"
+          }
+         ],
+         "modgrps": [
+          {
+           "id": "89710",
+           "name": "Modify Chips",
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "min": 0,
+           "max": 1,
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "modifiers": [
+            {
+             "mdmId": "M-200031",
+             "id": "M-200031",
+             "name": "Extra Salt",
+             "size": "",
+             "linkId": "mod:554382",
+             "url": "extra-salt",
+             "isPromo": false,
+             "posId": "200031",
+             "displayOrder": 723,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200031"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200030",
+             "id": "M-200030",
+             "name": "No Salt",
+             "size": "",
+             "linkId": "mod:554383",
+             "url": "no-salt",
+             "isPromo": false,
+             "posId": "200030",
+             "displayOrder": 724,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200030"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            }
+           ],
+           "additionalProperties": [
+            {
+             "key": "peroptionmaximum",
+             "value": "1"
+            },
+            {
+             "key": "peroptionminimum",
+             "value": "0"
+            },
+            {
+             "key": "maxdistinctoptions",
+             "value": "1"
+            }
+           ],
+           "displayOrder": 0,
+           "isHidden": false
+          }
+         ],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "2338"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40977-0",
+         "id": "M-40977-0",
+         "name": "Large Potato & Gravy",
+         "size": "Regular",
+         "linkId": "40977",
+         "url": "large-potato-gravy",
+         "isPromo": false,
+         "posId": "136027",
+         "displayOrder": 2586,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40977-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1210"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40979-0",
+         "id": "M-40979-0",
+         "name": "Large Coleslaw",
+         "size": "Regular",
+         "linkId": "40979",
+         "url": "large-coleslaw",
+         "isPromo": false,
+         "posId": "136045",
+         "displayOrder": 2587,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40979-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1683"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-41016-0",
+         "id": "M-41016-0",
+         "name": "4 Dinner Rolls",
+         "size": "Regular",
+         "linkId": "41016",
+         "url": "4-dinner-rolls",
+         "isPromo": false,
+         "posId": "136047",
+         "displayOrder": 2588,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-41016-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1840"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40927-0",
+         "id": "M-40927-0",
+         "name": "1.25L Pepsi Max",
+         "size": "Regular",
+         "linkId": "40927",
+         "url": "125l-pepsi-max",
+         "isPromo": false,
+         "posId": "141061",
+         "displayOrder": 2589,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40927-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40930-0",
+         "id": "M-40930-0",
+         "name": "1.25L Pepsi",
+         "size": "Regular",
+         "linkId": "40930",
+         "url": "125l-pepsi",
+         "isPromo": false,
+         "posId": "141011",
+         "displayOrder": 2590,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40930-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40936-0",
+         "id": "M-40936-0",
+         "name": "1.25L Mountain Dew",
+         "size": "Regular",
+         "linkId": "40936",
+         "url": "125l-mountain-dew",
+         "isPromo": false,
+         "posId": "141026",
+         "displayOrder": 2591,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40936-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40939-0",
+         "id": "M-40939-0",
+         "name": "1.25L Solo",
+         "size": "Regular",
+         "linkId": "40939",
+         "url": "125l-solo",
+         "isPromo": false,
+         "posId": "141032",
+         "displayOrder": 2592,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40939-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-43245-0",
+         "id": "M-43245-0",
+         "name": "1.25L Sunkist No Sugar",
+         "size": "Regular",
+         "linkId": "43245",
+         "url": "125l-sunkist-no-sugar",
+         "isPromo": false,
+         "posId": "141017",
+         "displayOrder": 2593,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-43245-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 4,
+       "isHidden": false
+      },
+      {
+       "id": "32444-5-0",
+       "name": "Second Side",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Second Side"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Second Side"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Second Side"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-40975-0",
+         "id": "M-40975-0",
+         "name": "Large Chips",
+         "size": "Regular",
+         "linkId": "40975",
+         "url": "large-chips",
+         "isPromo": false,
+         "posId": "136010",
+         "displayOrder": 2594,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40975-0"
+          }
+         ],
+         "modgrps": [
+          {
+           "id": "89710",
+           "name": "Modify Chips",
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "min": 0,
+           "max": 1,
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "modifiers": [
+            {
+             "mdmId": "M-200031",
+             "id": "M-200031",
+             "name": "Extra Salt",
+             "size": "",
+             "linkId": "mod:554382",
+             "url": "extra-salt",
+             "isPromo": false,
+             "posId": "200031",
+             "displayOrder": 723,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200031"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200030",
+             "id": "M-200030",
+             "name": "No Salt",
+             "size": "",
+             "linkId": "mod:554383",
+             "url": "no-salt",
+             "isPromo": false,
+             "posId": "200030",
+             "displayOrder": 724,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200030"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            }
+           ],
+           "additionalProperties": [
+            {
+             "key": "peroptionmaximum",
+             "value": "1"
+            },
+            {
+             "key": "peroptionminimum",
+             "value": "0"
+            },
+            {
+             "key": "maxdistinctoptions",
+             "value": "1"
+            }
+           ],
+           "displayOrder": 0,
+           "isHidden": false
+          }
+         ],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "2338"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40977-0",
+         "id": "M-40977-0",
+         "name": "Large Potato & Gravy",
+         "size": "Regular",
+         "linkId": "40977",
+         "url": "large-potato-gravy",
+         "isPromo": false,
+         "posId": "136027",
+         "displayOrder": 2597,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40977-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1210"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40979-0",
+         "id": "M-40979-0",
+         "name": "Large Coleslaw",
+         "size": "Regular",
+         "linkId": "40979",
+         "url": "large-coleslaw",
+         "isPromo": false,
+         "posId": "136045",
+         "displayOrder": 2598,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40979-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1683"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-41016-0",
+         "id": "M-41016-0",
+         "name": "4 Dinner Rolls",
+         "size": "Regular",
+         "linkId": "41016",
+         "url": "4-dinner-rolls",
+         "isPromo": false,
+         "posId": "136047",
+         "displayOrder": 2599,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-41016-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1840"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40927-0",
+         "id": "M-40927-0",
+         "name": "1.25L Pepsi Max",
+         "size": "Regular",
+         "linkId": "40927",
+         "url": "125l-pepsi-max",
+         "isPromo": false,
+         "posId": "141061",
+         "displayOrder": 2600,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40927-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40930-0",
+         "id": "M-40930-0",
+         "name": "1.25L Pepsi",
+         "size": "Regular",
+         "linkId": "40930",
+         "url": "125l-pepsi",
+         "isPromo": false,
+         "posId": "141011",
+         "displayOrder": 2601,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40930-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40936-0",
+         "id": "M-40936-0",
+         "name": "1.25L Mountain Dew",
+         "size": "Regular",
+         "linkId": "40936",
+         "url": "125l-mountain-dew",
+         "isPromo": false,
+         "posId": "141026",
+         "displayOrder": 2602,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40936-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40939-0",
+         "id": "M-40939-0",
+         "name": "1.25L Solo",
+         "size": "Regular",
+         "linkId": "40939",
+         "url": "125l-solo",
+         "isPromo": false,
+         "posId": "141032",
+         "displayOrder": 2603,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40939-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-43245-0",
+         "id": "M-43245-0",
+         "name": "1.25L Sunkist No Sugar",
+         "size": "Regular",
+         "linkId": "43245",
+         "url": "125l-sunkist-no-sugar",
+         "isPromo": false,
+         "posId": "141017",
+         "displayOrder": 2604,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-43245-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 5,
+       "isHidden": false
+      },
+      {
+       "id": "32444-6-0",
+       "name": "Third Side",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Third Side"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Third Side"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Third Side"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-40975-0",
+         "id": "M-40975-0",
+         "name": "Large Chips",
+         "size": "Regular",
+         "linkId": "40975",
+         "url": "large-chips",
+         "isPromo": false,
+         "posId": "136010",
+         "displayOrder": 2605,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40975-0"
+          }
+         ],
+         "modgrps": [
+          {
+           "id": "89710",
+           "name": "Modify Chips",
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "min": 0,
+           "max": 1,
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "modifiers": [
+            {
+             "mdmId": "M-200031",
+             "id": "M-200031",
+             "name": "Extra Salt",
+             "size": "",
+             "linkId": "mod:554382",
+             "url": "extra-salt",
+             "isPromo": false,
+             "posId": "200031",
+             "displayOrder": 723,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200031"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200030",
+             "id": "M-200030",
+             "name": "No Salt",
+             "size": "",
+             "linkId": "mod:554383",
+             "url": "no-salt",
+             "isPromo": false,
+             "posId": "200030",
+             "displayOrder": 724,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200030"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            }
+           ],
+           "additionalProperties": [
+            {
+             "key": "peroptionmaximum",
+             "value": "1"
+            },
+            {
+             "key": "peroptionminimum",
+             "value": "0"
+            },
+            {
+             "key": "maxdistinctoptions",
+             "value": "1"
+            }
+           ],
+           "displayOrder": 0,
+           "isHidden": false
+          }
+         ],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "2338"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40977-0",
+         "id": "M-40977-0",
+         "name": "Large Potato & Gravy",
+         "size": "Regular",
+         "linkId": "40977",
+         "url": "large-potato-gravy",
+         "isPromo": false,
+         "posId": "136027",
+         "displayOrder": 2608,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40977-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1210"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40979-0",
+         "id": "M-40979-0",
+         "name": "Large Coleslaw",
+         "size": "Regular",
+         "linkId": "40979",
+         "url": "large-coleslaw",
+         "isPromo": false,
+         "posId": "136045",
+         "displayOrder": 2609,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40979-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1683"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-41016-0",
+         "id": "M-41016-0",
+         "name": "4 Dinner Rolls",
+         "size": "Regular",
+         "linkId": "41016",
+         "url": "4-dinner-rolls",
+         "isPromo": false,
+         "posId": "136047",
+         "displayOrder": 2610,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-41016-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1840"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40927-0",
+         "id": "M-40927-0",
+         "name": "1.25L Pepsi Max",
+         "size": "Regular",
+         "linkId": "40927",
+         "url": "125l-pepsi-max",
+         "isPromo": false,
+         "posId": "141061",
+         "displayOrder": 2611,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40927-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40930-0",
+         "id": "M-40930-0",
+         "name": "1.25L Pepsi",
+         "size": "Regular",
+         "linkId": "40930",
+         "url": "125l-pepsi",
+         "isPromo": false,
+         "posId": "141011",
+         "displayOrder": 2612,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40930-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40936-0",
+         "id": "M-40936-0",
+         "name": "1.25L Mountain Dew",
+         "size": "Regular",
+         "linkId": "40936",
+         "url": "125l-mountain-dew",
+         "isPromo": false,
+         "posId": "141026",
+         "displayOrder": 2613,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40936-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40939-0",
+         "id": "M-40939-0",
+         "name": "1.25L Solo",
+         "size": "Regular",
+         "linkId": "40939",
+         "url": "125l-solo",
+         "isPromo": false,
+         "posId": "141032",
+         "displayOrder": 2614,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40939-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-43245-0",
+         "id": "M-43245-0",
+         "name": "1.25L Sunkist No Sugar",
+         "size": "Regular",
+         "linkId": "43245",
+         "url": "125l-sunkist-no-sugar",
+         "isPromo": false,
+         "posId": "141017",
+         "displayOrder": 2615,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-43245-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 6,
+       "isHidden": false
+      },
+      {
+       "id": "32444-7-0",
+       "name": "Fourth Side",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Fourth Side"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Fourth Side"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Fourth Side"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-40977-0",
+         "id": "M-40977-0",
+         "name": "Large Potato & Gravy",
+         "size": "Regular",
+         "linkId": "40977",
+         "url": "large-potato-gravy",
+         "isPromo": false,
+         "posId": "136027",
+         "displayOrder": 2616,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40977-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1210"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40975-0",
+         "id": "M-40975-0",
+         "name": "Large Chips",
+         "size": "Regular",
+         "linkId": "40975",
+         "url": "large-chips",
+         "isPromo": false,
+         "posId": "136010",
+         "displayOrder": 2617,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40975-0"
+          }
+         ],
+         "modgrps": [
+          {
+           "id": "89710",
+           "name": "Modify Chips",
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "min": 0,
+           "max": 1,
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "modifiers": [
+            {
+             "mdmId": "M-200031",
+             "id": "M-200031",
+             "name": "Extra Salt",
+             "size": "",
+             "linkId": "mod:554382",
+             "url": "extra-salt",
+             "isPromo": false,
+             "posId": "200031",
+             "displayOrder": 723,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200031"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200030",
+             "id": "M-200030",
+             "name": "No Salt",
+             "size": "",
+             "linkId": "mod:554383",
+             "url": "no-salt",
+             "isPromo": false,
+             "posId": "200030",
+             "displayOrder": 724,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200030"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            }
+           ],
+           "additionalProperties": [
+            {
+             "key": "peroptionmaximum",
+             "value": "1"
+            },
+            {
+             "key": "peroptionminimum",
+             "value": "0"
+            },
+            {
+             "key": "maxdistinctoptions",
+             "value": "1"
+            }
+           ],
+           "displayOrder": 0,
+           "isHidden": false
+          }
+         ],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "2338"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40979-0",
+         "id": "M-40979-0",
+         "name": "Large Coleslaw",
+         "size": "Regular",
+         "linkId": "40979",
+         "url": "large-coleslaw",
+         "isPromo": false,
+         "posId": "136045",
+         "displayOrder": 2620,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40979-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1683"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-41016-0",
+         "id": "M-41016-0",
+         "name": "4 Dinner Rolls",
+         "size": "Regular",
+         "linkId": "41016",
+         "url": "4-dinner-rolls",
+         "isPromo": false,
+         "posId": "136047",
+         "displayOrder": 2621,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-41016-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1840"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40927-0",
+         "id": "M-40927-0",
+         "name": "1.25L Pepsi Max",
+         "size": "Regular",
+         "linkId": "40927",
+         "url": "125l-pepsi-max",
+         "isPromo": false,
+         "posId": "141061",
+         "displayOrder": 2622,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40927-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40930-0",
+         "id": "M-40930-0",
+         "name": "1.25L Pepsi",
+         "size": "Regular",
+         "linkId": "40930",
+         "url": "125l-pepsi",
+         "isPromo": false,
+         "posId": "141011",
+         "displayOrder": 2623,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40930-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40936-0",
+         "id": "M-40936-0",
+         "name": "1.25L Mountain Dew",
+         "size": "Regular",
+         "linkId": "40936",
+         "url": "125l-mountain-dew",
+         "isPromo": false,
+         "posId": "141026",
+         "displayOrder": 2624,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40936-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40939-0",
+         "id": "M-40939-0",
+         "name": "1.25L Solo",
+         "size": "Regular",
+         "linkId": "40939",
+         "url": "125l-solo",
+         "isPromo": false,
+         "posId": "141032",
+         "displayOrder": 2625,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40939-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-43245-0",
+         "id": "M-43245-0",
+         "name": "1.25L Sunkist No Sugar",
+         "size": "Regular",
+         "linkId": "43245",
+         "url": "125l-sunkist-no-sugar",
+         "isPromo": false,
+         "posId": "141017",
+         "displayOrder": 2626,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-43245-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 7,
+       "isHidden": false
+      },
+      {
+       "id": "32444-8-0",
+       "name": "First Gravy",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "First Gravy"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "First Gravy"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "First Gravy"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-43487-0",
+         "id": "M-43487-0",
+         "name": "Regular Gravy",
+         "size": "Regular",
+         "linkId": "43487",
+         "url": "regular-gravy",
+         "isPromo": false,
+         "posId": "136078",
+         "displayOrder": 2627,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Regular Gravy"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Regular Gravy"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Regular Gravy"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-43487-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-43490-0",
+         "id": "M-43490-0",
+         "name": "Regular Coleslaw",
+         "size": "Regular",
+         "linkId": "43490",
+         "url": "regular-coleslaw",
+         "isPromo": false,
+         "posId": "136077",
+         "displayOrder": 2628,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Regular Coleslaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Regular Coleslaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Regular Coleslaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-43490-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 8,
+       "isHidden": false
+      },
+      {
+       "id": "32444-9-0",
+       "name": "Second Gravy",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Second Gravy"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Second Gravy"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Second Gravy"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-43487-0",
+         "id": "M-43487-0",
+         "name": "Regular Gravy",
+         "size": "Regular",
+         "linkId": "43487",
+         "url": "regular-gravy",
+         "isPromo": false,
+         "posId": "136078",
+         "displayOrder": 2629,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Regular Gravy"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Regular Gravy"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Regular Gravy"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-43487-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-43490-0",
+         "id": "M-43490-0",
+         "name": "Regular Coleslaw",
+         "size": "Regular",
+         "linkId": "43490",
+         "url": "regular-coleslaw",
+         "isPromo": false,
+         "posId": "136077",
+         "displayOrder": 2630,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Regular Coleslaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Regular Coleslaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Regular Coleslaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-43490-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 9,
+       "isHidden": false
+      },
+      {
+       "id": "32444-10-0",
+       "name": "1.25L Drink",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "1.25L Drink"
+        }
+       ],
+       "min": 1,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "1.25L Drink"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "1.25L Drink"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-40927-0",
+         "id": "M-40927-0",
+         "name": "1.25L Pepsi Max",
+         "size": "Regular",
+         "linkId": "40927",
+         "url": "125l-pepsi-max",
+         "isPromo": false,
+         "posId": "141061",
+         "displayOrder": 2631,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40927-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": true,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40930-0",
+         "id": "M-40930-0",
+         "name": "1.25L Pepsi",
+         "size": "Regular",
+         "linkId": "40930",
+         "url": "125l-pepsi",
+         "isPromo": false,
+         "posId": "141011",
+         "displayOrder": 2632,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40930-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40936-0",
+         "id": "M-40936-0",
+         "name": "1.25L Mountain Dew",
+         "size": "Regular",
+         "linkId": "40936",
+         "url": "125l-mountain-dew",
+         "isPromo": false,
+         "posId": "141026",
+         "displayOrder": 2633,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40936-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40939-0",
+         "id": "M-40939-0",
+         "name": "1.25L Solo",
+         "size": "Regular",
+         "linkId": "40939",
+         "url": "125l-solo",
+         "isPromo": false,
+         "posId": "141032",
+         "displayOrder": 2634,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40939-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-43245-0",
+         "id": "M-43245-0",
+         "name": "1.25L Sunkist No Sugar",
+         "size": "Regular",
+         "linkId": "43245",
+         "url": "125l-sunkist-no-sugar",
+         "isPromo": false,
+         "posId": "141017",
+         "displayOrder": 2635,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Sunkist No Sugar"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-43245-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40975-0",
+         "id": "M-40975-0",
+         "name": "Large Chips",
+         "size": "Regular",
+         "linkId": "40975",
+         "url": "large-chips",
+         "isPromo": false,
+         "posId": "136010",
+         "displayOrder": 2636,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40975-0"
+          }
+         ],
+         "modgrps": [
+          {
+           "id": "89710",
+           "name": "Modify Chips",
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "min": 0,
+           "max": 1,
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "modifiers": [
+            {
+             "mdmId": "M-200031",
+             "id": "M-200031",
+             "name": "Extra Salt",
+             "size": "",
+             "linkId": "mod:554382",
+             "url": "extra-salt",
+             "isPromo": false,
+             "posId": "200031",
+             "displayOrder": 723,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200031"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            },
+            {
+             "mdmId": "M-200030",
+             "id": "M-200030",
+             "name": "No Salt",
+             "size": "",
+             "linkId": "mod:554383",
+             "url": "no-salt",
+             "isPromo": false,
+             "posId": "200030",
+             "displayOrder": 724,
+             "customizable": false,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "M-200030"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": null
+            }
+           ],
+           "additionalProperties": [
+            {
+             "key": "peroptionmaximum",
+             "value": "1"
+            },
+            {
+             "key": "peroptionminimum",
+             "value": "0"
+            },
+            {
+             "key": "maxdistinctoptions",
+             "value": "1"
+            }
+           ],
+           "displayOrder": 0,
+           "isHidden": false
+          }
+         ],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "2338"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40977-0",
+         "id": "M-40977-0",
+         "name": "Large Potato & Gravy",
+         "size": "Regular",
+         "linkId": "40977",
+         "url": "large-potato-gravy",
+         "isPromo": false,
+         "posId": "136027",
+         "displayOrder": 2639,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40977-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1210"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-40979-0",
+         "id": "M-40979-0",
+         "name": "Large Coleslaw",
+         "size": "Regular",
+         "linkId": "40979",
+         "url": "large-coleslaw",
+         "isPromo": false,
+         "posId": "136045",
+         "displayOrder": 2640,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-40979-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1683"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-41016-0",
+         "id": "M-41016-0",
+         "name": "4 Dinner Rolls",
+         "size": "Regular",
+         "linkId": "41016",
+         "url": "4-dinner-rolls",
+         "isPromo": false,
+         "posId": "136047",
+         "displayOrder": 2641,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "4 Dinner Rolls"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-41016-0"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "calories",
+           "value": "1840"
+          }
+         ],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "0"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 10,
+       "isHidden": false
+      }
+     ],
+     "modgrpIds": null,
+     "isHidden": false,
+     "isCategoryHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 5295
+      },
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "2310"
+        },
+        "endTime": {
+         "time": "0550"
+        }
+       },
+       "price": 5295
+      }
+     ],
+     "isTimeSpecific": false,
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "mealdealid",
+       "value": "8014"
+      },
+      {
+       "key": "mealdealdetailid",
+       "value": "QUICK_COMBO"
+      },
+      {
+       "key": "pricewithouttax",
+       "value": "5295"
+      },
+      {
+       "key": "upSizeItemPrice",
+       "value": "5295"
+      }
+     ],
+     "recommendationRules": null,
+     "content": {
+      "entityId": "I-32444-0",
+      "shortDescription": "15 Pieces Original Recipe® Chicken, 18 Nuggets, 3 large Chips, 1 large Potato & Gravy, 1 Gravy, 1 1.25L Drink and 3 Dipping Sauces.",
+      "longDescription": "Giant Feast is everything you could want and some. 15 pieces of Original Recipe® Chicken, 18 juicy Nuggs, 3 large Chippies and all your fave sides to share with friends and fam. Not everywhere and not forever.",
+      "caloricValue": "28018",
+      "nutritionalInformation": [
+       {
+        "nutritionComponent": "Average serving size",
+        "nutritionUnit": "g",
+        "serveWiseValue": 4305.0,
+        "gramWiseValue": 1.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Energy",
+        "nutritionUnit": "kj",
+        "serveWiseValue": 28018.0,
+        "gramWiseValue": 651.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Protein",
+        "nutritionUnit": "g",
+        "serveWiseValue": 394.5,
+        "gramWiseValue": 9.2,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, total",
+        "nutritionUnit": "g",
+        "serveWiseValue": 356.3,
+        "gramWiseValue": 8.3,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, saturated",
+        "nutritionUnit": "g",
+        "serveWiseValue": 55.7,
+        "gramWiseValue": 1.3,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate",
+        "nutritionUnit": "g",
+        "serveWiseValue": 480.4,
+        "gramWiseValue": 11.2,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate, sugars",
+        "nutritionUnit": "g",
+        "serveWiseValue": 25.5,
+        "gramWiseValue": 0.6,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Sodium",
+        "nutritionUnit": "mg",
+        "serveWiseValue": 12698.0,
+        "gramWiseValue": 295.0,
+        "isActive": true
+       }
+      ],
+      "allergenInformation": [],
+      "hideNutritionInformation": false,
+      "hideAllergenInformation": true,
+      "showInFactSheet": true,
+      "flagText": null,
+      "tagArray": [
+       "Boneless",
+       "Original Recipe"
+      ],
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4swZ3QuwefOL0cgqFUPTuC/6c4fa368860952e7f58ae68d567d2f2d/Giant_Feast.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      },
+      "serves": 0
+     },
+     "categoryUrl": [
+      "shared-meals"
+     ],
+     "categoryId": "C-20041"
+    }
+   ]
+  },
+  {
+   "recommendationType": "addons",
+   "startDateTime": 0,
+   "endDateTime": 0,
+   "name": [
+    {
+     "lang": "en-US",
+     "value": "Web Delivery Group 1"
+    }
+   ],
+   "headerText": [
+    {
+     "lang": "en-US",
+     "value": "Web Delivery Group 1"
+    }
+   ],
+   "recommendedItems": [
+    {
+     "mdmId": "I-32505",
+     "id": "I-32505",
+     "name": "Large Chips ADD ON",
+     "size": null,
+     "linkId": "43526",
+     "url": "large-chips-add-on",
+     "isPromo": false,
+     "posId": "136022",
+     "displayOrder": 1,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips ADD ON"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips ADD ON"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips ADD ON"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "I-32505"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "91872",
+       "name": "Modify Chips",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200031",
+         "id": "M-200031",
+         "name": "Extra Salt",
+         "size": "",
+         "linkId": "mod:554382",
+         "url": "extra-salt",
+         "isPromo": false,
+         "posId": "200031",
+         "displayOrder": 400,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-200031"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-200030",
+         "id": "M-200030",
+         "name": "No Salt",
+         "size": "",
+         "linkId": "mod:554383",
+         "url": "no-salt",
+         "isPromo": false,
+         "posId": "200030",
+         "displayOrder": 401,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-200030"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "modgrpIds": null,
+     "isHidden": false,
+     "isCategoryHidden": true,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 495
+      }
+     ],
+     "isTimeSpecific": false,
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "mealdealdetailid",
+       "value": "MENU_ITEM"
+      },
+      {
+       "key": "pricewithouttax",
+       "value": "495"
+      },
+      {
+       "key": "upSizeItemPrice",
+       "value": "495"
+      }
+     ],
+     "recommendationRules": null,
+     "content": {
+      "entityId": "I-32505",
+      "longDescription": "Golden, thick-cut chips sprinkled with our signature seasoning to leave you wanting more… no wonder they’re Australia’s best tasting chips. Yeah, we went there.",
+      "caloricValue": "2431",
+      "nutritionalInformation": [
+       {
+        "nutritionComponent": "Average serving size",
+        "nutritionUnit": "g",
+        "serveWiseValue": 240.0,
+        "gramWiseValue": 1.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Energy",
+        "nutritionUnit": "kj",
+        "serveWiseValue": 2431.0,
+        "gramWiseValue": 1013.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Protein",
+        "nutritionUnit": "g",
+        "serveWiseValue": 9.1,
+        "gramWiseValue": 3.8,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, total",
+        "nutritionUnit": "g",
+        "serveWiseValue": 23.5,
+        "gramWiseValue": 9.8,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, saturated",
+        "nutritionUnit": "g",
+        "serveWiseValue": 2.4,
+        "gramWiseValue": 1.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate",
+        "nutritionUnit": "g",
+        "serveWiseValue": 83.3,
+        "gramWiseValue": 34.7,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate, sugars",
+        "nutritionUnit": "g",
+        "serveWiseValue": 0.5,
+        "gramWiseValue": 0.2,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Sodium",
+        "nutritionUnit": "mg",
+        "serveWiseValue": 194.0,
+        "gramWiseValue": 81.0,
+        "isActive": true
+       }
+      ],
+      "allergenInformation": [
+       {
+        "allergenComponent": "Cereals containing gluten - Wheat",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Barley",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Oats",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Rye",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Spelt",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Crustacea & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Egg & Egg Products",
+        "isPresent": false,
+        "isTrace": true
+       },
+       {
+        "allergenComponent": "Fish & Fish Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Milk & Milk Products",
+        "isPresent": false,
+        "isTrace": true
+       },
+       {
+        "allergenComponent": "Molluscs and mollusc products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Almonds",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Beech nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Cashews",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hickory nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pecans",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pine nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pili nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Shea nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Walnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sesame seeds and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Peanuts and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Soybeans and their products",
+        "isPresent": false,
+        "isTrace": true
+       },
+       {
+        "allergenComponent": "Lupin & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sulphites #",
+        "isPresent": false,
+        "isTrace": false
+       }
+      ],
+      "hideNutritionInformation": false,
+      "hideAllergenInformation": false,
+      "showInFactSheet": true,
+      "flagText": null,
+      "tagArray": [
+       "Sides"
+      ],
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      },
+      "serves": 0
+     },
+     "categoryUrl": [
+      "fomo-wow"
+     ],
+     "categoryId": "C-20069"
+    },
+    {
+     "mdmId": "I-32507",
+     "id": "I-32507",
+     "name": "Large Potato & Gravy ADD ON",
+     "size": null,
+     "linkId": "43528",
+     "url": "large-potato-gravy-add-on",
+     "isPromo": false,
+     "posId": "136038",
+     "displayOrder": 2,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Large Potato & Gravy ADD ON"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Potato & Gravy ADD ON"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Potato & Gravy ADD ON"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "I-32507"
+      }
+     ],
+     "modgrps": [],
+     "modgrpIds": null,
+     "isHidden": false,
+     "isCategoryHidden": true,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 495
+      }
+     ],
+     "isTimeSpecific": false,
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "mealdealdetailid",
+       "value": "MENU_ITEM"
+      },
+      {
+       "key": "pricewithouttax",
+       "value": "495"
+      },
+      {
+       "key": "upSizeItemPrice",
+       "value": "495"
+      }
+     ],
+     "recommendationRules": null,
+     "content": {
+      "entityId": "I-32507",
+      "longDescription": "Soft and fluffy potato mash with warm, rich gravy. Mmmmm…",
+      "caloricValue": "1094",
+      "nutritionalInformation": [
+       {
+        "nutritionComponent": "Average serving size",
+        "nutritionUnit": "g",
+        "serveWiseValue": 450.0,
+        "gramWiseValue": 1.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Energy",
+        "nutritionUnit": "kj",
+        "serveWiseValue": 1094.0,
+        "gramWiseValue": 243.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Protein",
+        "nutritionUnit": "g",
+        "serveWiseValue": 7.7,
+        "gramWiseValue": 1.7,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, total",
+        "nutritionUnit": "g",
+        "serveWiseValue": 3.6,
+        "gramWiseValue": 0.8,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, saturated",
+        "nutritionUnit": "g",
+        "serveWiseValue": 0.5,
+        "gramWiseValue": 0.1,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate",
+        "nutritionUnit": "g",
+        "serveWiseValue": 49.1,
+        "gramWiseValue": 10.9,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate, sugars",
+        "nutritionUnit": "g",
+        "serveWiseValue": 3.2,
+        "gramWiseValue": 0.7,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Sodium",
+        "nutritionUnit": "mg",
+        "serveWiseValue": 2178.0,
+        "gramWiseValue": 484.0,
+        "isActive": true
+       }
+      ],
+      "allergenInformation": [
+       {
+        "allergenComponent": "Cereals containing gluten - Wheat",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Barley",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Oats",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Rye",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Spelt",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Crustacea & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Egg & Egg Products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Fish & Fish Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Milk & Milk Products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Molluscs and mollusc products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Almonds",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Beech nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Cashews",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hickory nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pecans",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pine nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pili nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Shea nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Walnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sesame seeds and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Peanuts and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Soybeans and their products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Lupin & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sulphites #",
+        "isPresent": true,
+        "isTrace": false
+       }
+      ],
+      "hideNutritionInformation": false,
+      "hideAllergenInformation": false,
+      "showInFactSheet": true,
+      "flagText": null,
+      "tagArray": [
+       "Sides"
+      ],
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2dxqC7cN4QHJtnI04aOHR6/dc2fb4a0416e41f18b0a11413b63aa75/Potato___Gravy_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      },
+      "serves": 0
+     },
+     "categoryUrl": [
+      "fomo-wow"
+     ],
+     "categoryId": "C-20069"
+    },
+    {
+     "mdmId": "I-32866",
+     "id": "I-32866",
+     "name": "Go Bucket® Popcorn Chicken® ADD ON",
+     "size": null,
+     "linkId": "43747",
+     "url": "go-bucket-popcorn-chicken-add-on",
+     "isPromo": false,
+     "posId": "191003",
+     "displayOrder": 3,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Go Bucket® Popcorn Chicken® ADD ON"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Popcorn Chicken® with 1 Portion of Chips. "
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Popcorn Chicken® with 1 Portion of Chips. "
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "I-32866"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "92030",
+       "name": "Modify Chips",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200031",
+         "id": "M-200031",
+         "name": "Extra Salt",
+         "size": "",
+         "linkId": "mod:554382",
+         "url": "extra-salt",
+         "isPromo": false,
+         "posId": "200031",
+         "displayOrder": 368,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-200031"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        },
+        {
+         "mdmId": "M-200030",
+         "id": "M-200030",
+         "name": "No Salt",
+         "size": "",
+         "linkId": "mod:554383",
+         "url": "no-salt",
+         "isPromo": false,
+         "posId": "200030",
+         "displayOrder": 369,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "M-200030"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": null
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "modgrpIds": null,
+     "isHidden": false,
+     "isCategoryHidden": true,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 495
+      }
+     ],
+     "isTimeSpecific": false,
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "mealdealdetailid",
+       "value": "MENU_ITEM"
+      },
+      {
+       "key": "pricewithouttax",
+       "value": "495"
+      },
+      {
+       "key": "upSizeItemPrice",
+       "value": "495"
+      }
+     ],
+     "recommendationRules": null,
+     "content": {
+      "entityId": "I-32866",
+      "shortDescription": "Popcorn Chicken with 1 Portion of Chips. ",
+      "longDescription": "Truly the snack of all trades! Pick up Popcorn Chicken and Chips. Or mix it up with 3 Nuggets, 2 Wicked Wings, or 1 Original Tender. Let’s go!",
+      "caloricValue": "2351",
+      "nutritionalInformation": [
+       {
+        "nutritionComponent": "Average serving size",
+        "nutritionUnit": "g",
+        "serveWiseValue": 199.0,
+        "gramWiseValue": 1.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Energy",
+        "nutritionUnit": "kj",
+        "serveWiseValue": 2351.0,
+        "gramWiseValue": 1181.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Protein",
+        "nutritionUnit": "g",
+        "serveWiseValue": 18.5,
+        "gramWiseValue": 9.3,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, total",
+        "nutritionUnit": "g",
+        "serveWiseValue": 27.2,
+        "gramWiseValue": 13.7,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, saturated",
+        "nutritionUnit": "g",
+        "serveWiseValue": 2.7,
+        "gramWiseValue": 1.4,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate",
+        "nutritionUnit": "g",
+        "serveWiseValue": 60.9,
+        "gramWiseValue": 30.6,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate, sugars",
+        "nutritionUnit": "g",
+        "serveWiseValue": 0.6,
+        "gramWiseValue": 0.3,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Sodium",
+        "nutritionUnit": "mg",
+        "serveWiseValue": 709.0,
+        "gramWiseValue": 357.0,
+        "isActive": true
+       }
+      ],
+      "allergenInformation": [
+       {
+        "allergenComponent": "Cereals containing gluten - Wheat",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Barley",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Oats",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Rye",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Spelt",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Crustacea & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Egg & Egg Products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Fish & Fish Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Milk & Milk Products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Molluscs and mollusc products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Almonds",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Beech nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Cashews",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hickory nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pecans",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pine nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pili nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Shea nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Walnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sesame seeds and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Peanuts and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Soybeans and their products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Lupin & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sulphites #",
+        "isPresent": false,
+        "isTrace": false
+       }
+      ],
+      "hideNutritionInformation": false,
+      "hideAllergenInformation": false,
+      "showInFactSheet": true,
+      "flagText": null,
+      "tagArray": [],
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/xiZX7QpmtcZ3E6Ut3OYNy/8cd5bf414effa5fae1c82c60a146d3d5/Go_Bucket_Popcorn_Chicken.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      },
+      "serves": 0
+     },
+     "categoryUrl": [
+      "fomo-wow"
+     ],
+     "categoryId": "C-20069"
+    },
+    {
+     "mdmId": "I-32856",
+     "id": "I-32856",
+     "name": "Regular Gravy ADD ON",
+     "size": null,
+     "linkId": "43738",
+     "url": "regular-gravy-add-on",
+     "isPromo": false,
+     "posId": "136059",
+     "displayOrder": 4,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Gravy ADD ON"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Gravy ADD ON"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Gravy ADD ON"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "I-32856"
+      }
+     ],
+     "modgrps": [],
+     "modgrpIds": null,
+     "isHidden": false,
+     "isCategoryHidden": true,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 545
+      },
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "2310"
+        },
+        "endTime": {
+         "time": "0550"
+        }
+       },
+       "price": 545
+      }
+     ],
+     "isTimeSpecific": false,
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "mealdealdetailid",
+       "value": "MENU_ITEM"
+      },
+      {
+       "key": "pricewithouttax",
+       "value": "545"
+      },
+      {
+       "key": "upSizeItemPrice",
+       "value": "545"
+      }
+     ],
+     "recommendationRules": null,
+     "content": {
+      "entityId": "I-32856",
+      "longDescription": "Made in our very own kitchen, our gravy is warm, thick and rich, ready for pouring or dipping.",
+      "caloricValue": "215",
+      "nutritionalInformation": [
+       {
+        "nutritionComponent": "Average serving size",
+        "nutritionUnit": "g",
+        "serveWiseValue": 110.0,
+        "gramWiseValue": 1.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Energy",
+        "nutritionUnit": "kj",
+        "serveWiseValue": 215.0,
+        "gramWiseValue": 195.0,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Protein",
+        "nutritionUnit": "g",
+        "serveWiseValue": 1.8,
+        "gramWiseValue": 1.6,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, total",
+        "nutritionUnit": "g",
+        "serveWiseValue": 1.2,
+        "gramWiseValue": 1.1,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Fat, saturated",
+        "nutritionUnit": "g",
+        "serveWiseValue": 0.1,
+        "gramWiseValue": 0.1,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate",
+        "nutritionUnit": "g",
+        "serveWiseValue": 8.3,
+        "gramWiseValue": 7.5,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Carbohydrate, sugars",
+        "nutritionUnit": "g",
+        "serveWiseValue": 0.9,
+        "gramWiseValue": 0.8,
+        "isActive": true
+       },
+       {
+        "nutritionComponent": "Sodium",
+        "nutritionUnit": "mg",
+        "serveWiseValue": 695.0,
+        "gramWiseValue": 632.0,
+        "isActive": true
+       }
+      ],
+      "allergenInformation": [
+       {
+        "allergenComponent": "Cereals containing gluten - Wheat",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Barley",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Oats",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Rye",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Cereals containing gluten - Spelt",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Crustacea & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Egg & Egg Products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Fish & Fish Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Milk & Milk Products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Molluscs and mollusc products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Almonds",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Beech nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Cashews",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Hickory nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pecans",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pine nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pili nut",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Shea nuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Tree Nuts and their products - Walnuts",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sesame seeds and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Peanuts and their products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Soybeans and their products",
+        "isPresent": true,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Lupin & their Products",
+        "isPresent": false,
+        "isTrace": false
+       },
+       {
+        "allergenComponent": "Sulphites #",
+        "isPresent": false,
+        "isTrace": false
+       }
+      ],
+      "hideNutritionInformation": false,
+      "hideAllergenInformation": false,
+      "showInFactSheet": true,
+      "flagText": null,
+      "tagArray": [
+       "Sides"
+      ],
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      },
+      "serves": 0
+     },
+     "categoryUrl": [
+      "fomo-wow"
+     ],
+     "categoryId": "C-20069"
+    }
+   ]
+  }
+ ],
+ "content": {
+  "entityId": "I-30580",
+  "longDescription": "21 pieces of Colonel Sanders' world-famous, mouth-watering Original Recipe chicken with 11 secret herbs and spices. Made fresh and cooked in-store.\n",
+  "caloricValue": "20654",
+  "nutritionalInformation": [
+   {
+    "nutritionComponent": "Average serving size",
+    "nutritionUnit": "g",
+    "serveWiseValue": 1817.0,
+    "gramWiseValue": 1.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Energy",
+    "nutritionUnit": "kj",
+    "serveWiseValue": 20654.0,
+    "gramWiseValue": 1137.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Protein",
+    "nutritionUnit": "g",
+    "serveWiseValue": 428.7,
+    "gramWiseValue": 23.6,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, total",
+    "nutritionUnit": "g",
+    "serveWiseValue": 292.5,
+    "gramWiseValue": 16.1,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, saturated",
+    "nutritionUnit": "g",
+    "serveWiseValue": 54.5,
+    "gramWiseValue": 3.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate",
+    "nutritionUnit": "g",
+    "serveWiseValue": 150.8,
+    "gramWiseValue": 8.3,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate, sugars",
+    "nutritionUnit": "g",
+    "serveWiseValue": 3.6,
+    "gramWiseValue": 0.2,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Sodium",
+    "nutritionUnit": "mg",
+    "serveWiseValue": 8538.0,
+    "gramWiseValue": 470.0,
+    "isActive": true
+   }
+  ],
+  "allergenInformation": [
+   {
+    "allergenComponent": "Cereals containing gluten - Wheat",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Barley",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Oats",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Rye",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Cereals containing gluten - Spelt",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Crustacea & their Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Egg & Egg Products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Fish & Fish Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Milk & Milk Products",
+    "isPresent": true,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Molluscs and mollusc products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Almonds",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Beech nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Cashews",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Chestnut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Hickory nut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pecans",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pine nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pili nut",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Shea nuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Tree Nuts and their products - Walnuts",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Sesame seeds and their products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Peanuts and their products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Soybeans and their products",
+    "isPresent": false,
+    "isTrace": true
+   },
+   {
+    "allergenComponent": "Lupin & their Products",
+    "isPresent": false,
+    "isTrace": false
+   },
+   {
+    "allergenComponent": "Sulphites #",
+    "isPresent": false,
+    "isTrace": false
+   }
+  ],
+  "hideNutritionInformation": false,
+  "hideAllergenInformation": false,
+  "showInFactSheet": true,
+  "flagText": null,
+  "tagArray": [
+   "Original Recipe"
+  ],
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7vkyZsdvJn73zdfncH1Bu5/c227bde532bf1fa839b8c3e8f32375a7/Original_Recipe_21_Bucket.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "serves": 0
+ },
+ "categoryUrl": [
+  "chicken"
+ ],
+ "categoryId": "C-20000"
+}
