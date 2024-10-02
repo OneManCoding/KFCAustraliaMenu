@@ -1,0 +1,204 @@
+{
+ "mdmId": "C-32920-prod",
+ "name": "Apple Juice",
+ "id": "C-32920-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Apple Juice"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "UBER EATS"
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "UBER EATS"
+  }
+ ],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/7DONzQg1IBKfvtEtmKOzTJ/6dc215efdba36fbeb2d324a7eddc2d22/Drink_Apple_Juice.png",
+ "items": [
+  {
+   "mdmId": "I-32920",
+   "id": "I-32920",
+   "name": "Apple Juice",
+   "size": null,
+   "linkId": "43790",
+   "url": "apple-juice",
+   "isPromo": false,
+   "posId": "141521",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Apple Juice"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "UBER EATS"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Quench your thirst with Spring Valley Apple Juice."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/7DONzQg1IBKfvtEtmKOzTJ/6dc215efdba36fbeb2d324a7eddc2d22/Drink_Apple_Juice.png"
+    }
+   ],
+   "modgrps": [],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 375
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "375"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "375"
+    }
+   ],
+   "recommendationRules": [],
+   "content": {
+    "entityId": "I-32920",
+    "longDescription": "Quench your thirst with Spring Valley Apple Juice.",
+    "caloricValue": "764",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 364.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 764.0,
+      "gramWiseValue": 210.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.4,
+      "gramWiseValue": 0.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 45.1,
+      "gramWiseValue": 12.4,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 44.8,
+      "gramWiseValue": 12.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 29.0,
+      "gramWiseValue": 8.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": true,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Drinks"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7DONzQg1IBKfvtEtmKOzTJ/6dc215efdba36fbeb2d324a7eddc2d22/Drink_Apple_Juice.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "drinks"
+   ],
+   "categoryId": "C-20017"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 15,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-32920-prod",
+  "caloricValue": "764",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7DONzQg1IBKfvtEtmKOzTJ/6dc215efdba36fbeb2d324a7eddc2d22/Drink_Apple_Juice.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": null,
+  "serves": 0
+ },
+ "url": "apple-juice"
+}
