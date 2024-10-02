@@ -44,6 +44,357 @@
      "categories": [],
      "products": [
       {
+       "mdmId": "C-31074-prod",
+       "name": "Original Recipe Chicken (1 PC) - Chicken",
+       "id": "C-31074-prod",
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Original Recipe Chicken (1 PC) - Chicken"
+        }
+       ],
+       "shortDescription": [],
+       "longDescription": [],
+       "imageName": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+       "items": [
+        {
+         "mdmId": "I-31074",
+         "id": "I-31074",
+         "name": "Original Recipe Chicken (1 PC) - Chicken",
+         "size": " Chicken",
+         "linkId": "41782",
+         "url": "original-recipe-chicken-1-pc",
+         "isPromo": false,
+         "posId": "180071",
+         "displayOrder": 0,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Original Recipe Chicken (1 PC) - Chicken"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Original Recipe Chicken (1 PC) - Chicken"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Original Recipe Chicken (1 PC) - Chicken"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png"
+          }
+         ],
+         "modgrps": null,
+         "modgrpIds": [],
+         "isHidden": false,
+         "isCategoryHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 185
+          }
+         ],
+         "isTimeSpecific": false,
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "mealdealdetailid",
+           "value": "MENU_ITEM"
+          },
+          {
+           "key": "calories",
+           "value": "1031"
+          },
+          {
+           "key": "pricewithouttax",
+           "value": "185"
+          },
+          {
+           "key": "upSizeItemPrice",
+           "value": "185"
+          }
+         ],
+         "recommendationRules": null,
+         "content": {
+          "entityId": "I-31074",
+          "caloricValue": "1031",
+          "nutritionalInformation": [
+           {
+            "nutritionComponent": "Average serving size",
+            "nutritionUnit": "g",
+            "serveWiseValue": 90.0,
+            "gramWiseValue": 1.0,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Energy",
+            "nutritionUnit": "kj",
+            "serveWiseValue": 1031.0,
+            "gramWiseValue": 1146.0,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Protein",
+            "nutritionUnit": "g",
+            "serveWiseValue": 21.2,
+            "gramWiseValue": 23.5,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Fat, total",
+            "nutritionUnit": "g",
+            "serveWiseValue": 14.8,
+            "gramWiseValue": 16.4,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Fat, saturated",
+            "nutritionUnit": "g",
+            "serveWiseValue": 2.6,
+            "gramWiseValue": 2.9,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Carbohydrate",
+            "nutritionUnit": "g",
+            "serveWiseValue": 7.5,
+            "gramWiseValue": 8.3,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Carbohydrate, sugars",
+            "nutritionUnit": "g",
+            "serveWiseValue": 0.2,
+            "gramWiseValue": 0.2,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Sodium",
+            "nutritionUnit": "mg",
+            "serveWiseValue": 401.0,
+            "gramWiseValue": 445.0,
+            "isActive": true
+           }
+          ],
+          "allergenInformation": [
+           {
+            "allergenComponent": "Cereals containing gluten - Wheat",
+            "isPresent": true,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Cereals containing gluten - Barley",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Cereals containing gluten - Oats",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Cereals containing gluten - Rye",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Cereals containing gluten - Spelt",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Crustacea & their Products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Egg & Egg Products",
+            "isPresent": true,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Fish & Fish Products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Milk & Milk Products",
+            "isPresent": true,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Molluscs and mollusc products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Almonds",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Beech nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Cashews",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Chestnut",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Hickory nut",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Pecans",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Pine nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Pili nut",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Shea nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Walnuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Sesame seeds and their products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Peanuts and their products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Soybeans and their products",
+            "isPresent": false,
+            "isTrace": true
+           },
+           {
+            "allergenComponent": "Lupin & their Products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Sulphites #",
+            "isPresent": false,
+            "isTrace": false
+           }
+          ],
+          "hideNutritionInformation": false,
+          "hideAllergenInformation": false,
+          "showInFactSheet": false,
+          "flagText": null,
+          "tagArray": [],
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          },
+          "serves": 0
+         },
+         "categoryUrl": [
+          "chicken-pieces"
+         ],
+         "categoryId": "C-3-1"
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "type",
+         "value": "MENU_ITEM"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false,
+       "content": {
+        "entityId": "C-31074-prod",
+        "caloricValue": "1031",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "flagText": null,
+        "tagArray": [],
+        "shortDescription": null,
+        "serves": 0
+       },
+       "url": "original-recipe-chicken-1-pc-chicken"
+      },
+      {
        "mdmId": "C-31075-prod",
        "name": "Wicked Wings® (1 PC) - Chicken",
        "id": "C-31075-prod",
@@ -5614,197 +5965,6 @@
        "url": "125l-pepsi-drinks-sides"
       },
       {
-       "mdmId": "C-31070-prod",
-       "name": "1.25L 7Up - Drinks & Sides",
-       "id": "C-31070-prod",
-       "customizable": false,
-       "dname": [
-        {
-         "lang": "en-US",
-         "value": "1.25L 7Up - Drinks & Sides"
-        }
-       ],
-       "shortDescription": [],
-       "longDescription": [],
-       "imageName": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png",
-       "items": [
-        {
-         "mdmId": "I-31070",
-         "id": "I-31070",
-         "name": "1.25L 7Up - Drinks & Sides",
-         "size": " Drinks & Sides",
-         "linkId": "41778",
-         "url": "125l-7up",
-         "isPromo": false,
-         "posId": "141064",
-         "displayOrder": 0,
-         "customizable": false,
-         "dname": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up - Drinks & Sides"
-          }
-         ],
-         "shortDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up - Drinks & Sides"
-          }
-         ],
-         "longDescription": [
-          {
-           "lang": "en-US",
-           "value": "1.25L 7Up - Drinks & Sides"
-          }
-         ],
-         "imageName": [
-          {
-           "lang": "en-US",
-           "value": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png"
-          }
-         ],
-         "modgrps": null,
-         "modgrpIds": [],
-         "isHidden": false,
-         "isCategoryHidden": false,
-         "availability": [
-          {
-           "dayOfWeek": {
-            "day": "EVERYDAY"
-           },
-           "availableHours": {
-            "startTime": {
-             "time": "0001"
-            },
-            "endTime": {
-             "time": "2359"
-            }
-           },
-           "price": 445
-          }
-         ],
-         "isTimeSpecific": false,
-         "effectiveStartDateTime": 0,
-         "effectiveEndDateTime": 0,
-         "additionalProperties": [
-          {
-           "key": "mealdealdetailid",
-           "value": "MENU_ITEM"
-          },
-          {
-           "key": "pricewithouttax",
-           "value": "445"
-          },
-          {
-           "key": "upSizeItemPrice",
-           "value": "445"
-          }
-         ],
-         "recommendationRules": null,
-         "content": {
-          "entityId": "I-31070",
-          "caloricValue": "2244",
-          "nutritionalInformation": [
-           {
-            "nutritionComponent": "Average serving size",
-            "nutritionUnit": "g",
-            "serveWiseValue": 1313.0,
-            "gramWiseValue": 1.0,
-            "isActive": true
-           },
-           {
-            "nutritionComponent": "Energy",
-            "nutritionUnit": "kj",
-            "serveWiseValue": 2244.0,
-            "gramWiseValue": 171.0,
-            "isActive": true
-           },
-           {
-            "nutritionComponent": "Protein",
-            "nutritionUnit": "g",
-            "serveWiseValue": 0.0,
-            "gramWiseValue": 0.0,
-            "isActive": true
-           },
-           {
-            "nutritionComponent": "Fat, total",
-            "nutritionUnit": "g",
-            "serveWiseValue": 0.0,
-            "gramWiseValue": 0.0,
-            "isActive": true
-           },
-           {
-            "nutritionComponent": "Fat, saturated",
-            "nutritionUnit": "g",
-            "serveWiseValue": 0.0,
-            "gramWiseValue": 0.0,
-            "isActive": true
-           },
-           {
-            "nutritionComponent": "Carbohydrate",
-            "nutritionUnit": "g",
-            "serveWiseValue": 137.8,
-            "gramWiseValue": 10.5,
-            "isActive": true
-           },
-           {
-            "nutritionComponent": "Carbohydrate, sugars",
-            "nutritionUnit": "g",
-            "serveWiseValue": 137.8,
-            "gramWiseValue": 10.5,
-            "isActive": true
-           },
-           {
-            "nutritionComponent": "Sodium",
-            "nutritionUnit": "mg",
-            "serveWiseValue": 341.0,
-            "gramWiseValue": 26.0,
-            "isActive": true
-           }
-          ],
-          "allergenInformation": [],
-          "hideNutritionInformation": false,
-          "hideAllergenInformation": true,
-          "showInFactSheet": false,
-          "flagText": null,
-          "tagArray": [],
-          "image": {
-           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png",
-           "secondaryImage": null,
-           "tertiaryImage": null
-          },
-          "serves": 0
-         },
-         "categoryUrl": [
-          "drinks-sides"
-         ],
-         "categoryId": "C-3-4"
-        }
-       ],
-       "additionalProperties": [
-        {
-         "key": "type",
-         "value": "MENU_ITEM"
-        }
-       ],
-       "displayOrder": 7,
-       "isHidden": false,
-       "content": {
-        "entityId": "C-31070-prod",
-        "caloricValue": "2244",
-        "image": {
-         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png",
-         "secondaryImage": null,
-         "tertiaryImage": null
-        },
-        "flagText": null,
-        "tagArray": [],
-        "shortDescription": null,
-        "serves": 0
-       },
-       "url": "125l-7up-drinks-sides"
-      },
-      {
        "mdmId": "C-31071-prod",
        "name": "1.25L Mountain Dew - Drinks & Sides",
        "id": "C-31071-prod",
@@ -5980,7 +6140,7 @@
          "value": "MENU_ITEM"
         }
        ],
-       "displayOrder": 8,
+       "displayOrder": 7,
        "isHidden": false,
        "content": {
         "entityId": "C-31071-prod",
@@ -6171,7 +6331,7 @@
          "value": "MENU_ITEM"
         }
        ],
-       "displayOrder": 9,
+       "displayOrder": 8,
        "isHidden": false,
        "content": {
         "entityId": "C-31072-prod",
@@ -6362,7 +6522,7 @@
          "value": "MENU_ITEM"
         }
        ],
-       "displayOrder": 10,
+       "displayOrder": 9,
        "isHidden": false,
        "content": {
         "entityId": "C-32263-prod",
