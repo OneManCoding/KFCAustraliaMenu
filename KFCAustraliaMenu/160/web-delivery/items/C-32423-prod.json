@@ -1,0 +1,739 @@
+{
+ "mdmId": "C-32423-prod",
+ "name": "$5.95 Kentucky Snack Fest",
+ "id": "C-32423-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "$5.95 Kentucky Snack Fest"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "1 Regular Chips, 1 Regular Popcorn Chicken and 1 Regular Gravy."
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "1 Regular Chips, 1 Regular Popcorn Chicken and 1 Regular Gravy."
+  }
+ ],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/7HNAYKrFDcDGQF3C54YKF6/6a65c5b0b64f93115993aa44b54901d3/_5.95_Snack_Fest-3.png",
+ "items": [
+  {
+   "mdmId": "I-32423-0",
+   "id": "I-32423-0",
+   "name": "$5.95 Kentucky Snack Fest",
+   "size": null,
+   "linkId": "",
+   "url": "595-kentucky-snack-fest",
+   "isPromo": false,
+   "posId": "",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "$5.95 Kentucky Snack Fest"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "1 Regular Chips, 1 Regular Popcorn Chicken and 1 Regular Gravy."
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "The $5.95 Kentucky Snack Pack is the ultimate Popcorn Chicken® rodeo. Seriously, Regular Chips, Regular Popcorn Chicken & Gravy – what more do ya need?​"
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/7HNAYKrFDcDGQF3C54YKF6/6a65c5b0b64f93115993aa44b54901d3/_5.95_Snack_Fest-3.png"
+    }
+   ],
+   "modgrps": [
+    {
+     "id": "32423-1-0",
+     "name": "Chips",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Chips"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Chips"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-40976-0",
+       "id": "M-40976-0",
+       "name": "Regular Chips",
+       "size": "Regular",
+       "linkId": "40976",
+       "url": "regular-chips",
+       "isPromo": false,
+       "posId": "136005",
+       "displayOrder": 12738,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Chips"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Chips"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89711",
+         "name": "Modify Chips",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "min": 0,
+         "max": 1,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200031",
+           "id": "M-200031",
+           "name": "Extra Salt",
+           "size": "",
+           "linkId": "mod:554382",
+           "url": "extra-salt",
+           "isPromo": false,
+           "posId": "200031",
+           "displayOrder": 1137,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-200031",
+            "caloricValue": null,
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          },
+          {
+           "mdmId": "M-200030",
+           "id": "M-200030",
+           "name": "No Salt",
+           "size": "",
+           "linkId": "mod:554383",
+           "url": "no-salt",
+           "isPromo": false,
+           "posId": "200030",
+           "displayOrder": 1138,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-200030",
+            "caloricValue": null,
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "1"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "1"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "1169"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-40976-0",
+        "caloricValue": "1216",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 1,
+     "isHidden": false
+    },
+    {
+     "id": "32423-2-0",
+     "name": "Popcorn Chicken®",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Popcorn Chicken®"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Popcorn Chicken®"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Popcorn Chicken®"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-41083-0",
+       "id": "M-41083-0",
+       "name": "Regular Popcorn Chicken®",
+       "size": "Regular",
+       "linkId": "41083",
+       "url": "regular-popcorn-chicken",
+       "isPromo": false,
+       "posId": "185000",
+       "displayOrder": 12741,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Popcorn Chicken®"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Popcorn Chicken®"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Popcorn Chicken®"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/6TYbrMpuEKAWEO7xwiJAKS/edfd5917f85c08fc790ec5780e018bf1/Popcorn_Reg.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "1723"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-41083-0",
+        "caloricValue": "1638",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6TYbrMpuEKAWEO7xwiJAKS/edfd5917f85c08fc790ec5780e018bf1/Popcorn_Reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 2,
+     "isHidden": false
+    },
+    {
+     "id": "32423-3-0",
+     "name": "Gravy",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Gravy"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Gravy"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Gravy"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-40981-0",
+       "id": "M-40981-0",
+       "name": "Regular Gravy",
+       "size": "Regular",
+       "linkId": "40981",
+       "url": "regular-gravy",
+       "isPromo": false,
+       "posId": "136026",
+       "displayOrder": 12742,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Gravy"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "253"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-40981-0",
+        "caloricValue": "241",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/DhijcDpBIfr1DgsPy1Wy0/b72880b780a18f090a4ca8000aae5cf5/Gravy_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 3,
+     "isHidden": false
+    }
+   ],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": true,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 595
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealid",
+     "value": "9056"
+    },
+    {
+     "key": "mealdealdetailid",
+     "value": "QUICK_COMBO"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "595"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "595"
+    }
+   ],
+   "recommendationRules": [],
+   "content": {
+    "entityId": "I-32423-0",
+    "longDescription": "The $5.95 Kentucky Snack Pack is the ultimate Popcorn Chicken® rodeo. Seriously, Regular Chips, Regular Popcorn Chicken & Gravy – what more do ya need?​",
+    "caloricValue": "3068",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 344.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 3068.0,
+      "gramWiseValue": 892.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 26.5,
+      "gramWiseValue": 7.7,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 35.2,
+      "gramWiseValue": 10.2,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 3.5,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 77.7,
+      "gramWiseValue": 22.6,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 1.7,
+      "gramWiseValue": 0.5,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 1676.0,
+      "gramWiseValue": 487.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": true,
+    "showInFactSheet": false,
+    "flagText": null,
+    "tagArray": [
+     "Boneless",
+     "Sides"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7HNAYKrFDcDGQF3C54YKF6/6a65c5b0b64f93115993aa44b54901d3/_5.95_Snack_Fest-3.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "fomo-wow"
+   ],
+   "categoryId": "C-20069"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "QUICK_COMBO"
+  }
+ ],
+ "displayOrder": 61,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-32423-prod",
+  "caloricValue": "3068",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7HNAYKrFDcDGQF3C54YKF6/6a65c5b0b64f93115993aa44b54901d3/_5.95_Snack_Fest-3.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": null,
+  "serves": 0
+ },
+ "url": "595-kentucky-snack-fest"
+}
