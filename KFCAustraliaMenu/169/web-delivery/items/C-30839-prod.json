@@ -1,0 +1,535 @@
+{
+ "mdmId": "C-30839-prod",
+ "name": "4 Pieces Original Recipe Chicken ADD ON",
+ "id": "C-30839-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "4 Pieces Original Recipe Chicken ADD ON"
+  }
+ ],
+ "shortDescription": [],
+ "longDescription": [],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/YILY0VXWpCgDpYu6v8wND/98164eef851994b18f1351f25a71615e/Original_Recipe_4.png",
+ "items": [
+  {
+   "mdmId": "I-30839",
+   "id": "I-30839",
+   "name": "4 Pieces Original Recipe Chicken ADD ON",
+   "size": null,
+   "linkId": "43408",
+   "url": "4-pieces-original-recipe-chicken-add-on",
+   "isPromo": false,
+   "posId": "180074",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "4 Pieces Original Recipe Chicken ADD ON"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "4 Pieces Original Recipe Chicken ADD ON"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "4 Pieces Original Recipe Chicken ADD ON"
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/YILY0VXWpCgDpYu6v8wND/98164eef851994b18f1351f25a71615e/Original_Recipe_4.png"
+    }
+   ],
+   "modgrps": [
+    {
+     "id": "91778",
+     "name": "Modify 4 pieces",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Modify 4 pieces"
+      }
+     ],
+     "min": 4,
+     "max": 4,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify 4 pieces"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify 4 pieces"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-170102",
+       "id": "M-170102",
+       "name": "1 Piece Hot & Spicy®",
+       "size": "",
+       "linkId": "mod:554843",
+       "url": "1-piece-hot-spicy",
+       "isPromo": false,
+       "posId": "170102",
+       "displayOrder": 373,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-170102",
+        "caloricValue": "1149",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-170101",
+       "id": "M-170101",
+       "name": "1 Piece Original Recipe",
+       "size": "",
+       "linkId": "mod:554851",
+       "url": "1-piece-original-recipe",
+       "isPromo": false,
+       "posId": "170101",
+       "displayOrder": 374,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Recipe"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Recipe"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Recipe"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "defaultreason",
+         "value": "SELECTION"
+        }
+       ],
+       "defaultQuantity": 4,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-170101",
+        "caloricValue": "984",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "4"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 0,
+     "isHidden": false
+    }
+   ],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": true,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 745
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "745"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "745"
+    }
+   ],
+   "recommendationRules": [],
+   "content": {
+    "entityId": "I-30839",
+    "caloricValue": "3934",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 346.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 3934.0,
+      "gramWiseValue": 1137.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 81.7,
+      "gramWiseValue": 23.6,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 55.7,
+      "gramWiseValue": 16.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 10.4,
+      "gramWiseValue": 3.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 28.7,
+      "gramWiseValue": 8.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.7,
+      "gramWiseValue": 0.2,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 1626.0,
+      "gramWiseValue": 470.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": false,
+      "isTrace": true
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": false,
+    "showInFactSheet": false,
+    "flagText": null,
+    "tagArray": [
+     "Original Recipe"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/YILY0VXWpCgDpYu6v8wND/98164eef851994b18f1351f25a71615e/Original_Recipe_4.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "fomo-wow"
+   ],
+   "categoryId": "C-20069"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 11,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-30839-prod",
+  "caloricValue": "3934",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/YILY0VXWpCgDpYu6v8wND/98164eef851994b18f1351f25a71615e/Original_Recipe_4.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": null,
+  "serves": 0
+ },
+ "url": "4-pieces-original-recipe-chicken-add-on"
+}
