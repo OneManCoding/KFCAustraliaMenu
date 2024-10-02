@@ -1097,6 +1097,357 @@
        "url": "maxi-popcorn-chicken-chicken"
       },
       {
+       "mdmId": "C-31077-prod",
+       "name": "Nuggets (1 PC) - Chicken",
+       "id": "C-31077-prod",
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Nuggets (1 PC) - Chicken"
+        }
+       ],
+       "shortDescription": [],
+       "longDescription": [],
+       "imageName": "https://images.ctfassets.net/crbk84xktnsl/5gC286jpfu3CdfXkdhxr8n/d84c5ab4a5608e6f7361f80fd8e78871/Modifier_Nugget_1.png",
+       "items": [
+        {
+         "mdmId": "I-31077",
+         "id": "I-31077",
+         "name": "Nuggets (1 PC) - Chicken",
+         "size": " Chicken",
+         "linkId": "41785",
+         "url": "nuggets-1-pc",
+         "isPromo": false,
+         "posId": "184010",
+         "displayOrder": 0,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Nuggets (1 PC) - Chicken"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Nuggets (1 PC) - Chicken"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Nuggets (1 PC) - Chicken"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/5gC286jpfu3CdfXkdhxr8n/d84c5ab4a5608e6f7361f80fd8e78871/Modifier_Nugget_1.png"
+          }
+         ],
+         "modgrps": null,
+         "modgrpIds": [],
+         "isHidden": false,
+         "isCategoryHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 85
+          }
+         ],
+         "isTimeSpecific": false,
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "mealdealdetailid",
+           "value": "MENU_ITEM"
+          },
+          {
+           "key": "calories",
+           "value": "175"
+          },
+          {
+           "key": "pricewithouttax",
+           "value": "85"
+          },
+          {
+           "key": "upSizeItemPrice",
+           "value": "85"
+          }
+         ],
+         "recommendationRules": null,
+         "content": {
+          "entityId": "I-31077",
+          "caloricValue": "175",
+          "nutritionalInformation": [
+           {
+            "nutritionComponent": "Average serving size",
+            "nutritionUnit": "g",
+            "serveWiseValue": 16.0,
+            "gramWiseValue": 1.0,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Energy",
+            "nutritionUnit": "kj",
+            "serveWiseValue": 175.0,
+            "gramWiseValue": 1093.0,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Protein",
+            "nutritionUnit": "g",
+            "serveWiseValue": 2.7,
+            "gramWiseValue": 16.7,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Fat, total",
+            "nutritionUnit": "g",
+            "serveWiseValue": 2.6,
+            "gramWiseValue": 16.0,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Fat, saturated",
+            "nutritionUnit": "g",
+            "serveWiseValue": 0.4,
+            "gramWiseValue": 2.4,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Carbohydrate",
+            "nutritionUnit": "g",
+            "serveWiseValue": 2.0,
+            "gramWiseValue": 12.5,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Carbohydrate, sugars",
+            "nutritionUnit": "g",
+            "serveWiseValue": 0.0,
+            "gramWiseValue": 0.3,
+            "isActive": true
+           },
+           {
+            "nutritionComponent": "Sodium",
+            "nutritionUnit": "mg",
+            "serveWiseValue": 99.0,
+            "gramWiseValue": 616.0,
+            "isActive": true
+           }
+          ],
+          "allergenInformation": [
+           {
+            "allergenComponent": "Cereals containing gluten - Wheat",
+            "isPresent": true,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Cereals containing gluten - Barley",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Cereals containing gluten - Oats",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Cereals containing gluten - Rye",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Cereals containing gluten - Spelt",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Crustacea & their Products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Egg & Egg Products",
+            "isPresent": true,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Fish & Fish Products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Milk & Milk Products",
+            "isPresent": true,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Molluscs and mollusc products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Almonds",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Beech nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Cashews",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Chestnut",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Hickory nut",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Pecans",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Pine nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Pili nut",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Shea nuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Tree Nuts and their products - Walnuts",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Sesame seeds and their products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Peanuts and their products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Soybeans and their products",
+            "isPresent": true,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Lupin & their Products",
+            "isPresent": false,
+            "isTrace": false
+           },
+           {
+            "allergenComponent": "Sulphites #",
+            "isPresent": false,
+            "isTrace": false
+           }
+          ],
+          "hideNutritionInformation": false,
+          "hideAllergenInformation": false,
+          "showInFactSheet": false,
+          "flagText": null,
+          "tagArray": [],
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5gC286jpfu3CdfXkdhxr8n/d84c5ab4a5608e6f7361f80fd8e78871/Modifier_Nugget_1.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          },
+          "serves": 0
+         },
+         "categoryUrl": [
+          "chicken-pieces"
+         ],
+         "categoryId": "C-3-1"
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "type",
+         "value": "MENU_ITEM"
+        }
+       ],
+       "displayOrder": 3,
+       "isHidden": false,
+       "content": {
+        "entityId": "C-31077-prod",
+        "caloricValue": "175",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5gC286jpfu3CdfXkdhxr8n/d84c5ab4a5608e6f7361f80fd8e78871/Modifier_Nugget_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        },
+        "flagText": null,
+        "tagArray": [],
+        "shortDescription": null,
+        "serves": 0
+       },
+       "url": "nuggets-1-pc-chicken"
+      },
+      {
        "mdmId": "C-31078-prod",
        "name": "Original Tenders (1 PC) - Chicken",
        "id": "C-31078-prod",
