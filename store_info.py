@@ -3,7 +3,7 @@ import requests
 import json
 
 # Set the base directory
-base_directory = "/home/runner/work/kfc/kfc"
+base_directory = "./"
 
 def get_store_info():
     url = "https://orderserv-kfc-apac-olo-api.yum.com/dev/v1/stores"
