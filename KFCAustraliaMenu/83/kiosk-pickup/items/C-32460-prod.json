@@ -1,0 +1,1308 @@
+{
+ "mdmId": "C-32460-prod",
+ "name": "$15 Colonels Chicken 'n Chips",
+ "id": "C-32460-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "$15 Colonels Chicken 'n Chips"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "10 pieces Original Recipe Chicken & 2 Regular Chips."
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "10 pieces Original Recipe Chicken & 2 Regular Chips."
+  }
+ ],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/67aXJVkP3AIwMcbEjk0mzJ/4e60c0cf4859f25492743f7d78832873/_15_Colonel-s_Chicken_n-_Chips.png",
+ "items": [
+  {
+   "mdmId": "I-32460-0",
+   "id": "I-32460-0",
+   "name": "$15 Colonels Chicken 'n Chips",
+   "size": null,
+   "linkId": "",
+   "url": "15-colonels-chicken-n-chips",
+   "isPromo": false,
+   "posId": "",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "$15 Colonels Chicken 'n Chips"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "10 pieces Original Recipe Chicken & 2 Regular Chips."
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "​10 pieces of our world-famous Original Recipe chicken, and 2 regular Golden, thick-cut chips. Not everywhere and not forever."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/67aXJVkP3AIwMcbEjk0mzJ/4e60c0cf4859f25492743f7d78832873/_15_Colonel-s_Chicken_n-_Chips.png"
+    }
+   ],
+   "modgrps": [
+    {
+     "id": "32460-1-0",
+     "name": "Chicken",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Chicken"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Chicken"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Chicken"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-41136-0",
+       "id": "M-41136-0",
+       "name": "10 PC Original Recipe",
+       "size": "Regular",
+       "linkId": "41136",
+       "url": "10-pc-original-recipe",
+       "isPromo": false,
+       "posId": "180060",
+       "displayOrder": 5999,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "10 PC Original Recipe"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "10 PC Original Recipe"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "10 PC Original Recipe"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89790",
+         "name": "Modify 10 pieces",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify 10 pieces"
+          }
+         ],
+         "min": 10,
+         "max": 10,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify 10 pieces"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify 10 pieces"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-170101",
+           "id": "M-170101",
+           "name": "1 Piece Original Recipe",
+           "size": "",
+           "linkId": "mod:554541",
+           "url": "1-piece-original-recipe",
+           "isPromo": false,
+           "posId": "170101",
+           "displayOrder": 2317,
+           "customizable": true,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Recipe"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Recipe"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Recipe"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [
+            {
+             "key": "defaultreason",
+             "value": "SELECTION"
+            }
+           ],
+           "defaultQuantity": 10,
+           "isDefault": true,
+           "max": 0,
+           "content": {
+            "entityId": "M-170101",
+            "caloricValue": "984",
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          },
+          {
+           "mdmId": "M-170102",
+           "id": "M-170102",
+           "name": "1 Piece Hot & Spicy®",
+           "size": "",
+           "linkId": "mod:554538",
+           "url": "1-piece-hot-spicy",
+           "isPromo": false,
+           "posId": "170102",
+           "displayOrder": 2318,
+           "customizable": true,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Hot & Spicy®"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Hot & Spicy®"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Hot & Spicy®"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-170102",
+            "caloricValue": "1149",
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          },
+          {
+           "mdmId": "M-170601",
+           "id": "M-170601",
+           "name": "1 Piece Original Tender™",
+           "size": "",
+           "linkId": "mod:556139",
+           "url": "1-piece-original-tender",
+           "isPromo": false,
+           "posId": "170601",
+           "displayOrder": 2319,
+           "customizable": true,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Tender™"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Tender™"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Tender™"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 50
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-170601",
+            "caloricValue": "412",
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          },
+          {
+           "mdmId": "M-170511",
+           "id": "M-170511",
+           "name": "1 Piece Original Crispy Fillet",
+           "size": "",
+           "linkId": "mod:556320",
+           "url": "1-piece-original-crispy-fillet",
+           "isPromo": false,
+           "posId": "170511",
+           "displayOrder": 2320,
+           "customizable": true,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Crispy Fillet"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Crispy Fillet"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Original Crispy Fillet"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/6FPHh3wLmPpFkHu6NjpptH/dac4a76542dcfbb8be7de6bb10f0ed15/J5349_22P11_REN_Modifier_Famous_Chicken_Fillet-2.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 135
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-170511",
+            "caloricValue": "853",
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6FPHh3wLmPpFkHu6NjpptH/dac4a76542dcfbb8be7de6bb10f0ed15/J5349_22P11_REN_Modifier_Famous_Chicken_Fillet-2.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          },
+          {
+           "mdmId": "M-170502",
+           "id": "M-170502",
+           "name": "1 Piece Zinger® Fillet",
+           "size": "",
+           "linkId": "mod:556138",
+           "url": "1-piece-zinger-fillet",
+           "isPromo": false,
+           "posId": "170502",
+           "displayOrder": 2321,
+           "customizable": true,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Zinger® Fillet"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Zinger® Fillet"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "1 Piece Zinger® Fillet"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/5u0nHUZEQmjSVC8BdrTZBL/c36fadb81edf1e0d4d281510ced76844/Modifier_Zinger_Fillet.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 135
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-170502",
+            "caloricValue": "876",
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5u0nHUZEQmjSVC8BdrTZBL/c36fadb81edf1e0d4d281510ced76844/Modifier_Zinger_Fillet.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "10"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "0"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-41136-0",
+        "caloricValue": "10310",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 1,
+     "isHidden": false
+    },
+    {
+     "id": "32460-2-0",
+     "name": "First Chips",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "First Chips"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "First Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "First Chips"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-40976-0",
+       "id": "M-40976-0",
+       "name": "Regular Chips",
+       "size": "Regular",
+       "linkId": "40976",
+       "url": "regular-chips",
+       "isPromo": false,
+       "posId": "136005",
+       "displayOrder": 6005,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Chips"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Chips"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89711",
+         "name": "Modify Chips",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "min": 0,
+         "max": 1,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200031",
+           "id": "M-200031",
+           "name": "Extra Salt",
+           "size": "",
+           "linkId": "mod:554382",
+           "url": "extra-salt",
+           "isPromo": false,
+           "posId": "200031",
+           "displayOrder": 828,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-200031",
+            "caloricValue": null,
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          },
+          {
+           "mdmId": "M-200030",
+           "id": "M-200030",
+           "name": "No Salt",
+           "size": "",
+           "linkId": "mod:554383",
+           "url": "no-salt",
+           "isPromo": false,
+           "posId": "200030",
+           "displayOrder": 829,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-200030",
+            "caloricValue": null,
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "1"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "1"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "1169"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-40976-0",
+        "caloricValue": "1216",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 2,
+     "isHidden": false
+    },
+    {
+     "id": "32460-3-0",
+     "name": "Second Chips",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Second Chips"
+      }
+     ],
+     "min": 1,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Second Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Second Chips"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-40976-0",
+       "id": "M-40976-0",
+       "name": "Regular Chips",
+       "size": "Regular",
+       "linkId": "40976",
+       "url": "regular-chips",
+       "isPromo": false,
+       "posId": "136005",
+       "displayOrder": 6008,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Regular Chips"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Regular Chips"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png"
+        }
+       ],
+       "modgrps": [
+        {
+         "id": "89711",
+         "name": "Modify Chips",
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "min": 0,
+         "max": 1,
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Modify Chips"
+          }
+         ],
+         "modifiers": [
+          {
+           "mdmId": "M-200031",
+           "id": "M-200031",
+           "name": "Extra Salt",
+           "size": "",
+           "linkId": "mod:554382",
+           "url": "extra-salt",
+           "isPromo": false,
+           "posId": "200031",
+           "displayOrder": 828,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Extra Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-200031",
+            "caloricValue": null,
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          },
+          {
+           "mdmId": "M-200030",
+           "id": "M-200030",
+           "name": "No Salt",
+           "size": "",
+           "linkId": "mod:554383",
+           "url": "no-salt",
+           "isPromo": false,
+           "posId": "200030",
+           "displayOrder": 829,
+           "customizable": false,
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "No Salt"
+            }
+           ],
+           "imageName": [
+            {
+             "lang": "en-US",
+             "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+            }
+           ],
+           "modgrps": [],
+           "isHidden": false,
+           "availability": [
+            {
+             "dayOfWeek": {
+              "day": "EVERYDAY"
+             },
+             "availableHours": {
+              "startTime": {
+               "time": "0001"
+              },
+              "endTime": {
+               "time": "2359"
+              }
+             },
+             "price": 0
+            }
+           ],
+           "effectiveStartDateTime": 0,
+           "effectiveEndDateTime": 0,
+           "additionalProperties": [],
+           "defaultQuantity": 1,
+           "isDefault": false,
+           "max": 0,
+           "content": {
+            "entityId": "M-200030",
+            "caloricValue": null,
+            "image": {
+             "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+             "secondaryImage": null,
+             "tertiaryImage": null
+            }
+           }
+          }
+         ],
+         "additionalProperties": [
+          {
+           "key": "peroptionmaximum",
+           "value": "1"
+          },
+          {
+           "key": "peroptionminimum",
+           "value": "0"
+          },
+          {
+           "key": "maxdistinctoptions",
+           "value": "1"
+          }
+         ],
+         "displayOrder": 0,
+         "isHidden": false
+        }
+       ],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "calories",
+         "value": "1169"
+        }
+       ],
+       "defaultQuantity": 1,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-40976-0",
+        "caloricValue": "1216",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 3,
+     "isHidden": false
+    }
+   ],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": true,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 1500
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealid",
+     "value": "9017"
+    },
+    {
+     "key": "mealdealdetailid",
+     "value": "QUICK_COMBO"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "1500"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "1500"
+    }
+   ],
+   "recommendationRules": [],
+   "content": {
+    "entityId": "I-32460-0",
+    "longDescription": "​10 pieces of our world-famous Original Recipe chicken, and 2 regular Golden, thick-cut chips. Not everywhere and not forever.",
+    "caloricValue": "8332",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 759.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 8332.0,
+      "gramWiseValue": 1098.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 131.6,
+      "gramWiseValue": 17.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 107.1,
+      "gramWiseValue": 14.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 18.0,
+      "gramWiseValue": 2.4,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 126.4,
+      "gramWiseValue": 16.6,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 1.5,
+      "gramWiseValue": 0.2,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 2634.0,
+      "gramWiseValue": 347.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": true,
+    "showInFactSheet": false,
+    "flagText": null,
+    "tagArray": [
+     "Original Recipe",
+     "Sides"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/67aXJVkP3AIwMcbEjk0mzJ/4e60c0cf4859f25492743f7d78832873/_15_Colonel-s_Chicken_n-_Chips.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "fomo-wow"
+   ],
+   "categoryId": "C-20069"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "QUICK_COMBO"
+  }
+ ],
+ "displayOrder": 47,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-32460-prod",
+  "caloricValue": "8332",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/67aXJVkP3AIwMcbEjk0mzJ/4e60c0cf4859f25492743f7d78832873/_15_Colonel-s_Chicken_n-_Chips.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": null,
+  "serves": 0
+ },
+ "url": "15-colonels-chicken-n-chips"
+}
