@@ -24,13 +24,13 @@
  "longDescription": [
   {
    "lang": "en-US",
-   "value": "20 Nuggets, 6 Original Tenders and 2 Regular Chips."
+   "value": "​Your pick of the very best of boneless. Get 20 juicy nuggets, 6 delicious tenders, 2 regular chips and your choice of 2 sauces. Not everywhere and not forever."
   }
  ],
  "imageName": [
   {
    "lang": "en-US",
-   "value": "I-32877-0"
+   "value": "https://images.ctfassets.net/crbk84xktnsl/3e4qEO2TEgspCqB9C4dTzG/9676260ce0a116fd976821d4ae0e4de1/J6187_24P10__15.95_Boneless_Pack_for_Two.png"
   }
  ],
  "modgrps": [
@@ -67,7 +67,7 @@
      "url": "20-nuggets",
      "isPromo": false,
      "posId": "184017",
-     "displayOrder": 8258,
+     "displayOrder": 13201,
      "customizable": false,
      "dname": [
       {
@@ -178,7 +178,7 @@
      "url": "2-dipping-sauces",
      "isPromo": false,
      "posId": "200038",
-     "displayOrder": 8259,
+     "displayOrder": 13202,
      "customizable": false,
      "dname": [
       {
@@ -238,7 +238,7 @@
          "url": "aioli-dip",
          "isPromo": false,
          "posId": "191010",
-         "displayOrder": 2604,
+         "displayOrder": 3050,
          "customizable": true,
          "dname": [
           {
@@ -307,7 +307,7 @@
          "url": "bbq-dip",
          "isPromo": false,
          "posId": "191006",
-         "displayOrder": 2605,
+         "displayOrder": 3051,
          "customizable": true,
          "dname": [
           {
@@ -376,7 +376,7 @@
          "url": "supercharged-dip",
          "isPromo": false,
          "posId": "191007",
-         "displayOrder": 2606,
+         "displayOrder": 3052,
          "customizable": true,
          "dname": [
           {
@@ -445,7 +445,7 @@
          "url": "sweet-sour-dip",
          "isPromo": false,
          "posId": "191009",
-         "displayOrder": 2607,
+         "displayOrder": 3053,
          "customizable": true,
          "dname": [
           {
@@ -519,7 +519,7 @@
          "url": "sweet-chilli-dip",
          "isPromo": false,
          "posId": "191008",
-         "displayOrder": 2608,
+         "displayOrder": 3054,
          "customizable": true,
          "dname": [
           {
@@ -588,7 +588,7 @@
          "url": "tomato-dip",
          "isPromo": false,
          "posId": "191005",
-         "displayOrder": 2609,
+         "displayOrder": 3055,
          "customizable": true,
          "dname": [
           {
@@ -657,7 +657,7 @@
          "url": "no-sauce",
          "isPromo": false,
          "posId": "191011",
-         "displayOrder": 2610,
+         "displayOrder": 3056,
          "customizable": true,
          "dname": [
           {
@@ -820,7 +820,7 @@
      "url": "regular-chips",
      "isPromo": false,
      "posId": "136005",
-     "displayOrder": 8267,
+     "displayOrder": 13210,
      "customizable": false,
      "dname": [
       {
@@ -880,7 +880,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 489,
+         "displayOrder": 801,
          "customizable": false,
          "dname": [
           {
@@ -949,7 +949,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 490,
+         "displayOrder": 802,
          "customizable": false,
          "dname": [
           {
@@ -1117,7 +1117,7 @@
      "url": "regular-chips",
      "isPromo": false,
      "posId": "136005",
-     "displayOrder": 8270,
+     "displayOrder": 13213,
      "customizable": false,
      "dname": [
       {
@@ -1177,7 +1177,7 @@
          "url": "extra-salt",
          "isPromo": false,
          "posId": "200031",
-         "displayOrder": 489,
+         "displayOrder": 801,
          "customizable": false,
          "dname": [
           {
@@ -1246,7 +1246,7 @@
          "url": "no-salt",
          "isPromo": false,
          "posId": "200030",
-         "displayOrder": 490,
+         "displayOrder": 802,
          "customizable": false,
          "dname": [
           {
@@ -1414,7 +1414,7 @@
      "url": "6-original-tenders",
      "isPromo": false,
      "posId": "170607",
-     "displayOrder": 8273,
+     "displayOrder": 13216,
      "customizable": false,
      "dname": [
       {
@@ -1437,7 +1437,7 @@
      "imageName": [
       {
        "lang": "en-US",
-       "value": "M-43753-0"
+       "value": "https://images.ctfassets.net/crbk84xktnsl/pDDQP1FwXtG5CprbYnPHY/80abc98016cb00bbfebb8edc8f779826/J5529_2305_6_Tenders_for__6.95.png"
       }
      ],
      "modgrps": [],
@@ -1464,7 +1464,15 @@
      "defaultQuantity": 1,
      "isDefault": true,
      "max": 0,
-     "content": null
+     "content": {
+      "entityId": "M-43753-0",
+      "caloricValue": "2550",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/pDDQP1FwXtG5CprbYnPHY/80abc98016cb00bbfebb8edc8f779826/J5529_2305_6_Tenders_for__6.95.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
     }
    ],
    "additionalProperties": [
@@ -1526,7 +1534,84 @@
   }
  ],
  "recommendationRules": [],
- "content": null,
+ "content": {
+  "entityId": "I-32877-0",
+  "longDescription": "​Your pick of the very best of boneless. Get 20 juicy nuggets, 6 delicious tenders, 2 regular chips and your choice of 2 sauces. Not everywhere and not forever.",
+  "caloricValue": "8949",
+  "nutritionalInformation": [
+   {
+    "nutritionComponent": "Average serving size",
+    "nutritionUnit": "g",
+    "serveWiseValue": 851.0,
+    "gramWiseValue": 1.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Energy",
+    "nutritionUnit": "kj",
+    "serveWiseValue": 8949.0,
+    "gramWiseValue": 1051.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Protein",
+    "nutritionUnit": "g",
+    "serveWiseValue": 114.8,
+    "gramWiseValue": 13.5,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, total",
+    "nutritionUnit": "g",
+    "serveWiseValue": 106.4,
+    "gramWiseValue": 12.5,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, saturated",
+    "nutritionUnit": "g",
+    "serveWiseValue": 13.3,
+    "gramWiseValue": 1.6,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate",
+    "nutritionUnit": "g",
+    "serveWiseValue": 179.8,
+    "gramWiseValue": 21.1,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate, sugars",
+    "nutritionUnit": "g",
+    "serveWiseValue": 25.9,
+    "gramWiseValue": 3.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Sodium",
+    "nutritionUnit": "mg",
+    "serveWiseValue": 4244.0,
+    "gramWiseValue": 499.0,
+    "isActive": true
+   }
+  ],
+  "allergenInformation": [],
+  "hideNutritionInformation": false,
+  "hideAllergenInformation": true,
+  "showInFactSheet": false,
+  "flagText": null,
+  "tagArray": [
+   "Boneless",
+   "Sides"
+  ],
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3e4qEO2TEgspCqB9C4dTzG/9676260ce0a116fd976821d4ae0e4de1/J6187_24P10__15.95_Boneless_Pack_for_Two.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "serves": 0
+ },
  "categoryUrl": [
   "fomo-wow"
  ],
