@@ -1,0 +1,547 @@
+{
+ "mdmId": "C-31506-prod",
+ "name": "Mountain Dew Freeze^",
+ "id": "C-31506-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Mountain Dew Freeze^"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "^ Pepsi Max, Pepsi, Pepsi Freeze & Mountain Dew Freeze contains caffeine. Mountain Dew Freeze is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine."
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "^ Pepsi Max, Pepsi, Pepsi Freeze & Mountain Dew Freeze contains caffeine. Mountain Dew Freeze is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine."
+  }
+ ],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png",
+ "items": [
+  {
+   "mdmId": "I-31506",
+   "id": "I-31506",
+   "name": "Mountain Dew Freeze",
+   "size": null,
+   "linkId": "42290",
+   "url": "mountain-dew-freeze",
+   "isPromo": false,
+   "posId": "141117",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Mountain Dew Freeze"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "The legendary KFC Freeze is the daddy of frozen drinks. Grab a refreshing Mountain Dew Freeze and you're set. This offer is not everywhere and not forever. Mountain Dew Freeze contains Caffeine and is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine."
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "The legendary KFC Freeze is the daddy of frozen drinks. Grab a refreshing Mountain Dew Freeze and you're set. This offer is not everywhere and not forever. Mountain Dew Freeze contains Caffeine and is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine."
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png"
+    }
+   ],
+   "modgrps": [
+    {
+     "id": "90897",
+     "name": "Modify Freeze",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Modify Freeze"
+      }
+     ],
+     "min": 0,
+     "max": 1,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify Freeze"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify Freeze"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-141102",
+       "id": "M-141102",
+       "name": "Half Pepsi Freeze^",
+       "size": "",
+       "linkId": "mod:554774",
+       "url": "half-pepsi-freeze",
+       "isPromo": false,
+       "posId": "141102",
+       "displayOrder": 442,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Half Pepsi Freeze^"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Half Pepsi Freeze^"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Half Pepsi Freeze^"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-141102",
+        "caloricValue": "null ",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7IH5ZdlV68YLpHgTldROEB/513a42e364edb866ee24840343ed923e/Freeze_Pepsi.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-141116",
+       "id": "M-141116",
+       "name": "Half Raspberry Freeze",
+       "size": "",
+       "linkId": "mod:555397",
+       "url": "half-raspberry-freeze",
+       "isPromo": false,
+       "posId": "141116",
+       "displayOrder": 443,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Half Raspberry Freeze"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Half Raspberry Freeze"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Half Raspberry Freeze"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-141116",
+        "caloricValue": "null ",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1l1nvebyxmtYTySnodyQkj/6265b11aa92a3c10bf9ee46697b8d13e/Freeze_Raspberry.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "0"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 0,
+     "isHidden": false
+    }
+   ],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 200
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "calories",
+     "value": "895"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "200"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "200"
+    }
+   ],
+   "recommendationRules": [],
+   "content": {
+    "entityId": "I-31506",
+    "shortDescription": "The legendary KFC Freeze is the daddy of frozen drinks. Grab a refreshing Mountain Dew Freeze and you're set. This offer is not everywhere and not forever. Mountain Dew Freeze contains Caffeine and is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine.",
+    "longDescription": "The legendary KFC Freeze is the daddy of frozen drinks. Grab a refreshing Mountain Dew Freeze and you're set. This offer is not everywhere and not forever. Mountain Dew Freeze contains Caffeine and is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine.",
+    "caloricValue": "782",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 360.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 782.0,
+      "gramWiseValue": 217.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 0.0,
+      "gramWiseValue": 0.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 46.1,
+      "gramWiseValue": 12.8,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 46.1,
+      "gramWiseValue": 12.8,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 58.0,
+      "gramWiseValue": 16.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Drinks",
+     "Sweet"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "drinks"
+   ],
+   "categoryId": "C-20017"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 2,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-31506-prod",
+  "caloricValue": "782",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/ArfFDy6ZskwA21WrkZeT1/a8a2f809568f10977ace9f2136f61d06/Freeze_Mt_Dew.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": "^ Pepsi Max, Pepsi, Pepsi Freeze & Mountain Dew Freeze contains caffeine. Mountain Dew Freeze is not recommended for children, pregnant or lactating women or individuals sensitive to caffeine.",
+  "serves": 0
+ },
+ "url": "mountain-dew-freeze"
+}

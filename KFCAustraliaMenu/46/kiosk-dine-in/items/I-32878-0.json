@@ -1,0 +1,678 @@
+{
+ "mdmId": "I-32878-0",
+ "id": "I-32878-0",
+ "name": "2-4-1 Large Chips",
+ "size": "4",
+ "linkId": "",
+ "url": "2",
+ "isPromo": false,
+ "posId": "",
+ "displayOrder": 0,
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "2-4-1 Large Chips"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "2 Large Chips"
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "2 Large Chips"
+  }
+ ],
+ "imageName": [
+  {
+   "lang": "en-US",
+   "value": "I-32878-0"
+  }
+ ],
+ "modgrps": [
+  {
+   "id": "32878-1-0",
+   "name": "First Chips",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "First Chips"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "First Chips"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "First Chips"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-40975-0",
+     "id": "M-40975-0",
+     "name": "Large Chips",
+     "size": "Regular",
+     "linkId": "40975",
+     "url": "large-chips",
+     "isPromo": false,
+     "posId": "136010",
+     "displayOrder": 8440,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "89710",
+       "name": "Modify Chips",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200031",
+         "id": "M-200031",
+         "name": "Extra Salt",
+         "size": "",
+         "linkId": "mod:554382",
+         "url": "extra-salt",
+         "isPromo": false,
+         "posId": "200031",
+         "displayOrder": 728,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200031",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200030",
+         "id": "M-200030",
+         "name": "No Salt",
+         "size": "",
+         "linkId": "mod:554383",
+         "url": "no-salt",
+         "isPromo": false,
+         "posId": "200030",
+         "displayOrder": 729,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200030",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "2338"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-40975-0",
+      "caloricValue": "2431",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 1,
+   "isHidden": false
+  },
+  {
+   "id": "32878-2-0",
+   "name": "Second Chips",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Second Chips"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Second Chips"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Second Chips"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-40975-0",
+     "id": "M-40975-0",
+     "name": "Large Chips",
+     "size": "Regular",
+     "linkId": "40975",
+     "url": "large-chips",
+     "isPromo": false,
+     "posId": "136010",
+     "displayOrder": 8443,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Large Chips"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "89710",
+       "name": "Modify Chips",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200031",
+         "id": "M-200031",
+         "name": "Extra Salt",
+         "size": "",
+         "linkId": "mod:554382",
+         "url": "extra-salt",
+         "isPromo": false,
+         "posId": "200031",
+         "displayOrder": 728,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200031",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200030",
+         "id": "M-200030",
+         "name": "No Salt",
+         "size": "",
+         "linkId": "mod:554383",
+         "url": "no-salt",
+         "isPromo": false,
+         "posId": "200030",
+         "displayOrder": 729,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200030",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "2338"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-40975-0",
+      "caloricValue": "2431",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 2,
+   "isHidden": false
+  }
+ ],
+ "modgrpIds": null,
+ "isHidden": false,
+ "isCategoryHidden": true,
+ "availability": [
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "0001"
+    },
+    "endTime": {
+     "time": "2359"
+    }
+   },
+   "price": 525
+  }
+ ],
+ "isTimeSpecific": false,
+ "effectiveStartDateTime": 0,
+ "effectiveEndDateTime": 0,
+ "additionalProperties": [
+  {
+   "key": "mealdealid",
+   "value": "7026"
+  },
+  {
+   "key": "mealdealdetailid",
+   "value": "QUICK_COMBO"
+  },
+  {
+   "key": "pricewithouttax",
+   "value": "525"
+  },
+  {
+   "key": "upSizeItemPrice",
+   "value": "525"
+  }
+ ],
+ "recommendationRules": [],
+ "content": null,
+ "categoryUrl": [
+  "fomo-wow"
+ ],
+ "categoryId": "C-20069"
+}
