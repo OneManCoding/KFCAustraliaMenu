@@ -1,0 +1,571 @@
+{
+ "mdmId": "I-32441-0",
+ "id": "I-32441-0",
+ "name": "$5.95 6 Wings 'n Chips",
+ "size": null,
+ "linkId": "",
+ "url": "595-6-wings-n-chips",
+ "isPromo": false,
+ "posId": "",
+ "displayOrder": 0,
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "$5.95 6 Wings 'n Chips"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "6 Wicked Wings® and 1 Regular Chips."
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "Snap up 6 mouth-watering wings and hot thick-cut regular chips for $5.95, just ‘cos. Not everywhere and not forever.\n"
+  }
+ ],
+ "imageName": [
+  {
+   "lang": "en-US",
+   "value": "https://images.ctfassets.net/crbk84xktnsl/6EFqWKGAyVCw75Owv28Skr/dc18b5b56630e2600125c2cac60496a7/_5_6_Wings___Chips.png"
+  }
+ ],
+ "modgrps": [
+  {
+   "id": "32441-1-0",
+   "name": "Wicked Wings®",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Wicked Wings®"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Wicked Wings®"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Wicked Wings®"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-41181-0",
+     "id": "M-41181-0",
+     "name": "6 Wicked Wings®",
+     "size": "Regular",
+     "linkId": "41181",
+     "url": "6-wicked-wings",
+     "isPromo": false,
+     "posId": "181001",
+     "displayOrder": 6000,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "6 Wicked Wings®"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "6 Wicked Wings®"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "6 Wicked Wings®"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/6q2ND6Od6QOZ60AsBvsbur/cb1730822c89ec606dace7fab833f55d/Wicked_Wings_6.png"
+      }
+     ],
+     "modgrps": [],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "2937"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-41181-0",
+      "caloricValue": "3024",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6q2ND6Od6QOZ60AsBvsbur/cb1730822c89ec606dace7fab833f55d/Wicked_Wings_6.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 1,
+   "isHidden": false
+  },
+  {
+   "id": "32441-2-0",
+   "name": "Chips",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Chips"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Chips"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Chips"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-40976-0",
+     "id": "M-40976-0",
+     "name": "Regular Chips",
+     "size": "Regular",
+     "linkId": "40976",
+     "url": "regular-chips",
+     "isPromo": false,
+     "posId": "136005",
+     "displayOrder": 6001,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Regular Chips"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Chips"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Regular Chips"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "89711",
+       "name": "Modify Chips",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "min": 0,
+       "max": 1,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify Chips"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-200031",
+         "id": "M-200031",
+         "name": "Extra Salt",
+         "size": "",
+         "linkId": "mod:554382",
+         "url": "extra-salt",
+         "isPromo": false,
+         "posId": "200031",
+         "displayOrder": 828,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Extra Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200031",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-200030",
+         "id": "M-200030",
+         "name": "No Salt",
+         "size": "",
+         "linkId": "mod:554383",
+         "url": "no-salt",
+         "isPromo": false,
+         "posId": "200030",
+         "displayOrder": 829,
+         "customizable": false,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "No Salt"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-200030",
+          "caloricValue": null,
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "1"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "1"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [
+      {
+       "key": "calories",
+       "value": "1169"
+      }
+     ],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-40976-0",
+      "caloricValue": "1216",
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2O0nyIhZ9zedgzvy7G2D0p/b0b92adf841fa7a4610b0f0776e53040/Chips_reg.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 2,
+   "isHidden": false
+  }
+ ],
+ "modgrpIds": null,
+ "isHidden": false,
+ "isCategoryHidden": true,
+ "availability": [
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "0001"
+    },
+    "endTime": {
+     "time": "2359"
+    }
+   },
+   "price": 595
+  }
+ ],
+ "isTimeSpecific": false,
+ "effectiveStartDateTime": 0,
+ "effectiveEndDateTime": 0,
+ "additionalProperties": [
+  {
+   "key": "mealdealid",
+   "value": "9068"
+  },
+  {
+   "key": "mealdealdetailid",
+   "value": "QUICK_COMBO"
+  },
+  {
+   "key": "pricewithouttax",
+   "value": "595"
+  },
+  {
+   "key": "upSizeItemPrice",
+   "value": "595"
+  }
+ ],
+ "recommendationRules": [],
+ "content": {
+  "entityId": "I-32441-0",
+  "longDescription": "Snap up 6 mouth-watering wings and hot thick-cut regular chips for $5.95, just ‘cos. Not everywhere and not forever.\n",
+  "caloricValue": "4239",
+  "nutritionalInformation": [
+   {
+    "nutritionComponent": "Average serving size",
+    "nutritionUnit": "g",
+    "serveWiseValue": 356.0,
+    "gramWiseValue": 1.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Energy",
+    "nutritionUnit": "kj",
+    "serveWiseValue": 4239.0,
+    "gramWiseValue": 1189.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Protein",
+    "nutritionUnit": "g",
+    "serveWiseValue": 47.8,
+    "gramWiseValue": 13.4,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, total",
+    "nutritionUnit": "g",
+    "serveWiseValue": 61.9,
+    "gramWiseValue": 17.4,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, saturated",
+    "nutritionUnit": "g",
+    "serveWiseValue": 9.7,
+    "gramWiseValue": 2.7,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate",
+    "nutritionUnit": "g",
+    "serveWiseValue": 67.4,
+    "gramWiseValue": 18.9,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate, sugars",
+    "nutritionUnit": "g",
+    "serveWiseValue": 0.9,
+    "gramWiseValue": 0.3,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Sodium",
+    "nutritionUnit": "mg",
+    "serveWiseValue": 1497.0,
+    "gramWiseValue": 420.0,
+    "isActive": true
+   }
+  ],
+  "allergenInformation": [],
+  "hideNutritionInformation": false,
+  "hideAllergenInformation": true,
+  "showInFactSheet": false,
+  "flagText": null,
+  "tagArray": [],
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6EFqWKGAyVCw75Owv28Skr/dc18b5b56630e2600125c2cac60496a7/_5_6_Wings___Chips.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "serves": 0
+ },
+ "categoryUrl": [
+  "fomo-wow"
+ ],
+ "categoryId": "C-20069"
+}
