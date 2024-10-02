@@ -67,6 +67,9 @@ jobs:
         git add .gitlock
         git commit -m "Acquiring lock by run $GITHUB_RUN_ID"
         git pull
+        RANDOM_SLEEP_TIME=$((RANDOM % 46 + 15))
+        echo "Sleeping for $RANDOM_SLEEP_TIME seconds..."
+        sleep $RANDOM_SLEEP_TIME
         git push origin main
 
     - name: Commit and push changes
@@ -75,10 +78,17 @@ jobs:
         git add .
         git commit -m "Updated store menu for 645 646 as of $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
         git push origin main
+        RANDOM_SLEEP_TIME=$((RANDOM % 46 + 15))
+        echo "Sleeping for $RANDOM_SLEEP_TIME seconds..."
+        sleep $RANDOM_SLEEP_TIME
 
     - name: Release lock
       run: |
         echo "Releasing lock..."
+        git pull
+        RANDOM_SLEEP_TIME=$((RANDOM % 46 + 15))
+        echo "Sleeping for $RANDOM_SLEEP_TIME seconds..."
+        sleep $RANDOM_SLEEP_TIME
         git pull
         git rm .gitlock
         git commit -m "Releasing lock by run $GITHUB_RUN_ID"
@@ -97,7 +107,7 @@ jobs:
                                   | jq '.workflow_runs | length')
           echo "Number of running workflows: $RUNNING_WORKFLOWS"
 
-          if [ "$RUNNING_WORKFLOWS" -lt 10 ]; then
+          if [ "$RUNNING_WORKFLOWS" -lt 20 ]; then
             # Trigger the next workflow
             echo "Triggering next workflow..."
             curl -X POST \
