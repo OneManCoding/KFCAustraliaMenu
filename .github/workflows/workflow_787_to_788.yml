@@ -48,6 +48,7 @@ jobs:
         RANDOM_SLEEP_TIME=$((RANDOM % 46 + 15))
         echo "Sleeping for $RANDOM_SLEEP_TIME seconds..."
         sleep $RANDOM_SLEEP_TIME
+        git pull
 
     - name: Wait for lock to be released
       run: |
@@ -60,6 +61,7 @@ jobs:
         done
 
     - name: Acquire lock
+      continue-on-error: true
       run: |
         echo "Acquiring lock..."
         git pull
@@ -70,14 +72,18 @@ jobs:
         RANDOM_SLEEP_TIME=$((RANDOM % 46 + 15))
         echo "Sleeping for $RANDOM_SLEEP_TIME seconds..."
         sleep $RANDOM_SLEEP_TIME
-        git push origin main
+        git pull
+        # Try pushing, retry if it fails
+        git push origin main || (echo "git push failed, retrying after pull..." && git pull --rebase && git push origin main)
 
     - name: Commit and push changes
+      continue-on-error: true
       run: |
         git pull
         git add .
         git commit -m "Updated store menu for 787 788 as of $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-        git push origin main
+        # Push changes and retry if failed
+        git push origin main || (echo "git push failed, retrying after pull..." && git pull --rebase && git push origin main)
         RANDOM_SLEEP_TIME=$((RANDOM % 46 + 15))
         echo "Sleeping for $RANDOM_SLEEP_TIME seconds..."
         sleep $RANDOM_SLEEP_TIME
@@ -92,7 +98,8 @@ jobs:
         git pull
         git rm .gitlock
         git commit -m "Releasing lock by run $GITHUB_RUN_ID"
-        git push origin main
+        # Push changes and retry if failed
+        git push origin main || (echo "git push failed, retrying after pull..." && git pull --rebase && git push origin main)
 
   periodic-check:
     runs-on: ubuntu-latest
