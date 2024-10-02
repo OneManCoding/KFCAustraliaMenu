@@ -1,0 +1,1418 @@
+{
+ "mdmId": "I-31080-0",
+ "id": "I-31080-0",
+ "name": "Chicken and Chips - 50+ Bundles",
+ "size": " 50+ Bundles",
+ "linkId": "",
+ "url": "chicken-and-chips",
+ "isPromo": false,
+ "posId": "",
+ "displayOrder": 0,
+ "customizable": true,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "Chicken and Chips - 50+ Bundles"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "For 50+ People, 125 Original Recipe Chicken, 12 Large Chips"
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "For 50+ People, 125 Original Recipe Chicken, 12 Large Chips"
+  }
+ ],
+ "imageName": [
+  {
+   "lang": "en-US",
+   "value": "https://images.ctfassets.net/crbk84xktnsl/6os3ejeNB9YF9exdYrj0Ny/ba8a1a742343b3da89c420bfb57907fb/Catering-Chicken-Chips-50.png"
+  }
+ ],
+ "modgrps": [
+  {
+   "id": "31080-1-0",
+   "name": "Chicken",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Chicken"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Chicken"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Chicken"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-41302-0",
+     "id": "M-41302-0",
+     "name": "125 Chicken Pieces",
+     "size": "Regular",
+     "linkId": "41302",
+     "url": "125-chicken-pieces",
+     "isPromo": false,
+     "posId": "180070",
+     "displayOrder": 53,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "125 Chicken Pieces"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "125 Chicken Pieces"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "125 Chicken Pieces"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "89993",
+       "name": "Modify 125 Pieces",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "Modify 125 Pieces"
+        }
+       ],
+       "min": 125,
+       "max": 125,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify 125 Pieces"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "Modify 125 Pieces"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-180071",
+         "id": "M-180071",
+         "name": "1 Piece Original Recipe",
+         "size": "",
+         "linkId": "mod:554946",
+         "url": "1-piece-original-recipe",
+         "isPromo": false,
+         "posId": "180071",
+         "displayOrder": 54,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Original Recipe"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Original Recipe"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1 Piece Original Recipe"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "defaultreason",
+           "value": "SELECTION"
+          }
+         ],
+         "defaultQuantity": 125,
+         "isDefault": true,
+         "max": 0,
+         "content": {
+          "entityId": "M-180071",
+          "caloricValue": "984",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-183007",
+         "id": "M-183007",
+         "name": "1 Original Tender",
+         "size": "",
+         "linkId": "mod:554943",
+         "url": "1-original-tender",
+         "isPromo": false,
+         "posId": "183007",
+         "displayOrder": 55,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1 Original Tender"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1 Original Tender"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1 Original Tender"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 50
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-183007",
+          "caloricValue": "412",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "125"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-41302-0",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 1,
+   "isHidden": false
+  },
+  {
+   "id": "31080-2-0",
+   "name": "Choose Large Sides",
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "Choose Large Sides"
+    }
+   ],
+   "min": 1,
+   "max": 1,
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "Choose Large Sides"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "Choose Large Sides"
+    }
+   ],
+   "modifiers": [
+    {
+     "mdmId": "M-41303-0",
+     "id": "M-41303-0",
+     "name": "12 Large Sides",
+     "size": "Regular",
+     "linkId": "41303",
+     "url": "12-large-sides",
+     "isPromo": false,
+     "posId": "136013",
+     "displayOrder": 56,
+     "customizable": false,
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "12 Large Sides"
+      }
+     ],
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "12 Large Sides"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "12 Large Sides"
+      }
+     ],
+     "imageName": [
+      {
+       "lang": "en-US",
+       "value": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png"
+      }
+     ],
+     "modgrps": [
+      {
+       "id": "89994",
+       "name": "12 Large Sides",
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "12 Large Sides"
+        }
+       ],
+       "min": 12,
+       "max": 12,
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "12 Large Sides"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "12 Large Sides"
+        }
+       ],
+       "modifiers": [
+        {
+         "mdmId": "M-136100",
+         "id": "M-136100",
+         "name": "Large Chips",
+         "size": "",
+         "linkId": "mod:554952",
+         "url": "large-chips",
+         "isPromo": false,
+         "posId": "136100",
+         "displayOrder": 57,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Chips"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png"
+          }
+         ],
+         "modgrps": [
+          {
+           "id": "89991",
+           "name": "Modify Chips",
+           "dname": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "min": 0,
+           "max": 1,
+           "shortDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "longDescription": [
+            {
+             "lang": "en-US",
+             "value": "Modify Chips"
+            }
+           ],
+           "modifiers": [
+            {
+             "mdmId": "M-200031",
+             "id": "M-200031",
+             "name": "Extra Salt",
+             "size": "",
+             "linkId": "mod:554382",
+             "url": "extra-salt",
+             "isPromo": false,
+             "posId": "200031",
+             "displayOrder": 7,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "Extra Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": {
+              "entityId": "M-200031",
+              "caloricValue": null,
+              "image": {
+               "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3AfJV4aLAtIeB68Z7zB4Ff/fa811380ff7d978fdd9a5a15d6729148/Modifier_Salt.png",
+               "secondaryImage": null,
+               "tertiaryImage": null
+              }
+             }
+            },
+            {
+             "mdmId": "M-200030",
+             "id": "M-200030",
+             "name": "No Salt",
+             "size": "",
+             "linkId": "mod:554383",
+             "url": "no-salt",
+             "isPromo": false,
+             "posId": "200030",
+             "displayOrder": 8,
+             "customizable": true,
+             "dname": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "shortDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "longDescription": [
+              {
+               "lang": "en-US",
+               "value": "No Salt"
+              }
+             ],
+             "imageName": [
+              {
+               "lang": "en-US",
+               "value": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png"
+              }
+             ],
+             "modgrps": [],
+             "isHidden": false,
+             "availability": [
+              {
+               "dayOfWeek": {
+                "day": "EVERYDAY"
+               },
+               "availableHours": {
+                "startTime": {
+                 "time": "0001"
+                },
+                "endTime": {
+                 "time": "2359"
+                }
+               },
+               "price": 0
+              }
+             ],
+             "effectiveStartDateTime": 0,
+             "effectiveEndDateTime": 0,
+             "additionalProperties": [],
+             "defaultQuantity": 1,
+             "isDefault": false,
+             "max": 0,
+             "content": {
+              "entityId": "M-200030",
+              "caloricValue": null,
+              "image": {
+               "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2szW3dpmch2lJs8eIMjyOK/10d97b060f434f03cca661499597c6c5/Modifier_No_Salt.png",
+               "secondaryImage": null,
+               "tertiaryImage": null
+              }
+             }
+            }
+           ],
+           "additionalProperties": [
+            {
+             "key": "peroptionmaximum",
+             "value": "0"
+            },
+            {
+             "key": "peroptionminimum",
+             "value": "0"
+            },
+            {
+             "key": "maxdistinctoptions",
+             "value": "0"
+            }
+           ],
+           "displayOrder": 0,
+           "isHidden": false
+          }
+         ],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [
+          {
+           "key": "defaultreason",
+           "value": "SELECTION"
+          }
+         ],
+         "defaultQuantity": 12,
+         "isDefault": true,
+         "max": 0,
+         "content": {
+          "entityId": "M-136100",
+          "caloricValue": "2431",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-136101",
+         "id": "M-136101",
+         "name": "Large Potato & Gravy",
+         "size": "",
+         "linkId": "mod:554955",
+         "url": "large-potato-gravy",
+         "isPromo": false,
+         "posId": "136101",
+         "displayOrder": 60,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Potato & Gravy"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/2dxqC7cN4QHJtnI04aOHR6/dc2fb4a0416e41f18b0a11413b63aa75/Potato___Gravy_lge.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-136101",
+          "caloricValue": "1094",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2dxqC7cN4QHJtnI04aOHR6/dc2fb4a0416e41f18b0a11413b63aa75/Potato___Gravy_lge.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-136102",
+         "id": "M-136102",
+         "name": "Large Coleslaw",
+         "size": "",
+         "linkId": "mod:554957",
+         "url": "large-coleslaw",
+         "isPromo": false,
+         "posId": "136102",
+         "displayOrder": 61,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Large Coleslaw"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/4yCscBrUGTPYhR2eUn7YSf/a9bd4b7edeb2182aba0d62367e66be65/Coleslaw_lge.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-136102",
+          "caloricValue": "1714",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/4yCscBrUGTPYhR2eUn7YSf/a9bd4b7edeb2182aba0d62367e66be65/Coleslaw_lge.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-136104",
+         "id": "M-136104",
+         "name": "Dinner Roll",
+         "size": "",
+         "linkId": "mod:554949",
+         "url": "dinner-roll",
+         "isPromo": false,
+         "posId": "136104",
+         "displayOrder": 62,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "Dinner Roll"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "Dinner Roll"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "Dinner Roll"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/5wUTudczH7zK125hsbiaaL/912599163787b884bf6ca05c7017fa9d/Modifier_Dinner_Roll_1.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-136104",
+          "caloricValue": "460",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/5wUTudczH7zK125hsbiaaL/912599163787b884bf6ca05c7017fa9d/Modifier_Dinner_Roll_1.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-141062",
+         "id": "M-141062",
+         "name": "1.25L Pepsi Max",
+         "size": "",
+         "linkId": "mod:554951",
+         "url": "125l-pepsi-max",
+         "isPromo": false,
+         "posId": "141062",
+         "displayOrder": 63,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi Max"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/7fuVNYVcBPfOC9Jl9DsH1r/a0a3082815dea0bd3c8a92a519bb9753/Drink_Pepsi_Max_1.25L.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141062",
+          "caloricValue": "20",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7fuVNYVcBPfOC9Jl9DsH1r/a0a3082815dea0bd3c8a92a519bb9753/Drink_Pepsi_Max_1.25L.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-141063",
+         "id": "M-141063",
+         "name": "1.25L Pepsi",
+         "size": "",
+         "linkId": "mod:554947",
+         "url": "125l-pepsi",
+         "isPromo": false,
+         "posId": "141063",
+         "displayOrder": 64,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Pepsi"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/1FPPbRrAU8bn4YmOPrDSmW/d4352b31e980aa89f82d09c263853daf/Drink_Pepsi_1.25L.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141063",
+          "caloricValue": "2323",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/1FPPbRrAU8bn4YmOPrDSmW/d4352b31e980aa89f82d09c263853daf/Drink_Pepsi_1.25L.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-141064",
+         "id": "M-141064",
+         "name": "1.25L 7Up",
+         "size": "",
+         "linkId": "mod:554953",
+         "url": "125l-7up",
+         "isPromo": false,
+         "posId": "141064",
+         "displayOrder": 65,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L 7Up"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L 7Up"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L 7Up"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141064",
+          "caloricValue": "2244",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6cUNLAD5ucrN7nYkoX5Ht1/dd58e2da3b779b790dcd2c9065712eb5/Drink_7up_1.25L.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-141065",
+         "id": "M-141065",
+         "name": "1.25L Mountain Dew",
+         "size": "",
+         "linkId": "mod:554948",
+         "url": "125l-mountain-dew",
+         "isPromo": false,
+         "posId": "141065",
+         "displayOrder": 66,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Mountain Dew"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/69IQ9UhjUbH3495HzLw6vc/5331f48b435b3f5e5b2e29a1acbf1bc5/Drink_Mt_Dew_1.25L.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141065",
+          "caloricValue": "2468",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/69IQ9UhjUbH3495HzLw6vc/5331f48b435b3f5e5b2e29a1acbf1bc5/Drink_Mt_Dew_1.25L.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        },
+        {
+         "mdmId": "M-141066",
+         "id": "M-141066",
+         "name": "1.25L Solo",
+         "size": "",
+         "linkId": "mod:554950",
+         "url": "125l-solo",
+         "isPromo": false,
+         "posId": "141066",
+         "displayOrder": 67,
+         "customizable": true,
+         "dname": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "shortDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "longDescription": [
+          {
+           "lang": "en-US",
+           "value": "1.25L Solo"
+          }
+         ],
+         "imageName": [
+          {
+           "lang": "en-US",
+           "value": "https://images.ctfassets.net/crbk84xktnsl/2F0T5pAEeV5n64zejhuwPG/2432bf729da2ca0e43bae6300c2e9da8/Drink_Solo_1.25L.png"
+          }
+         ],
+         "modgrps": [],
+         "isHidden": false,
+         "availability": [
+          {
+           "dayOfWeek": {
+            "day": "EVERYDAY"
+           },
+           "availableHours": {
+            "startTime": {
+             "time": "0001"
+            },
+            "endTime": {
+             "time": "2359"
+            }
+           },
+           "price": 0
+          }
+         ],
+         "effectiveStartDateTime": 0,
+         "effectiveEndDateTime": 0,
+         "additionalProperties": [],
+         "defaultQuantity": 1,
+         "isDefault": false,
+         "max": 0,
+         "content": {
+          "entityId": "M-141066",
+          "caloricValue": "2496",
+          "image": {
+           "mainImage": "https://images.ctfassets.net/crbk84xktnsl/2F0T5pAEeV5n64zejhuwPG/2432bf729da2ca0e43bae6300c2e9da8/Drink_Solo_1.25L.png",
+           "secondaryImage": null,
+           "tertiaryImage": null
+          }
+         }
+        }
+       ],
+       "additionalProperties": [
+        {
+         "key": "peroptionmaximum",
+         "value": "12"
+        },
+        {
+         "key": "peroptionminimum",
+         "value": "0"
+        },
+        {
+         "key": "maxdistinctoptions",
+         "value": "0"
+        }
+       ],
+       "displayOrder": 0,
+       "isHidden": false
+      }
+     ],
+     "isHidden": false,
+     "availability": [
+      {
+       "dayOfWeek": {
+        "day": "EVERYDAY"
+       },
+       "availableHours": {
+        "startTime": {
+         "time": "0001"
+        },
+        "endTime": {
+         "time": "2359"
+        }
+       },
+       "price": 0
+      }
+     ],
+     "effectiveStartDateTime": 0,
+     "effectiveEndDateTime": 0,
+     "additionalProperties": [],
+     "defaultQuantity": 1,
+     "isDefault": true,
+     "max": 0,
+     "content": {
+      "entityId": "M-41303-0",
+      "caloricValue": null,
+      "image": {
+       "mainImage": "https://images.ctfassets.net/crbk84xktnsl/3y4wkpHsUcVX6J9YQRK4qS/e208f0dfc5e53d6c36a57f7ada9361dc/Modifier_Chips_lge.png",
+       "secondaryImage": null,
+       "tertiaryImage": null
+      }
+     }
+    }
+   ],
+   "additionalProperties": [
+    {
+     "key": "peroptionmaximum",
+     "value": "0"
+    },
+    {
+     "key": "peroptionminimum",
+     "value": "0"
+    },
+    {
+     "key": "maxdistinctoptions",
+     "value": "0"
+    }
+   ],
+   "displayOrder": 2,
+   "isHidden": false
+  }
+ ],
+ "modgrpIds": null,
+ "isHidden": false,
+ "isCategoryHidden": false,
+ "availability": [
+  {
+   "dayOfWeek": {
+    "day": "EVERYDAY"
+   },
+   "availableHours": {
+    "startTime": {
+     "time": "0001"
+    },
+    "endTime": {
+     "time": "2359"
+    }
+   },
+   "price": 24000
+  }
+ ],
+ "isTimeSpecific": false,
+ "effectiveStartDateTime": 0,
+ "effectiveEndDateTime": 0,
+ "additionalProperties": [
+  {
+   "key": "mealdealid",
+   "value": "10001"
+  },
+  {
+   "key": "mealdealdetailid",
+   "value": "QUICK_COMBO"
+  },
+  {
+   "key": "pricewithouttax",
+   "value": "24000"
+  },
+  {
+   "key": "upSizeItemPrice",
+   "value": "24000"
+  }
+ ],
+ "recommendationRules": [],
+ "content": {
+  "entityId": "I-31080-0",
+  "caloricValue": "152115",
+  "nutritionalInformation": [
+   {
+    "nutritionComponent": "Average serving size",
+    "nutritionUnit": "g",
+    "serveWiseValue": 13693.0,
+    "gramWiseValue": 1.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Energy",
+    "nutritionUnit": "kj",
+    "serveWiseValue": 152115.0,
+    "gramWiseValue": 1111.0,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Protein",
+    "nutritionUnit": "g",
+    "serveWiseValue": 2661.2,
+    "gramWiseValue": 19.4,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, total",
+    "nutritionUnit": "g",
+    "serveWiseValue": 2023.1,
+    "gramWiseValue": 14.8,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Fat, saturated",
+    "nutritionUnit": "g",
+    "serveWiseValue": 353.2,
+    "gramWiseValue": 2.6,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate",
+    "nutritionUnit": "g",
+    "serveWiseValue": 1896.8,
+    "gramWiseValue": 13.9,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Carbohydrate, sugars",
+    "nutritionUnit": "g",
+    "serveWiseValue": 27.4,
+    "gramWiseValue": 0.2,
+    "isActive": true
+   },
+   {
+    "nutritionComponent": "Sodium",
+    "nutritionUnit": "mg",
+    "serveWiseValue": 53152.0,
+    "gramWiseValue": 388.0,
+    "isActive": true
+   }
+  ],
+  "allergenInformation": [],
+  "hideNutritionInformation": false,
+  "hideAllergenInformation": true,
+  "showInFactSheet": false,
+  "flagText": null,
+  "tagArray": [
+   "Original Recipe",
+   "Sides"
+  ],
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/6os3ejeNB9YF9exdYrj0Ny/ba8a1a742343b3da89c420bfb57907fb/Catering-Chicken-Chips-50.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "serves": 0
+ },
+ "categoryUrl": [
+  "50-people"
+ ],
+ "categoryId": "C-3-3"
+}
