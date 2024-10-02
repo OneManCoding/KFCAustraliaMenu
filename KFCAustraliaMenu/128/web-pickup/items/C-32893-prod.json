@@ -1,0 +1,629 @@
+{
+ "mdmId": "C-32893-prod",
+ "name": "21 Pieces of Chicken",
+ "id": "C-32893-prod",
+ "customizable": false,
+ "dname": [
+  {
+   "lang": "en-US",
+   "value": "21 Pieces of Chicken"
+  }
+ ],
+ "shortDescription": [
+  {
+   "lang": "en-US",
+   "value": "SA/WA"
+  }
+ ],
+ "longDescription": [
+  {
+   "lang": "en-US",
+   "value": "SA/WA"
+  }
+ ],
+ "imageName": "https://images.ctfassets.net/crbk84xktnsl/MN9CHyJca8K3FpzPE6e7H/da1168a3e30d3873a8e041e1ebc112b6/Original_Recipe_21_Bucket.png",
+ "items": [
+  {
+   "mdmId": "I-32893",
+   "id": "I-32893",
+   "name": "21 Pieces of Chicken",
+   "size": null,
+   "linkId": "43765",
+   "url": "21-pieces-of-chicken",
+   "isPromo": false,
+   "posId": "180077",
+   "displayOrder": 0,
+   "customizable": false,
+   "dname": [
+    {
+     "lang": "en-US",
+     "value": "21 Pieces of Chicken"
+    }
+   ],
+   "shortDescription": [
+    {
+     "lang": "en-US",
+     "value": "SA/WA"
+    }
+   ],
+   "longDescription": [
+    {
+     "lang": "en-US",
+     "value": "21 pieces of Colonel Sanders' world-famous, mouth-watering Original Recipe chicken with 11 secret herbs and spices. Made fresh and cooked in-store.\n"
+    }
+   ],
+   "imageName": [
+    {
+     "lang": "en-US",
+     "value": "https://images.ctfassets.net/crbk84xktnsl/7vkyZsdvJn73zdfncH1Bu5/c227bde532bf1fa839b8c3e8f32375a7/Original_Recipe_21_Bucket.png"
+    }
+   ],
+   "modgrps": [
+    {
+     "id": "92071",
+     "name": "Modify 21 piece",
+     "dname": [
+      {
+       "lang": "en-US",
+       "value": "Modify 21 piece"
+      }
+     ],
+     "min": 21,
+     "max": 21,
+     "shortDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify 21 piece"
+      }
+     ],
+     "longDescription": [
+      {
+       "lang": "en-US",
+       "value": "Modify 21 piece"
+      }
+     ],
+     "modifiers": [
+      {
+       "mdmId": "M-170101",
+       "id": "M-170101",
+       "name": "1 Piece Original Recipe",
+       "size": "",
+       "linkId": "mod:554451",
+       "url": "1-piece-original-recipe",
+       "isPromo": false,
+       "posId": "170101",
+       "displayOrder": 51,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Recipe"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Recipe"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Recipe"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [
+        {
+         "key": "defaultreason",
+         "value": "SELECTION"
+        }
+       ],
+       "defaultQuantity": 21,
+       "isDefault": true,
+       "max": 0,
+       "content": {
+        "entityId": "M-170101",
+        "caloricValue": "984",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/27KidfkxEqql9ns0Jfuh5c/31e82d59d631e31effed2caddaa38511/Modifier_Original_Recipe_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-170102",
+       "id": "M-170102",
+       "name": "1 Piece Hot & Spicy®",
+       "size": "",
+       "linkId": "mod:554459",
+       "url": "1-piece-hot-spicy",
+       "isPromo": false,
+       "posId": "170102",
+       "displayOrder": 52,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Hot & Spicy®"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 0
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-170102",
+        "caloricValue": "1149",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/n1zhnRLexyyGqEH919ULw/25c563c5cf42a4e705c4b24931e53f7b/Modifier_Hot_Spicy_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      },
+      {
+       "mdmId": "M-170601",
+       "id": "M-170601",
+       "name": "1 Piece Original Tender",
+       "size": "",
+       "linkId": "mod:554450",
+       "url": "1-piece-original-tender",
+       "isPromo": false,
+       "posId": "170601",
+       "displayOrder": 53,
+       "customizable": false,
+       "dname": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Tender"
+        }
+       ],
+       "shortDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Tender"
+        }
+       ],
+       "longDescription": [
+        {
+         "lang": "en-US",
+         "value": "1 Piece Original Tender"
+        }
+       ],
+       "imageName": [
+        {
+         "lang": "en-US",
+         "value": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png"
+        }
+       ],
+       "modgrps": [],
+       "isHidden": false,
+       "availability": [
+        {
+         "dayOfWeek": {
+          "day": "EVERYDAY"
+         },
+         "availableHours": {
+          "startTime": {
+           "time": "0001"
+          },
+          "endTime": {
+           "time": "2359"
+          }
+         },
+         "price": 50
+        }
+       ],
+       "effectiveStartDateTime": 0,
+       "effectiveEndDateTime": 0,
+       "additionalProperties": [],
+       "defaultQuantity": 1,
+       "isDefault": false,
+       "max": 0,
+       "content": {
+        "entityId": "M-170601",
+        "caloricValue": "412",
+        "image": {
+         "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7051x8ZkmvcrIOVrQMcujR/e33ba9c61c70a64b2067313bba869a90/Modifier_Original_Tender_1.png",
+         "secondaryImage": null,
+         "tertiaryImage": null
+        }
+       }
+      }
+     ],
+     "additionalProperties": [
+      {
+       "key": "peroptionmaximum",
+       "value": "21"
+      },
+      {
+       "key": "peroptionminimum",
+       "value": "0"
+      },
+      {
+       "key": "maxdistinctoptions",
+       "value": "0"
+      }
+     ],
+     "displayOrder": 0,
+     "isHidden": false
+    }
+   ],
+   "modgrpIds": null,
+   "isHidden": false,
+   "isCategoryHidden": false,
+   "availability": [
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "0001"
+      },
+      "endTime": {
+       "time": "2359"
+      }
+     },
+     "price": 3795
+    },
+    {
+     "dayOfWeek": {
+      "day": "EVERYDAY"
+     },
+     "availableHours": {
+      "startTime": {
+       "time": "2310"
+      },
+      "endTime": {
+       "time": "0550"
+      }
+     },
+     "price": 4155
+    }
+   ],
+   "isTimeSpecific": false,
+   "effectiveStartDateTime": 0,
+   "effectiveEndDateTime": 0,
+   "additionalProperties": [
+    {
+     "key": "mealdealdetailid",
+     "value": "MENU_ITEM"
+    },
+    {
+     "key": "pricewithouttax",
+     "value": "3795"
+    },
+    {
+     "key": "upSizeItemPrice",
+     "value": "3795"
+    }
+   ],
+   "recommendationRules": [],
+   "content": {
+    "entityId": "I-32893",
+    "longDescription": "21 pieces of Colonel Sanders' world-famous, mouth-watering Original Recipe chicken with 11 secret herbs and spices. Made fresh and cooked in-store.\n",
+    "caloricValue": "20654",
+    "nutritionalInformation": [
+     {
+      "nutritionComponent": "Average serving size",
+      "nutritionUnit": "g",
+      "serveWiseValue": 1817.0,
+      "gramWiseValue": 1.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Energy",
+      "nutritionUnit": "kj",
+      "serveWiseValue": 20654.0,
+      "gramWiseValue": 1137.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Protein",
+      "nutritionUnit": "g",
+      "serveWiseValue": 428.7,
+      "gramWiseValue": 23.6,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, total",
+      "nutritionUnit": "g",
+      "serveWiseValue": 292.5,
+      "gramWiseValue": 16.1,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Fat, saturated",
+      "nutritionUnit": "g",
+      "serveWiseValue": 54.5,
+      "gramWiseValue": 3.0,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate",
+      "nutritionUnit": "g",
+      "serveWiseValue": 150.8,
+      "gramWiseValue": 8.3,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Carbohydrate, sugars",
+      "nutritionUnit": "g",
+      "serveWiseValue": 3.6,
+      "gramWiseValue": 0.2,
+      "isActive": true
+     },
+     {
+      "nutritionComponent": "Sodium",
+      "nutritionUnit": "mg",
+      "serveWiseValue": 8538.0,
+      "gramWiseValue": 470.0,
+      "isActive": true
+     }
+    ],
+    "allergenInformation": [
+     {
+      "allergenComponent": "Cereals containing gluten - Wheat",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Barley",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Oats",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Rye",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Cereals containing gluten - Spelt",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Crustacea & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Egg & Egg Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Fish & Fish Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Milk & Milk Products",
+      "isPresent": true,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Molluscs and mollusc products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Almonds",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Beech nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Brazil Nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Cashews",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hazelnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Hickory nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Japanese horse-chestnut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Macadamia nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pecans",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pine nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pili nut",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Pistachio nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Sapucaia (Paradise Nut)",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Shea nuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Tree Nuts and their products - Walnuts",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sesame seeds and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Peanuts and their products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Soybeans and their products",
+      "isPresent": false,
+      "isTrace": true
+     },
+     {
+      "allergenComponent": "Lupin & their Products",
+      "isPresent": false,
+      "isTrace": false
+     },
+     {
+      "allergenComponent": "Sulphites #",
+      "isPresent": false,
+      "isTrace": false
+     }
+    ],
+    "hideNutritionInformation": false,
+    "hideAllergenInformation": false,
+    "showInFactSheet": true,
+    "flagText": null,
+    "tagArray": [
+     "Original Recipe"
+    ],
+    "image": {
+     "mainImage": "https://images.ctfassets.net/crbk84xktnsl/7vkyZsdvJn73zdfncH1Bu5/c227bde532bf1fa839b8c3e8f32375a7/Original_Recipe_21_Bucket.png",
+     "secondaryImage": null,
+     "tertiaryImage": null
+    },
+    "serves": 0
+   },
+   "categoryUrl": [
+    "chicken"
+   ],
+   "categoryId": "C-20000"
+  }
+ ],
+ "additionalProperties": [
+  {
+   "key": "type",
+   "value": "MENU_ITEM"
+  }
+ ],
+ "displayOrder": 4,
+ "isHidden": false,
+ "content": {
+  "entityId": "C-32893-prod",
+  "caloricValue": "20654",
+  "image": {
+   "mainImage": "https://images.ctfassets.net/crbk84xktnsl/MN9CHyJca8K3FpzPE6e7H/da1168a3e30d3873a8e041e1ebc112b6/Original_Recipe_21_Bucket.png",
+   "secondaryImage": null,
+   "tertiaryImage": null
+  },
+  "flagText": null,
+  "tagArray": [],
+  "shortDescription": null,
+  "serves": 0
+ },
+ "url": "21-pieces-of-chicken"
+}
